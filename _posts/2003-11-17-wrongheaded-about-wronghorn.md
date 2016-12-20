@@ -1,0 +1,21 @@
+---
+ID: 454
+post_title: 'Wrongheaded About &#8216;Wronghorn&#8217;'
+author: Marc LaFleur
+post_date: 2003-11-17 20:18:00
+post_excerpt: ""
+layout: post
+permalink: >
+  http://massivescale.com/wrongheaded-about-wronghorn/
+published: true
+views:
+  - "259"
+dsq_thread_id:
+  - "3538638389"
+---
+<P><A href="http://radio.weblogs.com/0001011/2003/11/17.html#a5497" target=_blank>Robert Scoble mentioned</A> an article by Tom McCune today titled "<A href="http://zdnet.com.com/2100-1107-5108026.html" target=_blank>Five Myths About 'Wronghorn'</A>" earlier today. I think Robert was correct in speculating that Mr. McCune was not in attendance at the PDC. His take on what Longhorn means seems about as misguided as any I've heard in recent months.</P>
+<P>His statement that purchasing Longhorn isn't a worthwhile investment because you are paying for features you might not use is poor at best. And when he states "It's like going for a fully loaded SUV when only one person will be driving the vehicle to the train station. A Ford Focus would do, but you're force to buy a Lincoln Navigator" makes we wonder if he has been to the train station lately. It is full of vehicles designed for off-road and heavy-hauling being driven by a decidedly on-road, light-hauling, class of driver. Unless you really believe that fellow in the $3,000 Armani suite spends his off time hauling boulders up Mt. Washington.</P>
+<P>Not only is his articles laced with misconceptions and inept observations, it also contains a number of factually incorrect statements. My favorite is that "Each version [of Visual Studio .NET] has a new framework that cannot be used with previous versions.". Really Tom? You sure could have fooled me. The fact is that the .NET framework is fully backwards compatible with only a few minor exceptions (and none I could not workaround in 15 minutes). </P>
+<P>There seem to be two classes of the anti-Microsoft crowd. Those who simply don't like or can't use the solutions offered by Microsoft and therefore choose a different platform. And those who so desperately hate Microsoft that they grab hold of any argument they can in a futile attempt to prove they are correct. These are the same people who continue to use Windows 95 as the bases of every argument against Microsoft even though it is almost a decade old. </P>
+<P>So yeah, maybe I should be driving the Ford Focus. But I just can't seem to get past the awful breaking system in he Model A. Ford just doesn't understand brakes. And have you <I>seen</I> that Fairmont pile of crap? </P>
+<P>Anyway, time to hop into my Lincoln Navigator and get going; I've got a train to catch. </P>

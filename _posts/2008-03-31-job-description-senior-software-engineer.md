@@ -1,0 +1,16 @@
+---
+ID: 549
+post_title: 'Wanted: Senior Software Engineer'
+author: Marc LaFleur
+post_date: 2008-03-31 23:38:00
+post_excerpt: ""
+layout: post
+permalink: >
+  http://massivescale.com/job-description-senior-software-engineer/
+published: true
+views:
+  - "260"
+dsq_thread_id:
+  - "4046526463"
+---
+<p><b>Parlance Corporation      <br /></b><b>200 Boston Avenue</b><b>, Medford, MA 02155      <br /></b><b><a href="http://www.parlancecorp.com/" target="_blank" mce_href="http://www.parlancecorp.com">www.parlancecorp.com</a> </b></p>  <p><b></b></p>  <p><b>Job Description:</b> Senior Software Engineer</p>  <p>Parlance is a small privately held company providing speech-driven call routing solutions and outbound messaging solutions to businesses of all sizes. To deliver these turnkey, managed solutions, Parlance uses a combination of comprehensive directory management tools, automatic speech recognition, computer telephony, data analysis tools, and dedicated customer service personnel.</p>  <p>We are seeking a qualified senior software engineer to help us advance and expand the capabilities of Parlance's extensive tools software. Your primary mission will be to help design a new architecture for our service infrastructure, and then, using the latest technology, write, test, deliver, and support this new implementation of our mission-critical tools. You will also have the opportunity to work with speech recognition and VoiceXML, complex database systems and algorithms, user interfaces, computer telephony and much more, all in an environment where you are involved in the complete life-cycle of your work, from conception to deployment.</p>  <p>We are looking for smart people that possess the eagerness and flexibility to learn new technologies and a commitment to delivering high-quality software. Experience in database programming is required, preferably with both Access and SQL Server. We are a small stable company where doing right by our customers is our daily mission. If you are looking for a position where you can take on new projects, and contribute more than just code, and want to help us change the way people communicate, Parlance is the place for you.</p>  <p><b>Qualifications:</b></p>  <ul>   <li>B.S. degree in Computer Science or equivalent experience </li>    <li>Minimum 6 years of experience </li>    <li>Significant programming experience with C#, ASP.NET, SQL Server, and Access </li>    <li>Understanding of Service Oriented Architectures, Web Services, AJAX, and Object-Oriented Design </li>    <li>Demonstrated analysis and troubleshooting skills </li>    <li>Excellent oral and written communication skills </li>    <li>Commitment to detail, quality, and customer focus </li>    <li>Experience with Python, C++/MFC, Java, XML, and VoiceXML a plus </li>    <li>Experience with both web and desktop GUI design preferred </li> </ul>  <p><b>Compensation:</b></p>  <ul>   <li>Salary commensurate with experience </li>    <li>3 weeks of vacation </li>    <li>Medical benefits </li>    <li>401(k) plan </li> </ul>  <p>To apply, please send your resume and a <b>code sample you are proud of</b> to: <a href="mailto:job0314@parlancecorp.com" mce_href="mailto:job0314@parlancecorp.com">job0314@parlancecorp.com</a>.</p>
