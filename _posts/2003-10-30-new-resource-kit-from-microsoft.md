@@ -2,6 +2,7 @@
 Title: New Resource Kit from Microsoft
 Published: 2003-10-30 00:57:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"181";}'
 dsq_thread_id:

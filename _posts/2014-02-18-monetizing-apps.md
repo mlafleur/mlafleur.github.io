@@ -10,6 +10,43 @@ Excerpt: >
   software. App monetization is one of
   those topics that seems to come up
   fairly regularly.
+Tags:
+  - 
+    term_id: 159
+    name: Monetization
+    slug: monetization
+    term_group: 0
+    term_taxonomy_id: 164
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 160
+    name: Software Business
+    slug: software-business
+    term_group: 0
+    term_taxonomy_id: 165
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 99
+    name: 'Tips &amp; Tricks'
+    slug: tips-tricks
+    term_group: 0
+    term_taxonomy_id: 103
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3546631366";}'
 author:

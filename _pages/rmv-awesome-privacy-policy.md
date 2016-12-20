@@ -2,6 +2,7 @@
 Title: RMV Awesome Privacy Policy
 Published: 2013-10-16 11:19:32
 Excerpt: ""
+Tags: false
 panels_data:
   - 'a:0:{}'
 views:

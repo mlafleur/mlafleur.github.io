@@ -11,6 +11,31 @@ Excerpt: >
   that the words were something to the
   effect of “What did I do to deserve
   these guys for a family?”.
+Tags:
+  - 
+    term_id: 146
+    name: Family
+    slug: family
+    term_group: 0
+    term_taxonomy_id: 150
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 221
+    name: Personal
+    slug: personal
+    term_group: 0
+    term_taxonomy_id: 151
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

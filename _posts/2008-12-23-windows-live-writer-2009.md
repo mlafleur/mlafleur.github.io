@@ -2,6 +2,19 @@
 Title: Windows Live Writer 2009
 Published: 2008-12-23 03:49:30
 Excerpt: ""
+Tags:
+  - 
+    term_id: 63
+    name: Blogging
+    slug: blogging
+    term_group: 0
+    term_taxonomy_id: 66
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 4
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"298";}'
 author:

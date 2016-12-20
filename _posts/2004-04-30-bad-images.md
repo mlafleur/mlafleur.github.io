@@ -2,6 +2,7 @@
 Title: Bad Images
 Published: 2004-04-30 21:33:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"157";}'
 author:

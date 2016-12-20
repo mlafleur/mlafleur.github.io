@@ -2,6 +2,7 @@
 Title: About Marc LaFleur
 Published: 2011-03-10 03:41:21
 Excerpt: ""
+Tags: false
 spek_portfolio_icon:
   - 'a:1:{i:0;s:4:"misc";}'
 views:

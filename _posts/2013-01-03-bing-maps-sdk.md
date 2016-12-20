@@ -2,6 +2,31 @@
 Title: Bing Maps SDK
 Published: 2013-01-03 12:45:54
 Excerpt: "I've been playing around with the Bing Maps SDK over the holidays and ran into a gotcha with x64 compatibility. "
+Tags:
+  - 
+    term_id: 136
+    name: Bing Maps
+    slug: bing-maps
+    term_group: 0
+    term_taxonomy_id: 140
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"478";}'
 dsq_thread_id:

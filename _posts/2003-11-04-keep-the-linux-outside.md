@@ -2,6 +2,7 @@
 Title: Keep The Linux Outside
 Published: 2003-11-04 20:27:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"149";}'
 author:

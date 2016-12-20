@@ -2,6 +2,31 @@
 Title: Moved to Azure
 Published: 2012-11-07 00:25:09
 Excerpt: "Well now I've gone and done it, I've moved this site over to Azure. Overall the experience was pretty painless."
+Tags:
+  - 
+    term_id: 125
+    name: Azure
+    slug: azure
+    term_group: 0
+    term_taxonomy_id: 129
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 10
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 63
+    name: Blogging
+    slug: blogging
+    term_group: 0
+    term_taxonomy_id: 66
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 4
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"405";}'
 networkpub_postmessage:

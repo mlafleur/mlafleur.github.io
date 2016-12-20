@@ -2,6 +2,31 @@
 Title: A Better Sample Data
 Published: 2013-03-06 11:36:10
 Excerpt: "Visual Studio's templates provide a great jump start but there they are tab visually boring out of the box. Here we spice them up a bit with placeholder images. "
+Tags:
+  - 
+    term_id: 70
+    name: Visual Studio
+    slug: visual-studio
+    term_group: 0
+    term_taxonomy_id: 73
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 14
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"721";}'
 dsq_thread_id:

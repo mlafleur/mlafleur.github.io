@@ -2,6 +2,31 @@
 Title: Optimizeit Profiler for .NET
 Published: 2003-05-09 15:02:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 108
+    name: Profiling
+    slug: profiling
+    term_group: 0
+    term_taxonomy_id: 112
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 70
+    name: Visual Studio
+    slug: visual-studio
+    term_group: 0
+    term_taxonomy_id: 73
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 14
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"309";}'
 author:

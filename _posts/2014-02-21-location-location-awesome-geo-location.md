@@ -2,6 +2,55 @@
 Title: Location, Location, Awesome Geo-Location
 Published: 2014-02-21 01:52:47
 Excerpt: 'I’ve been publicly building an application called RMV Awesome for the last several months on this blog. Since the initial release of the Windows 8.1 app we’ve migrated code to a Portable Class Library, ported to Windows Phone 8, added monetization and integrated Azure Mobile Services.  Next we’ll tackle geo-location.'
+Tags:
+  - 
+    term_id: 165
+    name: GeoLocation
+    slug: geolocation
+    term_group: 0
+    term_taxonomy_id: 170
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 105
+    name: Mobile
+    slug: mobile
+    term_group: 0
+    term_taxonomy_id: 109
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 4
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 153
+    name: RMV Awesome
+    slug: rmv-awesome
+    term_group: 0
+    term_taxonomy_id: 158
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 7
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3540967376";}'
 author:

@@ -3,6 +3,43 @@ Title: Hubtastic
 Published: 2013-07-24 14:34:04
 Excerpt: |
   There are two universal truths about the Bing News app on Windows 8. The first is that it represents the best of Windows 8 app design with dynamic content, gorgeous images and intuitive navigation. The second is that it is nearly impossible for the average developer (maybe even many above average developers) to reproduce. The fact is, it isn't just one of the best Windows 8 apps, it was written by some of the best Windows 8 developers. Thankfully Windows 8.1 has greatly simplified building this kind of app.
+Tags:
+  - 
+    term_id: 143
+    name: Microsoft
+    slug: microsoft
+    term_group: 0
+    term_taxonomy_id: 147
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 70
+    name: Visual Studio
+    slug: visual-studio
+    term_group: 0
+    term_taxonomy_id: 73
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 14
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"406";}'
 dsq_thread_id:

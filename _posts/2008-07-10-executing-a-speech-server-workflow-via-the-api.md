@@ -4,6 +4,19 @@ Title: >
   the API
 Published: 2008-07-10 22:23:50
 Excerpt: ""
+Tags:
+  - 
+    term_id: 110
+    name: Skype
+    slug: skype
+    term_group: 0
+    term_taxonomy_id: 114
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"338";}'
 dsq_thread_id:

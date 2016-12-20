@@ -2,6 +2,19 @@
 Title: 'Vista &quot;Blue Screened&quot; Today'
 Published: 2007-09-14 16:34:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 67
+    name: Just For Fun
+    slug: just-for-fun
+    term_group: 0
+    term_taxonomy_id: 70
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 7
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"470";}'
 dsq_thread_id:

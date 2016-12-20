@@ -2,6 +2,19 @@
 Title: Office 2007 Product Key Problems
 Published: 2006-11-15 02:23:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 68
+    name: Office
+    slug: office
+    term_group: 0
+    term_taxonomy_id: 71
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 9
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:4:"1275";}'
 dsq_thread_id:

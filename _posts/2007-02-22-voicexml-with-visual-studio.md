@@ -2,6 +2,31 @@
 Title: VoiceXML with Visual Studio
 Published: 2007-02-22 06:06:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 110
+    name: Skype
+    slug: skype
+    term_group: 0
+    term_taxonomy_id: 114
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 70
+    name: Visual Studio
+    slug: visual-studio
+    term_group: 0
+    term_taxonomy_id: 73
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 14
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:4:"2445";}'
 dsq_thread_id:

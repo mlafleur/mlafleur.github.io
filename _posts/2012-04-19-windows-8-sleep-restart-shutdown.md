@@ -3,6 +3,19 @@ Title: 'Windows 8: Sleep, Restart &amp; Shutdown'
 Published: 2012-04-19 11:52:09
 Excerpt: |
   Of all the questions I've seen regarding the Windows 8 Consumer Preview, "How do I shutdown?" seems to be the most prevalent. I've spent my share of time on various social networks showing people how to do it but that just doesn't scale. As such, I've decided to instead simply consolidate the various answers to the question.
+Tags:
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:4:"2048";}'
 dsq_thread_id:

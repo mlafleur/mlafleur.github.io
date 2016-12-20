@@ -2,6 +2,31 @@
 Title: Windows Store Apps
 Published: 2012-08-23 14:58:41
 Excerpt: ""
+Tags:
+  - 
+    term_id: 70
+    name: Visual Studio
+    slug: visual-studio
+    term_group: 0
+    term_taxonomy_id: 73
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 14
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"741";}'
 dsq_thread_id:

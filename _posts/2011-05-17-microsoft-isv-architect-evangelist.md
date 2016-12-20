@@ -2,6 +2,7 @@
 Title: Microsoft ISV Architect Evangelist?
 Published: 2011-05-17 11:15:55
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"764";}'
 dsq_thread_id:

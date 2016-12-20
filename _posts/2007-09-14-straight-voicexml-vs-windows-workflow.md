@@ -2,6 +2,19 @@
 Title: Straight VoiceXML vs. Windows Workflow
 Published: 2007-09-14 18:31:31
 Excerpt: ""
+Tags:
+  - 
+    term_id: 110
+    name: Skype
+    slug: skype
+    term_group: 0
+    term_taxonomy_id: 114
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"314";}'
 dsq_thread_id:

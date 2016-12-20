@@ -2,6 +2,79 @@
 Title: 'Stop! Hammer time&hellip;'
 Published: 2012-01-08 10:31:51
 Excerpt: ""
+Tags:
+  - 
+    term_id: 118
+    name: Cloud
+    slug: cloud
+    term_group: 0
+    term_taxonomy_id: 122
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 105
+    name: Mobile
+    slug: mobile
+    term_group: 0
+    term_taxonomy_id: 109
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 4
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 117
+    name: OneNote
+    slug: onenote
+    term_group: 0
+    term_taxonomy_id: 121
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 114
+    name: TV
+    slug: tv
+    term_group: 0
+    term_taxonomy_id: 118
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 112
+    name: XBOX
+    slug: xbox
+    term_group: 0
+    term_taxonomy_id: 116
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:4:"1482";}'
 dsq_thread_id:

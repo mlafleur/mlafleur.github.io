@@ -8,6 +8,7 @@ Excerpt: >
   do you set up Word for blog editing? It
   is rather simple, albeit a little round
   about.
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"757";}'
 dsq_thread_id:

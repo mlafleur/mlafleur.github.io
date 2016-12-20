@@ -2,6 +2,7 @@
 Title: Free SQL Server Intellisense Add-In
 Published: 2006-05-23 21:01:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:4:"1676";}'
 dsq_thread_id:

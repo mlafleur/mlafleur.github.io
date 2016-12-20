@@ -2,6 +2,7 @@
 Title: Developer Community Seminars
 Published: 2003-08-13 03:28:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"188";}'
 author:

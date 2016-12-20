@@ -2,6 +2,31 @@
 Title: Source Selector Utility
 Published: 2003-06-17 15:58:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 107
+    name: Source Control
+    slug: source-control
+    term_group: 0
+    term_taxonomy_id: 111
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 70
+    name: Visual Studio
+    slug: visual-studio
+    term_group: 0
+    term_taxonomy_id: 73
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 14
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:4:"9977";}'
 dsq_thread_id:

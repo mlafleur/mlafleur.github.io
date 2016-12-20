@@ -3,6 +3,43 @@ Title: Multiple Apps, One Azure Mobile Service
 Published: 2014-02-26 23:04:19
 Excerpt: |
   Multiple Windows 8 apps, can they share the same Azure Mobile Services backend? This was the question I was looking to answer this week. I did the prerequisite search of the interwebs and found that this question has been floating around for a while now. What I didn’t find was a definitive answer. Let’s start off by solving that problem.
+Tags:
+  - 
+    term_id: 125
+    name: Azure
+    slug: azure
+    term_group: 0
+    term_taxonomy_id: 129
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 10
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 162
+    name: Azure Mobile Services
+    slug: azure-mobile-services
+    term_group: 0
+    term_taxonomy_id: 167
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3538626336";}'
 author:

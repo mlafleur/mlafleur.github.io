@@ -2,6 +2,31 @@
 Title: Quick Search with IE9
 Published: 2011-06-23 14:34:14
 Excerpt: ""
+Tags:
+  - 
+    term_id: 98
+    name: Internet Explorer
+    slug: internet-explorer
+    term_group: 0
+    term_taxonomy_id: 102
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 99
+    name: 'Tips &amp; Tricks'
+    slug: tips-tricks
+    term_group: 0
+    term_taxonomy_id: 103
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"577";}'
 dsq_thread_id:

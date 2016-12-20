@@ -12,6 +12,43 @@ Excerpt: >
   Outlook would return an error. In one of
   those face-palm moments I realized what
   changed.
+Tags:
+  - 
+    term_id: 68
+    name: Office
+    slug: office
+    term_group: 0
+    term_taxonomy_id: 71
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 9
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 163
+    name: Outlook
+    slug: outlook
+    term_group: 0
+    term_taxonomy_id: 168
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 164
+    name: Outlook.com
+    slug: outlook-com
+    term_group: 0
+    term_taxonomy_id: 169
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3540541723";}'
 author:

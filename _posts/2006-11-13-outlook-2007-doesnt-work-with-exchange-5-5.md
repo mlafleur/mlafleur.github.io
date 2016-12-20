@@ -2,6 +2,19 @@
 Title: 'Outlook 2007 Doesn&#8217;t Work with Exchange 5.5'
 Published: 2006-11-13 19:41:14
 Excerpt: ""
+Tags:
+  - 
+    term_id: 68
+    name: Office
+    slug: office
+    term_group: 0
+    term_taxonomy_id: 71
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 9
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"689";}'
 dsq_thread_id:

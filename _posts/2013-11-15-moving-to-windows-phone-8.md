@@ -9,6 +9,43 @@ Excerpt: >
   Massachusetts Registry of Motor
   Vehicles. In this article we’ll bring
   our awesomeness to Windows Phone 8
+Tags:
+  - 
+    term_id: 152
+    name: PCL
+    slug: pcl
+    term_group: 0
+    term_taxonomy_id: 157
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 3
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 153
+    name: RMV Awesome
+    slug: rmv-awesome
+    term_group: 0
+    term_taxonomy_id: 158
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 7
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

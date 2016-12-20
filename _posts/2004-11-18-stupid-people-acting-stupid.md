@@ -2,6 +2,7 @@
 Title: Stupid People Acting Stupid
 Published: 2004-11-18 23:55:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"218";}'
 dsq_thread_id:

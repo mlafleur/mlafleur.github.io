@@ -2,6 +2,7 @@
 Title: Simple Plug-in Architecture
 Published: 2004-03-17 02:34:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"198";}'
 dsq_thread_id:

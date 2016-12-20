@@ -2,6 +2,19 @@
 Title: Ink Enable The ISV
 Published: 2003-11-18 21:40:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 74
+    name: Tablet PC
+    slug: tablet-pc
+    term_group: 0
+    term_taxonomy_id: 77
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"409";}'
 dsq_thread_id:

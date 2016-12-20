@@ -2,6 +2,55 @@
 Title: Leveraging Portable Class Libraries
 Published: 2013-10-30 11:52:17
 Excerpt: "Part of a series covering Windows Client development, we continue to work on RMV Awesome - an ironically named Modern UI application for keeping tabs on the Massachusetts Registry of Motor Vehicles. In this article we'll take a step towards cross-platform by introducing Portable Class Libraries."
+Tags:
+  - 
+    term_id: 152
+    name: PCL
+    slug: pcl
+    term_group: 0
+    term_taxonomy_id: 157
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 3
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 151
+    name: Portable Class Library
+    slug: portable-class-library
+    term_group: 0
+    term_taxonomy_id: 156
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 153
+    name: RMV Awesome
+    slug: rmv-awesome
+    term_group: 0
+    term_taxonomy_id: 158
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 7
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 96
+    name: Windows
+    slug: windows
+    term_group: 0
+    term_taxonomy_id: 100
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 27
+    filter: raw
+    avhec_term_order: "0"
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

@@ -2,6 +2,7 @@
 Title: One More Wish-List Item
 Published: 2004-01-08 19:55:00
 Excerpt: ""
+Tags: false
 views:
   - 'a:1:{i:0;s:3:"261";}'
 dsq_thread_id:

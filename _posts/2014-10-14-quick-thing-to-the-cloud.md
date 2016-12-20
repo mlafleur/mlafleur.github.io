@@ -3,6 +3,55 @@ Title: Quick Thing, To The Cloud!
 Published: 2014-10-14 11:03:49
 Excerpt: |
   A recently wrote about a little side-project I've been working on called Iotiva - a lightweight IoT backend using free and low-cost Azure resources. Here I'll cover the basics of getting data from your "Thing" to the cloud. Wait. That sounded dirty....
+Tags:
+  - 
+    term_id: 125
+    name: Azure
+    slug: azure
+    term_group: 0
+    term_taxonomy_id: 129
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 10
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 173
+    name: IoT
+    slug: iot
+    term_group: 0
+    term_taxonomy_id: 178
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 3
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 174
+    name: Iotiva
+    slug: iotiva
+    term_group: 0
+    term_taxonomy_id: 179
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 2
+    filter: raw
+    avhec_term_order: "0"
+  - 
+    term_id: 181
+    name: JQuery
+    slug: jquery
+    term_group: 0
+    term_taxonomy_id: 186
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 1
+    filter: raw
+    avhec_term_order: "0"
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3540930373";}'
 author:

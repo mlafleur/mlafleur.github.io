@@ -2,6 +2,19 @@
 Title: Compact Framework
 Published: 2003-09-18 14:39:00
 Excerpt: ""
+Tags:
+  - 
+    term_id: 105
+    name: Mobile
+    slug: mobile
+    term_group: 0
+    term_taxonomy_id: 109
+    taxonomy: post_tag
+    description: ""
+    parent: 0
+    count: 4
+    filter: raw
+    avhec_term_order: "0"
 views:
   - 'a:1:{i:0;s:3:"242";}'
 author:
