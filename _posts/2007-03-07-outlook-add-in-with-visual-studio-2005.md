@@ -4,43 +4,7 @@ Title: >
   2005?
 Published: 2007-03-07 22:42:03
 Excerpt: ""
-Tags:
-  - 
-    term_id: 68
-    name: Office
-    slug: office
-    term_group: 0
-    term_taxonomy_id: 71
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 9
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 70
-    name: Visual Studio
-    slug: visual-studio
-    term_group: 0
-    term_taxonomy_id: 73
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 14
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 106
-    name: VSTO
-    slug: vsto
-    term_group: 0
-    term_taxonomy_id: 110
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
+Tags: Office, Visual Studio, VSTO
 views:
   - 'a:1:{i:0;s:4:"3294";}'
 dsq_thread_id:

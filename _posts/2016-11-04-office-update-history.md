@@ -3,19 +3,7 @@ Title: Office Update History
 Published: 2016-11-04 11:16:25
 Excerpt: |
   With Office's monthly release cadence, there are a log of versions floating out in the field. Understanding how "old" a given buid is can be extremely helpful in tracking down unexpected add-in behavior. Thankfully there are some resources available.
-Tags:
-  - 
-    term_id: 68
-    name: Office
-    slug: office
-    term_group: 0
-    term_taxonomy_id: 71
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 9
-    filter: raw
-    avhec_term_order: "0"
+Tags: Office
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"5306472858";}'
 author:

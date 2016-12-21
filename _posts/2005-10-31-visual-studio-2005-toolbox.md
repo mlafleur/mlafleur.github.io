@@ -2,19 +2,7 @@
 Title: Visual Studio 2005 Toolbox
 Published: 2005-10-31 18:52:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 70
-    name: Visual Studio
-    slug: visual-studio
-    term_group: 0
-    term_taxonomy_id: 73
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 14
-    filter: raw
-    avhec_term_order: "0"
+Tags: Visual Studio
 views:
   - 'a:1:{i:0;s:3:"886";}'
 dsq_thread_id:

@@ -2,91 +2,10 @@
 Title: Microsoft v2 Endpoint Primer
 Published: 2016-06-10 11:15:01
 Excerpt: 'For some time now, Microsoft has had two distinct systems for authenticating users; Microsoft Account (or MSA) and Azure Active Directory (or Azure AD); MSA for consumer services and Azure AD for enterprise services. The v2 Endpoint allow applications to authenticate both Microsoft Accounts and Azure AD accounts using a single OAUTH 2 endpoint. This allows developers to build applications that are entirely  account-agnostic. This article covers the basics of using the v2 Endpoint and OAUTH2 to authenticate users. '
-Tags:
-  - 
-    term_id: 125
-    name: Azure
-    slug: azure
-    term_group: 0
-    term_taxonomy_id: 129
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 10
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 341
-    name: Azure Active Directory
-    slug: azure-active-directory
-    term_group: 0
-    term_taxonomy_id: 341
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 331
-    name: Microsoft Graph
-    slug: microsoft-graph
-    term_group: 0
-    term_taxonomy_id: 331
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 167
-    name: node.js
-    slug: node-js
-    term_group: 0
-    term_taxonomy_id: 172
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 281
-    name: OAUTH
-    slug: oauth
-    term_group: 0
-    term_taxonomy_id: 281
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 68
-    name: Office
-    slug: office
-    term_group: 0
-    term_taxonomy_id: 71
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 9
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 321
-    name: v2 Endpoint
-    slug: v2-endpoint
-    term_group: 0
-    term_taxonomy_id: 321
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  Azure, Azure Active Directory, Microsoft
+  Graph, node.js, OAUTH, Office, v2
+  Endpoint
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4900044170";}'
 author:

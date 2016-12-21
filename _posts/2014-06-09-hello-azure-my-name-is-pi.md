@@ -11,43 +11,7 @@ Excerpt: >
   and Raspberry in hand it was time to
   write the next killer app, Hello World
   with Azure in the middle.
-Tags:
-  - 
-    term_id: 125
-    name: Azure
-    slug: azure
-    term_group: 0
-    term_taxonomy_id: 129
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 10
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 167
-    name: node.js
-    slug: node-js
-    term_group: 0
-    term_taxonomy_id: 172
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 168
-    name: Raspberry Pi
-    slug: raspberry-pi
-    term_group: 0
-    term_taxonomy_id: 173
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 3
-    filter: raw
-    avhec_term_order: "0"
+Tags: Azure, node.js, Raspberry Pi
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3539052294";}'
 author:

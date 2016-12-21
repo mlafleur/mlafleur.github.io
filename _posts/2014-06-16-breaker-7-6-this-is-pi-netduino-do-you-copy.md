@@ -14,67 +14,9 @@ Excerpt: >
   using a couple of cheap nRF24L01+ radio
   modules, a Netduino 2 and a Raspberry
   Pi.
-Tags:
-  - 
-    term_id: 170
-    name: .NET Micro Framework
-    slug: net-micro-framework
-    term_group: 0
-    term_taxonomy_id: 175
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 169
-    name: NETMF
-    slug: netmf
-    term_group: 0
-    term_taxonomy_id: 174
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 167
-    name: node.js
-    slug: node-js
-    term_group: 0
-    term_taxonomy_id: 172
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 171
-    name: nRF24L01
-    slug: nrf24l01
-    term_group: 0
-    term_taxonomy_id: 176
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 168
-    name: Raspberry Pi
-    slug: raspberry-pi
-    term_group: 0
-    term_taxonomy_id: 173
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 3
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  .NET Micro Framework, NETMF, node.js,
+  nRF24L01, Raspberry Pi
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3539258146";}'
 author:

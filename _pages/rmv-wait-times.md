@@ -2,7 +2,7 @@
 Title: RMV Wait Times
 Published: 2012-12-19 23:27:44
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"262";}'
 author:

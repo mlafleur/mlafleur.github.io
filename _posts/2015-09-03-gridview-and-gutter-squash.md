@@ -4,7 +4,7 @@ Published: 2015-09-03 14:30:31
 Excerpt: >
   There was a gutter in my window and it
   was mocking me and so I squashed it.
-Tags: false
+Tags: ""
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4094652632";}'
 author:

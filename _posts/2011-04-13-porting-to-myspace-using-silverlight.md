@@ -2,19 +2,7 @@
 Title: Porting to MySpace using Silverlight
 Published: 2011-04-13 20:00:18
 Excerpt: ""
-Tags:
-  - 
-    term_id: 100
-    name: WebDev
-    slug: webdev-2
-    term_group: 0
-    term_taxonomy_id: 104
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
+Tags: WebDev
 views:
   - 'a:1:{i:0;s:4:"1577";}'
 sbg_selected_sidebar:

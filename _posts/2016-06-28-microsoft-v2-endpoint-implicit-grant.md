@@ -5,91 +5,10 @@ Excerpt: >
   Building on my previous v2 Endpoint
   Primer, here we discuss using the
   Implicit Grant.
-Tags:
-  - 
-    term_id: 125
-    name: Azure
-    slug: azure
-    term_group: 0
-    term_taxonomy_id: 129
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 10
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 341
-    name: Azure Active Directory
-    slug: azure-active-directory
-    term_group: 0
-    term_taxonomy_id: 341
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 331
-    name: Microsoft Graph
-    slug: microsoft-graph
-    term_group: 0
-    term_taxonomy_id: 331
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 167
-    name: node.js
-    slug: node-js
-    term_group: 0
-    term_taxonomy_id: 172
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 281
-    name: OAUTH
-    slug: oauth
-    term_group: 0
-    term_taxonomy_id: 281
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 68
-    name: Office
-    slug: office
-    term_group: 0
-    term_taxonomy_id: 71
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 9
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 321
-    name: v2 Endpoint
-    slug: v2-endpoint
-    term_group: 0
-    term_taxonomy_id: 321
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  Azure, Azure Active Directory, Microsoft
+  Graph, node.js, OAUTH, Office, v2
+  Endpoint
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4946406903";}'
 author:

@@ -2,7 +2,7 @@
 Title: 'Usability Professionals&#8217; Association'
 Published: 2004-01-10 18:14:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"164";}'
 author:

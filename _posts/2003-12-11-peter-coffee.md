@@ -2,7 +2,7 @@
 Title: Peter Coffee
 Published: 2003-12-11 14:37:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"247";}'
 dsq_thread_id:

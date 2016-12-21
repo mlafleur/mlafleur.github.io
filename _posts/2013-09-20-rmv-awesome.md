@@ -4,55 +4,9 @@ Published: 2013-09-20 15:49:42
 Excerpt: |
   "The Most Awesome App for the Massachusetts Registry of Motor Vehicles" ~ No One
   This article is the beginning of a series on developing apps for Windows and Windows Phone. This version of the app referred to in this article will act as a foundation for future articles. As the series progresses I will be adding additional features and documenting them in greater detail than I have here.
-Tags:
-  - 
-    term_id: 153
-    name: RMV Awesome
-    slug: rmv-awesome
-    term_group: 0
-    term_taxonomy_id: 158
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 7
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 70
-    name: Visual Studio
-    slug: visual-studio
-    term_group: 0
-    term_taxonomy_id: 73
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 14
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 96
-    name: Windows
-    slug: windows
-    term_group: 0
-    term_taxonomy_id: 100
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 148
-    name: XAML
-    slug: xaml
-    term_group: 0
-    term_taxonomy_id: 153
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  RMV Awesome, Visual Studio, Windows,
+  XAML
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

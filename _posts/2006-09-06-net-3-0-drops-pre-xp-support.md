@@ -2,19 +2,7 @@
 Title: .NET 3.0 Drops pre-XP Support
 Published: 2006-09-06 15:51:46
 Excerpt: ""
-Tags:
-  - 
-    term_id: 66
-    name: .NET
-    slug: net
-    term_group: 0
-    term_taxonomy_id: 69
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 3
-    filter: raw
-    avhec_term_order: "0"
+Tags: .NET
 views:
   - 'a:1:{i:0;s:4:"1364";}'
 dsq_thread_id:

@@ -2,55 +2,7 @@
 Title: Awesome Android with Xamarin
 Published: 2014-03-26 00:35:34
 Excerpt: "I've been publicly developing an application I call RMV Awesome on this blog over the last few months. Since the initial release of the Windows 8.1 app we've migrated code to a Portable Class Library, ported to Windows Phone 8, added monetization, integrated Azure Mobile Services and tackled geo-location. Today we’ll take a look at bringing this awesomeness over Android using Xamarin."
-Tags:
-  - 
-    term_id: 152
-    name: PCL
-    slug: pcl
-    term_group: 0
-    term_taxonomy_id: 157
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 3
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 153
-    name: RMV Awesome
-    slug: rmv-awesome
-    term_group: 0
-    term_taxonomy_id: 158
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 7
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 96
-    name: Windows
-    slug: windows
-    term_group: 0
-    term_taxonomy_id: 100
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 166
-    name: Xamarin
-    slug: xamarin
-    term_group: 0
-    term_taxonomy_id: 171
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
+Tags: PCL, RMV Awesome, Windows, Xamarin
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3540575642";}'
 author:

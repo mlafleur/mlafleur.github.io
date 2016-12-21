@@ -2,79 +2,9 @@
 Title: I was ahead of my time? (SQL FileTables)
 Published: 2012-01-30 13:28:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 124
-    name: Access
-    slug: access
-    term_group: 0
-    term_taxonomy_id: 128
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 122
-    name: FileStreams
-    slug: filestreams
-    term_group: 0
-    term_taxonomy_id: 126
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 121
-    name: FileTables
-    slug: filetables
-    term_group: 0
-    term_taxonomy_id: 125
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 123
-    name: SQL
-    slug: sql
-    term_group: 0
-    term_taxonomy_id: 127
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 120
-    name: SQL Server
-    slug: sql-server
-    term_group: 0
-    term_taxonomy_id: 124
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 119
-    name: SQL Server 2012
-    slug: sql-server-2012
-    term_group: 0
-    term_taxonomy_id: 123
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  Access, FileStreams, FileTables, SQL,
+  SQL Server, SQL Server 2012
 views:
   - 'a:1:{i:0;s:4:"1011";}'
 dsq_thread_id:

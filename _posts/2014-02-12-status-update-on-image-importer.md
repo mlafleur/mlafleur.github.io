@@ -2,31 +2,7 @@
 Title: Status Update on Image Importer
 Published: 2014-02-12 13:35:53
 Excerpt: "Back in October I wrote about a little app I built for Windows 8.1 called Image Importer. It is a rather simple app designed to replace two features previously available in Windows Essentials Live Gallery - the ability to import files into folders by Date Taken and remove files from the source media when completed. Since then I've made a few updates and learned a few lessons."
-Tags:
-  - 
-    term_id: 158
-    name: Image Importer
-    slug: image-importer
-    term_group: 0
-    term_taxonomy_id: 163
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 96
-    name: Windows
-    slug: windows
-    term_group: 0
-    term_taxonomy_id: 100
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
+Tags: Image Importer, Windows
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3546631268";}'
 author:

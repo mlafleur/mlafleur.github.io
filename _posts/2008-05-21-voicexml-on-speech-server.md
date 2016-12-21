@@ -2,19 +2,7 @@
 Title: VoiceXML on Speech Server
 Published: 2008-05-21 13:46:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 110
-    name: Skype
-    slug: skype
-    term_group: 0
-    term_taxonomy_id: 114
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
+Tags: Skype
 views:
   - 'a:1:{i:0;s:3:"332";}'
 dsq_thread_id:

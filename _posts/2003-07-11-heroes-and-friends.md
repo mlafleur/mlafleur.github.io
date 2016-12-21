@@ -2,7 +2,7 @@
 Title: Heroes and Friends
 Published: 2003-07-11 21:36:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"407";}'
 dsq_thread_id:

@@ -2,19 +2,7 @@
 Title: 'UCMA 2.0 Tip: Communications Sequence Activity'
 Published: 2010-03-31 11:34:19
 Excerpt: ""
-Tags:
-  - 
-    term_id: 110
-    name: Skype
-    slug: skype
-    term_group: 0
-    term_taxonomy_id: 114
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
+Tags: Skype
 views:
   - 'a:1:{i:0;s:4:"1211";}'
 dsq_thread_id:

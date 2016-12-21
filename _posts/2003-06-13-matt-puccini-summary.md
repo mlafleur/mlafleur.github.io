@@ -2,7 +2,7 @@
 Title: Matt Puccini Summary
 Published: 2003-06-13 17:49:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"326";}'
 dsq_thread_id:

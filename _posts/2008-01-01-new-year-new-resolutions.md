@@ -2,19 +2,7 @@
 Title: New Year, New Resolutions
 Published: 2008-01-01 17:14:37
 Excerpt: ""
-Tags:
-  - 
-    term_id: 67
-    name: Just For Fun
-    slug: just-for-fun
-    term_group: 0
-    term_taxonomy_id: 70
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 7
-    filter: raw
-    avhec_term_order: "0"
+Tags: Just For Fun
 views:
   - 'a:1:{i:0;s:3:"564";}'
 dsq_thread_id:

@@ -2,55 +2,7 @@
 Title: Windows Azure for Amazon AWS Users
 Published: 2012-05-22 16:19:26
 Excerpt: ""
-Tags:
-  - 
-    term_id: 126
-    name: Amazon
-    slug: amazon
-    term_group: 0
-    term_taxonomy_id: 130
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 127
-    name: AWS
-    slug: aws
-    term_group: 0
-    term_taxonomy_id: 131
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 125
-    name: Azure
-    slug: azure
-    term_group: 0
-    term_taxonomy_id: 129
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 10
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 118
-    name: Cloud
-    slug: cloud
-    term_group: 0
-    term_taxonomy_id: 122
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
+Tags: Amazon, AWS, Azure, Cloud
 views:
   - 'a:1:{i:0;s:5:"11124";}'
 dsq_thread_id:

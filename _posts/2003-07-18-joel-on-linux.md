@@ -2,7 +2,7 @@
 Title: Joel on Linux
 Published: 2003-07-18 18:35:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"354";}'
 dsq_thread_id:

@@ -2,43 +2,7 @@
 Title: Web Service Hell
 Published: 2003-04-01 13:38:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 101
-    name: SOAP
-    slug: soap
-    term_group: 0
-    term_taxonomy_id: 105
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 102
-    name: Web Services
-    slug: web-services
-    term_group: 0
-    term_taxonomy_id: 106
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 3
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 100
-    name: WebDev
-    slug: webdev-2
-    term_group: 0
-    term_taxonomy_id: 104
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
+Tags: SOAP, Web Services, WebDev
 views:
   - 'a:1:{i:0;s:3:"591";}'
 dsq_thread_id:

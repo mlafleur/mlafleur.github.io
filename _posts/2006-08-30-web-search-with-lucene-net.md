@@ -2,43 +2,7 @@
 Title: Web Search with Lucene.NET
 Published: 2006-08-30 19:55:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 103
-    name: Lucene
-    slug: lucene
-    term_group: 0
-    term_taxonomy_id: 107
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 104
-    name: Search
-    slug: search
-    term_group: 0
-    term_taxonomy_id: 108
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 100
-    name: WebDev
-    slug: webdev-2
-    term_group: 0
-    term_taxonomy_id: 104
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 4
-    filter: raw
-    avhec_term_order: "0"
+Tags: Lucene, Search, WebDev
 views:
   - 'a:1:{i:0;s:3:"374";}'
 dsq_thread_id:

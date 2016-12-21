@@ -2,7 +2,7 @@
 Title: 'Scoble on &quot;Group Blogs&quot;'
 Published: 2003-12-08 04:31:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"175";}'
 dsq_thread_id:

@@ -2,79 +2,9 @@
 Title: The Magical Little Photon
 Published: 2015-07-01 15:25:42
 Excerpt: "I've been playing around with the latest goody from the folks over at Particle and it just became my go-to microcontroller. "
-Tags:
-  - 
-    term_id: 199
-    name: Core
-    slug: core
-    term_group: 0
-    term_taxonomy_id: 204
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 173
-    name: IoT
-    slug: iot
-    term_group: 0
-    term_taxonomy_id: 178
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 3
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 197
-    name: Maker
-    slug: maker
-    term_group: 0
-    term_taxonomy_id: 202
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 195
-    name: Particle
-    slug: particle
-    term_group: 0
-    term_taxonomy_id: 200
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 198
-    name: Photon
-    slug: photon
-    term_group: 0
-    term_taxonomy_id: 203
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 196
-    name: Spark
-    slug: spark
-    term_group: 0
-    term_taxonomy_id: 201
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  Core, IoT, Maker, Particle, Photon,
+  Spark
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3984269923";}'
 author:

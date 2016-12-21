@@ -2,67 +2,10 @@
 Title: 'Quick Tip &#8211; Microsoft.MDA.targets Not Found Error'
 Published: 2015-03-20 11:02:49
 Excerpt: 'The other day however I ran into an ugly error opening a Tools for Apache Cordova project:  "The imported project C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CordovaTools\vs-mda-targets\Microsoft.MDA.targets was not found". Here is the workaround for this error. '
-Tags:
-  - 
-    term_id: 190
-    name: Cordova
-    slug: cordova
-    term_group: 0
-    term_taxonomy_id: 195
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 70
-    name: Visual Studio
-    slug: visual-studio
-    term_group: 0
-    term_taxonomy_id: 73
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 14
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 193
-    name: Visual Studio 2013
-    slug: visual-studio-2013
-    term_group: 0
-    term_taxonomy_id: 198
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 192
-    name: Visual Studio 2015
-    slug: visual-studio-2015
-    term_group: 0
-    term_taxonomy_id: 197
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 191
-    name: Visual Studio Tools for Apache Cordova
-    slug: visual-studio-tools-for-apache-cordova
-    term_group: 0
-    term_taxonomy_id: 196
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  Cordova, Visual Studio, Visual Studio
+  2013, Visual Studio 2015, Visual Studio
+  Tools for Apache Cordova
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3612284146";}'
 author:

@@ -2,7 +2,7 @@
 Title: 'Welcome! Support group meets Wednesdays at the Library&#8230;'
 Published: 2011-05-17 13:45:26
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"638";}'
 dsq_thread_id:

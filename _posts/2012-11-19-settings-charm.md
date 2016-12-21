@@ -2,43 +2,7 @@
 Title: Settings Charm
 Published: 2012-11-19 00:34:38
 Excerpt: ""
-Tags:
-  - 
-    term_id: 133
-    name: Charms
-    slug: charms
-    term_group: 0
-    term_taxonomy_id: 137
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 134
-    name: Settings
-    slug: settings
-    term_group: 0
-    term_taxonomy_id: 138
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 96
-    name: Windows
-    slug: windows
-    term_group: 0
-    term_taxonomy_id: 100
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
+Tags: Charms, Settings, Windows
 networkpub_postmessage:
   - 'a:1:{i:0;s:0:"";}'
 networkpub_twitterhandle:

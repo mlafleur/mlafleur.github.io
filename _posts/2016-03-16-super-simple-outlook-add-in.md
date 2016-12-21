@@ -7,67 +7,9 @@ Excerpt: >
   assets and an XML manifest file that
   tells Outlook what to do. All stored on
   GitHub and hosted on Azure for free.
-Tags:
-  - 
-    term_id: 271
-    name: Add-ins
-    slug: add-ins
-    term_group: 0
-    term_taxonomy_id: 271
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 261
-    name: JavaScript
-    slug: javascript
-    term_group: 0
-    term_taxonomy_id: 261
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 1
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 68
-    name: Office
-    slug: office
-    term_group: 0
-    term_taxonomy_id: 71
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 9
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 163
-    name: Outlook
-    slug: outlook
-    term_group: 0
-    term_taxonomy_id: 168
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
-  - 
-    term_id: 164
-    name: Outlook.com
-    slug: outlook-com
-    term_group: 0
-    term_taxonomy_id: 169
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
+Tags: >
+  Add-ins, JavaScript, Office, Outlook,
+  Outlook.com
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4668288312";}'
 author:

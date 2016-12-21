@@ -2,7 +2,7 @@
 Title: New Web Comic Site
 Published: 2006-08-14 13:19:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"198";}'
 author:

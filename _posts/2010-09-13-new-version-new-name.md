@@ -2,19 +2,7 @@
 Title: New Version, New Name
 Published: 2010-09-13 11:15:57
 Excerpt: ""
-Tags:
-  - 
-    term_id: 110
-    name: Skype
-    slug: skype
-    term_group: 0
-    term_taxonomy_id: 114
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 27
-    filter: raw
-    avhec_term_order: "0"
+Tags: Skype
 views:
   - 'a:1:{i:0;s:3:"393";}'
 author:

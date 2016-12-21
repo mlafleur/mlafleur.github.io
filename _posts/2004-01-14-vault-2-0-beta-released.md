@@ -2,7 +2,7 @@
 Title: Vault 2.0 Beta Released
 Published: 2004-01-14 22:44:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"199";}'
 author:

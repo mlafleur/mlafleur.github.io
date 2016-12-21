@@ -2,7 +2,7 @@
 Title: Bloated Fish and Pork Rinds
 Published: 2004-03-09 18:33:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"174";}'
 author:

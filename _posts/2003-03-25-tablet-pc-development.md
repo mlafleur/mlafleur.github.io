@@ -2,19 +2,7 @@
 Title: Tablet PC Development
 Published: 2003-03-25 21:43:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 74
-    name: Tablet PC
-    slug: tablet-pc
-    term_group: 0
-    term_taxonomy_id: 77
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 2
-    filter: raw
-    avhec_term_order: "0"
+Tags: Tablet PC
 views:
   - 'a:1:{i:0;s:3:"742";}'
 dsq_thread_id:

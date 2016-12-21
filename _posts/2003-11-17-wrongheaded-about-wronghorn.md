@@ -2,7 +2,7 @@
 Title: 'Wrongheaded About &#8216;Wronghorn&#8217;'
 Published: 2003-11-17 20:18:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"259";}'
 dsq_thread_id:

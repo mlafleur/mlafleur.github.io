@@ -2,19 +2,7 @@
 Title: Do Cats Hate Christmas?
 Published: 2006-12-15 03:14:00
 Excerpt: ""
-Tags:
-  - 
-    term_id: 67
-    name: Just For Fun
-    slug: just-for-fun
-    term_group: 0
-    term_taxonomy_id: 70
-    taxonomy: post_tag
-    description: ""
-    parent: 0
-    count: 7
-    filter: raw
-    avhec_term_order: "0"
+Tags: Just For Fun
 views:
   - 'a:1:{i:0;s:3:"363";}'
 dsq_thread_id:

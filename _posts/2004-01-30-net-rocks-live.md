@@ -2,7 +2,7 @@
 Title: .NET Rocks Live
 Published: 2004-01-30 18:38:00
 Excerpt: ""
-Tags: false
+Tags: ""
 views:
   - 'a:1:{i:0;s:3:"142";}'
 author:
