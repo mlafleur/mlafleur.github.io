@@ -2,7 +2,9 @@
 Title: VoiceXML with Visual Studio
 Published: 2007-02-22 06:06:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Skype
+  - Visual Studio
 views:
   - 'a:1:{i:0;s:4:"2445";}'
 dsq_thread_id:

@@ -2,7 +2,10 @@
 Title: Web Service Purgatory
 Published: 2003-04-02 11:47:00
 Excerpt: ""
-Tags: null
+Tags:
+  - SOAP
+  - Web Services
+  - WebDev
 views:
   - 'a:1:{i:0;s:3:"341";}'
 dsq_thread_id:

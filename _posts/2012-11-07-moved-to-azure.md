@@ -2,7 +2,9 @@
 Title: Moved to Azure
 Published: 2012-11-07 00:25:09
 Excerpt: "Well now I've gone and done it, I've moved this site over to Azure. Overall the experience was pretty painless."
-Tags: null
+Tags:
+  - Azure
+  - Blogging
 views:
   - 'a:1:{i:0;s:3:"405";}'
 networkpub_postmessage:

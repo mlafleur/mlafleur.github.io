@@ -2,7 +2,8 @@
 Title: 'New Blog: Speaking From the Edge'
 Published: 2008-07-23 11:33:43
 Excerpt: ""
-Tags: null
+Tags:
+  - Skype
 views:
   - 'a:1:{i:0;s:3:"535";}'
 dsq_thread_id:

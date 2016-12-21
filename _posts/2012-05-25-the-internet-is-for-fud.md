@@ -2,7 +2,8 @@
 Title: The Internet is for FUD
 Published: 2012-05-25 12:34:06
 Excerpt: ""
-Tags: null
+Tags:
+  - Just For Fun
 views:
   - 'a:1:{i:0;s:4:"1436";}'
 dsq_thread_id:

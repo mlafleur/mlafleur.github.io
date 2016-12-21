@@ -8,7 +8,12 @@ Excerpt: >
   data encoding being supplied by the HTTP
   Request, not just the path and
   parameters it was sent to.
-Tags: null
+Tags:
+  - .NET
+  - ASP.NET
+  - REST
+  - WebApi
+  - Windows
 dsq_thread_id:
   - "3538598338"
 author:

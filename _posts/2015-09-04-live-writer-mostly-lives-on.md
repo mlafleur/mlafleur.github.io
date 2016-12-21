@@ -12,7 +12,9 @@ Excerpt: >
   seriously considered switching. In the
   end however, they all failed to match
   the ease and simplicity of Live Writer.
-Tags: null
+Tags:
+  - Blogging
+  - Windows
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4098053285";}'
 author:

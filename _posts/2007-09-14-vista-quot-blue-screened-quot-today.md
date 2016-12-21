@@ -2,7 +2,8 @@
 Title: 'Vista &quot;Blue Screened&quot; Today'
 Published: 2007-09-14 16:34:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Just For Fun
 views:
   - 'a:1:{i:0;s:3:"470";}'
 dsq_thread_id:

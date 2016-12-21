@@ -2,7 +2,10 @@
 Title: Updating My PHP for WordPress
 Published: 2014-10-17 12:12:49
 Excerpt: "A few years ago I moved my blog to an Azure VM and it has been running flawlessly ever since. Thanks to WordPress' update process and automatic Windows Updates, there really wasn't much for me to manage. I have zero complaints."
-Tags: null
+Tags:
+  - Azure
+  - PHP
+  - WordPress
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3565437765";}'
 author:

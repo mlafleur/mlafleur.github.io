@@ -2,9 +2,12 @@
 Title: Edge Zoom Level
 Published: 2015-09-14 15:31:31
 Excerpt: "I recently ran into a odd problem where the Edge browser's default zoom level got stuck at 80%. This is how I fixed it. Full disclosure, this happened on an Insider build. As I signed up to eat this dog food, I can't really complain when it tastes like.... well, dog food. "
-Tags: null
+Tags:
+  - Dog Food
+  - Edge
+  - Windows
 dsq_thread_id:
-  - 'a:1:{i:0;s:10:"4129721945";}'
+  - "4129721945"
 author:
   - Marc LaFleur
 post_date:

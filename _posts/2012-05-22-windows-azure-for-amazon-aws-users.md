@@ -2,7 +2,11 @@
 Title: Windows Azure for Amazon AWS Users
 Published: 2012-05-22 16:19:26
 Excerpt: ""
-Tags: null
+Tags:
+  - Amazon
+  - AWS
+  - Azure
+  - Cloud
 views:
   - 'a:1:{i:0;s:5:"11124";}'
 dsq_thread_id:

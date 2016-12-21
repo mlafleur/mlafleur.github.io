@@ -2,7 +2,10 @@
 Title: Web Search with Lucene.NET
 Published: 2006-08-30 19:55:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Lucene
+  - Search
+  - WebDev
 views:
   - 'a:1:{i:0;s:3:"374";}'
 dsq_thread_id:

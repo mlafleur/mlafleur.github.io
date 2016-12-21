@@ -2,7 +2,8 @@
 Title: Tablet PC Development
 Published: 2003-03-25 21:43:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Tablet PC
 views:
   - 'a:1:{i:0;s:3:"742";}'
 dsq_thread_id:

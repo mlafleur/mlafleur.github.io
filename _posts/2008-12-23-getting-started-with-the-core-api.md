@@ -2,7 +2,8 @@
 Title: Getting Started with the Core API
 Published: 2008-12-23 03:37:10
 Excerpt: ""
-Tags: null
+Tags:
+  - Skype
 views:
   - 'a:1:{i:0;s:3:"252";}'
 author:

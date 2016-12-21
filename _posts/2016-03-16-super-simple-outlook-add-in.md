@@ -7,7 +7,12 @@ Excerpt: >
   assets and an XML manifest file that
   tells Outlook what to do. All stored on
   GitHub and hosted on Azure for free.
-Tags: null
+Tags:
+  - Add-ins
+  - JavaScript
+  - Office
+  - Outlook
+  - Outlook.com
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4668288312";}'
 author:

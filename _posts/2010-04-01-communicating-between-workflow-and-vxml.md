@@ -2,7 +2,8 @@
 Title: Communicating Between Workflow and VXML
 Published: 2010-04-01 11:08:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Skype
 views:
   - 'a:1:{i:0;s:3:"322";}'
 author:

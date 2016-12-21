@@ -12,7 +12,10 @@ Excerpt: >
   Outlook would return an error. In one of
   those face-palm moments I realized what
   changed.
-Tags: null
+Tags:
+  - Office
+  - Outlook
+  - Outlook.com
 dsq_thread_id:
   - "3540541723"
 author:

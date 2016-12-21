@@ -2,7 +2,8 @@
 Title: Style In The Round
 Published: 2013-03-13 10:46:07
 Excerpt: "Think about your actual user's actual experience, not some generalized design guidelines. If you wedge your user's experience into a design that doesn't fit, you are serving neither your customer nor the platform. Do something amazing that will wow your customer's and make their experience something they'll talk about. Make something ROUND!"
-Tags: null
+Tags:
+  - Windows
 views:
   - 'a:1:{i:0;s:3:"825";}'
 dsq_thread_id:

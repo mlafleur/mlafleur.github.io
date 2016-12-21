@@ -2,7 +2,8 @@
 Title: Compact Framework
 Published: 2003-09-18 14:39:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Mobile
 views:
   - 'a:1:{i:0;s:3:"242";}'
 author:

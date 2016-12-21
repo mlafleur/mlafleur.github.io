@@ -5,7 +5,14 @@ Excerpt: >
   Building on my previous v2 Endpoint
   Primer, here we discuss using the
   Implicit Grant.
-Tags: null
+Tags:
+  - Azure
+  - Azure Active Directory
+  - Microsoft Graph
+  - node.js
+  - OAUTH
+  - Office
+  - v2 Endpoint
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"4946406903";}'
 author:

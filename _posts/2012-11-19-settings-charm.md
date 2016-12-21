@@ -2,7 +2,10 @@
 Title: Settings Charm
 Published: 2012-11-19 00:34:38
 Excerpt: ""
-Tags: null
+Tags:
+  - Charms
+  - Settings
+  - Windows
 networkpub_postmessage:
   - 'a:1:{i:0;s:0:"";}'
 networkpub_twitterhandle:

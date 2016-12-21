@@ -14,7 +14,12 @@ Excerpt: >
   using a couple of cheap nRF24L01+ radio
   modules, a Netduino 2 and a Raspberry
   Pi.
-Tags: null
+Tags:
+  - .NET Micro Framework
+  - NETMF
+  - node.js
+  - nRF24L01
+  - Raspberry Pi
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3539258146";}'
 author:

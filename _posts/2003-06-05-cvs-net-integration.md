@@ -2,7 +2,9 @@
 Title: 'CVS &amp; .NET Integration'
 Published: 2003-06-05 16:34:00
 Excerpt: ""
-Tags: null
+Tags:
+  - Source Control
+  - Visual Studio
 views:
   - 'a:1:{i:0;s:4:"6435";}'
 dsq_thread_id:

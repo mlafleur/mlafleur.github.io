@@ -2,7 +2,11 @@
 Title: 'WebAuthenticationBroker &#038; Facebook'
 Published: 2013-04-19 08:42:01
 Excerpt: "I needed to use Facebook authentication in a Windows Store app the other day. The Windows Runtime makes this trivially easy with it's WebAuthenticationBroker class. The web authentication broker allows apps to use Internet authentication and authorization protocols like OAuth and OpenID with minimal effort."
-Tags: null
+Tags:
+  - OpenAuth
+  - OpenID
+  - WebAuthenticationBroker
+  - Windows
 views:
   - 'a:1:{i:0;s:3:"585";}'
 dsq_thread_id:

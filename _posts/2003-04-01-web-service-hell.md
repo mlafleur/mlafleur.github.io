@@ -2,7 +2,10 @@
 Title: Web Service Hell
 Published: 2003-04-01 13:38:00
 Excerpt: ""
-Tags: null
+Tags:
+  - SOAP
+  - Web Services
+  - WebDev
 views:
   - 'a:1:{i:0;s:3:"591";}'
 dsq_thread_id:

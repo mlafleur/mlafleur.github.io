@@ -3,7 +3,10 @@ Title: The Magic of Font Icons
 Published: 2014-01-06 00:03:22
 Excerpt: |
   Okay, it isn't magic but it is "one of those things" that I've wished I could easily do for years that finally came together. Anyone who has tried to mess around with creating custom paths for glyphs in their apps will truly appreciate how easy things have become.
-Tags: null
+Tags:
+  - FontIcon
+  - Windows
+  - XAML
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 dsq_thread_id:

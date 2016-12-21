@@ -2,7 +2,8 @@
 Title: 'UCMA 2.0 Tip: Communications Sequence Activity'
 Published: 2010-03-31 11:34:19
 Excerpt: ""
-Tags: null
+Tags:
+  - Skype
 views:
   - 'a:1:{i:0;s:4:"1211";}'
 dsq_thread_id:

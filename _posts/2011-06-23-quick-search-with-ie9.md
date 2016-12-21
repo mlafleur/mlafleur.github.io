@@ -2,7 +2,9 @@
 Title: Quick Search with IE9
 Published: 2011-06-23 14:34:14
 Excerpt: ""
-Tags: null
+Tags:
+  - Internet Explorer
+  - 'Tips &amp; Tricks'
 views:
   - 'a:1:{i:0;s:3:"577";}'
 dsq_thread_id:

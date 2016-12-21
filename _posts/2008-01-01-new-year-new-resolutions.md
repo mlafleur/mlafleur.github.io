@@ -2,7 +2,8 @@
 Title: New Year, New Resolutions
 Published: 2008-01-01 17:14:37
 Excerpt: ""
-Tags: null
+Tags:
+  - Just For Fun
 views:
   - 'a:1:{i:0;s:3:"564";}'
 dsq_thread_id:

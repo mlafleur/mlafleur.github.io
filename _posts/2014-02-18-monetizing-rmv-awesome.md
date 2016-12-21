@@ -2,7 +2,11 @@
 Title: Monetizing RMV Awesome!
 Published: 2014-02-18 16:37:33
 Excerpt: "Part of a series covering Windows Client development, we continue to work on RMV Awesome – an ironically named Modern UI application for keeping tabs on the Massachusetts Registry of Motor Vehicles. In this article we'll start monetizing our app use the Microsoft Advertising SDK."
-Tags: null
+Tags:
+  - Mobile
+  - Monetization
+  - RMV Awesome
+  - Windows
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3546619376";}'
 author:

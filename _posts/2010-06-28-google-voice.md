@@ -2,7 +2,8 @@
 Title: Google Voice
 Published: 2010-06-28 13:13:03
 Excerpt: ""
-Tags: null
+Tags:
+  - Skype
 views:
   - 'a:1:{i:0;s:3:"298";}'
 dsq_thread_id:

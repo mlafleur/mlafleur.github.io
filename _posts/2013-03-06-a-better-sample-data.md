@@ -2,7 +2,9 @@
 Title: A Better Sample Data
 Published: 2013-03-06 11:36:10
 Excerpt: "Visual Studio's templates provide a great jump start but there they are tab visually boring out of the box. Here we spice them up a bit with placeholder images. "
-Tags: null
+Tags:
+  - Visual Studio
+  - Windows
 views:
   - 'a:1:{i:0;s:3:"721";}'
 dsq_thread_id:

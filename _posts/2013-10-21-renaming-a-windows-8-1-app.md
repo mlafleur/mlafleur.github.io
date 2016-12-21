@@ -7,7 +7,8 @@ Excerpt: >
   you can now rename your app and even
   have different names for different
   languages.
-Tags: null
+Tags:
+  - Windows
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

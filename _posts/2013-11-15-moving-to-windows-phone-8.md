@@ -9,7 +9,10 @@ Excerpt: >
   Massachusetts Registry of Motor
   Vehicles. In this article we’ll bring
   our awesomeness to Windows Phone 8
-Tags: null
+Tags:
+  - PCL
+  - RMV Awesome
+  - Windows
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

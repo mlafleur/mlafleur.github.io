@@ -6,7 +6,11 @@ Excerpt: >
   development. In this article we’ll
   integrate Azure Mobile Services into the
   awesome RMV Awesome app.
-Tags: null
+Tags:
+  - Azure
+  - Azure Mobile Services
+  - RMV Awesome
+  - Windows
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3543911440";}'
 author:
