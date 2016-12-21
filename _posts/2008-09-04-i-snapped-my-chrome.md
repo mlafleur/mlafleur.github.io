@@ -2,7 +2,7 @@
 Title: I Snapped My Chrome!
 Published: 2008-09-04 15:33:47
 Excerpt: ""
-Tags: Just For Fun
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"476";}'
 dsq_thread_id:

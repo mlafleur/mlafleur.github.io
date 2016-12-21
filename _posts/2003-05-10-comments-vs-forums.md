@@ -2,7 +2,7 @@
 Title: Comments vs Forums
 Published: 2003-05-10 20:00:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"482";}'
 dsq_thread_id:

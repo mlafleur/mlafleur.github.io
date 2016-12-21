@@ -2,7 +2,7 @@
 Title: Do Cats Hate Christmas?
 Published: 2006-12-15 03:14:00
 Excerpt: ""
-Tags: Just For Fun
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"363";}'
 dsq_thread_id:

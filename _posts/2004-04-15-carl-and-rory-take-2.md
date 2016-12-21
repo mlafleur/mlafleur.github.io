@@ -2,7 +2,7 @@
 Title: Carl and Rory Take 2?
 Published: 2004-04-15 01:28:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"158";}'
 author:

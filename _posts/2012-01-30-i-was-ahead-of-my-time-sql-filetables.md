@@ -2,9 +2,7 @@
 Title: I was ahead of my time? (SQL FileTables)
 Published: 2012-01-30 13:28:00
 Excerpt: ""
-Tags: >
-  Access, FileStreams, FileTables, SQL,
-  SQL Server, SQL Server 2012
+Tags: null
 views:
   - 'a:1:{i:0;s:4:"1011";}'
 dsq_thread_id:

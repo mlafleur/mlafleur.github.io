@@ -2,7 +2,7 @@
 Title: RMV Awesome
 Published: 2013-10-16 11:17:45
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:1:"7";}'
 panels_data:

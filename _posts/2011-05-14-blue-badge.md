@@ -2,7 +2,7 @@
 Title: Blue Badge
 Published: 2011-05-14 08:25:51
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:4:"2280";}'
 sbg_selected_sidebar:

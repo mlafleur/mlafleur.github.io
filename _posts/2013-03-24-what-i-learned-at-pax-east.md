@@ -2,7 +2,7 @@
 Title: What I Learned at PAX East
 Published: 2013-03-24 16:19:37
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"289";}'
 dsq_thread_id:

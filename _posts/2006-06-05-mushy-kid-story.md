@@ -2,7 +2,7 @@
 Title: Mushy Kid Story
 Published: 2006-06-05 20:10:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"219";}'
 author:

@@ -2,7 +2,7 @@
 Title: Biometrics in the news
 Published: 2003-04-09 06:10:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"221";}'
 author:

@@ -2,7 +2,7 @@
 Title: '&quot;We&#8217;re not gonna take it. No, we ain&#8217;t gonna take it&quot;'
 Published: 2003-08-08 14:17:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"401";}'
 dsq_thread_id:

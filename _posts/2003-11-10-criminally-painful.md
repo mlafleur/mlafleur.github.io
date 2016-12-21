@@ -2,7 +2,7 @@
 Title: Criminally Painful
 Published: 2003-11-10 18:30:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"213";}'
 dsq_thread_id:

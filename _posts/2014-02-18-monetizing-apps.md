@@ -10,7 +10,7 @@ Excerpt: >
   software. App monetization is one of
   those topics that seems to come up
   fairly regularly.
-Tags: 'Monetization, Software Business, Tips &amp; Tricks'
+Tags: null
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3546631366";}'
 author:

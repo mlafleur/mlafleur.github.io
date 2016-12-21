@@ -2,7 +2,7 @@
 Title: 'From bad to worse&#8230;'
 Published: 2003-08-01 14:25:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"343";}'
 dsq_thread_id:

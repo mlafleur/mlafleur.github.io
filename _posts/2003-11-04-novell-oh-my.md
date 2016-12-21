@@ -2,7 +2,7 @@
 Title: 'Novell, Oh My&#8230;.'
 Published: 2003-11-04 19:25:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"186";}'
 dsq_thread_id:

@@ -2,7 +2,7 @@
 Title: Ink Enable The ISV
 Published: 2003-11-18 21:40:00
 Excerpt: ""
-Tags: Tablet PC
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"409";}'
 dsq_thread_id:

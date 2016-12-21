@@ -2,7 +2,7 @@
 Title: Usability FAQ
 Published: 2004-01-10 18:08:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"305";}'
 author:

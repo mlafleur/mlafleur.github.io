@@ -2,7 +2,7 @@
 Title: Scripting Goodies
 Published: 2004-03-17 02:42:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"135";}'
 author:

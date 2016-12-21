@@ -11,7 +11,7 @@ Excerpt: >
   that the words were something to the
   effect of “What did I do to deserve
   these guys for a family?”.
-Tags: Family, Personal
+Tags: null
 panels_data:
   - 'a:1:{i:0;s:6:"a:0:{}";}'
 views:

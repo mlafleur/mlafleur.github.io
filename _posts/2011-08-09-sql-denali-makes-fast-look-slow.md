@@ -2,7 +2,7 @@
 Title: SQL Denali Makes Even Fast Look Slow
 Published: 2011-08-09 16:20:30
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"852";}'
 author:

@@ -2,9 +2,7 @@
 Title: The Magical Little Photon
 Published: 2015-07-01 15:25:42
 Excerpt: "I've been playing around with the latest goody from the folks over at Particle and it just became my go-to microcontroller. "
-Tags: >
-  Core, IoT, Maker, Particle, Photon,
-  Spark
+Tags: null
 dsq_thread_id:
   - 'a:1:{i:0;s:10:"3984269923";}'
 author:

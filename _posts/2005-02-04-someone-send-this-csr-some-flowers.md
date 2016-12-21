@@ -2,7 +2,7 @@
 Title: 'Someone send this CSR some flowers&#8230;'
 Published: 2005-02-04 13:11:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"212";}'
 author:

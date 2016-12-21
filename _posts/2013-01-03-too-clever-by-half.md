@@ -2,7 +2,7 @@
 Title: Too Clever By Half
 Published: 2013-01-03 16:33:34
 Excerpt: "So I'm a bit of a stickler for fool-proof configuration, sometimes to my own detriment. I'm also clever...too clever by half. "
-Tags: Visual Studio
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"296";}'
 dsq_thread_id:

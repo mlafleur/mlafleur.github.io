@@ -2,7 +2,7 @@
 Title: Windows Store Apps
 Published: 2012-08-23 14:58:41
 Excerpt: ""
-Tags: Visual Studio, Windows
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"741";}'
 dsq_thread_id:

@@ -2,7 +2,7 @@
 Title: .NET 3.0 Drops pre-XP Support
 Published: 2006-09-06 15:51:46
 Excerpt: ""
-Tags: .NET
+Tags: null
 views:
   - 'a:1:{i:0;s:4:"1364";}'
 dsq_thread_id:

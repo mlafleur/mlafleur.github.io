@@ -2,7 +2,7 @@
 Title: Handling SIP Errors on Outbound Calls
 Published: 2009-05-15 12:31:21
 Excerpt: ""
-Tags: Skype
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"414";}'
 dsq_thread_id:

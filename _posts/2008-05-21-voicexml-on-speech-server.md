@@ -2,7 +2,7 @@
 Title: VoiceXML on Speech Server
 Published: 2008-05-21 13:46:00
 Excerpt: ""
-Tags: Skype
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"332";}'
 dsq_thread_id:

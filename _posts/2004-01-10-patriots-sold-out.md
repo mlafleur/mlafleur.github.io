@@ -2,7 +2,7 @@
 Title: Patriots Sold Out
 Published: 2004-01-10 18:34:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"177";}'
 author:

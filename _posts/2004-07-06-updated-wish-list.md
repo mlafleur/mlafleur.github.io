@@ -2,7 +2,7 @@
 Title: Updated Wish-List
 Published: 2004-07-06 15:19:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"147";}'
 author:

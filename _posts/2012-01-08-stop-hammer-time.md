@@ -2,9 +2,7 @@
 Title: 'Stop! Hammer time&hellip;'
 Published: 2012-01-08 10:31:51
 Excerpt: ""
-Tags: >
-  Cloud, Mobile, OneNote, TV, Windows,
-  XBOX
+Tags: null
 views:
   - 'a:1:{i:0;s:4:"1482";}'
 dsq_thread_id:

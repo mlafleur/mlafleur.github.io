@@ -2,7 +2,7 @@
 Title: My First Chrome Experience
 Published: 2008-09-03 00:51:25
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"846";}'
 dsq_thread_id:

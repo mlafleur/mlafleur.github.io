@@ -2,7 +2,7 @@
 Title: Scoble Scale?
 Published: 2008-05-27 04:07:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"602";}'
 dsq_thread_id:

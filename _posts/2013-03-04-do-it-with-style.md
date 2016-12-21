@@ -12,7 +12,7 @@ Excerpt: >
   make. To paraphrase an old American
   phrase, they are guidelines not a
   suicide pact.
-Tags: UX, Windows
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"334";}'
 dsq_thread_id:

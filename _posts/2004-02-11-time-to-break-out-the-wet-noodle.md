@@ -2,7 +2,7 @@
 Title: Time to break out the wet noodle
 Published: 2004-02-11 21:23:00
 Excerpt: ""
-Tags: ""
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"178";}'
 dsq_thread_id:

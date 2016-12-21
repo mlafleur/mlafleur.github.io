@@ -4,7 +4,7 @@ Title: >
   Calls
 Published: 2009-07-23 09:06:36
 Excerpt: ""
-Tags: Skype
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"427";}'
 dsq_thread_id:

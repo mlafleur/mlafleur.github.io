@@ -2,7 +2,7 @@
 Title: 'Visual Studio 2005 SDK &#8211; August 2006'
 Published: 2006-08-15 21:02:00
 Excerpt: ""
-Tags: Visual Studio
+Tags: null
 views:
   - 'a:1:{i:0;s:3:"383";}'
 dsq_thread_id:
