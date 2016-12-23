@@ -1,18 +1,7 @@
 ---
 Title: Beta Rollout
-Published: 2003-05-09 14:55:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"222";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-05-09 14:55:00
-post_excerpt:
-  - ""
-permalink:
-  - /beta-rollout/
 ---
 <p><font face=Arial>Eyes bleeding.... Head pounding... Going to explode any second now... AHHHHHH!</font></p>
 <p><font face=Arial>I'm in the middle of a beta rollout of a new release. </font></p>

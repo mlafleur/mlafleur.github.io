@@ -1,18 +1,7 @@
 ---
 Title: More on SpamNet
-Published: 2003-04-11 17:00:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"214";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-04-11 17:00:00
-post_excerpt:
-  - ""
-permalink:
-  - /more-on-spamnet/
 ---
 <p><font face=Arial>This is just an&nbsp;update on my </font><a href="http://dotnetweblogs.com/MLafleur/posts/5353.aspx"><font face=Arial>SpamNet </font></a><font face=Arial>experience so far:</font></p>
 <ul>

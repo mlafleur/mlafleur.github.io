@@ -1,25 +1,8 @@
 ---
 Title: Porting to MySpace using Silverlight
-Published: 2011-04-13 20:00:18
 Excerpt: ""
 Tags:
   - WebDev
-views:
-  - 'a:1:{i:0;s:4:"1577";}'
-sbg_selected_sidebar:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-sbg_selected_sidebar_replacement:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538636499";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-04-13 20:00:18
-post_excerpt:
-  - ""
-permalink:
-  - /porting-to-myspace-using-silverlight/
 ---
 I was looking for a simple way to bring an existing web application to MySpace. I wanted to be able to place this app on a Profile page so that visitors could interact with it (similar to the Music and Video players provided by MySpace).  My initial thought was to simply use an IFRAME that displayed my application. Unfortunately this turned out to be impossible as MySpace doesn't allow IFRAMEs  to be placed on Profile or Home surfaces.
 

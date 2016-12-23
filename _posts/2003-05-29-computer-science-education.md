@@ -1,20 +1,7 @@
 ---
 Title: Computer Science Education
-Published: 2003-05-29 17:06:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"386";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538636710";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-05-29 17:06:00
-post_excerpt:
-  - ""
-permalink:
-  - /computer-science-education/
 ---
 <p><span class=437114316-29052003><font face=Arial size=2>I had the pleasure of 
 interviewing a recent college graduate the other day. While he was one of the 

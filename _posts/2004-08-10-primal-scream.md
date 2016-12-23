@@ -1,20 +1,7 @@
 ---
 Title: Primal Scream
-Published: 2004-08-10 22:38:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"273";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538634220";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-08-10 22:38:00
-post_excerpt:
-  - ""
-permalink:
-  - /primal-scream/
 ---
 <div>Every have one of those days were it seems like the world is secretly trying to scramble your brains? I'm having one today.</div>
 <div>For some reason this statement compiles just fine:</div><pre><font size=2><p></p></font><font color=#0000ff size=2>if</font><font size=2>(anyYearCheck.Checked = </font><font color=#0000ff size=2>false</font><font size=2> &amp;&amp; (1 &gt; 2))<p>{</p><p>}</p></font></pre>

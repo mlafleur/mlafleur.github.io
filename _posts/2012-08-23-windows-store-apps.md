@@ -1,22 +1,9 @@
 ---
 Title: Windows Store Apps
-Published: 2012-08-23 14:58:41
 Excerpt: ""
 Tags:
   - Visual Studio
   - Windows
-views:
-  - 'a:1:{i:0;s:3:"741";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"4010490136";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-08-23 14:58:41
-post_excerpt:
-  - ""
-permalink:
-  - /windows-store-apps/
 ---
 I've run into a couple of developers asking where "Metro Style Apps" went in the RTM version of Visual Studio 2012. Don't worry, they are still there. They just have a new name. That term "Metro" was just a placeholder during the beta phase.
 

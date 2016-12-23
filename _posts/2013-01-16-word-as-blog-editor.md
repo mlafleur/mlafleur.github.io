@@ -1,6 +1,5 @@
 ---
 Title: Word as Blog Editor
-Published: 2013-01-16 14:28:43
 Excerpt: >
   Did you know that Microsoft Word also
   makes an excellent blog editor? In fact,
@@ -9,24 +8,6 @@ Excerpt: >
   is rather simple, albeit a little round
   about.
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"757";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538706248";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-01-16 14:28:43
-post_excerpt:
-  - >
-    Did you know that Microsoft Word also
-    makes an excellent blog editor? In fact,
-    this post made using Word 2013. So how
-    do you set up Word for blog editing? It
-    is rather simple, albeit a little round
-    about.
-permalink:
-  - /word-as-blog-editor/
 ---
 Did you know that Microsoft Word also makes an excellent blog editor? In fact, this post made using Word 2013. So how do you set up Word for blog editing? It is rather simple, albeit a little round about.
 

@@ -1,20 +1,7 @@
 ---
 Title: New Resource Kit from Microsoft
-Published: 2003-10-30 00:57:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"181";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538638531";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-10-30 00:57:00
-post_excerpt:
-  - ""
-permalink:
-  - /new-resource-kit-from-microsoft/
 ---
 <p>Still not enough <a href="http://weblogs.asp.net/mlafleur/posts/34587.aspx" target=_blank>free</a> <a href="http://weblogs.asp.net/mlafleur/posts/34590.aspx" target=_blank>stuff</a> for you tonight? How about one more?</p>
 <p>Microsoft released a free <a href="http://msdn.microsoft.com/vbasic/vbrkit/default.aspx" target=_blank>Visual Basic .NET Resource kit</a>. And even if you are not a VB developer, it is worth a look. Among it's contents are free (yes, as in beer) copies of several big name .NET components:</p>

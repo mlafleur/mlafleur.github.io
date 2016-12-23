@@ -1,20 +1,7 @@
 ---
 Title: Apple Product
-Published: 2004-01-29 20:17:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"212";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538635951";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-01-29 20:17:00
-post_excerpt:
-  - ""
-permalink:
-  - /apple-product/
 ---
 <div>
 <p>I have to agree with <a href="http://www.kstati.com/tabula/archive/2004/01/28/1106.aspx" target=_blank>Peter Rysavy</a> on the overall quality of <a href="http://www.apple.com/" target=_blank>Apple</a>&#8217;s products. They make <i><span>very</span></i> nice equipment that just seems to work.</p>

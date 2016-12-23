@@ -1,24 +1,11 @@
 ---
 Title: 'WebAuthenticationBroker &#038; Facebook'
-Published: 2013-04-19 08:42:01
 Excerpt: "I needed to use Facebook authentication in a Windows Store app the other day. The Windows Runtime makes this trivially easy with it's WebAuthenticationBroker class. The web authentication broker allows apps to use Internet authentication and authorization protocols like OAuth and OpenID with minimal effort."
 Tags:
   - OpenAuth
   - OpenID
   - WebAuthenticationBroker
   - Windows
-views:
-  - 'a:1:{i:0;s:3:"585";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3541860397";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-04-19 08:42:01
-post_excerpt:
-  - "I needed to use Facebook authentication in a Windows Store app the other day. The Windows Runtime makes this trivially easy with it's WebAuthenticationBroker class. The web authentication broker allows apps to use Internet authentication and authorization protocols like OAuth and OpenID with minimal effort."
-permalink:
-  - /webauthenticationbroker-facebook/
 ---
 I needed to use Facebook authentication in a Windows Store app the other day. The Windows Runtime makes this trivially easy with it's <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br227044.aspx" target="_blank">WebAuthenticationBroker </a>class. The web authentication broker allows apps to use Internet authentication and authorization protocols like <a href="http://oauth.net/2/" target="_blank">OAuth </a>and <a href="http://openid.net/" target="_blank">OpenID</a> with minimal effort. Unfortunately the samples I found on the interwebs for Facebook were buggy/incomplete or assumed the I had a deep understanding of Facebook authentication. After a bit of work I was able to get it working and figured I'd share to save someone else some time. <span style="font-size: 12pt;">
 </span>

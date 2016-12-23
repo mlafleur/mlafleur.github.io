@@ -1,6 +1,5 @@
 ---
 Title: I was ahead of my time? (SQL FileTables)
-Published: 2012-01-30 13:28:00
 Excerpt: ""
 Tags:
   - Access
@@ -9,18 +8,6 @@ Tags:
   - SQL
   - SQL Server
   - SQL Server 2012
-views:
-  - 'a:1:{i:0;s:4:"1011";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3540663421";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-01-30 13:28:00
-post_excerpt:
-  - ""
-permalink:
-  - /i-was-ahead-of-my-time-sql-filetables/
 ---
 A long time ago in a land far away (ok, 40 minutes west and 20 years ago but lets not quibble over the details) I started playing with Microsoft Access. I loved I (Yes. I said I loved Access. It was the 90's. Things were different then. We shall never speak of this again. Thank you.). In fact, I over-loved it. I shoved everything into it.Â  Application data, logging, security and even files. Yes, I said files. I know, I know. It was a bad idea.
 

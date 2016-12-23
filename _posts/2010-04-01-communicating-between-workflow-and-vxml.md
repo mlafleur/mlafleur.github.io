@@ -1,20 +1,8 @@
 ---
 Title: Communicating Between Workflow and VXML
-Published: 2010-04-01 11:08:00
 Excerpt: ""
 Tags:
   - Skype
-views:
-  - 'a:1:{i:0;s:3:"322";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2010-04-01 11:08:00
-post_excerpt:
-  - ""
-permalink:
-  - >
-    /communicating-between-workflow-and-vxml/
 ---
 <p>When working with the VoiceXML Interpreter Activity the simple act of passing data between your Workflow and your VXML applications can be tricky to figure out. Hopefully this post will save someone the time I spent scratching my head the first time around.</p>  <p><strong>Passing Data In</strong></p>  <p>Lets say I want to pass "The dog is brown" to my VXML application so that is can in turn relay this very vital information to the caller. </p>  <p>Prior to VXML activity I'll drop a Code activity with the following in its ExecuteCode method:</p>  <pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:650px;padding-right:5px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"></pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,'Courier New',courier,monospace;font-size:12px;">VXML.ApplicationData.Add(&quot;<span style="color:#8b0000;">PassedInVar</span>&quot;, &quot;<span style="color:#8b0000;">The dog is brown</span>&quot;);</pre>
 

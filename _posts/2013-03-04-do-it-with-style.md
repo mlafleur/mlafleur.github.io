@@ -1,6 +1,5 @@
 ---
 Title: Do It With Style
-Published: 2013-03-04 22:26:05
 Excerpt: >
   The truth is that equating "design
   guidelines" with "every app looks the
@@ -15,28 +14,6 @@ Excerpt: >
 Tags:
   - UX
   - Windows
-views:
-  - 'a:1:{i:0;s:3:"334";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3701465947";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-03-04 22:26:05
-post_excerpt:
-  - >
-    The truth is that equating "design
-    guidelines" with "every app looks the
-    same" is akin equating "code standards"
-    with "every app does this same thing".
-    Guidelines serve to reduce the number of
-    decisions we are forced to make, they do
-    not limit the decisions you want to
-    make. To paraphrase an old American
-    phrase, they are guidelines not a
-    suicide pact.
-permalink:
-  - /do-it-with-style/
 ---
 Along with the introduction of Windows 8 came the induction of formalized user experience <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh465424.aspx" target="_blank">design guidelines</a>. This was a pretty revolutionary step in Windows development. The historic lack of any formal UX guidelines for previous versions of Windows had been bemoaned by for years. Developers were left to their own devices with predictable results; including <a href="http://www.interfacehallofshame.eu/www.iarchitect.com/shame.htm" target="_blank">entire web sites</a> devoted to shaming some of the more horrendous examples.
 

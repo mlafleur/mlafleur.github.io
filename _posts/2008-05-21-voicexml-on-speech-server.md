@@ -1,21 +1,8 @@
 ---
 Title: VoiceXML on Speech Server
-Published: 2008-05-21 13:46:00
 Excerpt: ""
 Tags:
   - Skype
-views:
-  - 'a:1:{i:0;s:3:"332";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538635061";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2008-05-21 13:46:00
-post_excerpt:
-  - ""
-permalink:
-  - /voicexml-on-speech-server/
 ---
 <p>Yesterday I posted about an issue with Speech Server and Vista. One reader named Bill asked a question in the comments. My response was a bit long for a comment so I decided to turn it into a separate post instead. </p>
 <blockquote>

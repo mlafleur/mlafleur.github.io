@@ -1,23 +1,10 @@
 ---
 Title: Web Service Hell
-Published: 2003-04-01 13:38:00
 Excerpt: ""
 Tags:
   - SOAP
   - Web Services
   - WebDev
-views:
-  - 'a:1:{i:0;s:3:"591";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538636566";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-04-01 13:38:00
-post_excerpt:
-  - ""
-permalink:
-  - /web-service-hell/
 ---
 <p class=MsoNormal style="MARGIN: 0in 0in 0pt"><font face=Arial>Let me warn you that this posting may be a little incoherent and I apologies for that. You see, my brain is currently lying on the floor next to me. It seems that in a fit of frustration it jumped for it.</font></p>< ?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p><font face=Arial>&nbsp;</font></o:p> 
 <p class=MsoNormal style="MARGIN: 0in 0in 0pt"><font face=Arial>This week I decided to join the rest of the .< ?xml:namespace prefix = st2 ns = "urn:schemas-microsoft-com:office:smarttags" /><st2:stockticker>NET</st2:stockticker> world and try my luck at Web Services. They seemed simply enough. Heck, they even include the world "Simple" in the protocol name! So how much trouble could this cause me anyway? Ugâ€¦.</font></p><o:p><font face=Arial>&nbsp;</font></o:p> 

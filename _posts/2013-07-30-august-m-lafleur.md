@@ -1,6 +1,5 @@
 ---
 Title: August M. LaFleur
-Published: 2013-07-30 21:16:17
 Excerpt: >
   August Manross LaFleur was born late
   Thursday evening weighing 7lbs and
@@ -14,29 +13,6 @@ Excerpt: >
 Tags:
   - Family
   - Personal
-panels_data:
-  - 'a:1:{i:0;s:6:"a:0:{}";}'
-views:
-  - 'a:1:{i:0;s:3:"210";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"4036992474";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-07-30 21:16:17
-post_excerpt:
-  - >
-    August Manross LaFleur was born late
-    Thursday evening weighing 7lbs and
-    laying 19 inches long. His first words
-    upon entering this world were
-    unintelligible and awaiting audio
-    analysis. Several witnesses reported
-    that the words were something to the
-    effect of “What did I do to deserve
-    these guys for a family?”.
-permalink:
-  - /august-m-lafleur/
 ---
 CAPE COD, July 25 2013 – August Manross LaFleur was born late Thursday evening weighing 7lbs and laying 19 inches long. His first words upon entering this world were unintelligible and awaiting audio analysis. Several witnesses reported that the words were something to the effect of “What did I do to deserve these guys for a family?”. Other witnesses stated that he was reminding his parents that he wasn't in fact born in August and irony is highly overrated and should be left to hipsters. His parents have issued a statement thought a spokesperson reminding him that he showed up weeks earlier than expected.
 

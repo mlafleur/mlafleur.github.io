@@ -1,6 +1,5 @@
 ---
 Title: 'Quick Tip &#8211; Microsoft.MDA.targets Not Found Error'
-Published: 2015-03-20 11:02:49
 Excerpt: 'The other day however I ran into an ugly error opening a Tools for Apache Cordova project:  "The imported project C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CordovaTools\vs-mda-targets\Microsoft.MDA.targets was not found". Here is the workaround for this error. '
 Tags:
   - Cordova
@@ -8,20 +7,6 @@ Tags:
   - Visual Studio 2013
   - Visual Studio 2015
   - Visual Studio Tools for Apache Cordova
-dsq_thread_id:
-  - "3612284146"
-author:
-  - Marc LaFleur
-post_date:
-  - 2015-03-20 11:02:49
-post_excerpt:
-  - 'The other day however I ran into an ugly error opening a Tools for Apache Cordova project:  "The imported project C:Program Files (x86)MSBuildMicrosoftVisualStudiov14.0CordovaToolsvs-mda-targetsMicrosoft.MDA.targets was not found". Here is the workaround for this error. '
-  - 'The other day however I ran into an ugly error opening a Tools for Apache Cordova project:  "The imported project C:Program Files (x86)MSBuildMicrosoftVisualStudiov14.0CordovaToolsvs-mda-targetsMicrosoft.MDA.targets was not found". Here is the workaround for this error. '
-permalink:
-  - >
-    /quick-tip-microsoft-mda-targets-not-found-error/
-  - >
-    /quick-tip-microsoft-mda-targets-not-found-error/
 ---
 I've been doing a lot more work with Apache Cordova projects, specifically  I've been working on projects using the Visual Studio Tools for Apache Cordova &lt;insert your favorite joke about Microsoft product naming&gt;. I've been a Cordova/Phonegap fan since the beginning but marrying it to the Visual Studio debugging experience has taken the awesomeness to a new level.
 

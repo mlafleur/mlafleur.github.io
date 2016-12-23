@@ -1,6 +1,5 @@
 ---
 Title: Web API Routing by Content-Type
-Published: 2014-11-05 15:24:40
 Excerpt: >
   Implementing a custom Route Attribute
   for Web API that considers Content-Type.
@@ -14,23 +13,6 @@ Tags:
   - REST
   - WebApi
   - Windows
-dsq_thread_id:
-  - "3538598338"
-author:
-  - Marc LaFleur
-post_date:
-  - 2014-11-05 15:24:40
-post_excerpt:
-  - >
-    Implementing a custom Route Attribute
-    for Web API that considers Content-Type.
-    This allows for routing based on the
-    data encoding being supplied by the HTTP
-    Request, not just the path and
-    parameters it was sent to.
-permalink:
-  - /web-api-routing-by-content-type/
-  - /web-api-routing-by-content-type/
 ---
 <a href="http://www.asp.net/web-api" target="_blank">ASP.NET Web API </a>has a really slick routing engine that pretty much "just works" right out of the box. It can automatically configure routing using your method name (i.e. GetStuff = GET, PostStuff = POST, DeleteStuff = PUT, etc.) and when this is insufficient you can easily override the behavior by decorating your methods with <a href="http://msdn.microsoft.com/en-us/library/system.web.http.routeattribute(v=vs.118).aspx" target="_blank">Route</a> and <a href="http://msdn.microsoft.com/en-us/library/system.web.http.acceptverbsattribute(v=vs.118).aspx" target="_blank">AcceptVerbs</a> attributes.
 

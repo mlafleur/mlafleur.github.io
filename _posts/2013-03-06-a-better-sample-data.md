@@ -1,22 +1,9 @@
 ---
 Title: A Better Sample Data
-Published: 2013-03-06 11:36:10
 Excerpt: "Visual Studio's templates provide a great jump start but there they are tab visually boring out of the box. Here we spice them up a bit with placeholder images. "
 Tags:
   - Visual Studio
   - Windows
-views:
-  - 'a:1:{i:0;s:3:"721";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"4094711490";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-03-06 11:36:10
-post_excerpt:
-  - "Visual Studio's templates provide a great jump start but there they are tab visually boring out of the box. Here we spice them up a bit with placeholder images. "
-permalink:
-  - /a-better-sample-data/
 ---
 <a href="http://www.hanselman.com" target="_blank">Scott Hanselman</a> recently wrote about some <a href="http://www.hanselman.com/blog/TheInternetsBestPlaceholderImageSitesForWebDevelopment.aspx" target="_blank">placeholder images sites for web development</a>. As is typical for one of his posts, it pointed me towards something I was completely unaware of. It also inspired me to solve a personally annoyance of mine.
 

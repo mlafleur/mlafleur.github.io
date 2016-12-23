@@ -1,20 +1,7 @@
 ---
 Title: Blogeting?
-Published: 2003-07-11 18:41:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"226";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538637031";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-07-11 18:41:00
-post_excerpt:
-  - ""
-permalink:
-  - /blogeting/
 ---
 <p><span class="281540118-11072003"><font face="Arial" size="2">As a customer of <a href="http://www.sourcegear.com">Sourcegear </a>(<a href="http://www.sourcegear.com/vault">Vault</a>)Â and <a href="http://www.fogcreek.com">Fog Creek </a>(<a href="http://www.fogcreek.com/FogBUGZ">FogBugz</a>), I was thinking today about 
 how much blogs are influencing myÂ purchasing decisions. I don't think we 

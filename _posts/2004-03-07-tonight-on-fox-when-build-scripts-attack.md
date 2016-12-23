@@ -1,21 +1,7 @@
 ---
 Title: 'Tonight On Fox: When Build Scripts Attack!'
-Published: 2004-03-07 19:04:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"217";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538634099";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-03-07 19:04:00
-post_excerpt:
-  - ""
-permalink:
-  - >
-    /tonight-on-fox-when-build-scripts-attack/
 ---
 <div>
 <p>&nbsp;I'm going to hate Monday....</p>

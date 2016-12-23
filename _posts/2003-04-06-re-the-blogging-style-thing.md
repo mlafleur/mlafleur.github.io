@@ -1,18 +1,7 @@
 ---
 Title: 'Re: the blogging style thing'
-Published: 2003-04-06 04:13:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"206";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-04-06 04:13:00
-post_excerpt:
-  - ""
-permalink:
-  - /re-the-blogging-style-thing/
 ---
 <blockquote dir=ltr style="MARGIN-RIGHT: 0px">
 <p><em>Also, commenting on other peoples blogs is inconvenient because you have to manually go back and check whether you've been flamed :P or not :-) <br />[</em><a href="http://dotnetweblogs.com/DNeimke/posts/4910.aspx"><em>DNeimke</em></a><em>]</em></p></blockquote>

@@ -1,18 +1,7 @@
 ---
 Title: Windows, that other kind
-Published: 2003-09-19 04:01:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"218";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-09-19 04:01:00
-post_excerpt:
-  - ""
-permalink:
-  - /windows-that-other-kind/
 ---
 <font face=Verdana size=2><img height=212 src="http://dev.genesisfour.com/BWIND.jpg" width=98 align=right border=0/> </font>
 <p><font face=Verdana size=2>We decided a little while back to <a href="http://weblogs.asp.net/mlafleur/posts/24791.aspx" target=_blank>add a developer</a> to the company. Until now it was just me and some contractors to pick up the slack. But as the customer base has grown and the decision to move to .NET was made, it became clear that I needed real full-time help. </font></p>

@@ -1,18 +1,7 @@
 ---
 Title: Out From The Dust
-Published: 2003-10-09 16:52:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"157";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-10-09 16:52:00
-post_excerpt:
-  - ""
-permalink:
-  - /out-from-the-dust/
 ---
 <p><font face=Verdana>I've learned something this month. Ok, I learned a few things:</font></p>
 <p><font face=Verdana>1. Life without an internet connection is just too much to take. </font></p>

@@ -1,22 +1,11 @@
 ---
 Title: 'Hello World, It&#8217;s OneNote'
-Published: 2015-05-26 22:21:21
 Excerpt: ""
 Tags:
   - Blogging
   - Editors
   - Office
   - OneNote
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3796617702";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2015-05-26 22:21:21
-post_excerpt:
-  - ""
-permalink:
-  - /hello-world-its-onenote/
 ---
 I'm writing this post using <a href="https://www.onenote.com/">OneNote</a>. This isn't very interesting and I would be remiss if I didn't point out that just about every blog post I've made over the last decade originated in OneNote. I've used any number of editors over the years, the content almost always originated in OneNote.
 

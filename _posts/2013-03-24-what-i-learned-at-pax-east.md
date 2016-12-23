@@ -1,20 +1,7 @@
 ---
 Title: What I Learned at PAX East
-Published: 2013-03-24 16:19:37
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"289";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"4294158781";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-03-24 16:19:37
-post_excerpt:
-  - ""
-permalink:
-  - /what-i-learned-at-pax-east/
 ---
 I spent Saturday at <a href="http://east.paxsite.com/" target="_blank">PAX East 2013</a> in Boston. If you’re not familiar with PAX, it is a conference put on by the folks at <a href="http://www.penny-arcade.com/" target="_blank">Penny Arcade</a>. If you enjoying “gaming” (in any form) then this is your nirvana. They cover quite a bit of ground from table-top to video games to cosplay… Just imaging if a scheduling SNAFU resulted in <a href="http://www.e3expo.com/" target="_blank">E3</a> and <a href="http://www.comic-con.org/" target="_blank">Comic-Con</a> happening in the same building.
 

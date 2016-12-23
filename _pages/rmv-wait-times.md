@@ -1,18 +1,7 @@
 ---
 Title: RMV Wait Times
-Published: 2012-12-19 23:27:44
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"262";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-12-19 23:27:44
-post_excerpt:
-  - ""
-permalink:
-  - /apps/rmv-wait-times/
 ---
 RMV Wait Times is a simple Windows Phone app for tracking the wait time at the various Massachusetts Registry of Motor Vehicles (RMV) locations. It is available for Windows Phone 7, Windows Phone 7.5 and Windows Phone 8.
 

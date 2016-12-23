@@ -1,24 +1,10 @@
 ---
 Title: Updating My PHP for WordPress
-Published: 2014-10-17 12:12:49
 Excerpt: "A few years ago I moved my blog to an Azure VM and it has been running flawlessly ever since. Thanks to WordPress' update process and automatic Windows Updates, there really wasn't much for me to manage. I have zero complaints."
 Tags:
   - Azure
   - PHP
   - WordPress
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3565437765";}'
-author:
-  - Marc LaFleur
-  - Marc LaFleur
-post_date:
-  - 2014-10-17 12:12:49
-  - 2014-10-17 12:12:49
-post_excerpt:
-  - "A few years ago I moved my blog to an Azure VM and it has been running flawlessly ever since. Thanks to WordPress' update process and automatic Windows Updates, there really wasn't much for me to manage. I have zero complaints."
-permalink:
-  - /upgrading-php-on-azure/
-  - /upgrading-php-on-azure/
 ---
 A few years ago I moved my blog to an Azure VM and it has been running flawlessly ever since. Thanks to WordPress' update process and automatic Windows Updates, there really wasn't much for me to manage. I have zero complaints.
 
@@ -32,7 +18,7 @@ Upgrading PHP is thankfully pretty trivial. I opened up the <a href="http://www.
 
 &nbsp;
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb.png" alt="image" width="644" height="441" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb.png" alt="image" width="644" height="441" border="0" /></a>
 
 &nbsp;
 
@@ -46,7 +32,7 @@ Upgrading PHP is thankfully pretty trivial. I opened up the <a href="http://www.
 
 One I installed the bits I then needed to restart IIS and reconfigure the PHP version it was pointing at. This is done at the root IIS level using the PHP Manager we installed a moment ago.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image1.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb1.png" alt="image" width="644" height="484" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image1.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb1.png" alt="image" width="644" height="484" border="0" /></a>
 
 &nbsp;
 
@@ -54,7 +40,7 @@ Opening up the manager presents you with the current PHP settings. Clicking on t
 
 &nbsp;
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image2.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb2.png" alt="image" width="445" height="207" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image2.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb2.png" alt="image" width="445" height="207" border="0" /></a>
 
 &nbsp;
 
@@ -66,7 +52,7 @@ To make this changes I selected "Manage All Settings" from the PHP Manager and f
 
 &nbsp;
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image3.png"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb3.png" alt="image" width="644" height="484" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image3.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb3.png" alt="image" width="644" height="484" border="0" /></a>
 
 &nbsp;
 

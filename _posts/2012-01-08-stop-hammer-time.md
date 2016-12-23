@@ -1,6 +1,5 @@
 ---
 Title: 'Stop! Hammer time&hellip;'
-Published: 2012-01-08 10:31:51
 Excerpt: ""
 Tags:
   - Cloud
@@ -9,18 +8,6 @@ Tags:
   - TV
   - Windows
   - XBOX
-views:
-  - 'a:1:{i:0;s:4:"1482";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3849496227";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-01-08 10:31:51
-post_excerpt:
-  - ""
-permalink:
-  - /stop-hammer-time/
 ---
 For lovers of hyperbolic technology predictions, 2011 was a banner year. Based on media coverage one would assume that right now I'm sitting in front of my 3D TV while I write this blog on my phone. Meanwhile my ceiling is checking the weather while my refrigerator is busy posting to Google+ that I'm low on coconut water.
 

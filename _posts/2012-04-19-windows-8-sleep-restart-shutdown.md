@@ -1,23 +1,9 @@
 ---
 Title: 'Windows 8: Sleep, Restart &amp; Shutdown'
-Published: 2012-04-19 11:52:09
 Excerpt: |
   Of all the questions I've seen regarding the Windows 8 Consumer Preview, "How do I shutdown?" seems to be the most prevalent. I've spent my share of time on various social networks showing people how to do it but that just doesn't scale. As such, I've decided to instead simply consolidate the various answers to the question.
 Tags:
   - Windows
-views:
-  - 'a:1:{i:0;s:4:"2048";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3943434261";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-04-19 11:52:09
-post_excerpt:
-  - |
-    Of all the questions I've seen regarding the Windows 8 Consumer Preview, "How do I shutdown?" seems to be the most prevalent. I've spent my share of time on various social networks showing people how to do it but that just doesn't scale. As such, I've decided to instead simply consolidate the various answers to the question.
-permalink:
-  - /windows-8-sleep-restart-shutdown/
 ---
 Of all the questions I've seen regarding the Windows 8 Consumer Preview, "How do I shutdown?" seems to be the most prevalent. I've spent my share of time on various social networks showing people how to do it but that just doesn't scale. As such, I've decided to instead simply consolidate the various answers to the question. I've broken them down into two categories; Keyboard/Mouse and Touch.
 <h1>Keyboard/Mouse Users</h1>

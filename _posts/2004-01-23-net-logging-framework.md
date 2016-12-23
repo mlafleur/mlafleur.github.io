@@ -1,20 +1,7 @@
 ---
 Title: .NET Logging Framework
-Published: 2004-01-23 21:10:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"166";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"4134916624";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-01-23 21:10:00
-post_excerpt:
-  - ""
-permalink:
-  - /net-logging-framework/
 ---
 <div>
 <p>A few days ago I made mention of a <a title=http://www.theobjectguy.com/dotnetlog/ href="http://www.theobjectguy.com/dotnetlog/" target=_blank>.NET Logging Framework</a> I had been using (and still am, and still loving).&nbsp;</p>

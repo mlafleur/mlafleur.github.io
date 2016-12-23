@@ -1,20 +1,7 @@
 ---
 Title: New Years Wish-List
-Published: 2004-01-04 17:14:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"198";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538636160";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-01-04 17:14:00
-post_excerpt:
-  - ""
-permalink:
-  - /new-years-wish-list/
 ---
 <font face="Courier New" size=2>Happy New Year Everyone!&nbsp; <i><span style="FONT-STYLE: italic">Ok, so I&#8217;m a bit late&#8230; shoot me< ?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></span></i> </font>
 <p><span style="FONT-SIZE: 12pt"><font face="Courier New"></font><font size=2>While everyone is still trying to keep up with their New Year resolutions I decided to forgo the entire process this year and instead focus on my technology wish list for 2004. I&#8217;ll accept that I&#8217;m as likely to see my wish-list come true as you are to stop eating the chocolate you resolved to give up. But as that didn&#8217;t stop you from making your resolutions, I&#8217;m not about to allow it to stop me from wishing away. :)<o:p></o:p></font></span></p>

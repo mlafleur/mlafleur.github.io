@@ -1,18 +1,7 @@
 ---
 Title: Updated Wish-List
-Published: 2004-07-06 15:19:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"147";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-07-06 15:19:00
-post_excerpt:
-  - ""
-permalink:
-  - /updated-wish-list/
 ---
 <p>Now that we are half-way through 2004,&nbsp;I thought I would take a look back at my <a href="http://weblogs.asp.net/mlafleur/archive/2004/01/04/47472.aspx">New Year Wish-List </a>and see how far we have come. </p>
 <p dir=ltr><font color=#006400></font><font face=Symbol size=3><span><span>

@@ -1,18 +1,7 @@
 ---
 Title: Massachusetts RMV Info
-Published: 2012-12-19 23:34:54
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"327";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-12-19 23:34:54
-post_excerpt:
-  - ""
-permalink:
-  - /apps/massachusetts-rmv-info/
 ---
 Massachusetts RMV Info is a simple Widows 8 app for getting information on the various Massachusetts Registry of Motor Vehicles (RMV) locations. It includes maps and current wait times for each location.
 

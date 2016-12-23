@@ -1,33 +1,10 @@
 ---
 Title: Settings Charm
-Published: 2012-11-19 00:34:38
 Excerpt: ""
 Tags:
   - Charms
   - Settings
   - Windows
-networkpub_postmessage:
-  - 'a:1:{i:0;s:0:"";}'
-networkpub_twitterhandle:
-  - 'a:1:{i:0;s:0:"";}'
-networkpub_twitterhash:
-  - 'a:1:{i:0;s:0:"";}'
-networkpub_ogtype_facebook:
-  - 'a:1:{i:0;s:0:"";}'
-networkpub_post_image_video:
-  - 'a:1:{i:0;s:0:"";}'
-views:
-  - 'a:1:{i:0;s:3:"850";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538706470";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-11-19 00:34:38
-post_excerpt:
-  - ""
-permalink:
-  - /settings-charm/
 ---
 One of the nice things about Windows 8 for developers adoption of some clearly defined (and long needed) <a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh779072.aspx" target="_blank">user experience standards</a>. While in the past we relied on conventions (Help -&gt; About for example) those conventions were not always followed and often didn't make a lot of sense (Help -&gt; About for example). A great example of these UX standards are the Charms. Here we'll take a look at the Charm you're most likely to encounter; the <a href="http://msdn.microsoft.com/en-us/library/windows/apps/Hh770544.aspx" target="_blank">Settings Charm</a>.
 

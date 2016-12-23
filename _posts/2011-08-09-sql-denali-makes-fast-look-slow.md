@@ -1,18 +1,7 @@
 ---
 Title: SQL Denali Makes Even Fast Look Slow
-Published: 2011-08-09 16:20:30
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"852";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-08-09 16:20:30
-post_excerpt:
-  - ""
-permalink:
-  - /sql-denali-makes-fast-look-slow/
 ---
 I've seen a lot of performance testing over the years, every so often I'm even impressed a bit by the results. Here is one however that will melt the mind of anyone working against large SQL databases: SQL Denali + 1.4 billion with a b rows = 455x increase from 2008 R2. No, I didn't fat finger an extra 5 there. It was that big.
 

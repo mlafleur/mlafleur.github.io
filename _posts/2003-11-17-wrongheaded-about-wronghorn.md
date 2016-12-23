@@ -1,20 +1,7 @@
 ---
 Title: 'Wrongheaded About &#8216;Wronghorn&#8217;'
-Published: 2003-11-17 20:18:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"259";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538638389";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-11-17 20:18:00
-post_excerpt:
-  - ""
-permalink:
-  - /wrongheaded-about-wronghorn/
 ---
 <p><a href="http://radio.weblogs.com/0001011/2003/11/17.html#a5497" target=_blank>Robert Scoble mentioned</a> an article by Tom McCune today titled "<a href="http://zdnet.com.com/2100-1107-5108026.html" target=_blank>Five Myths About 'Wronghorn'</a>" earlier today. I think Robert was correct in speculating that Mr. McCune was not in attendance at the PDC. His take on what Longhorn means seems about as misguided as any I've heard in recent months.</p>
 <p>His statement that purchasing Longhorn isn't a worthwhile investment because you are paying for features you might not use is poor at best. And when he states "It's like going for a fully loaded SUV when only one person will be driving the vehicle to the train station. A Ford Focus would do, but you're force to buy a Lincoln Navigator" makes we wonder if he has been to the train station lately. It is full of vehicles designed for off-road and heavy-hauling being driven by a decidedly on-road, light-hauling, class of driver. Unless you really believe that fellow in the $3,000 Armani suite spends his off time hauling boulders up Mt. Washington.</p>

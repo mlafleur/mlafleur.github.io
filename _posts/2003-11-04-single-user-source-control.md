@@ -1,20 +1,7 @@
 ---
 Title: Single User Source Control
-Published: 2003-11-04 18:43:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"183";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538638468";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-11-04 18:43:00
-post_excerpt:
-  - ""
-permalink:
-  - /single-user-source-control/
 ---
 <p><a href="http://software.ericsink.com/20031103.html#10134">Eric Sink</a> has written up a few reasons for using source code control in a &#8220;team of one&#8221;. But something he wrote bothered me. He stated more than once thatÂ &#8220;for a solo developer, source control actually isn't all that compelling&#8221;. But I think it is just as compelling as for a team of 1 as it is for 100. It is just easier to implement.</p>
 <p>I've been working on a commercial software package for the last 8 years. I've also been the only full-time developer in the company over that same period. The product (<a href="http://www.service2k.com/">shameless plug</a>) is quite large are covers a vast number of business processes. And if it wasn't for good source code control, I would never have been able to do my job.</p>

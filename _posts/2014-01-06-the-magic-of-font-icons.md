@@ -1,25 +1,11 @@
 ---
 Title: The Magic of Font Icons
-Published: 2014-01-06 00:03:22
 Excerpt: |
   Okay, it isn't magic but it is "one of those things" that I've wished I could easily do for years that finally came together. Anyone who has tried to mess around with creating custom paths for glyphs in their apps will truly appreciate how easy things have become.
 Tags:
   - FontIcon
   - Windows
   - XAML
-panels_data:
-  - 'a:1:{i:0;s:6:"a:0:{}";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3546631864";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2014-01-06 00:03:22
-post_excerpt:
-  - |
-    Okay, it isn't magic but it is "one of those things" that I've wished I could easily do for years that finally came together. Anyone who has tried to mess around with creating custom paths for glyphs in their apps will truly appreciate how easy things have become.
-permalink:
-  - /the-magic-of-font-icons/
 ---
 With the release of Windows 8.1 came a little noticed addition to XAML called <a href="http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.fonticon.aspx" target="_blank">FontIcon</a>. It is a rather simple XAML tag designed to show a glyph from a specified font. At the same time came two other tags in a similar vain (<a href="http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.symbolicon.aspx" target="_blank">SymbolIcon </a>which shows a glyph from Segoe UI and <a href="http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.pathicon.aspx">PathIcon</a> which displays a <a href="http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.shapes.path.aspx">path</a>).
 

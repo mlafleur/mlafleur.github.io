@@ -1,24 +1,9 @@
 ---
 Title: Seting Up Settings
-Published: 2013-10-17 07:43:43
 Excerpt: "Windows 8.1 introduces a new control for XAML, the SettingsFlyout. Most examples on using this new control assume you're defining your Settings at the page level. Here we outline a model for doing this scoped to the Application leveraging SettingsFlyout , User Controls in C# /XAML. It is incredibly easy to implement. "
 Tags:
   - Controls
   - Windows
-panels_data:
-  - 'a:1:{i:0;s:6:"a:0:{}";}'
-views:
-  - 'a:1:{i:0;s:3:"313";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3590304804";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-10-17 07:43:43
-post_excerpt:
-  - "Windows 8.1 introduces a new control for XAML, the SettingsFlyout. Most examples on using this new control assume you're defining your Settings at the page level. Here we outline a model for doing this scoped to the Application leveraging SettingsFlyout , User Controls in C# /XAML. It is incredibly easy to implement. "
-permalink:
-  - /seting-up-settings/
 ---
 Last fall I wrote about the <a title="Settings Charm" href="http://massivescale.azurewebsites.net/settings-charm/" target="_blank">Settings Charm</a> and how to leverage it for Privacy Policy. That post is still completely relevant today but I want to update the examples to leverage the new Settings Flyout control in Windows 8.1.
 

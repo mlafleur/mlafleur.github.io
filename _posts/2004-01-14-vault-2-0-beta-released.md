@@ -1,18 +1,7 @@
 ---
 Title: Vault 2.0 Beta Released
-Published: 2004-01-14 22:44:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"199";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-01-14 22:44:00
-post_excerpt:
-  - ""
-permalink:
-  - /vault-2-0-beta-released/
 ---
 <div class=Section1>
 <p class=MsoNormal>I tossed on my &#8220;Reckless Early Adopter&#8221; hat today and put up the beta release of <a href="http://www.sourcegear.com/vault" target=_blank>Vault</a> 2.0 into our live environment.</p>

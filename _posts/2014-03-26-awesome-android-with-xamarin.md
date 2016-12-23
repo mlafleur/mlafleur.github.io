@@ -1,22 +1,11 @@
 ---
 Title: Awesome Android with Xamarin
-Published: 2014-03-26 00:35:34
 Excerpt: "I've been publicly developing an application I call RMV Awesome on this blog over the last few months. Since the initial release of the Windows 8.1 app we've migrated code to a Portable Class Library, ported to Windows Phone 8, added monetization, integrated Azure Mobile Services and tackled geo-location. Today we’ll take a look at bringing this awesomeness over Android using Xamarin."
 Tags:
   - PCL
   - RMV Awesome
   - Windows
   - Xamarin
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3540575642";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2014-03-26 00:35:34
-post_excerpt:
-  - "I've been publicly developing an application I call RMV Awesome on this blog over the last few months. Since the initial release of the Windows 8.1 app we've migrated code to a Portable Class Library, ported to Windows Phone 8, added monetization, integrated Azure Mobile Services and tackled geo-location. Today we’ll take a look at bringing this awesomeness over Android using Xamarin."
-permalink:
-  - /awesome-android-with-xamarin/
 ---
 I’ve been publicly developing an application I call RMV Awesome on this blog over the last few months. Since the <a href="http://massivescale.azurewebsites.net/rmv-awesome/" target="_blank">initial release</a> of the Windows 8.1 app we’ve <a href="http://massivescale.azurewebsites.net/leveraging-portable-class-libraries/" target="_blank">migrated code to a Portable Class Library</a>, <a href="http://massivescale.azurewebsites.net/moving-to-windows-phone-8/" target="_blank">ported to Windows Phone 8</a>, <a href="http://massivescale.azurewebsites.net/monetizing-rmv-awesome/" target="_blank">added monetization</a>, <a title="Awesome Azure Mobile Services" href="http://massivescale.azurewebsites.net/awesome-azure-mobile-services/" target="_blank">integrated Azure Mobile Services</a> and <a href="http://massivescale.azurewebsites.net/?p=1711" target="_blank">tackled geo-location</a>. Today we’ll take a look at bringing this awesomeness over Android using <a href="http://xamarin.com/" target="_blank">Xamarin</a>.
 
@@ -34,11 +23,11 @@ First things first, you need to head over to Xamarin and download an <a href="ht
 
 I’m going to add am Android Application called RMV.Awesome.Droid to my solution. Please note that I’m <em>not </em>calling it <em>“</em>Android”. Please don’t make the mistake I made the first time and do so, it conflicts with the default Android namespace and all sorts of oddities ensure.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_create.png"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0px;" title="xamarin_android_create" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_create_thumb.png" alt="xamarin_android_create" width="640" height="445" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_create.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="xamarin_android_create" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_create_thumb.png" alt="xamarin_android_create" width="640" height="445" border="0" /></a>
 
 As you can see, we now have an Android application in Visual Studio living right along side our existing Windows 8 app, Windows Phone 8 app and our Portable Class Library.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_project.png"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0px;" title="xamarin_android_project" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_project_thumb.png" alt="xamarin_android_project" width="398" height="334" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_project.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="xamarin_android_project" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_project_thumb.png" alt="xamarin_android_project" width="398" height="334" border="0" /></a>
 
 <strong>Building Our App </strong>
 
@@ -46,11 +35,11 @@ Thanks to our previous work <a href="http://massivescale.azurewebsites.net/lever
 
 The first thing we need to do is add a Project Reference to our existing PCL. This gives us our view models, object models and utility functions.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot6.png"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0px;" title="Screenshot (6)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot6_thumb.png" alt="Screenshot (6)" width="640" height="425" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot6.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (6)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot6_thumb.png" alt="Screenshot (6)" width="640" height="425" border="0" /></a>
 
 Next we need to add the Azure Mobile Services component. Components are add-ins for Xamarin, very similar to Nuget. To add the Azure Mobile Services component, we expand the Android project and right click on the Components folder. From here we select “Get New Components” and add the “Azure Mobile Services” component.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot7.png"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0px;" title="Screenshot (7)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot7_thumb.png" alt="Screenshot (7)" width="640" height="408" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot7.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (7)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot7_thumb.png" alt="Screenshot (7)" width="640" height="408" border="0" /></a>
 
 Now we have all of the foundational pieces in place and can begin building our UI. This experience is eerily similar to XAML development and yet frustratingly different. Android uses XML to declare it’s UI layout and if you’ve spent time with XAML you’ll feel right at home. That said, you’ll likely also find it frustrating how incomplete it feels compared to XAML, especially when it comes to data binding (or the complete lack there of).
 
@@ -64,7 +53,7 @@ For our application we’re going to have 2 Activities (MainActivity and BranchD
 
 We’ll start off with our layout for the MainActivity. This will consist of a TextView to hold our page title, a ProgressBar to <del>alter</del> alert the user that we’re fetching information and a GridView that displays a list of branches.
 
-<strong><a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot9.png"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0px;" title="Screenshot (9)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot9_thumb.png" alt="Screenshot (9)" width="161" height="240" border="0" /></a></strong>
+<strong><a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot9.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (9)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot9_thumb.png" alt="Screenshot (9)" width="161" height="240" border="0" /></a></strong>
 
 You’ll notice that the screen shot here doesn’t include of any sample data. As I mentioned previously, data binding isn’t included here. Layouts are just XML documents and there is little to no design time functionality. To understand what you’re going to see it is sometimes easier to simply look at the raw XML:
 
@@ -72,7 +61,7 @@ https://gist.github.com/mlafleur/f25a6e983f33e5ebdb67
 
 Notice that there is not item template associated with the GridView. Instead of declaring this in-line, the template will be applied by our custom adapter (more on that in a minute).  We’ll define that template in a separate layout called BranchItem.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot10.png"><img style="float: none; margin-left: auto; display: block; margin-right: auto; border-width: 0px;" title="Screenshot (10)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot10_thumb.png" alt="Screenshot (10)" width="240" height="78" border="0" /></a>
+<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot10.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (10)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot10_thumb.png" alt="Screenshot (10)" width="240" height="78" border="0" /></a>
 
 https://gist.github.com/mlafleur/edc059c40548236b1fb9
 
@@ -124,6 +113,6 @@ https://gist.github.com/mlafleur/586efced551ed3bf1778
 
 There is still quite a bit to do with this app (improved UI layout, location/GPS support, etc). For the time being I wanted to start with a simple implementation that shows both the ease and power of Xamarin for cross-platform development. It may not be polished yet but I think it is a good start.
 
-<hr />
+---
 
 As always, the version here has been submitted and validated for the Store. The code is available on GitHub at <a href="https://github.com/mlafleur/RMVAwsome/releases/tag/T7" target="_blank">https://github.com/mlafleur/RMVAwsome/releases/tag/T7</a>  or follow the live development of the entire project at <a href="https://github.com/mlafleur/RMVAwsome" target="_blank">https://github.com/mlafleur/RMVAwsome</a>. If you have a feature you would like to see done, please let me know and I’ll happy add it to the list.

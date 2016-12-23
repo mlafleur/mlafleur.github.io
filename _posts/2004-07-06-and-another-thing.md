@@ -1,18 +1,7 @@
 ---
 Title: 'And Another Thing&#8230;'
-Published: 2004-07-06 15:36:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"158";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-07-06 15:36:00
-post_excerpt:
-  - ""
-permalink:
-  - /and-another-thing/
 ---
 <p>While I'm updating <a href="http://weblogs.asp.net/mlafleur/archive/2004/07/06/174199.aspx">wish-lists</a>&nbsp;I'd like to add something to this list: more control over web reference proxy generation. I understand that this may in fact be solved by VS 2005's new web services tools, but on the off chance that it isn't I'd like to get this out there.</p>
 <p>Our latest application uses web services for the entire data layer. This means that 90% of the business logic and all of the database communication is handled by a web service (really it is handled by a number of web services due to the size of the application). </p>

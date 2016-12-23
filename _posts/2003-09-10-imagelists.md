@@ -1,20 +1,7 @@
 ---
 Title: ImageLists
-Published: 2003-09-10 15:51:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"205";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538637441";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-09-10 15:51:00
-post_excerpt:
-  - ""
-permalink:
-  - /imagelists/
 ---
 <p><span class=562474515-10092003><font face=Arial size=2>In keeping with my tradition of <a title=http://weblogs.asp.net/mlafleur/posts/4911.aspx href="/mlafleur/posts/4911.aspx">simplifying</a> <a title=http://weblogs.asp.net/mlafleur/posts/8663.aspx href="/mlafleur/posts/8663.aspx">my point</a>, I've trimmed down my 30 page manifesto on ImageLists to the following:</font></span></p>
 <div align=left><span class=562474515-10092003><font face=Arial color=#800000 size=2><strong>Sealed ImageLists suck and I'm getting ulcers from working with them. </strong></font></span></div>

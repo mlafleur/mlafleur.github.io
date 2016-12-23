@@ -1,29 +1,9 @@
 ---
 Title: 'UCMA 3 How-To: Decline A Call'
-Published: 2011-01-09 15:12:22
 Excerpt: |
   In Speech Server we had an activity for declining a call. Typically this was used when you wanted to pull your application "off-line" for some reason. UCMA 3.0 doesn't have this activity, but the Core API still has support for it.
 Tags:
   - Skype
-Image:
-  - 'a:1:{i:0;s:45:"http://gotspeech.net/aggbug.aspx?PostID=11183";}'
-sbg_selected_sidebar:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-sbg_selected_sidebar_replacement:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-views:
-  - 'a:1:{i:0;s:4:"1490";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3562663115";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-01-09 15:12:22
-post_excerpt:
-  - |
-    In Speech Server we had an activity for declining a call. Typically this was used when you wanted to pull your application "off-line" for some reason. UCMA 3.0 doesn't have this activity, but the Core API still has support for it.
-permalink:
-  - /ucma-3-how-to-decline-a-call/
 ---
 In Speech Server we had an activity for declining a call. Typically this was used when you wanted to pull your application "off-line" for some reason. UCMA 3.0 doesn't have this activity, but the Core API still has support for it.
 

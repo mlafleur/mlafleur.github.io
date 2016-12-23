@@ -1,26 +1,8 @@
 ---
 Title: Implementing InstanceDependencyProperty
-Published: 2011-03-16 13:20:19
 Excerpt: ""
 Tags:
   - Skype
-views:
-  - 'a:1:{i:0;s:4:"2559";}'
-sbg_selected_sidebar:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-sbg_selected_sidebar_replacement:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538636430";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-03-16 13:20:19
-post_excerpt:
-  - ""
-permalink:
-  - >
-    /implementing-instancedependencyproperty/
 ---
 If you were looking to the UCMA 3.0 documentation for information on how to use <a href="http://msdn.microsoft.com/en-us/library/gg449634.aspx" target="_blank">InstanceDependencyProperty</a>, don't. Its incomplete and what is there is incorrect.
 

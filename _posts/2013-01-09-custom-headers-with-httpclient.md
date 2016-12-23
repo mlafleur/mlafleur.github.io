@@ -1,25 +1,10 @@
 ---
 Title: Custom Headers with HttpClient
-Published: 2013-01-09 09:11:48
 Excerpt: 'One of the things HttpClient does for you is to construct the Request Message automatically when you execute GetAsync. To add or change an HTTP header (such as "User-Agent") however, you will need to construct the Request Message yourself.  Luckily this is rather simple to carry out.'
 Tags:
   - REST
   - Web Services
   - Windows
-views:
-  - 'a:1:{i:0;s:4:"3872";}'
-panels_data:
-  - 'a:1:{i:0;s:6:"a:0:{}";}'
-dsq_thread_id:
-  - "3538599527"
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-01-09 09:11:48
-post_excerpt:
-  - 'One of the things HttpClient does for you is to construct the Request Message automatically when you execute GetAsync. To add or change an HTTP header (such as "User-Agent") however, you will need to construct the Request Message yourself.  Luckily this is rather simple to carry out.'
-permalink:
-  - /custom-headers-with-httpclient/
 ---
 I while back I talked about <a title="Basic HTTP Authentication in WinRT" href="http://massivescale.azurewebsites.net/basic-http-authentication-in-winrt/" target="_blank">Basic Authentication with HttpClient</a>. Kaysha posted an excellent question about custom headers for things like User-Agent and Content-Type. Here is how you handle those headers.
 
@@ -43,5 +28,5 @@ Here is the complete sample:
 
 https://gist.github.com/mlafleur/2fb459b91fe7cd08e1b7
 
-<span style="color: #ff0000;">Update: Fixed an error in my sample code for the custom Content-Type</span>
-<span style="color: #ff0000;">Update: Fixed an issue with the code formatting</span>
+<span style="color: #ff0000">Update: Fixed an error in my sample code for the custom Content-Type</span>
+<span style="color: #ff0000">Update: Fixed an issue with the code formatting</span>

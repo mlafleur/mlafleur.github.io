@@ -1,20 +1,7 @@
 ---
 Title: Keyboards
-Published: 2003-10-10 18:21:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"338";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538637843";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-10-10 18:21:00
-post_excerpt:
-  - ""
-permalink:
-  - /keyboards/
 ---
 <p>I am on a &#8220;great quest&#8221; to find a keyboard that, to put it bluntly, does not suck. It started out as a tiny &#8220;errand&#8220;, turned into a &#8220;hunt&#8220;, and then escalated all the way up to &#8220;great quest&#8220; in a matter of days. And if I do not find a answer soon, I fear I may have to jump right past &#8220;epic quest&#8221; status and head straight to &#8220;ludicrous obsession&#8221;.</p>
 <p>Every keyboard I have tried in some 6 odd stores has been some variation of the &#8220;mushy key&#8221; keyboards. I personal feel that such keyboards hold all of the elegance of typing on a napkin and are all so sensitive that you end up fat-fingering every other letter. </p>

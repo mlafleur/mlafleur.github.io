@@ -1,21 +1,7 @@
 ---
 Title: '&quot;We&#8217;re not gonna take it. No, we ain&#8217;t gonna take it&quot;'
-Published: 2003-08-08 14:17:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"401";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538637345";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-08-08 14:17:00
-post_excerpt:
-  - ""
-permalink:
-  - >
-    /were-not-gonna-take-it-no-we-aint-gonna-take-it/
 ---
 <p><span class="500290114-08082003"><font face="Arial" size="2">So here I am, happily 
 working on my application. Free as a bird and not a care in the world. When 

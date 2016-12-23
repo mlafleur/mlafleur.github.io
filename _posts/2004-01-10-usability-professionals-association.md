@@ -1,18 +1,7 @@
 ---
 Title: 'Usability Professionals&#8217; Association'
-Published: 2004-01-10 18:14:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"164";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-01-10 18:14:00
-post_excerpt:
-  - ""
-permalink:
-  - /usability-professionals-association/
 ---
 <p>If you are interested in usability then <a href="http://www.upassoc.org/">UPA is worth a look</a>. It is full of valuable information on why usability matters in software design and how to improve it.</p>
 <blockquote dir=ltr style="MARGIN-RIGHT: 0px">

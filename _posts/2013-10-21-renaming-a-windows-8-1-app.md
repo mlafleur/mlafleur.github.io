@@ -1,6 +1,5 @@
 ---
 Title: Renaming a Windows 8.1 App
-Published: 2013-10-21 15:13:10
 Excerpt: >
   Previously the name you reserved for
   your app was someone permanent. With 8.1
@@ -9,34 +8,6 @@ Excerpt: >
   languages.
 Tags:
   - Windows
-panels_data:
-  - 'a:1:{i:0;s:6:"a:0:{}";}'
-views:
-  - 'a:1:{i:0;s:3:"320";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3539460824";}'
-author:
-  - Marc LaFleur
-  - Marc LaFleur
-post_date:
-  - 2013-10-21 15:13:10
-  - 2013-10-21 15:13:10
-post_excerpt:
-  - >
-    Previously the name you reserved for
-    your app was someone permanent. With 8.1
-    you can now rename your app and even
-    have different names for different
-    languages.
-  - >
-    Previously the name you reserved for
-    your app was someone permanent. With 8.1
-    you can now rename your app and even
-    have different names for different
-    languages.
-permalink:
-  - /renaming-a-windows-8-1-app/
-  - /renaming-a-windows-8-1-app/
 ---
 One of the often overlooked improvements for the Windows Store in Windows 8.1 answers one of the more common questions I'm asked by developers.
 

@@ -1,23 +1,10 @@
 ---
 Title: Web Service Purgatory
-Published: 2003-04-02 11:47:00
 Excerpt: ""
 Tags:
   - SOAP
   - Web Services
   - WebDev
-views:
-  - 'a:1:{i:0;s:3:"341";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3918288058";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-04-02 11:47:00
-post_excerpt:
-  - ""
-permalink:
-  - /web-service-purgatory/
 ---
 <p class="MsoNormal" style="margin: 0in 0in 0pt;">Well, I'm out of <a href="http://massivescale.azurewebsites.net/?p=383">Web Service Hell</a>.<a href="http://dotnetweblogs.com/cweyer/">Christian Weyer</a>Â pointed me in the right direction and I had my first Web Service working pretty quickly.</p>
 <p class="MsoNormal" style="margin: 0in 0in 0pt;"></p>

@@ -1,24 +1,11 @@
 ---
 Title: Windows Azure for Amazon AWS Users
-Published: 2012-05-22 16:19:26
 Excerpt: ""
 Tags:
   - Amazon
   - AWS
   - Azure
   - Cloud
-views:
-  - 'a:1:{i:0;s:5:"11124";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3544151432";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2012-05-22 16:19:26
-post_excerpt:
-  - ""
-permalink:
-  - /windows-azure-for-amazon-aws-users/
 ---
 One hurdle I run across while talking to <a href="http://aws.amazon.com/" target="_blank">AWS</a> users about <a href="http://windowsazure.com" target="_blank">Azure</a>Â comes down to terminology. Every cloud vendor has their own vernacular and this can be a source of endless frustration when one starts to compare the two services. Developers that have already wrapped their mind around AWS' parlance often find themselves struggle to understand Azure's.
 

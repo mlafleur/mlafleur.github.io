@@ -1,18 +1,7 @@
 ---
 Title: Office 2010 Helps Me Out
-Published: 2011-08-04 12:25:48
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"644";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-08-04 12:25:48
-post_excerpt:
-  - ""
-permalink:
-  - /office-2010-helps-me-out/
 ---
 I stink at proof reading. I miss a slew of grammatical and spelling errors. Okay, slew is an understatement.
 

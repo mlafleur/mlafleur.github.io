@@ -1,20 +1,7 @@
 ---
 Title: Blogging Blues
-Published: 2003-10-10 03:32:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"213";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538637663";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-10-10 03:32:00
-post_excerpt:
-  - ""
-permalink:
-  - /blogging-blues/
 ---
 <p>I've been looking for a good rich client to post to my blog with (I just don't like editing in a web page). Unfortunately I can't seem to find a workable client out there. </p>
 <p>NewsGator works, but only occasionally. For example, this post was first attempted from NewsGator but it never got here. This happens a good 9 out of 10 times. It is one heck of a reader, but the posting has a way to go.</p>

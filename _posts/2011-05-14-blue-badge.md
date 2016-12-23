@@ -1,24 +1,7 @@
 ---
 Title: Blue Badge
-Published: 2011-05-14 08:25:51
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:4:"2280";}'
-sbg_selected_sidebar:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-sbg_selected_sidebar_replacement:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538634798";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-05-14 08:25:51
-post_excerpt:
-  - ""
-permalink:
-  - /blue-badge/
 ---
 I've been very lucky in my career so far. I've had the pleasure of working on some amazing software with many brilliant people over the years. And starting in two weeks, I'll be continuing that trend.
 

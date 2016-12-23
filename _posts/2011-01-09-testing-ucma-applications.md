@@ -1,25 +1,8 @@
 ---
 Title: Testing UCMA Applications
-Published: 2011-01-09 14:46:37
 Excerpt: ""
 Tags:
   - Skype
-sbg_selected_sidebar:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-sbg_selected_sidebar_replacement:
-  - 'a:1:{i:0;s:66:"a:5:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";}";}'
-views:
-  - 'a:1:{i:0;s:3:"510";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3827500663";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2011-01-09 14:46:37
-post_excerpt:
-  - ""
-permalink:
-  - /testing-ucma-applications/
 ---
 One of the first things you notice when you start developing UCMA is the lack of an integrated SIP Phone for testing your applications. Speech Server made it trivial to test out your application, simply press F5 and everything was ready to go. UCMA lacks the integrated environment so you'll need a software phone of some kind to try out your app.
 

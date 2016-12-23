@@ -1,22 +1,9 @@
 ---
 Title: Bing Maps SDK
-Published: 2013-01-03 12:45:54
 Excerpt: "I've been playing around with the Bing Maps SDK over the holidays and ran into a gotcha with x64 compatibility. "
 Tags:
   - Bing Maps
   - Windows
-views:
-  - 'a:1:{i:0;s:3:"478";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3539804843";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2013-01-03 12:45:54
-post_excerpt:
-  - "I've been playing around with the Bing Maps SDK over the holidays and ran into a gotcha with x64 compatibility. "
-permalink:
-  - /bing-maps-sdk/
 ---
 I've been playing around with the<a href="http://msdn.microsoft.com/en-us/library/hh846481.aspx" target="_blank"> Bing Maps SDK</a> over the holidays. The documentation includes a step-by-step guide for <a href="http://msdn.microsoft.com/en-us/library/hh855146.aspx" target="_blank">adding Bing Maps to my app </a>that got me up and running. I had to make some small changes like targeting specific CPU and not the default 'Any CPU' target and (since this app is written in C#) I had to add a reference to the Microsoft Visual C++ Runtime Package in addition to the Bing Maps SDK.
 

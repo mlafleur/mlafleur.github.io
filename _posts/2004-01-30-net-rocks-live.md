@@ -1,18 +1,7 @@
 ---
 Title: .NET Rocks Live
-Published: 2004-01-30 18:38:00
 Excerpt: ""
 Tags: null
-views:
-  - 'a:1:{i:0;s:3:"142";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2004-01-30 18:38:00
-post_excerpt:
-  - ""
-permalink:
-  - /net-rocks-live/
 ---
 <div>
 <p><span><a href="http://neopoleon.com/blog/" target=_blank>Rory Blyth</a> is just too damn funny for a <a href="http://www.franklins.net/dotnetrocks/" target=_blank>show that runs during working hours</a>. It is a little hard to call anything &#8220;work related&#8221; when one spends the entire time bursting into laughter.</span></p>

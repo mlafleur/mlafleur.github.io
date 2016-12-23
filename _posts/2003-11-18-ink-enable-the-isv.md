@@ -1,21 +1,8 @@
 ---
 Title: Ink Enable The ISV
-Published: 2003-11-18 21:40:00
 Excerpt: ""
 Tags:
   - Tablet PC
-views:
-  - 'a:1:{i:0;s:3:"409";}'
-dsq_thread_id:
-  - 'a:1:{i:0;s:10:"3538638070";}'
-author:
-  - Marc LaFleur
-post_date:
-  - 2003-11-18 21:40:00
-post_excerpt:
-  - ""
-permalink:
-  - /ink-enable-the-isv/
 ---
 <p><a href="http://weblogs.asp.net/jlerman/posts/32396.aspx" target=_blank>Julia</a> talked about it, so has <a href="http://kstati.com/tabula/posts/775.aspx" target=_blank>Peter</a>, and recently <a href="http://blog.monstuff.com/archives/000105.html" target=_blank>Dumkey</a> chimed in as well. What we're all talking about of course is developing applications that target the Tablet PC platform. More specifically, the surprisingly sparse resources available to those of us who want to do so. While the hardware has made quite a splash, the software community is still struggling to find a footing.</p>
 <p>There are a number of obvious reasons why the Tablet PC is so tempting to develop for. They <i>are</i> cool, but it is more that just the "new toy" factor at work here. There are any number of solid business reasons to target the platform as well:</p>
