@@ -21,59 +21,59 @@ Obviously there are some APIs may have different data sets depending on the acc
 
 ## OAUTH &amp; Grant Types
 
-The v2 Endpoint uses OAUTH2 for authorization and supports the two most common Grant Types; Authorization Code and Implicit. If you're not familiar with OAUTH (and OAUTH2 specifically), a Grant Types defines the workflow used for a particular OAUTH transaction. They all provide the same output, a token representing the authenticated user. Where they differ is how that token is obtained. In an effort to avoid going down a rabbit hole, I won't go into the details of OAUTH and the various grant flows. I will instead point you to an [excellent article on the topic](https://aaronparecki.com/2012/07/29/2/oauth2-simplified).
+The v2 Endpoint uses OAUTH2 for authorization and supports the two most common Grant Types, Authorization Code and Implicit. If you're not familiar with OAUTH (and OAUTH2 specifically), a Grant Types defines the workflow used for a particular OAUTH transaction. They all provide the same output, a token representing the authenticated user. Where they differ is how that token is obtained. In an effort to avoid going down a rabbit hole, I won't go into the details of OAUTH and the various grant flows. I will instead point you to an [excellent article on the topic](https://aaronparecki.com/2012/07/29/2/oauth2-simplified).
 
 OAUTH is based on verifiable trusts. The User trusts the OAUTH Provider (they opened an account there), the Service trusts the OAUTH Provider (they redirect the user there to authenticate) and the Provider trusts both the User and the Service. This is where Application Registration comes into play. Just as the Provider trusts the User because the User has an account on their system, the Service must do the same. Think of Application Registration as an account record for your application and just as the user has a "User ID", your application will receive an "Application ID".
 
 In essence, we have a triangle with assumed trusts between the User and the Provider (the user's account) and the Service and the Provider (the app registration).
 
-<img class="size-full wp-image-7561 aligncenter" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/oauth-triangle-broken1.png" alt="oauth-triangle-broken" width="350" height="238" />
+![oauth-triangle-broken](/assets/images/oauth-triangle-broken1.png)
 
 In order to complete the triangle and receive an authorization token we need to verify  trust between the User and the Service.
 
-<img class="size-full wp-image-7551 aligncenter" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/oauth-triangle-complete.png" alt="oauth-triangle-complete" width="350" height="238" />
+![oauth-triangle-complete](/assets/images/oauth-triangle-complete.png)
 
 That third leg of trust is represented by an authorization token passed between the User and the Service with each call.
 
 ## Application Registration
 Microsoft provides a portal for registering your application at [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com). After opening this page and logging in with your [Microsoft Account](https://account.microsoft.com/) you are presented with a list of registered application and a button labeled "Add an app".
 
-[caption id="attachment_7611" align="aligncenter" width="400"]<img class="wp-image-7611 size-full" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-landing-page.png" alt="apps-dev-landing-page" width="400" height="120" /> App Registration - Initial Page[/caption]
+![App Registration - Initial Page](/assets/images/apps-dev-landing-page.png)
 
 Clicking this button will prompt you for the name of your application:
 
-[caption id="attachment_7641" align="aligncenter" width="400"]<img class="size-full wp-image-7641" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-new-app-dialog.png" alt="App Registration – New App Dialog" width="400" height="147" /> App Registration – New App Dialog[/caption]
+![App Registration – New App Dialog](/assets/images/apps-dev-new-app-dialog.png)
 
 Once you've named your application and clicked "Create application" you are redirected to your application's profile page.
 
-&gt; **v2 Registration vs. Azure AD Registration** 
-&gt; If you've worked with Azure AD in the past you will notice some similarities here. The general architecture is the same, the user experience however is far more straightforward. If you've not worked with Azure AD in the past then you'll have to trust me, this _is_ a simplified experience.
+> **v2 Registration vs. Azure AD Registration**     
+> If you've worked with Azure AD in the past you will notice some similarities here. The general architecture is the same, the user experience however is far more straightforward. If you've not worked with Azure AD in the past then you'll have to trust me, this _is_ a simplified experience.
 
 The first item to take note of is the Application ID. This is one of the elements required for the OAUTH workflow.  You will also see options for generating Client Secrets (aka Passwords). A single applications can have multiple Client Secrets assigned. This allows you to use the same registration for both traditional web sites, single-page apps and native clients.
 
-[caption id="attachment_7661" align="aligncenter" width="400"]<a href="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-appid.png"><img class="wp-image-7661 size-full" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-appid.png" alt="App Registration - Application ID" width="400" height="274" /></a> App Registration - Application ID[/caption]
+![App Registration - Application ID](/assets/images/apps-dev-appid.png)
 
 For this example I'm going to focus on the traditional web scenario. We will need two components for this workflow, a Password (aka Client Secret) and a Platform record. To get started we will need to click "Generate New Password".  This will open a dialog with your new Password. Save this in a safe place because once you close this dialog <em>you will never see this password again</em>.
 
-[caption id="attachment_7721" align="aligncenter" width="400"]<img class="size-full wp-image-7721" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-new-password.png" alt="App Registration - New Password" width="400" height="246" /> App Registration - New Password[/caption]
+![App Registration - New Password](/assets/images/apps-dev-new-password.png)
 
 Next we will need to click "Add Platform". This presents a dialog with two options. We'll select "Web" for this example.
 
-[caption id="attachment_7671" align="aligncenter" width="400"]<a href="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-new-platform.png"><img class="wp-image-7671 size-full" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-new-platform.png" alt="App Registration - New Platform Dialog" width="400" height="206" /></a> App Registration - New Platform Dialog[/caption]
+![App Registration - New Platform Dialog](/assets/images/apps-dev-new-platform.png)
 
 This will add a new Web platform card to your registration page. This card has two properties, Allow Implicit Flow and Redirect URI. We will not be implementing the Implicit workflow in our example so you can uncheck that option. The Redirect URI is where the user will be redirected back to once they have authenticated. The value will depend on your implementation and if you're using a framework (such as [Grant](https://github.com/simov/grant)) you will need to check with the framework documentation. For my simple example here I am using redirecting to a local server at `http://localhost:3000/returned`.
 
-[caption id="attachment_7681" align="aligncenter" width="400"]<img class="wp-image-7681 size-full" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-web-platform.png" alt="App Registration - Web Platform Properties" width="400" height="176" /> App Registration - Web Platform Properties[/caption]
+![ App Registration - Web Platform Properties](/assets/images/apps-dev-web-platform.png)
 
-&gt; **Implicit Grant Workflow**
-&gt;If you want to play around with the Implicit Grant workflow, you can leave Allow Implicit Flow checked. It doesn't impact the Authorization Code Grant workflow and I've only disabled it for the sake of completeness. Leaving it enabled won't cause problem here. In production it should only be enabled if you truly need it since it does allow for a less secure workflow.
+> **Implicit Grant Workflow**  
+> If you want to play around with the Implicit Grant workflow, you can leave Allow Implicit Flow checked. It doesn't impact the Authorization Code Grant workflow and I've only disabled it for the sake of completeness. Leaving it enabled won't cause problem here. In production it should only be enabled if you truly need it since it does allow for a less secure workflow.
 
 ## Requesting a Token
 In this example I'm going to focus on using the Authorization Code Grant workflow with a traditional web app/site. This is the most common of the grant type and is a bit more secure Implicit Grant workflow. If your application can support Authorization Code Grant than you app should use it. It is also the most complex of the workflows which makes it a great place to start. Once you understand how the Authorization workflows functions it is relatively easy to transition to the Implicit workflow.
 
 The Authorization workflow has four components. The first is a redirect to the Provider which is where the user will enter their credentials. This process will return an Authorization Code back to the Service. The Service will then send an HTTP POST back to the Provider where that Authorization Code is converted into a Bearer Token. This Token is returned to the Service and will be included with any API calls back to Microsoft.
 
-<img class="size-full wp-image-7701 aligncenter" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/oauth-steps.png" alt="oauth-steps" width="856" height="148" />
+![oauth-steps](/assets/images/oauth-steps.png)
 
 The first call into the v2 Endpoint is a simple GET request (typically just a link the user clicks) to `https://login.microsoftonline.com/common/oauth2/v2.0/authorize` along with several query parameters:
 
@@ -84,12 +84,14 @@ The first call into the v2 Endpoint is a simple GET request (typically just a 
 
 The prototype for this call looks like this:
 
-<pre>https://login.microsoftonline.com/common/oauth2/v2.0/authorize?
+```
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?
 client_id=[APPLICATION ID]&amp;response_type=code&amp;
-redirect_uri=[REDIRECT URI]&amp;scope=[SCOPE]</pre>
+redirect_uri=[REDIRECT URI]&amp;scope=[SCOPE]
+```
 
-&gt; **Scopes**
-&gt; The scope parameter holds the list of permission scopes you application requires. This is a simple string of space delimited scope parameters. Most scopes in the v2 Endpoint are full URIs rather than just the scope name itself. For example, if you need to access the user's profile you need to request permission for User.Read. The full URI for this is https://graph.microsoft.com/User.Read.  If you also need permissions for Mail.Read your scope string would be: https://graph.microsoft.com/User.Read https://graph.microsoft.com/Mail.Read. For more information on scopes and what access they provide, please see [Microsoft Graph permission scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes).
+> **Scopes**  
+> The scope parameter holds the list of permission scopes you application requires. This is a simple string of space delimited scope parameters. Most scopes in the v2 Endpoint are full URIs rather than just the scope name itself. For example, if you need to access the user's profile you need to request permission for User.Read. The full URI for this is `https://graph.microsoft.com/User.Read`.  If you also need permissions for Mail.Read your scope string would be: `https://graph.microsoft.com/User.Read https://graph.microsoft.com/Mail.Read`. For more information on scopes and what access they provide, please see [Microsoft Graph permission scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes).
 
 Once the user has completed signing in, the Provider will redirect back to your Redirect URI. The Provider will add a "code" query parameter to this URI. The value of this parameter is your authorization code. You will need to extract this value from the URI so you can use it in the next stage, requesting the Bearer Token.
 
@@ -104,11 +106,13 @@ Once you have the Authorization Code you will need to make an HTTP POST back to 
 
 This body will be POSTed up to https://login.microsoftonline.com/common/oauth2/v2.0/token. The prototype for this call should look like:
 
-<pre>POST URL: https://login.microsoftonline.com/common/oauth2/v2.0/token
+```
+POST URL: https://login.microsoftonline.com/common/oauth2/v2.0/token
 POST HEADER: Content-Type: application/x-www-form-urlencoded
 POST BODY: grant_type=authorization_code&amp;code=[AUTHORIZATION CODE]&amp;
            client_id=[APPLICATION ID]&amp;client_secret=[PASSWORD]
-           &amp;scope=[SCOPE]&amp;redirect_uri=[REDIRECT URI]</pre>
+           &amp;scope=[SCOPE]&amp;redirect_uri=[REDIRECT URI]
+```
 
 Once the Provider has processed this request, it will return a JSON object containing the following properties:
 
@@ -119,7 +123,7 @@ Once the Provider has processed this request, it will return a JSON object conta
 
 **Example**
 
-https://gist.github.com/mlafleur/b4914cf06dbffd5a67524e36210de686
+{% gist b4914cf06dbffd5a67524e36210de686 %}
 
 ## Refreshing a Token
 By default, Access/Bearer tokens have a lifetime of 1 hour. After this time they are no longer valid. There are two options at this point, you can ask the user to re-authenticate (less than ideal) or you can use a Refresh Token to get an updated token.
@@ -139,11 +143,13 @@ To exorcise your Refresh Token, we need to make another HTTP POST back to the p
 
 This body will be POSTed up to [https://login.microsoftonline.com/common/oauth2/v2.0/token](https://login.microsoftonline.com/common/oauth2/v2.0/token). The prototype for this call should look like:
 
-<pre>POST URL: https://login.microsoftonline.com/common/oauth2/v2.0/token
+```
+POST URL: https://login.microsoftonline.com/common/oauth2/v2.0/token
 POST HEADER: Content-Type: application/x-www-form-urlencoded
 POST BODY: grant_type=refresh_token&amp;refresh_token=[REFRESH TOKEN]
            &amp;client_id=[APPLICATION ID]&amp;client_secret=[PASSWORD]
-           &amp;scope=[SCOPE]&amp;redirect_uri=[REDIRECT URI]</pre>
+           &amp;scope=[SCOPE]&amp;redirect_uri=[REDIRECT URI]
+```
 
 Once the Provider has processed this request, it will return a JSON object containing the following properties:
 
@@ -155,7 +161,7 @@ Once the Provider has processed this request, it will return a JSON object conta
 
 **Example**
 
-https://gist.github.com/mlafleur/cb955f376cd4528546a998e881ba2f84
+{% gist cb955f376cd4528546a998e881ba2f84 %}
 
 ## Token Lifetime
 Each of the tokens described above (auth_code, access_token, refresh_token) have a defined lifetime. Once they have expired they can no longer be used. This is important to understand when architecting your authorization workflow. You need to have a strategy for handling initial authorization, invalid tokens, refreshing of tokens, etc. With refresh tokens in particular, you may need a background process automatically handling token renewal prior to them expiring.

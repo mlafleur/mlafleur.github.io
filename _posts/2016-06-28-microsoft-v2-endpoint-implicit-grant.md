@@ -1,9 +1,6 @@
 ---
 Title: Microsoft v2 Endpoint and Implicit Grant
-Excerpt: >
-  Building on my previous v2 Endpoint
-  Primer, here we discuss using the
-  Implicit Grant.
+Excerpt: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
 Tags:
   - Azure
   - Azure Active Directory
@@ -22,7 +19,7 @@ First, a disclaimer. I am not a fan of the [Implicit Grant][implicit-flow]. It h
 
 The [Implicit Grant][implicit-flow] is a simplified version of the [Authentication Code Grant][authcode-flow]. It eliminates some steps from the process that would be impossible to support in certain scenarios. In particular, it eliminates the exchanging of an authentication code for a bearer token. Instead it returns the bearer token directly to the client but adding it as a [fragment identifier][fragment-id] to the Redirect URI.
 
-> The term fragment identifier may be unfamiliar to a lot folks (I counted myself among them). Changes are they are you know what they're for, most of us just didn't know what they were called. Fragment IDs are similar to query params in that they are data appended the URI. Instead of using a question mark (http://url.com?query-param) they use a hash (http://url.com#fragment-id). So there you are fearless reader, your useless URI trivia for the day.
+> The term fragment identifier may be unfamiliar to a lot folks (I counted myself among them). Changes are they are you know what they're for, most of us just didn't know what they were called. Fragment IDs are similar to query params in that they are data appended the URI. Instead of using a question mark (`http://url.com?query-param`) they use a hash (`http://url.com#fragment-id`). So there you are fearless reader, your useless URI trivia for the day.
 
 To understand why this workflow is needed, it is helpful to consider the actors involved in the Authentication Code Grant workflow. As I covered in my [previous article][primer], we have three actors (the User, the Service and the Provider). Another way to describe these actors might be as the Browser, the Website and the Provider.
 
@@ -31,7 +28,7 @@ This Browser/Website/Provider accurately describes the actors within the context
 ## Supporting Implicit Grant
 In order to support Implicit Grants, you must have a Platform in your Application Registration configured to support it. Assuming you followed the registration process in the [Primer][primer] this is simply a matter of checking off the "Allow Implicit Flow" option in the Web Platform Properties:
 
-<img class="size-full wp-image-7681" src="https://massivescale.blob.core.windows.net/blogmedia/2016/06/apps-dev-web-platform.png" alt="App Registration - Web Platform Properties" width="400" height="176" />
+  ![App Registration - Web Platform Properties](/assets/images/apps-dev-web-platform.png)
 
 Once this option is selected and saved, the v2 Endpoint will begin supporting Implicit Grants for your Application ID. From here we need to make a couple of adjustments to the token request method we used in the previous article.
 
@@ -77,7 +74,7 @@ In you're using JavaScript in a browser, you can grab this data from the URI usi
 - [Misuse of Access Token to Impersonate Resource Owner in Implicit Flow][section-10.16]
 
 [primer]: http://massivescale.com/microsoft-v2-endpoint-primer
-[fagment-id]: https://en.wikipedia.org/wiki/Fragment_identifier
+[fragment-id]: https://en.wikipedia.org/wiki/Fragment_identifier
 [implicit-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.2
 [authcode-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.1
 [section-10.3]: http://tools.ietf.org/html/rfc6749#section-10.3
