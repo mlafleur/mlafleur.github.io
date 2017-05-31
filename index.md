@@ -6,18 +6,15 @@ layout: default
 ---
 <div class="home">
     {% for post in site.posts %}
-
-      <div>
+      <hr/>
+      <p>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.Title | escape }}</a>
         </h2>
-        <p>
           {{ post.Excerpt }}
-        </p>        
-        <div>
-          <a class="post-link" href="{{ post.url | relative_url }}">[Read More...]</a>
-        </div>
-      </div>
+        <br />
+        <small><a class="post-link" href="{{ post.url | relative_url }}">[Read More...]</a><small>
+      <p>
     {% endfor %}
 
 
