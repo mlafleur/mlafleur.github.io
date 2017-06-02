@@ -1,5 +1,5 @@
 ---
-Title: 'Hello World, It&#8217;s OneNote'
+Title: 'Hello World, Its OneNote'
 Excerpt: ""
 Tags:
   - Blogging
