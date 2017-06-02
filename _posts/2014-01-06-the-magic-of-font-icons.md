@@ -15,7 +15,7 @@ Enter the glorious folks at <a href="http://fontastic.me/" target="_blank">Fonta
 
 Once you have your .ttf, drop it into your Windows 8.1 XAML project. You can then reference it directly from your FontIcon tag (your FontFamily is <em>fontfile#fontname</em> and your glyph will be which ever letter you've mapped in Fontastic). You can also use FontIcon in your AppBar and CommandBar buttons.
 
-https://gist.github.com/mlafleur/0654c9e64947cf37b171
+{% gist 5dc184b0b0ba91a06035  %}
 
 Okay, it isn't magic but it is "one of those things" that I've wished I could easily do for years that finally came together. Anyone who has tried to mess around with creating custom paths for glyphs in their apps will truly appreciate how easy this is now.
 
