@@ -1,5 +1,5 @@
 ---
-Title: '"We&#8217;re not gonna take it. No, we ain&#8217;t gonna take it"'
+Title: "We're not gonna take it. No, we ain't gonna take it"
 Excerpt: ""
 Tags: null
 ---

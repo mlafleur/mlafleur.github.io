@@ -1,6 +1,6 @@
 ---
 Title: 'Hello World, Its OneNote'
-Excerpt: ""
+Excerpt: "I'm writing this post using OneNote. This isn't very interesting and I would be remiss if I didn't point out that just about every blog post I've made over the last decade originated in OneNote. I've used any number of editors over the years, the content almost always originated in OneNote."
 Tags:
   - Blogging
   - Editors
