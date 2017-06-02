@@ -1,0 +1,141 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Jalindi - Igloo</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META NAME="Author" CONTENT="Graham Robertson">
+<META NAME="Generator" CONTENT="NetObjects Fusion 5.0.2 for Windows">
+<META NAME="Keywords"
+ CONTENT="source control cvs java visual studio net foxpro webgain visual cafe homesite kawa coldfusion rational rose toad xmlspy slickedit codewright age power builder labview teststand version revision scc api msscc microsoft integration development tool">
+<META NAME="Development Tool" CONTENT="Integration Module between scc compliant IDEs and CVS source control system">
+<SCRIPT>
+<!--
+function F_loadRollover(){} function F_roll(){}
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="./rollover.js"></SCRIPT>
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./style.css">
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="./site.css">
+</HEAD>
+<BODY NOF="NOF" TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+    <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="741" NOF="LY">
+        <TR VALIGN="TOP" ALIGN="LEFT">
+            <TD>
+                <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="111" NOF="LY">
+                    <TR VALIGN="TOP" ALIGN="LEFT">
+                        <TD WIDTH="27" HEIGHT="98"><IMG SRC="./clearpixel.gif" WIDTH="27" HEIGHT="1" BORDER="0" ALT=""></TD>
+                        <TD></TD>
+                    </TR>
+                    <TR VALIGN="TOP" ALIGN="LEFT">
+                        <TD HEIGHT="216"></TD>
+                        <TD WIDTH="84">
+                            <TABLE ID="NavigationBar5" BORDER="0" CELLSPACING="0" CELLPADDING="0" NOF=NB_FYVPNY120 WIDTH="84">
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./index.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton1','',0);F_roll('NavigationButton1',1)" onMouseOut="F_roll(
+                                        'NavigationButton1',0)"><IMG ID="NavigationButton1" NAME="NavigationButton1" HEIGHT="24" WIDTH="84" SRC="./Home_Hp3.jpg" onLoad="F_loadRollover(this,'Home_HRp1.jpg',0)" BORDER="0" ALT="Home" TITLE="Home"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./Installation/installation.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton2','',0);F_roll('NavigationButton2',1)" onMouseOut=
+                                        "F_roll('NavigationButton2',0)"><IMG ID="NavigationButton2" NAME="NavigationButton2" HEIGHT="24" WIDTH="84" SRC="./Installation_Np1.jpg" onLoad="F_loadRollover(this,'Installation_NRp3.jpg',0)" BORDER="0"
+                                         ALT="Installation" TITLE="Installation"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./Contact/contact.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton3','',0);F_roll('NavigationButton3',1)" onMouseOut="F_roll(
+                                        'NavigationButton3',0)"><IMG ID="NavigationButton3" NAME="NavigationButton3" HEIGHT="24" WIDTH="84" SRC="./Contact_Np1.jpg" onLoad="F_loadRollover(this,'Contact_NRp3.jpg',0)" BORDER="0" ALT="Contact"
+                                         TITLE="Contact"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./Compatibility/compatibility.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton4','',0);F_roll('NavigationButton4',1)" onMouseOut=
+                                        "F_roll('NavigationButton4',0)"><IMG ID="NavigationButton4" NAME="NavigationButton4" HEIGHT="24" WIDTH="84" SRC="./Compatibility_Np1.jpg" onLoad="F_loadRollover(this,'Compatibility_NRp3.jpg',0)" BORDER="0"
+                                         ALT="Compatibility" TITLE="Compatibility"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./Change_Log/change_log.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton5','',0);F_roll('NavigationButton5',1)" onMouseOut=
+                                        "F_roll('NavigationButton5',0)"><IMG ID="NavigationButton5" NAME="NavigationButton5" HEIGHT="24" WIDTH="84" SRC="./Change_Log_Np1.jpg" onLoad="F_loadRollover(this,'Change_Log_NRp3.jpg',0)" BORDER="0"
+                                         ALT="Change Log" TITLE="Change Log"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./License/license.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton6','',0);F_roll('NavigationButton6',1)" onMouseOut="F_roll(
+                                        'NavigationButton6',0)"><IMG ID="NavigationButton6" NAME="NavigationButton6" HEIGHT="24" WIDTH="84" SRC="./License_Np1.jpg" onLoad="F_loadRollover(this,'License_NRp3.jpg',0)" BORDER="0" ALT="License"
+                                         TITLE="License"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./FAQ/faq.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton7','',0);F_roll('NavigationButton7',1)" onMouseOut="F_roll(
+                                        'NavigationButton7',0)"><IMG ID="NavigationButton7" NAME="NavigationButton7" HEIGHT="24" WIDTH="84" SRC="./FAQ_Np1.jpg" onLoad="F_loadRollover(this,'FAQ_NRp3.jpg',0)" BORDER="0" ALT="FAQ" TITLE="FAQ"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./Diff_Merge/diff_merge.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton8','',0);F_roll('NavigationButton8',1)" onMouseOut=
+                                        "F_roll('NavigationButton8',0)"><IMG ID="NavigationButton8" NAME="NavigationButton8" HEIGHT="24" WIDTH="84" SRC="./Diff_Merge_Np1.jpg" onLoad="F_loadRollover(this,'Diff_Merge_NRp3.jpg',0)" BORDER="0"
+                                         ALT="Diff/Merge" TITLE="Diff/Merge"></A></TD>
+                                </TR>
+                                <TR VALIGN="TOP" ALIGN="LEFT">
+                                    <TD WIDTH="84" HEIGHT="24"><A HREF="./Beta/beta.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton9','',0);F_roll('NavigationButton9',1)" onMouseOut="F_roll(
+                                        'NavigationButton9',0)"><IMG ID="NavigationButton9" NAME="NavigationButton9" HEIGHT="24" WIDTH="84" SRC="./Beta_Np1.jpg" onLoad="F_loadRollover(this,'Beta_NRp3.jpg',0)" BORDER="0" ALT="Beta" TITLE="Beta"></A></TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+            <TD>
+                <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="599" NOF="LY">
+                    <TR VALIGN="TOP" ALIGN="LEFT">
+                        <TD WIDTH="29" HEIGHT="98"><IMG SRC="./clearpixel.gif" WIDTH="29" HEIGHT="1" BORDER="0" ALT=""></TD>
+                        <TD WIDTH="570"><IMG ID="Picture1" HEIGHT="98" WIDTH="570" SRC="./JalindiIgloo.jpg" BORDER="0" ALT="JalindiIgloo" TITLE="JalindiIgloo"></TD>
+                    </TR>
+                    <TR VALIGN="TOP" ALIGN="LEFT">
+                        <TD></TD>
+                        <TD WIDTH="570" CLASS="TextObject">
+                            <B>CVS SCC plugin for Microsoft Visual Studio<BR>and other compliant IDEs</B>
+
+                            <P STYLE="font-family: 'Lucida Sans Unicode', Arial, Helvetica, Sans-serif; text-align: left;"><SPAN STYLE="font-size: large; color: rgb(255,255,255); background-color: rgb(177,192,136);">Visit <A
+                                 HREF="http://www.rapidlayout.net"><SPAN STYLE="color: rgb(235,215,215);">www.rapidlayout.net</SPAN></A></SPAN></P>
+                            <SPAN STYLE="color: rgb(255,51,102);">NEW</SPAN> see beta page (11-April-2002)
+
+                            Jalindi Igloo is a program that allows you to connect Microsoft Visual Studio and other IDEs directly to a CVS repository. The program is completely free and can be used anyway you like.
+
+                            The product consists of a file called igloo.dll which is a connectivity module between visual studio or any SCCAPI compliant IDEs and the cvs2ntslib.dll that is supplied with CVS for NT.
+
+                            Jalindi Igloo behaves in a similar way to Visual Source Safe when integrated with each IDE. It compliments WinCVS.
+
+                            To get Jalindi Igloo download the installer zip file <A HREF="./iglooinstall.zip">here</A>. (version 1.03, 4-Sept-2001). Unzip the files and then run the �setup.exe�.
+
+                            Or if you don�t want the installer version or it doesn�t work then click <A HREF="./igloo.zip">here</A>.
+
+                            <P STYLE="text-align: left;">
+                                <!--Begin Ultimate Counter code--><center>
+<a target="_top" href="http://www.UltimateCounter.com/link.cgi?id=431013">
+<img src = "http://www.UltimateCounter.com/count/count.cgi?431013">
+</center>
+</a><!--End Ultimate Counter code-->
+
+
+                                 </P>
+                        </TD>
+                    </TR>
+                </TABLE>
+                <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" NOF="LY">
+                    <TR VALIGN="TOP" ALIGN="LEFT">
+                        <TD WIDTH="29" HEIGHT="436"><IMG SRC="./clearpixel.gif" WIDTH="29" HEIGHT="1" BORDER="0" ALT=""></TD>
+                        <TD></TD>
+                    </TR>
+                    <TR VALIGN="TOP" ALIGN="LEFT">
+                        <TD></TD>
+                        <TD NOWRAP NOF="NB_FYHTNN026" CLASS="TextNavBar" STYLE="text-align: center;"><!--#totcnt-->[<A HREF="./index.html">Home</A>] [<A HREF="./Installation/installation.html">Installation</A>] [<A
+                             HREF="./Contact/contact.html">Contact</A>] [<A HREF="./Compatibility/compatibility.html">Compatibility</A>] [<A HREF="./Change_Log/change_log.html">Change Log</A>] [<A HREF="./License/license.html">License</A>] [<A
+                             HREF="./FAQ/faq.html">FAQ</A>] [<A HREF="./Diff_Merge/diff_merge.html">Diff/Merge</A>] [<A HREF="./Beta/beta.html">Beta</A>]</TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-524498-2";
+urchinTracker();
+</script>
+</BODY>
+</HTML>
+ 

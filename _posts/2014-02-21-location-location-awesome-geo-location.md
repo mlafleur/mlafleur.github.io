@@ -19,39 +19,39 @@ Along with sampling the location, we’re going to need a method of calculating 
 
 To store our user’s geo-location and provide a home for our distance calculation method, I’ve added a new class called Location (RMV.Awesome.PCL.Utilities.Location). This class will provide static properties and methods. I’ve also changed Gary’s example since we no longer need to pass in the starting geo-location, it can simply use the existing properties.
 
-https://gist.github.com/mlafleur/7ed7c57d5a21049f3669
-<h2>Windows 8</h2>
+{% gist 5dc184b0b0ba91a06035  %}
+## Windows 8
 With our Location class in place, we can move on to the client code. I’ll begin with the Windows 8.1 implementation. WinRT includes GeoLocation API at <a href="http://msdn.microsoft.com/en-us/library/windows/apps/windows.devices.geolocation.aspx" target="_blank">Windows.Devices.GeoLocation</a>. This is a very clever API that has the ability to source a location in a number of ways, depending on what information is available. If the device has a GPS it is very specific but without one it can still get pretty darn by estimating position from Wifi signals, cell towers or even the IP address.
 
 The first step in this process is updating our manifest to declare our intention to use GeoLocation. This will tell the end user that we’re going to use their location and provide the options to disable this feature if they wish.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/02/LocationManafest.jpg"><img style="border-width: 0px" title="LocationManafest" alt="LocationManafest" src="http://massivescale.blob.core.windows.net/blogmedia/2014/02/LocationManafest_thumb.jpg" width="640" height="308" border="0" /></a>
+<a href="/assets/wp/2014/02/LocationManafest.jpg"><img style="border-width: 0px" title="LocationManafest" alt="LocationManafest" src="/assets/wp/2014/02/LocationManafest_thumb.jpg" width="640" height="308" border="0" /></a>
 
 One of the rules with GeoLocation is that we must prompt the user first. This is handled by WinRT but as it is a UI function, the first call to GeoLocation must be made from the UI thread. To accomplish this, we’ll do our check in BranchListPage (the first page we bring the user to) when we load it’s state.
 
-https://gist.github.com/mlafleur/87cd87d809717538e9c5
+{% gist 5dc184b0b0ba91a06035  %}
 
 I also added the following to the XAML item template so that the user can see the actual distance
 
-https://gist.github.com/mlafleur/f440c699c70688468fbb
-<h2>Windows Phone</h2>
+{% gist 5dc184b0b0ba91a06035  %}
+## Windows Phone
 Just as with WinRT, we need to declare the location capability in the manifest.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/02/PhoneManafest.jpg"><img style="border-width: 0px" title="PhoneManafest" alt="PhoneManafest" src="http://massivescale.blob.core.windows.net/blogmedia/2014/02/PhoneManafest_thumb.jpg" width="591" height="384" border="0" /></a>
+<a href="/assets/wp/2014/02/PhoneManafest.jpg"><img style="border-width: 0px" title="PhoneManafest" alt="PhoneManafest" src="/assets/wp/2014/02/PhoneManafest_thumb.jpg" width="591" height="384" border="0" /></a>
 
 We will then add the location code to the MainPage’s loading method. You’ll notice the code is <em>almost</em> identical to WinRT. The major difference is the check of application settings. This is because Windows Phone, unlike WinRT, does not have a built-in mechanism for enabling and disabling location. The validation requirements state that we need to provide this setting to the user within the app.
 
-https://gist.github.com/mlafleur/1e55e4036819d0d68ecf
+{% gist 5dc184b0b0ba91a06035  %}
 
 To deal with the settings issue I added a menu item to MainPage labeled “location settings”. Selecting it presents the user with the option to turn location on or off.
 
-https://gist.github.com/mlafleur/1aad831fc4957932757f
+{% gist 5dc184b0b0ba91a06035  %}
 
 And as with WinRT, I updated MainPage’s XAML so that it too shows the distance to the user.
-<h2>Portable Class Library</h2>
+## Portable Class Library
 Now what we’ve complete the client side code we can focus on the PCL portion.  We’ll make a small change to our FetchXML feed and use some LINQ magic to sort  branches by distance.
 
-https://gist.github.com/mlafleur/2c464f1c89b0df9c711d
+{% gist 5dc184b0b0ba91a06035  %}
 
 As an aside, whenever someone asks why I love C# and LINQ so much I always point to an example like this. The first time I did something like this I was <em>sure</em> it wouldn’t work. LINQ rocks.
 

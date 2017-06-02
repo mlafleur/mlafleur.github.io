@@ -16,24 +16,24 @@ The first time I worked with the Settings Charm it took a minute to figure out w
 
 The first step of this process is to register against the CommandsRequested event of the current Settings Pane like this:
 
-https://gist.github.com/mlafleur/0427a746a04ae1447b1e
+{% gist 5dc184b0b0ba91a06035  %}
 
 Dissecting that line of code shows that we first grab the existing Settings Pane for our application that Windows created for us and register the SettingsPane_CommandsRequested method to the CommandsRequested event. One thing we need to be careful of however is registering against this event more than once.
 
 To solve that we'll use a simple Boolean to determine if we've registered this already:
 
-https://gist.github.com/mlafleur/789f0fea9d2861d500c9
+{% gist 5dc184b0b0ba91a06035  %}
 
 Because we want to show these commands on every page of our application we’ll add this even to the OnLaunched event of our App.xaml.cs file.
 
 Next we need to add our commands when the application requests them:
 
-https://gist.github.com/mlafleur/68632e36c5b6e09bbb2b
+{% gist 5dc184b0b0ba91a06035  %}
 
 Finally we act on those commands being selected:
 
-https://gist.github.com/mlafleur/44fba897004b9c96def0
+{% gist 5dc184b0b0ba91a06035  %}
 
 As you can see, it is pretty simple to wire this up. In an upcoming post I'll cover adding more complex UI elements such as toggle boxes to the Settings Charm.
 
-<a href="http://massivescale.azurewebsites.net/wp-content/uploads/2012/11/SettingsPaneExample_2012-11-19-00-27-49Z1.zip">Settings Pane Example</a>
+<a href="/assets/wp/2012/11/SettingsPaneExample_2012-11-19-00-27-49Z1.zip">Settings Pane Example</a>

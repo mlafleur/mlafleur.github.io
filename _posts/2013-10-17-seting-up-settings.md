@@ -23,7 +23,7 @@ User Controls give you a clean separation of concerns when it comes to your sett
 
 First things first, we need a User Control to display our content. To do this I simply went to <strong>Project -&gt; Add</strong> <strong>Item</strong> and selected <strong>User Control</strong> from the menu. In my example I'm calling this control FlyoutSample. Within this control I used the following XAML:
 
-https://gist.github.com/mlafleur/f75b3aa45df338164958
+{% gist 5dc184b0b0ba91a06035  %}
 
 Because this is a standard user control, you can layer in as much functionality as you wish including bindings and other controls. In a couple of cases I've even gone so far as to build complete view models for a flyout because there was both data binding and business logic that needed to be applied.
 
@@ -33,6 +33,6 @@ Once we have our controls build, we need to wire them up to the SettingsPane. Th
 
 In my example I'm adding both our new UserControl as well as a URI to a website (a very common way to handle the privacy policy requirement).
 
-https://gist.github.com/mlafleur/1fbc3dee97d3b346f9cd
+{% gist 5dc184b0b0ba91a06035  %}
 
-<a href="http://massivescale.azurewebsites.net/wp-content/uploads/2013/10/SettingsFlyoutExample_2013-10-17-08-36-18Z.zip">Download Sample Code</a>
+<a href="/assets/wp/2013/10/SettingsFlyoutExample_2013-10-17-08-36-18Z.zip">Download Sample Code</a>

@@ -12,7 +12,7 @@ The InstanceDependencyProperty allows you to keep property changes you made with
 
 So here is an stripped down example of an Activity that implements InstanceDependencyProperties properly:
 
-[csharp]
+```csharp
 using System.Workflow.ComponentModel;
 using System.Workflow.ComponentModel.Serialization;
 using Microsoft.Rtc.Workflow.Activities;
@@ -33,7 +33,7 @@ namespace AudioRecordingActivity
             get { return _instanceDependencyProperties; }
         }
 
-        public readonly static InstanceDependencyProperty MyStringProperty = InstanceDependencyProperty.Register(&quot;MyString&quot;, typeof(string), typeof(Activity1), &quot;Empty&quot;);
+        public readonly static InstanceDependencyProperty MyStringProperty = InstanceDependencyProperty.Register("MyString", typeof(string), typeof(Activity1), "Empty");
         public string MyString
         {
             get
@@ -51,19 +51,21 @@ namespace AudioRecordingActivity
 
         protected override ActivityExecutionStatus Execute(ActivityExecutionContext executionContext)
         {
-            MyString = &quot;Test String&quot;;
+            MyString = "Test String";
             return base.Execute(executionContext);
         }
     }
 }
-[/csharp]
+```
 
 Here the key things to know:
-<ol>
-	<li>Your Activity needs to implement the IInstanceDependencyContainer interface</li>
-	<li><del>When you impement the interface, the private _instanceDependencyProperties dictionary <em>must be static</em></del></li>
-	<li>Your properties must implement both prototypes of GetValue/SetValue. One is used for design-time, the other for run-time.</li>
-</ol>
+
+1. Your Activity needs to implement the IInstanceDependencyContainer interface
+
+2. ~~When you impement the interface, the private _instanceDependencyProperties dictionary _must be static_~~
+
+3. Your properties must implement both prototypes of GetValue/SetValue. One is used for design-time, the other for run-time.
+
 One other important note. In the documentation example they use a property with a TimeStamp type. You need to decorate this property with [TypeConverter(typeof(TimeSpanConverter))] or it will give you a very vague error at compile time.
 
-<span style="color: #ff0000;"><strong>UPDATE:</strong> I had initially thought I had this fully working until I attempted to drop more than one of my custom activities on my workflow. I quickly found an issue with the static _instanceDependencyProperties however. Because it was static, changes to properties on Activity1 were reflected on Activity2. After some time with Reflector, looking at how Microsoft's activities were built, I noticed they used two different versions of InstanceDependencyHelper, one for design time and one for run time. Low and behold, if you implement both versions and remove the static statement you get the correct behavior. Its very unfortunate that the documentation doesn't explain this. </span>
+> **UPDATE:** I had initially thought I had this fully working until I attempted to drop more than one of my custom activities on my workflow. I quickly found an issue with the static _instanceDependencyProperties however. Because it was static, changes to properties on Activity1 were reflected on Activity2. After some time with Reflector, looking at how Microsoft's activities were built, I noticed they used two different versions of InstanceDependencyHelper, one for design time and one for run time. Low and behold, if you implement both versions and remove the static statement you get the correct behavior. Its very unfortunate that the documentation doesn't explain this. 

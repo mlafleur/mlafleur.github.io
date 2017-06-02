@@ -4,5 +4,7 @@ Excerpt: ""
 Tags: null
 ---
 <div>
-<p>&nbsp;I'm going to hate Monday....</p>
-<p><img id=_x0000_i1025 height=446 src="http://dev.genesisfour.com/images/BadBuild.jpg" width=277/></p></div>
+ I'm going to hate Monday....
+
+<img id=_x0000_i1025 height=446 src="http://dev.genesisfour.com/images/BadBuild.jpg" width=277/>
+</div>

@@ -10,7 +10,7 @@ So how does one quickly turn their HTML application into a MySpace application w
 
 The HTML Place Holder control from Telerik allows you to display HTML content within the Silverlight canvas. After checking with MySpace, I was told this was an acceptable use of Silverlight on MySpace.
 
-I started by creating a Silverlight project. It is quite simple really, a single canvas with the HTML Place Holder control on it (set to 100% height and width) . I then added some code to handle the initÂ parameter for the URL to display.
+I started by creating a Silverlight project. It is quite simple really, a single canvas with the HTML Place Holder control on it (set to 100% height and width) . I then added some code to handle the init parameter for the URL to display.
 
 In my App.xaml.cs I added:
 
@@ -36,18 +36,18 @@ That is the entirety of the Silverlight application. Pretty simple. I told Silve
 In MySpace, I added the following code to call my new Silverlight application:
 
 [js wraplines="false"]
- &lt;div id=&quot;content&quot;&gt;&lt;/div&gt;
+ &lt;div id="content"&gt;&lt;/div&gt;
     
-&lt;script type=&quot;text/javascript&quot;&gt;
-	var contentElement = document.getElementById(&quot;content&quot;);
-	var initValue = &quot;URI= &lt;URL TO DISPLAY&gt;&quot;;
+&lt;script type="text/javascript"&gt;
+	var contentElement = document.getElementById("content");
+	var initValue = "URI= &lt;URL TO DISPLAY&gt;";
 
-	var object = '&lt;object data=&quot;data:application/x-silverlight-2,&quot; height=&quot;100%&quot; type=&quot;application/x-silverlight-2&quot; width=&quot;100%&quot;&gt; '
-	object = object + '&lt;param name=&quot;source&quot; value=&quot;&lt;URL TO XAP FILE&gt;&quot; /&gt;&lt;param name=&quot;onError&quot; value=&quot;onSilverlightError&quot; /&gt; '
-	object = object + '&lt;param name=&quot;background&quot; value=&quot;Transparent&quot; /&gt;&lt;param name=&quot;minRuntimeVersion&quot; value=&quot;4.0.50401.0&quot; /&gt;&lt;param name=&quot;autoUpgrade&quot; value=&quot;true&quot; /&gt; '
-	object = object + '&lt;param name=&quot;windowless&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;enableHtmlAccess&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;initparams&quot; value=&quot;' + initValue + '&quot; /&gt; '
-	object = object + '&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=149156&amp;v=4.0.50401.0&quot; style=&quot;text-decoration: none&quot;&gt; '
-	object = object + '&lt;img alt=&quot;Get Microsoft Silverlight&quot; src=&quot;http://go.microsoft.com/fwlink/?LinkId=161376&quot; style=&quot;border-style: none&quot; /&gt; &lt;/a&gt; &lt;/object&gt; '
+	var object = '&lt;object data="data:application/x-silverlight-2," height="100%" type="application/x-silverlight-2" width="100%"&gt; '
+	object = object + '&lt;param name="source" value="&lt;URL TO XAP FILE&gt;" /&gt;&lt;param name="onError" value="onSilverlightError" /&gt; '
+	object = object + '&lt;param name="background" value="Transparent" /&gt;&lt;param name="minRuntimeVersion" value="4.0.50401.0" /&gt;&lt;param name="autoUpgrade" value="true" /&gt; '
+	object = object + '&lt;param name="windowless" value="true" /&gt;&lt;param name="enableHtmlAccess" value="true" /&gt;&lt;param name="initparams" value="' + initValue + '" /&gt; '
+	object = object + '&lt;a href="http://go.microsoft.com/fwlink/?LinkID=149156&amp;v=4.0.50401.0" style="text-decoration: none"&gt; '
+	object = object + '&lt;img alt="Get Microsoft Silverlight" src="http://go.microsoft.com/fwlink/?LinkId=161376" style="border-style: none" /&gt; &lt;/a&gt; &lt;/object&gt; '
 	contentElement.innerHTML = object;
 &lt;/script&gt;
 [/js]

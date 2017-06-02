@@ -1,0 +1,377 @@
+
+<!DOCTYPE html> 
+<html lang="en-US" class="url-jezell orchard-blogs"> 
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jesse Ezell Blog - Jesse Ezell Blog</title> 
+	<!-- Anti-Clickjacking script -->
+	<style id="antiClickjack">body{display:none !important;}</style>
+	<script type="text/javascript">
+		if (self === top) {
+			var antiClickjack = document.getElementById("antiClickjack");
+			antiClickjack.parentNode.removeChild(antiClickjack);
+			} else {
+			top.location = self.location;
+		}
+	</script>
+    <!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<link href="http://weblogs.asp.net/jezell/XmlRpc/LiveWriter/Manifest" rel="wlwmanifest" type="application/wlwmanifest+xml" />
+<link href="http://weblogs.asp.net/jezell/rsd" rel="EditURI" title="RSD" type="application/rsd+xml" />
+<link href="//az619453.vo.msecnd.net/content/Content/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="//az619453.vo.msecnd.net/content/Styles/styles.min.css" rel="stylesheet" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="Jesse Ezell Blog" href="/jezell/rss?containerid=13" />
+
+    
+</head> 
+<body>
+
+
+
+<div id="layout-wrapper">
+<div id="layout-navigation" class="group">
+    <div class="zone zone-navigation">
+<article class="widget-navigation widget-menu-widget widget">
+    
+<nav role="navigation">
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/jezell">Jesse Ezell Blog</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="navbar-nav nav menu menu-main-menu">
+                
+                
+<li class="active first"><a href="/jezell/">Home</a>
+</li>
+<li class="last"><a href="/jezell/about">About</a>
+</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/jezell/Users/Account/LogOn?ReturnUrl=%2Fjezell" rel="nofollow">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+</article></div>
+</div>
+<div id="layout-main-container">
+<div id="layout-main" class="group">
+    <div id="layout-content" class="group">
+                        <div id="content" class="group">
+            <div class="zone zone-content">
+<article class="blog content-item">
+    <header>
+        
+
+# Jesse Ezell Blog
+    </header>
+    <div class="content-description blog-description">
+    <p>&lt;i&gt;.NET and Other Interesting Stuff&lt;/i&gt;
+
+&lt;div id="ad"&gt;&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-1219444915196145";
+/* 468x60, created 1/25/10 */
+google_ad_slot = "1898962835";
+google_ad_width = 468;
+google_ad_height = 60;
+//--&gt;
+&lt;/script&gt;
+&lt;script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+&lt;/div&gt;</p>
+</div>
+
+<ul class="blog-posts content-items"><li class="first">
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/building-custom-http-help-pages-with-wcf">Building Custom HTTP Help Pages with WCF</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2010-05-05" pubdate>Wednesday, May 5, 2010</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+<span class="comment-count label label-info">13 Comments</span>
+        </div>
+    </header>
+    
+
+Been asked this a few times and needed to figure it out myself, so I put together a post on how to host custom HTTP help pages for your WCF services:
+
+<div class="readmore"><a href="/jezell/building-custom-http-help-pages-with-wcf">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/angle-brackets-are-dead-long-live-xml">Angle Brackets Are Dead. Long Live XML.</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2010-02-07" pubdate>Sunday, February 7, 2010</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/XML">XML</a>
+<span class="comment-count label label-info">12 Comments</span>
+        </div>
+    </header>
+    
+
+    <p>Many people fail to realize that XML can be used to represent many formats beyond the standard text xml encoding that most people recognize. So, I wrote a little post about how WCF takes advantage of this idea to illustrate what is possible when you change the way you think about XML.
+
+<a href="http://blog.iserviceoriented.com/index.php/2010/02/07/angle-brackets-are-dead-long-live-xml/">http://blog.iserviceoriented.com/index.php/2010/02/07/angle-brackets-are-dead-long-live-xml/</a>
+</p>
+
+<div class="readmore"><a href="/jezell/angle-brackets-are-dead-long-live-xml">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/neuron-esb-on-endpoint-tv">Neuron ESB on Endpoint.TV</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2010-01-25" pubdate>Monday, January 25, 2010</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/Neuron%20ESB">Neuron ESB</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+<span class="comment-count label label-info">7 Comments</span>
+        </div>
+    </header>
+    
+
+We recently sat down with Ron Jacobs to talk about Neuron ESB on Endpoint.TV.
+
+<div class="readmore"><a href="/jezell/neuron-esb-on-endpoint-tv">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/building-a-simple-web-server-with-wcf">Building a Simple Web Server With WCF</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2010-01-24" pubdate>Sunday, January 24, 2010</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/REST">REST</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+<span class="comment-count label label-info">214 Comments</span>
+        </div>
+    </header>
+    
+
+Tired of seeing a million examples of using REST support in WCF (which blows) and not a single example that goes beyond the basics everyone knows. So, I wrote a simple web server today using WCF and blogged about it:
+
+<div class="readmore"><a href="/jezell/building-a-simple-web-server-with-wcf">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/back-in-action">Back in Action</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2010-01-22" pubdate>Friday, January 22, 2010</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+<span class="comment-count label label-info">No Comments</span>
+        </div>
+    </header>
+    
+
+Everyone keeps asking me to start blogging again... so I'm finally doing it. I'm back in action after a year or so off from blogging. Been working with WCF 24/7 since joining the Neuron ESB Team and have plenty of WCF tricks to share.
+
+<div class="readmore"><a href="/jezell/back-in-action">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/esb-series-part-5">ESB Series: Part 5</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2008-10-09" pubdate>Thursday, October 9, 2008</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/ESB">ESB</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+<span class="comment-count label label-info">2 Comments</span>
+        </div>
+    </header>
+    
+
+    <p>Been a really crazy month with a lot of projects all going into production at once. Finally had some time to blog about the progress on my WCF based ESB:
+
+<a href="http://www.iserviceoriented.com/blog/post/Building+Our+Own+ESB+-+Publish+Subscribe+Part+5.aspx">http://www.iserviceoriented.com/blog/post/Building+Our+Own+ESB+-+Publish+Subscribe+Part+5.aspx</a>
+
+There's been a ton of interest in the project for something that is still very early on. Thanks to everyone who has provided feedback so far.</p>
+
+<div class="readmore"><a href="/jezell/esb-series-part-5">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/articulate-09-product-launch">Articulate &#39;09 Product Launch</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2008-09-30" pubdate>Tuesday, September 30, 2008</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/Articulate">Articulate</a>
+<span class="comment-count label label-info">2 Comments</span>
+        </div>
+    </header>
+    
+
+<A class="" href="http://weblogs.asp.net/controlpanel/blogs/www.articulate.com" mce_href="/controlpanel/blogs/www.articulate.com"><IMG src="http://www.articulate.com/images/products09/banner_studio.jpg" mce_src="http://www.articulate.com/images/products09/banner_studio.jpg"> </A>
+
+<div class="readmore"><a href="/jezell/articulate-09-product-launch">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/configuring-wcf-performance">Configuring WCF Performance</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2008-09-09" pubdate>Tuesday, September 9, 2008</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+<span class="comment-count label label-info">2 Comments</span>
+        </div>
+    </header>
+    
+
+Because the WCF team wanted to provide something secure out of the box and allow inexperienced developers to get up and running quickly, WCF will not perform well without tweaking. Here's a little help with the less obvious settings:
+
+<div class="readmore"><a href="/jezell/configuring-wcf-performance">Read more...</a></div>
+
+
+</article></li>
+<li>
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/esb-series-part-4">ESB Series Part 4</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2008-09-01" pubdate>Monday, September 1, 2008</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/ESB">ESB</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/WCF">WCF</a>
+<span class="comment-count label label-info">2 Comments</span>
+        </div>
+    </header>
+    
+
+Long awaited part 4 of my WCF based ESB series is up:
+
+<div class="readmore"><a href="/jezell/esb-series-part-4">Read more...</a></div>
+
+
+</article></li>
+<li class="last">
+<article class="content-item blog-post">
+    <header>
+        
+
+## <a href="/jezell/entity-framework-right-problem-wrong-place">Entity Framework: Right Problem, Wrong Place</a>
+        <div class="metadata">
+            <time class="clearfix" datetime="2008-08-28" pubdate>Thursday, August 28, 2008</time> 
+
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/.NET">.NET</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/Entity%20Framework">Entity Framework</a>
+    <a class="tag label label-default" rel="tag" href="/jezell/Tags/SQL">SQL</a>
+<span class="comment-count label label-info">9 Comments</span>
+        </div>
+    </header>
+    
+
+I was listening to the recent .NET rocks episode about the Entity Framework advisory council and it was interesting to hear the team's point of view and the problems they are trying to solve with the Entity Framework. They have nice goals, but there is a fundamental problem here that some of the original database gurus like C.J. Date make quite clear. SQL is flawed. It's not that we need a million object relational mappers or that we need to look at our databases in terms of objects. In fact, that's the opposite of what the relational model was intended to do. When E.F. Codd invented the relational model, he intended for the database to be a collection of facts with relationships to other facts... not a collection of objects. The relational model was supposed to provide a way to look at and work with these facts in different ways, but SQL and modern RDBMS's fall short of what they were supposed to do. Somewhere along the way, the original plans were lost. Instead of building a truely relational storage system, vendors jumped on the semi-relational SQL model. The SQL model ties physical structure closely to the logical data model, which is where a lot of problems start coming into play. This leads to the situations we've all seen where we need to denormalize the data model to get decent performance numbers.  It seems to me that the solution to the problem should not start with mapping the data to objects, it should start inside SQL Server itself, transitioning from the flawed world of T-SQL to a true implementation of the relational model as it was intended, a world where the physical model is truely detatched from the logical model.<br>
+
+<div class="readmore"><a href="/jezell/entity-framework-right-problem-wrong-place">Read more...</a></div>
+
+
+</article></li>
+</ul>
+
+
+<ul class="pager"><li class="last first">
+<a class="pull-right" href="/jezell/?page=2">Older</a></li>
+</ul>
+
+</article></div>
+        </div>
+            </div>
+</div>
+</div>
+<div id="layout-footer" class="group">
+    <footer id="footer">
+        <div id="footer-quad" class="group">
+                                            </div>
+        <div id="footer-sig" class="group">
+            <div class="zone zone-footer">    <div class="credits text-muted"><span class="terms"><a href="http://www.asp.net/terms-of-use">Terms Of Use</a></span> - <span class="poweredby">Powered by <a href="http://www.orchardproject.net" target="_blank">Orchard</a></span></div>
+</div>
+        </div>
+    </footer>
+</div>
+</div>
+
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">var omni_guid="c308301f-836e-42f2-b56b-91d6688527ee";</script>
+<script type="text/javascript" src="//az619453.vo.msecnd.net/content/Scripts/prod-analytics.min.js"></script>
+<noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojsaspnet.112.2O7.net/b/ss/msstonojsaspnet/1/H.20.2--NS/0" height="1" width="1" alt="omni" /></a></noscript>
+<noscript><img alt="" width="1" height="1" src="//c.microsoft.com/trans_pixel.aspx"/></noscript>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-61337531-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>

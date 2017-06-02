@@ -23,11 +23,11 @@ First things first, you need to head over to Xamarin and download an <a href="ht
 
 I’m going to add am Android Application called RMV.Awesome.Droid to my solution. Please note that I’m <em>not </em>calling it <em>“</em>Android”. Please don’t make the mistake I made the first time and do so, it conflicts with the default Android namespace and all sorts of oddities ensure.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_create.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="xamarin_android_create" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_create_thumb.png" alt="xamarin_android_create" width="640" height="445" border="0" /></a>
+<a href="/assets/wp/2014/03/xamarin_android_create.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="xamarin_android_create" src="/assets/wp/2014/03/xamarin_android_create_thumb.png" alt="xamarin_android_create" width="640" height="445" border="0" /></a>
 
 As you can see, we now have an Android application in Visual Studio living right along side our existing Windows 8 app, Windows Phone 8 app and our Portable Class Library.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_project.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="xamarin_android_project" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/xamarin_android_project_thumb.png" alt="xamarin_android_project" width="398" height="334" border="0" /></a>
+<a href="/assets/wp/2014/03/xamarin_android_project.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="xamarin_android_project" src="/assets/wp/2014/03/xamarin_android_project_thumb.png" alt="xamarin_android_project" width="398" height="334" border="0" /></a>
 
 <strong>Building Our App </strong>
 
@@ -35,11 +35,11 @@ Thanks to our previous work <a href="http://massivescale.azurewebsites.net/lever
 
 The first thing we need to do is add a Project Reference to our existing PCL. This gives us our view models, object models and utility functions.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot6.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (6)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot6_thumb.png" alt="Screenshot (6)" width="640" height="425" border="0" /></a>
+<a href="/assets/wp/2014/03/Screenshot6.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (6)" src="/assets/wp/2014/03/Screenshot6_thumb.png" alt="Screenshot (6)" width="640" height="425" border="0" /></a>
 
 Next we need to add the Azure Mobile Services component. Components are add-ins for Xamarin, very similar to Nuget. To add the Azure Mobile Services component, we expand the Android project and right click on the Components folder. From here we select “Get New Components” and add the “Azure Mobile Services” component.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot7.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (7)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot7_thumb.png" alt="Screenshot (7)" width="640" height="408" border="0" /></a>
+<a href="/assets/wp/2014/03/Screenshot7.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (7)" src="/assets/wp/2014/03/Screenshot7_thumb.png" alt="Screenshot (7)" width="640" height="408" border="0" /></a>
 
 Now we have all of the foundational pieces in place and can begin building our UI. This experience is eerily similar to XAML development and yet frustratingly different. Android uses XML to declare it’s UI layout and if you’ve spent time with XAML you’ll feel right at home. That said, you’ll likely also find it frustrating how incomplete it feels compared to XAML, especially when it comes to data binding (or the complete lack there of).
 
@@ -53,17 +53,17 @@ For our application we’re going to have 2 Activities (MainActivity and BranchD
 
 We’ll start off with our layout for the MainActivity. This will consist of a TextView to hold our page title, a ProgressBar to <del>alter</del> alert the user that we’re fetching information and a GridView that displays a list of branches.
 
-<strong><a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot9.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (9)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot9_thumb.png" alt="Screenshot (9)" width="161" height="240" border="0" /></a></strong>
+<strong><a href="/assets/wp/2014/03/Screenshot9.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (9)" src="/assets/wp/2014/03/Screenshot9_thumb.png" alt="Screenshot (9)" width="161" height="240" border="0" /></a></strong>
 
 You’ll notice that the screen shot here doesn’t include of any sample data. As I mentioned previously, data binding isn’t included here. Layouts are just XML documents and there is little to no design time functionality. To understand what you’re going to see it is sometimes easier to simply look at the raw XML:
 
-https://gist.github.com/mlafleur/f25a6e983f33e5ebdb67
+{% gist 5dc184b0b0ba91a06035  %}
 
 Notice that there is not item template associated with the GridView. Instead of declaring this in-line, the template will be applied by our custom adapter (more on that in a minute).  We’ll define that template in a separate layout called BranchItem.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot10.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (10)" src="http://massivescale.blob.core.windows.net/blogmedia/2014/03/Screenshot10_thumb.png" alt="Screenshot (10)" width="240" height="78" border="0" /></a>
+<a href="/assets/wp/2014/03/Screenshot10.png"><img style="float: none;margin-left: auto;margin-right: auto;border-width: 0px" title="Screenshot (10)" src="/assets/wp/2014/03/Screenshot10_thumb.png" alt="Screenshot (10)" width="240" height="78" border="0" /></a>
 
-https://gist.github.com/mlafleur/edc059c40548236b1fb9
+{% gist 5dc184b0b0ba91a06035  %}
 
 <strong>Main Activity</strong>
 
@@ -71,17 +71,17 @@ Now that we have the layouts we need, it is time to write some actual code. Open
 
 First we’ll  reference our ViewModel and stub out what we need in OnCreate:
 
-https://gist.github.com/mlafleur/3263a93e5a3995475cc3
+{% gist 5dc184b0b0ba91a06035  %}
 
 <strong>List Adapter</strong>
 
 In order to populate our GridView we need to create a custom List Adapter. This is a class that inherits from the BaseAdapter class and overrides some select methods. We will then instantiate this adapter in our Main Activity and assign it to the GridView in our layout.
 
-https://gist.github.com/mlafleur/3dcf11dd5c6fa9a12390
+{% gist 5dc184b0b0ba91a06035  %}
 
 With this in place we can flesh out our Main Activity a bit more:
 
-https://gist.github.com/mlafleur/18bf870134dc03b9aa63
+{% gist 5dc184b0b0ba91a06035  %}
 
 If we run the application now you’ll find that we’ve got a functional list of branches with one exception, there are no branch images. This is because, unlike XAML, you cannot reference an external URI from your layout. We need to download them into local storage first and then update the List Adapter.
 
@@ -89,25 +89,25 @@ If we run the application now you’ll find that we’ve got a functional list o
 
 To download the images, I created a static method. It takes in the external URI, downloads the image and updates the ImagePath to point at the local file.
 
-https://gist.github.com/mlafleur/72189a854b4d03560f2f
+{% gist 5dc184b0b0ba91a06035  %}
 
 I then kick off a separate thread within our Main Activity to download these images in the background. Once complete it notifies the List Adapter that the items have updated.
 
-https://gist.github.com/mlafleur/21d0334527ba3b3e244b
+{% gist 5dc184b0b0ba91a06035  %}
 
 <strong>Branch Details</strong>
 
 For the detail page, I added a new Activity and Layout for BranchDetail. Just like MainActivity, it references the ViewModel in our PCL. Since this ViewModel is static we simply pass in the index of the branch and display the details:
 
-https://gist.github.com/mlafleur/2fff4f973503fd2494dd
+{% gist 5dc184b0b0ba91a06035  %}
 
 We then add a Click event to our Main Activity that handles the navigation:
 
-https://gist.github.com/mlafleur/9c47806ae6817274549d
+{% gist 5dc184b0b0ba91a06035  %}
 
 This gives us our final MainActivity class:
 
-https://gist.github.com/mlafleur/586efced551ed3bf1778
+{% gist 5dc184b0b0ba91a06035  %}
 
 <strong>Going Forward</strong>
 

@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en-us"  itemscope="itemscope" itemtype="http://schema.org/SoftwareApplication" >
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>Image Importer app for Windows in the Windows Store</title>
+
+    <link href="/windows/Css/WolV2.css" rel="stylesheet" type="text/css" />
+    <link href="/windows/Css/WebPdp.css?v=2011" rel="stylesheet" type="text/css" />
+
+        <link rel="canonical" href="http://apps.microsoft.com/windows/en-us/app/image-importer/36eaa4f4-64ed-4eab-bfaf-372bc71ff2ce" itemprop="url" />
+    <link rel="shortcut icon" href="/windows/Images/favicon.ico?v=2" type="image/x-icon" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+    <script src="/windows/Scripts/wol.bi.js" type="text/javascript"></script>
+    <script src="/windows/Scripts/XCEWeb.js?v=2011" type="text/javascript"></script>
+    <script src="/windows/Scripts/WebPdp.Instr.js?v=2011" type="text/javascript"></script>
+    <script src="/windows/Scripts/WOL.js?v=2010" type="text/javascript"></script>
+    <script src="/windows/Scripts/WebPdp.js?v=2011" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      window.XceWeb.config.getAuthToken = function () {
+        var deferred = $.Deferred();
+        deferred.resolve(null);
+        return deferred.promise();
+      }
+
+      window.XceWeb.config.url = 'https://vortex-sandbox.data.microsoft.com/event/client/unauth';
+      window.XceWeb.config.deviceType = window.XceWeb.DeviceType.Web;
+      $.support.cors = true;
+    </script>
+
+    
+    <script type="text/javascript">
+        var autoLaunchStore = false;
+        var biEnabled = true;
+        var biServer = 'c.microsoft.com';
+        var packageFamilyName = '45328MassiveScale.ImageImporter_07ezjqf5t0cp6';
+        var publisherName = 'MassiveScale';
+        var categoryId = 7;
+        var subCategoryId = 0;
+        var more='Show more';
+        var less='Show less';
+        var isDarkText = true;
+        var isRtl = false;
+        var imageUrl='/windows/images/';
+        var wolSearchUrl='http://windows.microsoft.com/en-us/windows/search';
+        var ocid='';
+    </script>
+    
+    <meta name="MS.OCID" content="" />
+    <meta name="MS.App.Id" content="36eaa4f4-64ed-4eab-bfaf-372bc71ff2ce" />
+    <meta name="App.ReleaseGUID" content="e13118f6-e11d-4ec9-ad2e-2478f6b86a57" />
+    <meta name="MS.Culture" content="en-us" />
+    <meta name="MS.PageId" content="WebPDP" />
+    <meta name="MS.PageVer" content="2.0" />
+    <meta name="MS.App.Culture" content="en-us" />
+    <meta name="MS.CList.Dev.Name" content="MassiveScale" />
+    <meta name="MS.Cat.ID" content="7" />
+    <meta property="og:title" content="Image Importer app for Windows in the Windows Store" />
+
+        <meta property="og:url" content="http://apps.microsoft.com/windows/en-us/app/image-importer/36eaa4f4-64ed-4eab-bfaf-372bc71ff2ce" />
+    <meta property="og:image" content="http://wscont1.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Icon.246406.png" />
+    <meta property="og:description" content="Learn more about Image Importer by MassiveScale and download it from the Windows Store" />
+
+    <meta name="keywords" content="Image Importer, MassiveScale, Photo, windows store, windows store app, windows app, windows app, app" />
+<meta name="description" content="Learn more about Image Importer by MassiveScale and download it from the Windows Store" />
+
+    <style type="text/css">
+    .imageButton
+    {
+        background-color:#707070;
+    }
+
+    .appColors, #ScreenshotCaption
+    {
+        background-color:#83C1FF;
+        color:Black;
+    }
+
+    .lightFont
+    {
+        font-family:"Segoe UI Light", "Segoe UI", Arial, Verdana, Sans-serif;
+    }
+
+    .boldFont, .SectionHeaderFont, .SubSectionHeaderFont
+    {
+        font-family:"Segoe UI", Arial, Verdana, Sans-serif;
+        font-weight:600;
+    }
+
+    .normalFont, .SectionFont, .SectionFontDark, .Font
+    {
+        font-family:"Segoe UI", Arial, Verdana, Sans-serif;
+    }
+</style>
+
+
+</head>
+<body>
+    <div id="PageContainer">
+        <div id="Header" role="banner">
+  <div id="HeaderFBMain">
+    <div id="HeaderFBOpqaue"></div>
+    <div id="HeaderMainContainer">
+      <div id="HeaderNearChild">
+        <div id="HeaderWinLogo">
+            <a id="HeaderWinLogo_href"
+               title="Windows"
+               href="http://windows.microsoft.com/"
+               onclick="onPageActionLink(0,'http://windows.microsoft.com/')">
+                <img id="WindowsLogo" alt="Windows" class="accentBackground" src="/windows/images/windows_logo.png" data-hcdkaltsrc="/windows/images/windows_logo_hcdk.png" data-hcltaltsrc="/windows/images/windows_logo_hclt.png" height="32" width="148">
+            </a>
+        </div>
+      </div>
+      <div id="HeaderFarChild">
+        <div class="SearchQuery" role="search">
+          <div class="SearchQueryTextInput">
+              <input name="q" id="SearchQueryTextInputArea" class="SearchQueryTextInput" type="search" maxlength="500" autocomplete="off" title="Search for apps">
+          </div>
+          <div class="SearchQuerySubmit">
+            <button id="SearchButton" title="Search" type="button" class="accentBackground accentForeground">
+                <div class="clip24x24"> 
+                    <img id="searchIcon" src="/windows/images/searchIcon24.png" draggable="false"> 
+                </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+
+
+
+
+<div id="Content">
+    <div id="ProductTitle">
+    <h1 id="ProductTitleText" class="lightFont truncText" title="Image Importer" itemprop="name">Image Importer</h1>
+</div>
+
+    <div id="TitleDivider" class="SectionDivider"></div>
+    <div id="LeftPanel" role="group">
+        <div id="LeftCrop" class="truncText" role="main">
+            <div id="LeftContent">
+                <div id="ProductStats">
+                    <div id="AppLogo">
+                        
+<div class="AppTileIcon" style="background-color: #83C1FF; color: Black">
+        <a href="/windows/app/36eaa4f4-64ed-4eab-bfaf-372bc71ff2ce" title="Logo" aria-label="Logo">
+            <span>
+                <img src="http://wscont1.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Icon.246406.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);"
+                    itemprop="image" />
+            </span>
+        </a>
+</div>
+                    </div>
+                    <div id="PriceAndRating" class="floatLeft">
+                        <div id="MainPrice" class="boldFont floatLeft">
+                            
+  <div id="Price" class="lightFont" itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer">
+    <span itemprop="seller" itemscope="itemscope" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Windows Store" />
+    </span>
+      <meta itemprop="price" content="0" />
+Free  </div>
+
+                        </div>
+                        <div id="MainStars" class="floatLeft">
+                            
+<div class="Rating" itemprop="aggregateRating" itemscope="itemscope" itemtype="http://schema.org/AggregateRating">
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 3.1 out of 5 stars">
+        <meta itemprop="ratingValue" content="3.1" />
+        <meta itemprop="bestRating" content="5" />
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:62.0%;"></div>
+    </div>
+    <meta itemprop="ratingCount" content="14" />
+    <div class="RatingTextInline Font truncText" title="14">14</div>
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    
+<div id="Details">
+    <meta itemprop="operatingSystem" content="Windows 8" />
+    <div id="Publisher" class="DetailSub">
+            <div id="AppDeveloperLabel" class="truncTextWrapLabel SectionFontDark floatLeft">Published by</div>            
+            <div id="AppDeveloper" class="SectionFont truncText" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization" title="MassiveScale">
+MassiveScale            </div>
+        <div id="AppCopyrightText" class="SectionFontDark truncText" title="2015 by Marc LaFleur, All Rights Reserved">2015 by Marc LaFleur, All Rights Reserved</div>
+    </div>
+    <div id="ExtraInfo" class="DetailSub">
+        <div id="Category" class="truncTextWrap">
+            <div id="CategoryLabel" class="truncTextWrapLabel SectionFontDark floatLeft">Category</div>
+            <div id="CategoryText" class="SectionFont truncText" title="Photo">
+Photo            </div>
+        </div>
+
+            <div id="ApproximateSize" class="truncTextWrap">
+                <div id="ApproximateSizeLabel" class="truncTextWrapLabel SectionFontDark floatLeft">Approximate size</div>
+                <div id="ApproximateSizeText" class="SectionFont truncText" title="0.3 MB">0.3 MB</div>
+            </div>
+
+            <div id="AgeRating" class="truncTextWrap">
+                <div id="AgeRatingLabel" class="truncTextWrapLabel SectionFontDark floatLeft">Age rating</div>
+                <div id="AgeRatingText" class="SectionFont truncText" title="12+">12+</div>
+            </div>
+    </div>
+</div>
+
+                </div>
+                
+
+                
+
+                
+    <div id="BannerRegion">
+        <div id="BannerRegionText" class="Font noTruncText">
+            Get Windows 8.1 to run this app. <a href="http://go.microsoft.com/fwlink/p/?LinkId=230668">Learn more</a>
+        </div>
+    </div>
+
+                <div id="AppsByDev">
+                    <h2 id="AppsByDevSection" class="SubSectionHeaderFont">
+More apps by MassiveScale                    </h2>
+                    <div id="AppsByDevDivider" class="SectionDivider"></div>
+                             
+<div class="AppTile">
+    <a href="/windows/app/5b19f93c-a2ff-4e3b-99c2-987b9948a0af"
+       aria-label="Massachusetts RMV Info
+Free
+Rating: 4.9 out of 5 stars
+8
+CategoryGovernment"
+       class="AppTileLink"
+       onclick="onPageActionLink('/windows/app/5b19f93c-a2ff-4e3b-99c2-987b9948a0af')">
+        <div aria-hidden="true">
+            <div class="AppTileIconDiv">
+                
+<div class="AppTileIcon" style="background-color: #464646; color: White">
+            <span>
+                <img src="http://wscont1.apps.microsoft.com/winstore/1x/5ac400a1-05e6-4a3a-aa31-f2423e1a60c7/Icon.258593.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);" />
+            </span>
+</div>
+            </div>
+            <div class="AppTileInfo normalFont">
+                <div class="AppTileTitle boldFont truncText" title="Massachusetts RMV Info">Massachusetts RMV Info</div>
+                <div class="AppTileStarRating">
+                    <div class="TilePriceFont">
+                        
+  <span title="Free" class="">Free</span>
+
+                    </div>
+                    
+<div class="Rating" >
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 4.9 out of 5 stars">
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:98.0%;"></div>
+    </div>
+    <div class="RatingTextInline Font truncText" title="8">8</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="RightPanel" role="group">
+        <div id="OverviewPanel">
+            
+<div id="Screenshots">
+    <div id="ScreenshotsMain" class="appColors">
+        <div id="ScreenshotView" role="img">
+                <img id="ScreenshotImage" src="http://wscont2.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.100000.jpg" alt="" onerror="setfallbackImage(this);"/>
+        </div>
+        <div id="ScreenshotCaption">
+            <div id="ImageCaption" class="floatLeft normalFont">
+                <div id="ImageCaptionText" class="truncText "></div>
+            </div>
+            <div id="NavButtons" class="floatRight">
+                    <a id="ImagePrevButton" aria-label="Previous screenshot" title="Previous screenshot" class="imageNextPrevButton" href="#">
+                        <img id="prevImg" class="navImage" />
+                    </a>
+                    <a id="ImageNextButton" aria-label="Next screenshot" title="Next screenshot" class="imageNextPrevButton" href="#">
+                        <img id="nextImg" class="navImage" />
+                    </a>
+            </div>
+        </div>
+    </div>
+    <div id="ScreenshotImageButtons">
+            <a class="imageButton floatLeft "
+                aria-label="Display screen shot 0 out of 4. Automatically detects attached photo storage devices"
+                href="#"
+                title="Image Importer screen shot 0"
+                imgurl="http://wscont2.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.100000.jpg"
+                imgcaption="Automatically detects attached photo storage devices"
+                imgaria="Image Importer screen shot 0"
+                alttext="Image Importer screen shot 0">
+                <img src="http://wscont2.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.100000.jpg" 
+                  onerror="setfallbackImage(this);"
+                  title="Image Importer screen shot 0"
+                  alt="Image Importer screen shot 0"
+                  />
+            </a>
+            <a class="imageButton floatLeft "
+                aria-label="Display screen shot 1 out of 4. Allows for individual import of selected photos or batch processing of entire media"
+                href="#"
+                title="Image Importer screen shot 1"
+                imgurl="http://wscont1.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.1000000.jpg"
+                imgcaption="Allows for individual import of selected photos or batch processing of entire media"
+                imgaria="Image Importer screen shot 1"
+                alttext="Image Importer screen shot 1">
+                <img src="http://wscont1.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.1000000.jpg" 
+                  onerror="setfallbackImage(this);"
+                  title="Image Importer screen shot 1"
+                  alt="Image Importer screen shot 1"
+                  />
+            </a>
+            <a class="imageButton floatLeft "
+                aria-label="Display screen shot 2 out of 4. Allows source photo removal and multiple storage schemes"
+                href="#"
+                title="Image Importer screen shot 2"
+                imgurl="http://wscont2.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.1000001.jpg"
+                imgcaption="Allows source photo removal and multiple storage schemes"
+                imgaria="Image Importer screen shot 2"
+                alttext="Image Importer screen shot 2">
+                <img src="http://wscont2.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.1000001.jpg" 
+                  onerror="setfallbackImage(this);"
+                  title="Image Importer screen shot 2"
+                  alt="Image Importer screen shot 2"
+                  />
+            </a>
+            <a class="imageButton floatLeft "
+                aria-label="Display screen shot 3 out of 4. Importing process is clear and direct"
+                href="#"
+                title="Image Importer screen shot 3"
+                imgurl="http://wscont1.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.1000002.jpg"
+                imgcaption="Importing process is clear and direct"
+                imgaria="Image Importer screen shot 3"
+                alttext="Image Importer screen shot 3">
+                <img src="http://wscont1.apps.microsoft.com/winstore/1x/e13118f6-e11d-4ec9-ad2e-2478f6b86a57/Screenshot.246406.1000002.jpg" 
+                  onerror="setfallbackImage(this);"
+                  title="Image Importer screen shot 3"
+                  alt="Image Importer screen shot 3"
+                  />
+            </a>
+    </div>
+</div>
+<div class="clearFloat"></div>
+
+
+
+<div id="Description" class="readMoreBlock normalFont">
+    <h2 class="boldFont SubSectionHeaderFont">Description</h2>
+    <div class="readMoreText SectionFont readMoreTextTrunc readMoreInit"><div class=""><div id="DescriptionText" itemprop="description" class="">Image Importer provides an enhanced import model over the default Photos app. Specifically it adds two features previously available in Windows Essentials Live Gallery - the ability to import files into folders by Date Taken and remove files from the source media when completed. I developed this utility for my personal use but decided to publish it after hearing other’s in the community looking for these features.<br /><br />I’ve tested this with all sorts of removable media as well as DLSR cameras. If you run into issues please drop me a line and I’ll get it fixed for you.</div></div></div>
+    <a class="readMoreButton" href="#">Show more</a>
+</div>
+
+
+            
+
+
+
+<div id="Features" class="readMoreBlock normalFont">
+    <h2 class="boldFont SubSectionHeaderFont">Features</h2>
+    <div class="readMoreText SectionFont readMoreTextTrunc readMoreInit"><div class=""><div id="FeatureText">
+<ul>
+    <li><div class="">Import Photos to your Pictures Library</div></li>
+    <li><div class="">Ability to remove photos from source media after import</div></li>
+    <li><div class="">Supports storing by Import Date or Date Taken</div></li>
+</ul>
+</div></div></div>
+    <a class="readMoreButton" href="#">Show more</a>
+</div>
+        </div>
+        <div id="DetailsSection">
+            <div id="DetailsHeader" class="SectionHeaderFont">Details</div>
+            <div id="DetailsDivider" class="SectionDivider"></div>
+            <div id="DetailsPanel">
+                <div id="DetailsLeftColumn">
+
+<div id="ReleaseNotes" class="readMoreBlock normalFont">
+    <h2 class="boldFont SubSectionHeaderFont">Notes</h2>
+    <div class="readMoreText SectionFont readMoreTextTrunc readMoreInit"><div class=""><div id="ReleaseNotesText" class="">1.1.0.13<br />- Added a Settings button to device selection screen to make changing settings a bit easier on Windows 10. <br /><br />1.1.0.12<br />- Increased the maximum number of images imported from 500 to 2,000<br /><br />1.0.0.6 <br />- Fixed device refresh issues after removing source media<br />- Added more detail to the import progress bar<br />- Cleaned up Device and Import Settiings<br /><br />1.0.0.5<br />- Added the ability to select your destination folder<br />- Added more options for organizing the imported photos<br /><br />1.0.0.3<br />- Added new setting "Show All Devices" which skips filtering devices based on content. By default we only show devices where we could find images. This feature will skip that filtering. This is needed by some devices that do not store media in a standard way.<br /><br />Known Issues:<br />Do to API limitations, Image Importer does not support MTP at this time. Most cameras support both MTP and PTP (also called Storage mode). Using the later will enable Image Importer to see your media. In some cases you may need to use a stand-alone card reader which does have the benefit of being much faster.</div></div></div>
+    <a class="readMoreButton" href="#">Show more</a>
+</div>
+
+                    
+
+<div id="Languages" class="normalFont">
+    <h2 id="LanguagesTitle" class="SubSectionHeaderFont">Languages</h2>
+
+    <div id="LanguagesText" class="SectionFont">
+        <div id="LanguagesTextCollapsed">English (United States)</div>
+        <div id="LanguagesTextFull">English (United States)</div>
+    </div>
+    <div id="LanguagesToggle">
+        <a id="ToggleLanguages" href="javascript:toggleLanguages();">Show all languages</a>
+    </div>
+    <style type="text/css">
+        #LanguagesTextCollapsed, #LanguagesToggle
+        {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        var collapseLanguages = 'Show less languages';
+        var expandLanguages = 'Show all languages';
+    </script>
+</div>
+                </div>
+                <div id="DetailsRightColumn">
+<div id="Architectures" class="normalFont">
+    <h2 id="ArchitectureTitle" class="SubSectionHeaderFont">Supported processors</h2>
+    <div id="ArchitectureText" class="SectionFont">x86, x64, ARM</div>
+</div>
+
+
+<div id="Requirements" class="readMoreBlock normalFont">
+    <h2 class="boldFont SubSectionHeaderFont">System requirements</h2>
+    <div class="readMoreText SectionFont readMoreTextTrunc readMoreInit"><div class=""><div id="RequirementText">
+<ul>
+    <li><div class="">Camera with PTP or Storage Mode support</div></li>
+    <li><div class="">Stand-alone Media Card Reader</div></li>
+</ul>
+</div>
+</div></div>
+    <a class="readMoreButton" href="#">Show more</a>
+</div>
+
+                    <div id="WebsiteLinks" class="normalFont">
+        <div id="LearnMore">
+            <h2 id="LearnMoreTitle" class="SubSectionHeaderFont">Learn more</h2>
+            <p id="WebsiteLink" class="truncTextBlockWrap SectionFont">
+                <a href="http://massivescale.com/pages/apps/image-importer/">Image Importer website</a>
+            </p>
+            <p id="SupportLink" class="truncTextBlockWrap SectionFont">
+                <a href="mailto:marc@massivescale.com">Image Importer support</a>
+            </p>
+        </div>
+        <div id="AdditionalTerms">
+	        <h2 id="AdditionalTermsTitle" class="SubSectionHeaderFont">Additional terms</h2>
+            <p id="DevPrivacyPolicyLink" class="truncTextBlockWrap SectionFont">
+                <a href="http://massivescale.com/pages/apps/image-importer/image-importer-privacy-policy/">MassiveScale privacy policy</a>
+            </p>
+        </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+        <div id="SimilarAppsSection">
+            <div id="SimilarAppsHeader">
+                <h2 id="SimilarAppsHeaderLabel" class="SectionHeaderFont floatLeft">
+Related apps                </h2>
+            </div>
+            <div id="SimilarAppsDivider" class="SectionDivider"></div>
+            <div id="SimilarAppsContent">
+<div id="SimilarApps">
+    <div id="SimilarAppsLeft">
+<div class="AppTile">
+    <a href="/windows/app/32a80617-bb80-4f18-9648-8572ba5f4890"
+       aria-label="Calendar Import
+Free
+Rating: 2.6 out of 5 stars
+13
+CategoryTools"
+       class="AppTileLink"
+       onclick="onPageActionLink('/windows/app/32a80617-bb80-4f18-9648-8572ba5f4890')">
+        <div aria-hidden="true">
+            <div class="AppTileIconDiv">
+                
+<div class="AppTileIcon" style="background-color: #006666; color: White">
+            <span>
+                <img src="http://wscont2.apps.microsoft.com/winstore/1x/cc535aaf-775f-414e-8480-60fae2dff0c3/Icon.400959.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);" />
+            </span>
+</div>
+            </div>
+            <div class="AppTileWideInfo normalFont floatLeft">
+                <div class="AppTileTitle boldFont truncText" title="Calendar Import">Calendar Import</div>
+                <div class="AppTileStarRating">
+                    <div class="TilePriceFont FloatPrice truncText">
+                        
+  <span title="Free" class="">Free</span>
+
+                    </div>
+                    <div>
+                        
+<div class="Rating" >
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 2.6 out of 5 stars">
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:52.0%;"></div>
+    </div>
+    <div class="RatingTextInline Font truncText" title="13">13</div>
+</div>
+                    </div>
+                </div>
+                <div class="AppTileCat Font">
+                    Tools
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="AppTile">
+    <a href="/windows/app/bf6c75f0-b42c-4a9c-85c1-d693af77510c"
+       aria-label="Viewing
+$1.49
+Rating: 4.3 out of 5 stars
+3
+CategoryPhoto
+The app developer believes this app meets accessibility requirements, making it easier for everyone to use."
+       class="AppTileLink"
+       onclick="onPageActionLink('/windows/app/bf6c75f0-b42c-4a9c-85c1-d693af77510c')">
+        <div aria-hidden="true">
+            <div class="AppTileIconDiv">
+                
+<div class="AppTileIcon" style="background-color: #FFFFFF; color: Black">
+            <span>
+                <img src="http://wscont2.apps.microsoft.com/winstore/1x/08166d3e-05e1-4fe7-a5b8-c66eb76d1099/Icon.203868.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);" />
+            </span>
+</div>
+            </div>
+            <div class="AppTileWideInfo normalFont floatLeft">
+                <div class="AppTileTitle boldFont truncText" title="Viewing">Viewing</div>
+                <div class="AppTileStarRating">
+                    <div class="TilePriceFont FloatPrice truncText">
+                        
+  <span title="$1.49" class="">$1.49</span>
+
+                    </div>
+                    <div>
+                        
+<div class="Rating" >
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 4.3 out of 5 stars">
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:86.0%;"></div>
+    </div>
+    <div class="RatingTextInline Font truncText" title="3">3</div>
+</div>
+                    </div>
+                </div>
+                <div class="AppTileCat Font">
+                    Photo
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="AppTile">
+    <a href="/windows/app/6a385677-2628-4a4e-832b-7f3fac86a94c"
+       aria-label="Free Leica Community Photo Gallery
+Free
+Rating: 0 out of 5 stars
+No rating
+CategoryPhoto"
+       class="AppTileLink"
+       onclick="onPageActionLink('/windows/app/6a385677-2628-4a4e-832b-7f3fac86a94c')">
+        <div aria-hidden="true">
+            <div class="AppTileIconDiv">
+                
+<div class="AppTileIcon" style="background-color: #464646; color: White">
+            <span>
+                <img src="http://wscont2.apps.microsoft.com/winstore/1x/45eed418-c99a-4cbd-9564-801953e3cf53/Icon.226461.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);" />
+            </span>
+</div>
+            </div>
+            <div class="AppTileWideInfo normalFont floatLeft">
+                <div class="AppTileTitle boldFont truncText" title="Free Leica Community Photo Gallery">Free Leica Community Photo Gallery</div>
+                <div class="AppTileStarRating">
+                    <div class="TilePriceFont FloatPrice truncText">
+                        
+  <span title="Free" class="">Free</span>
+
+                    </div>
+                    <div>
+                        
+<div class="Rating" >
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 0 out of 5 stars">
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:0%;"></div>
+    </div>
+    <div class="RatingTextInline Font truncText" title="No rating">No rating</div>
+</div>
+                    </div>
+                </div>
+                <div class="AppTileCat Font">
+                    Photo
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        
+    </div>
+    <div id="SimilarAppsRight">
+<div class="AppTile">
+    <a href="/windows/app/4fd42198-f065-47fd-a894-6cde2b4ab527"
+       aria-label="Budgety
+Free
+Rating: 0 out of 5 stars
+No rating
+CategoryFinance"
+       class="AppTileLink"
+       onclick="onPageActionLink('/windows/app/4fd42198-f065-47fd-a894-6cde2b4ab527')">
+        <div aria-hidden="true">
+            <div class="AppTileIconDiv">
+                
+<div class="AppTileIcon" style="background-color: #464646; color: White">
+            <span>
+                <img src="http://wscont1.apps.microsoft.com/winstore/1x/479bbe81-dc7e-4a77-985e-f97287713515/Icon.98053.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);" />
+            </span>
+</div>
+            </div>
+            <div class="AppTileWideInfo normalFont floatLeft">
+                <div class="AppTileTitle boldFont truncText" title="Budgety">Budgety</div>
+                <div class="AppTileStarRating">
+                    <div class="TilePriceFont FloatPrice truncText">
+                        
+  <span title="Free" class="">Free</span>
+
+                    </div>
+                    <div>
+                        
+<div class="Rating" >
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 0 out of 5 stars">
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:0%;"></div>
+    </div>
+    <div class="RatingTextInline Font truncText" title="No rating">No rating</div>
+</div>
+                    </div>
+                </div>
+                <div class="AppTileCat Font">
+                    Finance
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="AppTile">
+    <a href="/windows/app/e94ebab8-2cfa-480c-bb7c-9cef6bd140c7"
+       aria-label="Photographer Workshop
+Free
+Rating: 3 out of 5 stars
+43
+CategoryPhoto"
+       class="AppTileLink"
+       onclick="onPageActionLink('/windows/app/e94ebab8-2cfa-480c-bb7c-9cef6bd140c7')">
+        <div aria-hidden="true">
+            <div class="AppTileIconDiv">
+                
+<div class="AppTileIcon" style="background-color: #464646; color: White">
+            <span>
+                <img src="http://wscont1.apps.microsoft.com/winstore/1x/f5a48e1a-db4a-492e-ac02-c5f707f66cc8/Icon.49591.png"
+                    alt="Logo"
+                    draggable="false"
+                    onerror="setfallbackImage(this);" />
+            </span>
+</div>
+            </div>
+            <div class="AppTileWideInfo normalFont floatLeft">
+                <div class="AppTileTitle boldFont truncText" title="Photographer Workshop">Photographer Workshop</div>
+                <div class="AppTileStarRating">
+                    <div class="TilePriceFont FloatPrice truncText">
+                        
+  <span title="Free" class="">Free</span>
+
+                    </div>
+                    <div>
+                        
+<div class="Rating" >
+    <div class="StarRating floatLeft" role="heading" aria-label="Rating: 3 out of 5 stars">
+        <div class="Stars" aria-hidden="true"></div>
+        <div class="StarOverlay" aria-hidden="true" style="width:60%;"></div>
+    </div>
+    <div class="RatingTextInline Font truncText" title="43">43</div>
+</div>
+                    </div>
+                </div>
+                <div class="AppTileCat Font">
+                    Photo
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+        <div id="FooterWrapper">
+            <div id="FooterControlRegionOuter" class="regionOuter FooterControlRegion ">
+    <div id="FooterControlRegionMid" class="regionMid ">
+        <div id="FooterControlRegion" class="region regionGroup ">
+            <div id="bodyFooter">
+                <div id="Footer" logginginteractiontypeid="4">
+                    <div id="FooterFar">
+                        <a id="MsComLogo_href" href="http://go.microsoft.com/fwlink/p/?linkid=182163">
+                            <img alt="Microsoft Corporation" src="/windows/images/mslogo_2013.png">
+                        </a>
+                        <div>
+                            <span id="FooterCopyright">&#169; 2015 Microsoft</span>
+                        </div>
+                    </div>
+                    <div id="FooterText">
+                        <span id="FooterLinks">
+                            <span id="Footer_termsOfUse">
+                                <a id="Footer_termsOfUse_href" href="http://go.microsoft.com/fwlink/?LinkId=123158">Terms of Use</a>
+                            </span>
+                            <span id="Footer_trademarks">
+                                <a id="Footer_trademarks_href" href="http://go.microsoft.com/fwlink/?LinkId=123159">Trademark</a>
+                            </span>
+                            <span id="Footer_privacyStatement">
+                                <a id="Footer_privacyStatement_href" href="http://go.microsoft.com/fwlink/?LinkId=216949">Privacy &amp; Cookies</a>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    <iframe id="wsFrame" class="hidden"></iframe>
+</body>
+</html>

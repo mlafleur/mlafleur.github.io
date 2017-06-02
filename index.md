@@ -13,13 +13,14 @@ layout: default
         </h2>
           {{ post.Excerpt }}
         <br />
-        <small><a class="post-link" href="{{ post.url | relative_url }}">[Read More...]</a><small>
-      <p>
+        <a class="post-link" href="{{ post.url | relative_url }}">[Read More...]</a>
+      </p>
     {% endfor %}
 
 
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+
 
 
 

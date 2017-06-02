@@ -16,33 +16,33 @@ I needed to build app for Windows 8 that demonstrated some fundamental principle
 I know! It is huge! Feel free to take a moment if you need to absorb the enormity of this awesomeness.
 
 Reader's Note: For those who failed to detect the hyperbole in the proceeding paragraphs you may want to stop reading my blog forthwith. It won't get better, I promise.
-<h2>Sourcing the Data</h2>
+## Sourcing the Data
 To begin with I needed to determine if the Massachusetts Registry of Motor Vehicles (RMV) even provided the data I needed. I knew they had a web site that included the wait times for each branch, but I wasn't excited about the idea of screen scraping the data I wanted. Luckily <a href="http://www.massdot.state.ma.us/DevelopersData.aspx">Massachusetts provides developers</a> with a broad collection of data from the Dept of Transportation (including the RMV). In particular I found the <a href="http://www.massdot.state.ma.us/feeds/qmaticxml/qmaticXML.aspx">Branch Wait Time Feed</a> which lists the wait times for registration and licensing at each branch location.
 
 The Branch Wait Time Feed looks like this:
 
-https://gist.github.com/mlafleur/806bc78119184680a976
+{% gist 5dc184b0b0ba91a06035  %}
 
 To use this feed I will fetch it using the HttpClient and convert it to an XDocument. I can then use LINQ to iterate over the feed and update the data within my app.
 
-https://gist.github.com/mlafleur/84b48469bb7099625af5
+{% gist 5dc184b0b0ba91a06035  %}
 
 Unfortunately I don't get all of the data I need from this feed. While it gives me the branch and the times, it doesn't include anything beyond a name. In order to keep things simple, I decided to code in some static that I'm sure won't change any time soon. Obviously this is - to put it mildly - less than idea and I cannot state strongly enough that you should not do this. This is a demo so I'm cutting this corner but in a real app this data belongs out of band from the app itself. In a later demo I'll show how you can use Azure to accomplish this but for the time being I'll be doing the wrong thing.
-<h2>Design</h2>
+## Design
 My overall design for v1 here is simple master-detail model. I need a page that lists the branches that the user can pick from and a details page that covers a single branch.
 
-<img alt="" src="http://massivescale.azurewebsites.net/wp-content/uploads/2013/09/092013_2053_RMVAwesome1.png" />
+<img alt="" src="/assets/wp/2013/09/092013_2053_RMVAwesome1.png" />
 
 I started with a location list. This is a grid displaying each branch with the city, a summary status and a city image (an image I'm pulling from Wikipedia). Clicking a location will open up the details page.
 
-<img alt="" src="http://massivescale.azurewebsites.net/wp-content/uploads/2013/09/092013_2053_RMVAwesome2.png" />
+<img alt="" src="/assets/wp/2013/09/092013_2053_RMVAwesome2.png" />
 
 The details page shows a larger version of the city image, the address and the wait times for Licensing and Registration separately.
-<h2>Technology</h2>
+## Technology
 In the version I'm posting here was built for Windows 8.1 using C#/XML and Visual Studio 2013 RC. The original version was built for Windows 8 using Visual Studio 2012 and all of the code here would work with that version as well. All of the controls used come out-of-the-box with Visual Studio.
 
 The code is available on GitHub at <a href="https://github.com/mlafleur/RMVAwsome/releases/tag/v1" target="_blank">https://github.com/mlafleur/RMVAwsome/releases/tag/v1</a> or follow the live development at <a href="https://github.com/mlafleur/RMVAwsome" target="_blank">https://github.com/mlafleur/RMVAwsome</a>
-<h2>Next Steps</h2>
+## Next Steps
 This article is the beginning of a series on developing apps for Windows and Windows Phone. This version of the app referred to in this article will act as a foundation for future articles. As the series progresses I will be adding additional features and documenting them in greater detail than I have here. Here is a list of some of the features ideas I've been toying with:
 
 Using Portable Client Libraries to share code with Windows Phone (i.e. WP8 version of this app)

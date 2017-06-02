@@ -9,7 +9,7 @@ I've been playing around with the<a href="http://msdn.microsoft.com/en-us/librar
 
 Once I had the project configured I dropped the Map control on to my page, wired up the location data I wanted to display and smashed the F5 key. Up popped my app and my fancy-pants little map.
 
-<img class="alignright  wp-image-1141" alt="App Shot" src="http://massivescale.azurewebsites.net/wp-content/uploads/2012/12/screenshot_11162012_005635-768x432.png" width="461" height="259" />
+<img class="alignright  wp-image-1141" alt="App Shot" src="/assets/wp/2012/12/screenshot_11162012_005635-768x432.png" width="461" height="259" />
 
 I tested my app on a couple of Windows 8 machines I have here as well as a Microsoft Surface. Everywhere I looked, fancy-pants maps appeared.  After some functional testing (and annoying everyone in the house with "hey look, a map! Isn't that cool?!?!") I declared success and submitted my app to the Windows Store.
 

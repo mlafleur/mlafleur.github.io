@@ -1,0 +1,18 @@
+[0.0090] Info: WP_Query results written to log
+[0.0004] Registered sizes: ["thumbnail","medium","large","homepage-banner","full"]
+[0.0011] Meta indexed so far: 1 / 174
+[0.0026] Sample meta:
+{"width":355,"height":200,"file":"imported-onenote-imagesonenote-556b6a824c19e6.20728703.jpeg","sizes":{"thumbnail":{"file":"onenote-556b6a824c19e6.20728703-150x150.jpeg","width":150,"height":150,"mime-type":"image\/jpeg"}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0}}
+[0.0005] Meta indexed so far: 101 / 174
+[2.2275] Meta indexed so far: 174 / 174
+[2.2414] Info: Valid and Invalid meta results written to log
+[0.1627] Info: Loaded attachments to memory [27.5 mb]
+[1.1326] Info: 1005 Images found [28 mb]
+[1.1489] Info: 1005 Invalid images found [28.25 mb]
+[1.2059] Info: Retrieved attachment images from DB [28.25 mb]
+[1.5267] Info: Backup meta results written to log [28.25 mb]
+[0.0075] Posts checked for used images 1/74
+[13.3838] Info: Invalid post image meta results written to log
+Warning: skipping script index because of too many image files
+[0.0471] Warning: skipping attachment index because of too many image files
+[0.0787] Info: Unreferenced image file results written to log

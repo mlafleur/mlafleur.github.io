@@ -18,7 +18,7 @@ Upgrading PHP is thankfully pretty trivial. I opened up the <a href="http://www.
 
 &nbsp;
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb.png" alt="image" width="644" height="441" border="0" /></a>
+<a href="/assets/wp/2014/10/image.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="/assets/wp/2014/10/image_thumb.png" alt="image" width="644" height="441" border="0" /></a>
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Upgrading PHP is thankfully pretty trivial. I opened up the <a href="http://www.
 
 One I installed the bits I then needed to restart IIS and reconfigure the PHP version it was pointing at. This is done at the root IIS level using the PHP Manager we installed a moment ago.
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image1.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb1.png" alt="image" width="644" height="484" border="0" /></a>
+<a href="/assets/wp/2014/10/image1.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="/assets/wp/2014/10/image_thumb1.png" alt="image" width="644" height="484" border="0" /></a>
 
 &nbsp;
 
@@ -40,7 +40,7 @@ Opening up the manager presents you with the current PHP settings. Clicking on t
 
 &nbsp;
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image2.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb2.png" alt="image" width="445" height="207" border="0" /></a>
+<a href="/assets/wp/2014/10/image2.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="/assets/wp/2014/10/image_thumb2.png" alt="image" width="445" height="207" border="0" /></a>
 
 &nbsp;
 
@@ -52,7 +52,7 @@ To make this changes I selected "Manage All Settings" from the PHP Manager and f
 
 &nbsp;
 
-<a href="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image3.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="http://massivescale.blob.core.windows.net/blogmedia/2014/10/image_thumb3.png" alt="image" width="644" height="484" border="0" /></a>
+<a href="/assets/wp/2014/10/image3.png"><img style="padding-top: 0px;padding-left: 0px;padding-right: 0px;border: 0px" title="image" src="/assets/wp/2014/10/image_thumb3.png" alt="image" width="644" height="484" border="0" /></a>
 
 &nbsp;
 

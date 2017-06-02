@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+   <title>Обзоры компьютерной техники | hi-tech новости</title>
+
+
+	<link rel="stylesheet" type="text/css" href="http://wincvs.org/wp-content/themes/techcompass/style.css" media="screen" />
+     
+    <link rel="alternate" type="application/rss+xml" title="Обзоры компьютерной техники RSS Feed" href="http://wincvs.org/feed" />
+    <link rel="pingback" href="http://wincvs.org/xmlrpc.php" />
+
+    <!-- WPZOOM Theme / Framework -->
+<meta name="generator" content="TechCompass 1.0.1" />
+<meta name="generator" content="WPZOOM Framework 1.2.7" />
+
+<meta name="description" content="hi-tech новости" />
+<meta name="robots" content="index, follow" />
+<link href="http://wincvs.org/wp-content/themes/techcompass/functions/wpzoom/assets/css/shortcodes.css" rel="stylesheet" type="text/css" />
+<link href="http://wincvs.org/wp-content/themes/techcompass/custom.css" rel="stylesheet" type="text/css" />
+<style type="text/css">body{font-size:14px;}
+.entry{font-size:13px;}
+</style>
+<link rel='stylesheet' id='sidebar-login-css'  href='http://wincvs.org/wp-content/plugins/sidebar-login/assets/css/sidebar-login.css?ver=2.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wzslider-css'  href='http://wincvs.org/wp-content/themes/techcompass/functions/wpzoom/assets/css/wzslider.css?ver=3.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://wincvs.org/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/functions/wpzoom/assets/js/shortcodes.js?ver=1'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/js/init.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/plugins/sidebar-login/assets/js/blockui.min.js?ver=2.57'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sidebar_login_params = {"ajax_url":"http:\/\/wincvs.org\/wp-admin\/admin-ajax.php","force_ssl_login":"0","force_ssl_admin":"0","is_ssl":"0","i18n_username_required":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043c\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f","i18n_password_required":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c","error_class":"sidebar_login_error"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/plugins/sidebar-login/assets/js/sidebar-login.min.js?ver=2.6.0'></script>
+<meta name="generator" content="WordPress 3.6.1" />
+</head>
+<body class="home blog">
+
+	<header id="header">
+    	<div class="wrap">
+    	
+			
+			
+			
+	    	<div id="logo">
+	    	    <a href="http://wincvs.org" title="hi-tech новости">
+	    	        <img src="http://wincvs.org/wp-content/themes/techcompass/images/logo.png" alt="Обзоры компьютерной техники" />
+	    	    </a>
+	    	</div><!-- end of #logo -->
+	    	
+			<div id="navbar">
+				<ul id="mainmenu" class="dropdown"><li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="http://wincvs.org/category/obzoryi-tehniki">Обзоры техники</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37"><a href="http://wincvs.org/category/sovetyi-polzovatelyam">Советы пользователям</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-38"><a href="http://wincvs.org/category/hi-tech-novinki">Hi-tech новинки</a></li>
+<li id="menu-item-1759" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1759"><a href="http://wincvs.org/category/video-obzor">Видео Обзоры</a></li>
+<li id="menu-item-920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-920"><a href="http://wincvs.org/karta-sayta">Карта сайта</a></li>
+</ul>			</div>
+		 
+    	</div><!-- end of .wrap -->
+    </header>
+    
+    <div id="navbarsecond">
+    	<div class="wrap">
+	    	<ul id="secondmenu" class="dropdown"><li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a href="http://wincvs.org/obzoryi-tehniki/obzor-netbuka-samsung-nc110.html">Нетбук Samsung NC110</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a href="http://wincvs.org/obzoryi-tehniki/obzor-geymerskoy-myishki-razer-tron-mouse.html">Мышь «Razer Tron»</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54"><a href="http://wincvs.org/obzoryi-tehniki/obzor-netbuka-toshiba-nb520-10z.html">Нетбук Toshiba NB520-10Z</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55"><a href="http://wincvs.org/sovetyi-polzovatelyam/obshhiy-uhod-za-kompyuterom.html">Уход за компьютером</a></li>
+</ul>    	</div><!-- end of .wrap -->
+    	<div class="clear"></div>
+    </div><!-- emd of #wide-nav -->
+<div id="slider">
+
+	 		
+	<div class="wrap">
+
+			<div id="slides">
+			<div class="slides_container">
+			
+									<div class="slide">
+						 
+						<div class="slide_img"><a href="http://wincvs.org/obzoryi-tehniki/obzor-netbuka-toshiba-nb520-10z.html" class="img_shadow" title="Обзор нетбука Toshiba NB520-10Z"><img src="http://wincvs.org/wp-content/themes/techcompass/functions/theme/thumb.php?src=http://wincvs.org/wp-content/uploads/2012/05/Toshiba-NB520-10Z-2.jpg&amp;w=292&amp;h=254&amp;zc=1&amp;a=c" alt="Обзор нетбука Toshiba NB520-10Z" /></a></div>	 
+						<div class="post">
+					 
+							<span class="category"><a href="http://wincvs.org/category/obzoryi-tehniki" title="Просмотреть все записи в Обзоры техники" rel="category tag">Обзоры техники</a></span>							<span class="comments"><span>Comments are Disabled</span></span> 
+							
+							<h2 class="title"><a href="http://wincvs.org/obzoryi-tehniki/obzor-netbuka-toshiba-nb520-10z.html" title="Обзор нетбука Toshiba NB520-10Z">Обзор нетбука Toshiba NB520-10Z</a></h2>
+							
+							<div class="post-content">
+								Компания Toshiba представила очередной, прекрасно сбалансированный девайс на основе продуктивной и экономичной плаформы Intel. Он получился очень свежим, благодаря современному, стильному дизайну и использованию яркой, оранжевой верхней крышки. Смотрится он очень интересно и сразу же привлекает внимание покупателей.
+
+							</div>
+							
+							<div class="post-meta">
+								<span class="readmore"><a href="http://wincvs.org/obzoryi-tehniki/obzor-netbuka-toshiba-nb520-10z.html" title="Обзор нетбука Toshiba NB520-10Z"><span>Подробнее</span></a></span>																<span>27 мая 2012 11:33</span>									
+							</div>
+						</div> 
+					</div><!-- /.slide-->
+									<div class="slide">
+						 
+						<div class="slide_img"><a href="http://wincvs.org/obzoryi-tehniki/obzor-geymerskoy-myishki-razer-tron-mouse.html" class="img_shadow" title="Обзор геймерской мышки «Razer Tron Mouse»"><img src="http://wincvs.org/wp-content/themes/techcompass/functions/theme/thumb.php?src=http://wincvs.org/wp-content/uploads/2012/05/Razer-Tron-Mouse-1.jpg&amp;w=292&amp;h=254&amp;zc=1&amp;a=c" alt="Обзор геймерской мышки «Razer Tron Mouse»" /></a></div>	 
+						<div class="post">
+					 
+							<span class="category"><a href="http://wincvs.org/category/obzoryi-tehniki" title="Просмотреть все записи в Обзоры техники" rel="category tag">Обзоры техники</a></span>							<span class="comments"><span>Comments are Disabled</span></span> 
+							
+							<h2 class="title"><a href="http://wincvs.org/obzoryi-tehniki/obzor-geymerskoy-myishki-razer-tron-mouse.html" title="Обзор геймерской мышки «Razer Tron Mouse»">Обзор геймерской мышки «Razer Tron Mouse»</a></h2>
+							
+							<div class="post-content">
+								В 2010 году мир увидел новый фантастический боевик «ТРОН: Наследие». Естественно, сразу после выхода появились первые поклонники. Когда фильм стал кассовым, то выпустили игру «TRON: Evolution». Атмосфера затянула людей, компания Razer взяла это во внимание и сделала несколько устройств стиля «TRON».
+
+							</div>
+							
+							<div class="post-meta">
+								<span class="readmore"><a href="http://wincvs.org/obzoryi-tehniki/obzor-geymerskoy-myishki-razer-tron-mouse.html" title="Обзор геймерской мышки «Razer Tron Mouse»"><span>Подробнее</span></a></span>																<span>27 мая 2012 11:15</span>									
+							</div>
+						</div> 
+					</div><!-- /.slide-->
+								
+			</div><!-- /.slides_container -->
+			
+			 		<a href="#" class="nav prev"></a>
+	<a href="#" class="nav next"></a>
+	 
+	
+		</div><!-- /.slides -->
+	 	
+    </div><!-- /.wrap -->  
+	
+</div><!-- / #slider -->
+
+<div class="main-wrap"> 
+
+	<div id="content">
+
+		<div id="main" role="main">
+			 
+	<div id="post-3694" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/fajlovaya-sistema-2.html" title="Файловая система" rel="bookmark">Файловая система</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Файловая система. Схема, используемая операп шшюи системой для чтения, записи и поиска файлов на диске.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/fajlovaya-sistema-2.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3694 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-1203" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/sluzhba-predostavlyaemaya-dns-serverom.html" title="Служба, предоставляемая DNS-сервером" rel="bookmark">Служба, предоставляемая DNS-сервером</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Служба, предоставляемая DNS-сервером который преобразует имена узлов в соответствующие IP-адреса.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/sluzhba-predostavlyaemaya-dns-serverom.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-1203 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-1202" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/kompyuter-ili-programmnoe-obespechenie.html" title="Компьютер или программное обеспечение" rel="bookmark">Компьютер или программное обеспечение</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Почтовый клиент. Компьютер или программное обеспечение, запускаемое на компьютере, которое способно получать сообщения с почтового сервера и отправлять их на него.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/kompyuter-ili-programmnoe-obespechenie.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-1202 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-1201" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/moi-dokumenty.html" title="Мои документы" rel="bookmark">Мои документы</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Мои документы. Папка, содержащая список созданных или измененных документов Office.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/moi-dokumenty.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-1201 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-1200" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/klienty-kotorye-zaprashivayut-informaciyu.html" title="Клиенты, которые запрашивают информацию" rel="bookmark">Клиенты, которые запрашивают информацию</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Web-броузеры, например, — это клиенты, которые запрашивают информацию у серверов в Internet.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/klienty-kotorye-zaprashivayut-informaciyu.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-1200 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3693" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/zhurnal-komponent-outlook.html" title="Журнал Компонент Outlook" rel="bookmark">Журнал Компонент Outlook</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Способность Outlook и других MAPI-совместимых приложений отправлять в которых получателей просят ответить, выбрав из двух или более ответов на вопрос.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/zhurnal-komponent-outlook.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3693 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3692" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/parametr-opredelyayushhij-xarakter-raboty.html" title="Параметр, определяющий характер работы программы" rel="bookmark">Параметр, определяющий характер работы программы</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Аргумент. Параметр, определяющий характер работы программы.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/parametr-opredelyayushhij-xarakter-raboty.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3692 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3691" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/stranicy-v-world-wide-web.html" title="Страницы в World Wide Web" rel="bookmark">Страницы в World Wide Web</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Программа, которая позволяет пользователям просматривать страницы в World Wide Web, графической составляющей Internet.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/stranicy-v-world-wide-web.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3691 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3690" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/interfejs-prikladnyx-programm-api.html" title="Интерфейс прикладных программ API" rel="bookmark">Интерфейс прикладных программ API</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Интерфейс прикладных программ API, который обеспечивает возможность доступа к сетевым службам и службе телефонии.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/interfejs-prikladnyx-programm-api.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3690 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3689" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/protokol-tochka-tochka.html" title="Протокол “точка-точка”" rel="bookmark">Протокол “точка-точка”</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Pnini-fo-Poini Protocol (PPP). Протокол “точка-точка”, представляющий собой целый набор протоколов и проверки подлинности, оОеспепимюишЙ возможность подключения к удаленным серверам.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/protokol-tochka-tochka.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3689 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3688" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/vxodyashhie-v-nabor.html" title="Входящие в набор" rel="bookmark">Входящие в набор</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Другие приложения, входящие в набор, — это Microsoft Access, Microsoft Excel, Microsoft PowerPoint и Microsoft Word.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/vxodyashhie-v-nabor.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3688 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3687" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/bolee-skorostnaya-realizaciya.html" title="Более скоростная реализация" rel="bookmark">Более скоростная реализация</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Более скоростная реализация, PR1 (Primary Rate Interface — интерфейс основного уровня), обеспечивает скорость передачи данных 1,55 Мбит/с.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/bolee-skorostnaya-realizaciya.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3687 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3686" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/graficheskij-interfejs-polzovatelya.html" title="Графический интерфейс пользователя" rel="bookmark">Графический интерфейс пользователя</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Graphics User Interface (GUI). Графический интерфейс пользователя, используемый в Windows 2000.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/graficheskij-interfejs-polzovatelya.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3686 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3685" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/yazyk-programmirovaniya-vysokogo-urovnya.html" title="Язык программирования высокого уровня" rel="bookmark">Язык программирования высокого уровня</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Язык программирования высокого уровня, изначально разработанный для обучения программированию.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/yazyk-programmirovaniya-vysokogo-urovnya.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3685 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3684" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/slovar-terminov.html" title="Словарь терминов" rel="bookmark">Словарь терминов</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Объекты не уникальны для Outlook.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/slovar-terminov.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3684 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3683" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/kod-na-vbscript.html" title="Код на VBScript" rel="bookmark">Код на VBScript</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Вы можете щелкнуть на любом из объектов в диаграмме, чтобы увидеть подробную справочную информации о нем.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/kod-na-vbscript.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3683 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3682" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/znakomstvo-s-obektnymi-modelyami.html" title="Знакомство с объектными моделями" rel="bookmark">Знакомство с объектными моделями</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Outlook состоит из большого числа нмимодейстнуюшлх объектов.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/znakomstvo-s-obektnymi-modelyami.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3682 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3681" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/dobavlenie-makrosa-na-panel-instrumentov.html" title="Добавление макроса на панель инструментов" rel="bookmark">Добавление макроса на панель инструментов</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Если с введенным вами кодом что-то не так при попытке его выполнения на экране отобразится сообщение об ошибке, содержащее ее кпа кое описание.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/dobavlenie-makrosa-na-panel-instrumentov.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3681 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3680" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/slovo-application.html" title="Слово Application" rel="bookmark">Слово Application</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Вместо того чтобы вводить следующее слово Application, прокрутите список, выберите слово и нажмите клавишу.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/slovo-application.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3680 -->
+	
+	<div class="post_separator"></div>
+	
+	
+ 
+	<div id="post-3679" class="post clearfix">
+		<div class="meta-top clearfix">
+			<span class="category"><a href="http://wincvs.org/category/outlook-2002" title="Просмотреть все записи в Использование Outlook 2002" rel="category tag">Использование Outlook 2002</a></span>			<span class="comments"><span>Comments are Disabled</span></span><div class="clear"></div>
+		</div>
+  		
+		<div class="post-content">
+
+			<h2 class="title"><a href="http://wincvs.org/outlook-2002/punkt-na-paneli-project.html" title="Пункт  на панели Project" rel="bookmark">Пункт  на панели Project</a></h2>
+ 		
+			 			
+			<div class="entry">
+				Для создания кода VBA раскройте пункт  на панели Project (Проект); затем раскройте пункт Microsoft Outlook Objects (Объекты Microsoft Outlook), чтобы отобразить всего один компонент— ThisOutlookSession.
+
+<a class="more-link" href="http://wincvs.org/outlook-2002/punkt-na-paneli-project.html">Подробнее<span>&#8250;</span></a>  		 <div class="clear"></div> 
+			</div><!-- /.entry -->
+			
+		</div><!-- /.post-content -->
+		<div class="clear"></div>
+		
+		<div class="post-meta clearfix">
+										
+			
+									
+ 		</div>
+		
+	</div><!-- #post-3679 -->
+	
+	<div class="post_separator"></div>
+	
+	
+<br><center><div class='wp-pagenavi'>
+<span class='current'>1 </span><a href='http://wincvs.org/page/2' class='page larger'>2 </a><a href='http://wincvs.org/page/3' class='page larger'>3 </a><a href='http://wincvs.org/page/4' class='page larger'>4 </a><a href='http://wincvs.org/page/5' class='page larger'>5 </a><a href='http://wincvs.org/page/6' class='page larger'>6 </a><a href='http://wincvs.org/page/7' class='page larger'>7 </a><a href='http://wincvs.org/page/8' class='page larger'>8 </a><a href='http://wincvs.org/page/9' class='page larger'>9 </a><a href='http://wincvs.org/page/10' class='page larger'>10 </a><a href='http://wincvs.org/page/11' class='page larger'>11 </a><a href='http://wincvs.org/page/12' class='page larger'>12 </a><a href='http://wincvs.org/page/13' class='page larger'>13 </a><a href='http://wincvs.org/page/14' class='page larger'>14 </a><a href='http://wincvs.org/page/15' class='page larger'>15 </a><a href='http://wincvs.org/page/16' class='page larger'>16 </a><a href='http://wincvs.org/page/17' class='page larger'>17 </a><a href='http://wincvs.org/page/18' class='page larger'>18 </a><a href='http://wincvs.org/page/19' class='page larger'>19 </a><a href='http://wincvs.org/page/20' class='page larger'>20 </a><a href='http://wincvs.org/page/21' class='page larger'>21 </a><a href='http://wincvs.org/page/22' class='page larger'>22 </a><a href='http://wincvs.org/page/23' class='page larger'>23 </a><a href='http://wincvs.org/page/24' class='page larger'>24 </a><a href='http://wincvs.org/page/25' class='page larger'>25 </a><a href='http://wincvs.org/page/26' class='page larger'>26 </a><a href='http://wincvs.org/page/27' class='page larger'>27 </a><a href='http://wincvs.org/page/28' class='page larger'>28 </a><a href='http://wincvs.org/page/29' class='page larger'>29 </a><a href='http://wincvs.org/page/30' class='page larger'>30 </a><a href='http://wincvs.org/page/31' class='page larger'>31 </a><a href='http://wincvs.org/page/32' class='page larger'>32 </a><a href='http://wincvs.org/page/33' class='page larger'>33 </a><a href='http://wincvs.org/page/34' class='page larger'>34 </a><a href='http://wincvs.org/page/35' class='page larger'>35 </a><a href='http://wincvs.org/page/36' class='page larger'>36 </a><a href='http://wincvs.org/page/37' class='page larger'>37 </a><a href='http://wincvs.org/page/38' class='page larger'>38 </a><a href='http://wincvs.org/page/39' class='page larger'>39 </a><a href='http://wincvs.org/page/40' class='page larger'>40 </a><a href='http://wincvs.org/page/41' class='page larger'>41 </a><a href='http://wincvs.org/page/42' class='page larger'>42 </a><a href='http://wincvs.org/page/43' class='page larger'>43 </a><a href='http://wincvs.org/page/44' class='page larger'>44 </a><a href='http://wincvs.org/page/45' class='page larger'>45 </a><a href='http://wincvs.org/page/46' class='page larger'>46 </a><a href='http://wincvs.org/page/47' class='page larger'>47 </a><a href='http://wincvs.org/page/48' class='page larger'>48 </a><a href='http://wincvs.org/page/49' class='page larger'>49 </a><a href='http://wincvs.org/page/50' class='page larger'>50 </a><a href='http://wincvs.org/page/51' class='page larger'>51 </a><a href='http://wincvs.org/page/52' class='page larger'>52 </a><a href='http://wincvs.org/page/53' class='page larger'>53 </a><a href='http://wincvs.org/page/54' class='page larger'>54 </a><a href='http://wincvs.org/page/55' class='page larger'>55 </a><a href='http://wincvs.org/page/56' class='page larger'>56 </a><a href='http://wincvs.org/page/57' class='page larger'>57 </a><a href='http://wincvs.org/page/58' class='page larger'>58 </a><a href='http://wincvs.org/page/59' class='page larger'>59 </a><a href='http://wincvs.org/page/60' class='page larger'>60 </a><a href='http://wincvs.org/page/61' class='page larger'>61 </a><a href='http://wincvs.org/page/62' class='page larger'>62 </a><a href='http://wincvs.org/page/63' class='page larger'>63 </a><a href='http://wincvs.org/page/64' class='page larger'>64 </a><a href='http://wincvs.org/page/65' class='page larger'>65 </a><a href='http://wincvs.org/page/66' class='page larger'>66 </a><a href='http://wincvs.org/page/67' class='page larger'>67 </a><a href='http://wincvs.org/page/68' class='page larger'>68 </a><a href='http://wincvs.org/page/69' class='page larger'>69 </a><a href='http://wincvs.org/page/70' class='page larger'>70 </a><a href='http://wincvs.org/page/71' class='page larger'>71 </a><a href='http://wincvs.org/page/72' class='page larger'>72 </a><a href='http://wincvs.org/page/73' class='page larger'>73 </a><a href='http://wincvs.org/page/74' class='page larger'>74 </a><a href='http://wincvs.org/page/75' class='page larger'>75 </a><a href='http://wincvs.org/page/76' class='page larger'>76 </a><a href='http://wincvs.org/page/77' class='page larger'>77 </a><a href='http://wincvs.org/page/78' class='page larger'>78 </a><a href='http://wincvs.org/page/79' class='page larger'>79 </a><a href='http://wincvs.org/page/80' class='page larger'>80 </a><a href='http://wincvs.org/page/81' class='page larger'>81 </a><a href='http://wincvs.org/page/82' class='page larger'>82 </a><a href='http://wincvs.org/page/83' class='page larger'>83 </a><a href='http://wincvs.org/page/84' class='page larger'>84 </a><a href='http://wincvs.org/page/85' class='page larger'>85 </a><a href='http://wincvs.org/page/86' class='page larger'>86 </a><a href='http://wincvs.org/page/87' class='page larger'>87 </a><a href='http://wincvs.org/page/88' class='page larger'>88 </a><a href='http://wincvs.org/page/89' class='page larger'>89 </a><a href='http://wincvs.org/page/90' class='page larger'>90 </a><a href='http://wincvs.org/page/91' class='page larger'>91 </a><a href='http://wincvs.org/page/92' class='page larger'>92 </a><a href='http://wincvs.org/page/93' class='page larger'>93 </a><a href='http://wincvs.org/page/94' class='page larger'>94 </a><a href='http://wincvs.org/page/95' class='page larger'>95 </a><a href='http://wincvs.org/page/96' class='page larger'>96 </a><a href='http://wincvs.org/page/97' class='page larger'>97 </a><a href='http://wincvs.org/page/98' class='page larger'>98 </a><a href='http://wincvs.org/page/99' class='page larger'>99 </a><a href='http://wincvs.org/page/100' class='page larger'>100 </a><a href='http://wincvs.org/page/101' class='page larger'>101 </a><a href='http://wincvs.org/page/102' class='page larger'>102 </a><a href='http://wincvs.org/page/103' class='page larger'>103 </a><a href='http://wincvs.org/page/104' class='page larger'>104 </a><a href='http://wincvs.org/page/105' class='page larger'>105 </a><a href='http://wincvs.org/page/106' class='page larger'>106 </a><a href='http://wincvs.org/page/107' class='page larger'>107 </a><a href='http://wincvs.org/page/108' class='page larger'>108 </a><a href='http://wincvs.org/page/109' class='page larger'>109 </a><a href='http://wincvs.org/page/110' class='page larger'>110 </a><a href='http://wincvs.org/page/111' class='page larger'>111 </a><a href='http://wincvs.org/page/112' class='page larger'>112 </a><a href='http://wincvs.org/page/113' class='page larger'>113 </a><a href='http://wincvs.org/page/114' class='page larger'>114 </a><a href='http://wincvs.org/page/115' class='page larger'>115 </a><a href='http://wincvs.org/page/116' class='page larger'>116 </a><a href='http://wincvs.org/page/117' class='page larger'>117 </a><a href='http://wincvs.org/page/118' class='page larger'>118 </a><a href='http://wincvs.org/page/119' class='page larger'>119 </a><a href='http://wincvs.org/page/120' class='page larger'>120 </a><a href='http://wincvs.org/page/121' class='page larger'>121 </a><a href='http://wincvs.org/page/122' class='page larger'>122 </a><a href='http://wincvs.org/page/123' class='page larger'>123 </a><a href='http://wincvs.org/page/124' class='page larger'>124 </a><a href='http://wincvs.org/page/125' class='page larger'>125 </a><a href='http://wincvs.org/page/126' class='page larger'>126 </a><a href='http://wincvs.org/page/127' class='page larger'>127 </a><a href='http://wincvs.org/page/128' class='page larger'>128 </a><a href='http://wincvs.org/page/129' class='page larger'>129 </a><a href='http://wincvs.org/page/130' class='page larger'>130 </a><a href='http://wincvs.org/page/131' class='page larger'>131 </a><a href='http://wincvs.org/page/132' class='page larger'>132 </a><a href='http://wincvs.org/page/133' class='page larger'>133 </a><a href='http://wincvs.org/page/134' class='page larger'>134 </a><a href='http://wincvs.org/page/135' class='page larger'>135 </a><a href='http://wincvs.org/page/136' class='page larger'>136 </a><a href='http://wincvs.org/page/137' class='page larger'>137 </a><a href='http://wincvs.org/page/138' class='page larger'>138 </a><a href='http://wincvs.org/page/139' class='page larger'>139 </a><a href='http://wincvs.org/page/140' class='page larger'>140 </a><a href='http://wincvs.org/page/141' class='page larger'>141 </a><a href='http://wincvs.org/page/142' class='page larger'>142 </a><a href='http://wincvs.org/page/143' class='page larger'>143 </a><a href='http://wincvs.org/page/144' class='page larger'>144 </a><a href='http://wincvs.org/page/145' class='page larger'>145 </a><a href='http://wincvs.org/page/146' class='page larger'>146 </a><a href='http://wincvs.org/page/147' class='page larger'>147 </a><a href='http://wincvs.org/page/148' class='page larger'>148 </a><a href='http://wincvs.org/page/149' class='page larger'>149 </a><a href='http://wincvs.org/page/150' class='page larger'>150 </a><a href='http://wincvs.org/page/151' class='page larger'>151 </a><a href='http://wincvs.org/page/152' class='page larger'>152 </a><a href='http://wincvs.org/page/153' class='page larger'>153 </a><a href='http://wincvs.org/page/154' class='page larger'>154 </a><a href='http://wincvs.org/page/155' class='page larger'>155 </a><a href='http://wincvs.org/page/156' class='page larger'>156 </a><a href='http://wincvs.org/page/157' class='page larger'>157 </a><a href='http://wincvs.org/page/158' class='page larger'>158 </a><a href='http://wincvs.org/page/159' class='page larger'>159 </a><a href='http://wincvs.org/page/160' class='page larger'>160 </a><a href='http://wincvs.org/page/161' class='page larger'>161 </a><a href='http://wincvs.org/page/162' class='page larger'>162 </a><a href='http://wincvs.org/page/163' class='page larger'>163 </a><a href='http://wincvs.org/page/164' class='page larger'>164 </a><a href='http://wincvs.org/page/165' class='page larger'>165 </a><a href='http://wincvs.org/page/166' class='page larger'>166 </a><a href='http://wincvs.org/page/167' class='page larger'>167 </a><a href='http://wincvs.org/page/168' class='page larger'>168 </a><a href='http://wincvs.org/page/169' class='page larger'>169 </a><a href='http://wincvs.org/page/170' class='page larger'>170 </a><a href='http://wincvs.org/page/171' class='page larger'>171 </a><a href='http://wincvs.org/page/172' class='page larger'>172 </a><a href='http://wincvs.org/page/173' class='page larger'>173 </a><a href='http://wincvs.org/page/174' class='page larger'>174 </a><a href='http://wincvs.org/page/175' class='page larger'>175 </a><a href='http://wincvs.org/page/176' class='page larger'>176 </a><a href='http://wincvs.org/page/177' class='page larger'>177 </a><a href='http://wincvs.org/page/178' class='page larger'>178 </a><a href='http://wincvs.org/page/179' class='page larger'>179 </a><a href='http://wincvs.org/page/180' class='page larger'>180 </a><a href='http://wincvs.org/page/181' class='page larger'>181 </a><a href='http://wincvs.org/page/182' class='page larger'>182 </a><a href='http://wincvs.org/page/183' class='page larger'>183 </a><a href='http://wincvs.org/page/184' class='page larger'>184 </a><a href='http://wincvs.org/page/185' class='page larger'>185 </a><a href='http://wincvs.org/page/186' class='page larger'>186 </a><a href='http://wincvs.org/page/187' class='page larger'>187 </a><a href='http://wincvs.org/page/188' class='page larger'>188 </a><a href='http://wincvs.org/page/189' class='page larger'>189 </a><a href='http://wincvs.org/page/190' class='page larger'>190 </a><a href='http://wincvs.org/page/191' class='page larger'>191 </a><a href='http://wincvs.org/page/192' class='page larger'>192 </a><a href='http://wincvs.org/page/193' class='page larger'>193 </a><a href='http://wincvs.org/page/194' class='page larger'>194 </a><a href='http://wincvs.org/page/195' class='page larger'>195 </a><a href='http://wincvs.org/page/196' class='page larger'>196 </a><a href='http://wincvs.org/page/197' class='page larger'>197 </a><a href='http://wincvs.org/page/198' class='page larger'>198 </a><a href='http://wincvs.org/page/199' class='page larger'>199 </a><a href='http://wincvs.org/page/200' class='page larger'>200 </a><a href='http://wincvs.org/page/201' class='page larger'>201 </a><a href='http://wincvs.org/page/202' class='page larger'>202 </a><a href='http://wincvs.org/page/203' class='page larger'>203 </a><a href='http://wincvs.org/page/204' class='page larger'>204 </a><a href='http://wincvs.org/page/205' class='page larger'>205 </a><a href='http://wincvs.org/page/206' class='page larger'>206 </a><a href='http://wincvs.org/page/207' class='page larger'>207 </a><a href='http://wincvs.org/page/208' class='page larger'>208 </a><a href='http://wincvs.org/page/209' class='page larger'>209 </a><a href='http://wincvs.org/page/210' class='page larger'>210 </a><a href='http://wincvs.org/page/211' class='page larger'>211 </a><a href='http://wincvs.org/page/212' class='page larger'>212 </a><a href='http://wincvs.org/page/213' class='page larger'>213 </a><a href='http://wincvs.org/page/214' class='page larger'>214 </a><a href='http://wincvs.org/page/215' class='page larger'>215 </a><a href='http://wincvs.org/page/216' class='page larger'>216 </a><a href='http://wincvs.org/page/217' class='page larger'>217 </a><a href='http://wincvs.org/page/218' class='page larger'>218 </a><a href='http://wincvs.org/page/219' class='page larger'>219 </a><a href='http://wincvs.org/page/220' class='page larger'>220 </a><a href='http://wincvs.org/page/221' class='page larger'>221 </a><a href='http://wincvs.org/page/222' class='page larger'>222 </a><a href='http://wincvs.org/page/223' class='page larger'>223 </a><a href='http://wincvs.org/page/224' class='page larger'>224 </a><a href='http://wincvs.org/page/225' class='page larger'>225 </a><a href='http://wincvs.org/page/226' class='page larger'>226 </a><a href='http://wincvs.org/page/227' class='page larger'>227 </a><a href='http://wincvs.org/page/228' class='page larger'>228 </a><a href='http://wincvs.org/page/229' class='page larger'>229 </a><a href='http://wincvs.org/page/230' class='page larger'>230 </a><a href='http://wincvs.org/page/231' class='page larger'>231 </a><a href='http://wincvs.org/page/232' class='page larger'>232 </a><a href='http://wincvs.org/page/233' class='page larger'>233 </a><a href='http://wincvs.org/page/234' class='page larger'>234 </a><a href='http://wincvs.org/page/235' class='page larger'>235 </a><a href='http://wincvs.org/page/236' class='page larger'>236 </a><a href='http://wincvs.org/page/237' class='page larger'>237 </a><a href='http://wincvs.org/page/238' class='page larger'>238 </a><a href='http://wincvs.org/page/239' class='page larger'>239 </a><a href='http://wincvs.org/page/240' class='page larger'>240 </a><a href='http://wincvs.org/page/241' class='page larger'>241 </a><a href='http://wincvs.org/page/242' class='page larger'>242 </a><a href='http://wincvs.org/page/243' class='page larger'>243 </a><a href='http://wincvs.org/page/244' class='page larger'>244 </a><a href='http://wincvs.org/page/245' class='page larger'>245 </a><a href='http://wincvs.org/page/246' class='page larger'>246 </a><a href='http://wincvs.org/page/247' class='page larger'>247 </a><a href='http://wincvs.org/page/248' class='page larger'>248 </a><a href='http://wincvs.org/page/249' class='page larger'>249 </a><a href='http://wincvs.org/page/250' class='page larger'>250 </a><a href='http://wincvs.org/page/251' class='page larger'>251 </a><a href='http://wincvs.org/page/252' class='page larger'>252 </a><a href='http://wincvs.org/page/253' class='page larger'>253 </a><a href='http://wincvs.org/page/254' class='page larger'>254 </a><a href='http://wincvs.org/page/255' class='page larger'>255 </a><a href='http://wincvs.org/page/256' class='page larger'>256 </a><a href='http://wincvs.org/page/257' class='page larger'>257 </a><a href='http://wincvs.org/page/258' class='page larger'>258 </a><a href='http://wincvs.org/page/259' class='page larger'>259 </a><a href='http://wincvs.org/page/260' class='page larger'>260 </a><a href='http://wincvs.org/page/261' class='page larger'>261 </a><a href='http://wincvs.org/page/262' class='page larger'>262 </a><a href='http://wincvs.org/page/263' class='page larger'>263 </a><a href='http://wincvs.org/page/264' class='page larger'>264 </a><a href='http://wincvs.org/page/265' class='page larger'>265 </a><a href='http://wincvs.org/page/266' class='page larger'>266 </a><a href='http://wincvs.org/page/267' class='page larger'>267 </a><a href='http://wincvs.org/page/268' class='page larger'>268 </a><a href='http://wincvs.org/page/269' class='page larger'>269 </a><a href='http://wincvs.org/page/270' class='page larger'>270 </a><a href='http://wincvs.org/page/271' class='page larger'>271 </a><a href='http://wincvs.org/page/272' class='page larger'>272 </a><a href='http://wincvs.org/page/273' class='page larger'>273 </a><a href='http://wincvs.org/page/274' class='page larger'>274 </a><a href='http://wincvs.org/page/275' class='page larger'>275 </a><a href='http://wincvs.org/page/276' class='page larger'>276 </a><a href='http://wincvs.org/page/277' class='page larger'>277 </a><a href='http://wincvs.org/page/278' class='page larger'>278 </a><a href='http://wincvs.org/page/279' class='page larger'>279 </a><a href='http://wincvs.org/page/280' class='page larger'>280 </a><a href='http://wincvs.org/page/281' class='page larger'>281 </a><a href='http://wincvs.org/page/282' class='page larger'>282 </a><a href='http://wincvs.org/page/283' class='page larger'>283 </a><a href='http://wincvs.org/page/284' class='page larger'>284 </a><a href='http://wincvs.org/page/285' class='page larger'>285 </a><a href='http://wincvs.org/page/286' class='page larger'>286 </a><a href='http://wincvs.org/page/287' class='page larger'>287 </a><a href='http://wincvs.org/page/288' class='page larger'>288 </a><a href='http://wincvs.org/page/289' class='page larger'>289 </a><a href='http://wincvs.org/page/290' class='page larger'>290 </a><a href='http://wincvs.org/page/291' class='page larger'>291 </a><a href='http://wincvs.org/page/292' class='page larger'>292 </a><a href='http://wincvs.org/page/293' class='page larger'>293 </a><a href='http://wincvs.org/page/294' class='page larger'>294 </a><a href='http://wincvs.org/page/295' class='page larger'>295 </a><a href='http://wincvs.org/page/296' class='page larger'>296 </a><a href='http://wincvs.org/page/297' class='page larger'>297 </a><a href='http://wincvs.org/page/298' class='page larger'>298 </a><a href='http://wincvs.org/page/299' class='page larger'>299 </a><a href='http://wincvs.org/page/300' class='page larger'>300 </a><a href='http://wincvs.org/page/301' class='page larger'>301 </a><a href='http://wincvs.org/page/302' class='page larger'>302 </a><a href='http://wincvs.org/page/303' class='page larger'>303 </a><a href='http://wincvs.org/page/304' class='page larger'>304 </a><a href='http://wincvs.org/page/305' class='page larger'>305 </a><a href='http://wincvs.org/page/306' class='page larger'>306 </a><a href='http://wincvs.org/page/307' class='page larger'>307 </a><a href='http://wincvs.org/page/308' class='page larger'>308 </a><a href='http://wincvs.org/page/309' class='page larger'>309 </a><a href='http://wincvs.org/page/310' class='page larger'>310 </a><a href='http://wincvs.org/page/311' class='page larger'>311 </a><a href='http://wincvs.org/page/312' class='page larger'>312 </a><a href='http://wincvs.org/page/313' class='page larger'>313 </a><a href='http://wincvs.org/page/314' class='page larger'>314 </a><a href='http://wincvs.org/page/315' class='page larger'>315 </a><a href='http://wincvs.org/page/316' class='page larger'>316 </a><a href='http://wincvs.org/page/317' class='page larger'>317 </a><a href='http://wincvs.org/page/318' class='page larger'>318 </a><a href='http://wincvs.org/page/319' class='page larger'>319 </a><a href='http://wincvs.org/page/320' class='page larger'>320 </a><a href='http://wincvs.org/page/321' class='page larger'>321 </a><a href='http://wincvs.org/page/322' class='page larger'>322 </a><a href='http://wincvs.org/page/323' class='page larger'>323 </a><a href='http://wincvs.org/page/324' class='page larger'>324 </a><a href='http://wincvs.org/page/325' class='page larger'>325 </a><a href='http://wincvs.org/page/326' class='page larger'>326 </a><a href='http://wincvs.org/page/327' class='page larger'>327 </a><a href='http://wincvs.org/page/328' class='page larger'>328 </a><a href='http://wincvs.org/page/329' class='page larger'>329 </a><a href='http://wincvs.org/page/330' class='page larger'>330 </a><a href='http://wincvs.org/page/331' class='page larger'>331 </a><a href='http://wincvs.org/page/332' class='page larger'>332 </a><a href='http://wincvs.org/page/333' class='page larger'>333 </a><a href='http://wincvs.org/page/334' class='page larger'>334 </a>
+</div></center><br>
+ 		</div>
+		
+		<section id="sidebar">
+<center>	<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0336458075451890";
+/* wincvs.org сайдбар */
+google_ad_slot = "4427929374";
+google_ad_width = 300;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></center><br>
+		
+ 	<div id="search-2" class="widget widget_search"><h3 class="title">Поиск по сайту</h3><div class="widget_content"><form role="search" method="get" id="searchform" action="http://wincvs.org/" >
+    <input type="text" value="" name="s" id="s" />
+    <input type="submit" id="searchsubmit" value="Искать" />
+	</form><div class="clear"></div></div></div><div id="wpzoom-feature-posts-2" class="widget feature-posts"><h3 class="title">Свежие статьи</h3><div class="widget_content"><ul class="feature-posts-list"><li> 					<a href="http://wincvs.org/sovetyi-polzovatelyam/tekstovyiy-redaktor-dlya-linuksa-abiword.html" rel="nofollow" title="Текстовый редактор для Линукса – AbiWord"><img src="http://wincvs.org/wp-content/themes/techcompass/functions/theme/thumb.php?src=http://wincvs.org/wp-content/uploads/2012/05/AbiWord.jpg&amp;w=300&amp;h=100&amp;zc=1&amp;a=c" alt="Текстовый редактор для Линукса – AbiWord" /></a>
+					
+				<a href="http://wincvs.org/sovetyi-polzovatelyam/tekstovyiy-redaktor-dlya-linuksa-abiword.html">Текстовый редактор для Линукса – AbiWord</a> <br /><small>27 мая, 2012</small> <br /><div class="clear"></div></li><li> 					<a href="http://wincvs.org/sovetyi-polzovatelyam/kak-vyibrat-kompyuternuyu-myish.html" rel="nofollow" title="Как выбрать компьютерную мышь?"><img src="http://wincvs.org/wp-content/themes/techcompass/functions/theme/thumb.php?src=http://wincvs.org/wp-content/uploads/2012/05/myish-dlya-kompyutera.jpeg&amp;w=300&amp;h=100&amp;zc=1&amp;a=c" alt="Как выбрать компьютерную мышь?" /></a>
+					
+				<a href="http://wincvs.org/sovetyi-polzovatelyam/kak-vyibrat-kompyuternuyu-myish.html">Как выбрать компьютерную мышь?</a> <br /><small>27 мая, 2012</small> <br /><div class="clear"></div></li><li> 					<a href="http://wincvs.org/sovetyi-polzovatelyam/chto-nuzhno-znat-vyibiraya-noutbuk.html" rel="nofollow" title="Что нужно знать, выбирая ноутбук"><img src="http://wincvs.org/wp-content/themes/techcompass/functions/theme/thumb.php?src=http://wincvs.org/wp-content/uploads/2012/05/vyibor-noutbuka.jpg&amp;w=300&amp;h=100&amp;zc=1&amp;a=c" alt="Что нужно знать, выбирая ноутбук" /></a>
+					
+				<a href="http://wincvs.org/sovetyi-polzovatelyam/chto-nuzhno-znat-vyibiraya-noutbuk.html">Что нужно знать, выбирая ноутбук</a> <br /><small>27 мая, 2012</small> <br /><div class="clear"></div></li></ul><div class="clear"></div><div class="clear"></div></div></div> 	<div id="categories-2" class="widget widget_categories"><h3 class="title">Реклама на сайте</h3><div class="widget_content">	<script type="text/javascript">
+<!--
+var _acic={dataProvider:10};(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//www2.acint.net/aci.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+//-->
+</script><style type='text/css'> .block_links * { background:transparent none repeat scroll 0 0 !important; border:medium none !important; clear:none !important; clip:rect(auto, auto, auto, auto) !important; font-size:100% !important; font-style:normal !important; font-variant:normal !important; font-weight:normal !important; height:auto !important; letter-spacing:normal !important; line-height:normal !important; margin:0 !important; overflow:visible !important; padding:0 !important; position:static !important; text-align:left !important; text-decoration:none !important; text-indent:0 !important; text-transform:none !important; vertical-align:baseline !important; visibility:visible !important; white-space:normal !important; width:auto; word-spacing:normal !important; z-index:auto !important; cursor: pointer!important; word-wrap: break-word!important; } .block_links li { display:list-item !important; list-style-image:none !important; list-style-position:outside !important; list-style-type:none !important; display: inline; } .block_links li DIV { padding:0.5em !important; } .block_links DIV, .block_links TABLE { padding: 5px !important; } .block_links { width: auto!important; font-family: Verdana!important; font-size: 11px!important; border: 1px solid #DDDDDD!important; background-color: #FFFFFF!important; padding:5px!important; position: relative!important; display:block!important; -webkit-border-radius:5px !important; -khtml-border-radius:5px !important; -moz-border-radius:5px !important; border-radius:5px !important; } .block_links_icnt, .block_links_icnt * { text-align: left!important; } .block_links_text, .block_links_text A, .block_links_text A:hover { color: #000000!important; font-size: 11px!important; text-decoration: none!important; } .block_links_url { color: #3a3b3a!important; font-size: 11px!important; text-decoration: none!important; } .block_links_header, .block_links_header A { color: #6f6f80!important; font-size: 13px!important; font-weight: bold!important; text-decoration: underline!important; } .block_links_sign { color: #999999!important; font-size: 10px!important; text-align: left!important; text-decoration: none!important; } .block_links_clear { clear:both!important; } .block_links TABLE { width: 100%!important; border: 0px!important; } </style><div class='block_links'  > <ul> <li class='block_links_icnt' ><div> <span onclick='window.open(&#39;http://everlan.net/betterment-review-financial-advisor-made-money/&#39;, &#39;_blank&#39;); return false;'> Betterment Review 
+  <a href="http://everlan.net/betterment-review-financial-advisor-made-money/" target="_blank">Betterment Review</a> 
+ everlan.net 
+</span> </div></li><li class='block_links_icnt' ><div> <span onclick='window.open(&#39;http://abiszbookofra.com&#39;, &#39;_blank&#39;); return false;'> abiszbookofra 
+  <a href="http://abiszbookofra.com" target="_blank">abiszbookofra</a> 
+ abiszbookofra.com 
+</span> </div></li> </ul></div>	
+<br>
+<ul> <h6><a href="http://wincvs.org/outlook-2002/fajlovaya-sistema-2.html" id="post-3694">Файловая система</a></h6>
+ Файловая система. Схема, используемая операп шшюи системой для чтения, записи и поиска файлов на диске.
+
+  <h6><a href="http://wincvs.org/outlook-2002/sluzhba-predostavlyaemaya-dns-serverom.html" id="post-1203">Служба, предоставляемая DNS-сервером</a></h6>
+ Служба, предоставляемая DNS-сервером который преобразует имена узлов в соответствующие IP-адреса.
+
+ </ul>
+</div></div>
+ 		
+	<div class="clear"> </div>
+</section> 		
+	</div>
+	
+	<div class="clear"></div>
+ 
+		
+	<div id="footer">
+		 <div class="widgetized">
+  			
+			<div class="column">
+							</div><!-- / .column -->
+			
+			<div class="column">
+							</div><!-- / .column -->
+			
+			<div class="column last">
+							</div><!-- / .column -->
+ 
+			<div class="clear"></div>
+        </div>
+ 
+    </div>
+    
+</div><!-- /.main-wrap -->
+
+<div class="wrap">
+	<div class="copyright">
+		<div class="left">
+			Copyright &copy; 2015 Обзоры компьютерной техники.
+<br> <br>Если вы являетесь автором и/или правообладателем любых из представленных
+на нашем сайте материалов, и вы возражаете против их нахождения в открытом
+доступе, сообщите нам, и мы удалим их с сайта.<br><br>
+
+Внимание! Использование материалов сайта возможно только с письменного разрешения редакции. В противном случае любая перепечатка материалов сайта (даже с установленной ссылкой на оригинал) является нарушением законодательства Российской Федерации об авторских и смежных правах и может повлечь за собой судебное преследование в соответствии с законодательством Российской Федерации, предусматривающим наказание вплоть до шести лет лишения свободы.
+   
+		</div>
+		
+		<div class="right">
+		<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='/' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t21.2;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+</div>
+		
+	</div><!-- /.copyright -->
+</div>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function() {
+			jQuery('#slides').css({ display : 'block' });
+			jQuery("#slides").slides({
+				play: 0,
+				generatePagination: false, 
+				effect: 'slide',
+				currentClass: 'active',
+				fadeSpeed: 150,
+				autoHeight: true
+			});
+		});
+	</script>
+ 
+<script>(function($){$(document).ready(function(){});})(jQuery);</script><script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/js/slides.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/js/app.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/js/dropdown.js?ver=3.6.1'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/functions/wpzoom/assets/js/galleria.js'></script>
+<script type='text/javascript' src='http://wincvs.org/wp-content/themes/techcompass/functions/wpzoom/assets/js/wzslider.js'></script>
+</body>
+</html> 

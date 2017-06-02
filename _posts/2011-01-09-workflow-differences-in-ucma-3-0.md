@@ -4,4 +4,88 @@ Excerpt: ""
 Tags:
   - Skype
 ---
-<p>The following is a list of activities from Speech Server 2007 and UCMA 3.0. UCMA brings with it a number of new activities (due mostly to UCMA handling both Speech and Instant Messaging) but it also drops a number of activities we've become used to having in Speech Server.</p>  <table cellspacing="0" cellpadding="0">     <tr>       <td>         <p><font size="4"><strong>Speech Server 2007</strong></font></p>       </td>        <td>         <p><strong><font size="4">UCMA 3.0</font></strong></p>       </td>     </tr>      <tr>       <td>         <p>AnswerCall</p>       </td>        <td>         <p>AcceptCall</p>       </td>     </tr>      <tr>       <td>         <p>BlindTransfer</p>       </td>        <td>         <p>BlindTransfer</p>       </td>     </tr>      <tr>       <td>         <p>Command</p>       </td>        <td>         <p>SpeechCommand</p>       </td>     </tr>      <tr>       <td>         <p>ConsecutiveNoInputsSpeechEvent</p>       </td>        <td>         <p>ConsecutiveNoInputsSpeechEvent</p>       </td>     </tr>      <tr>       <td>         <p>ConsecutiveNoRecognitionsSpeechEvent</p>       </td>        <td>         <p>ConsecutiveNoRecognitionsSpeechEvent</p>       </td>     </tr>      <tr>       <td>         <p>ConsecutiveSilencesSpeechEvent</p>       </td>        <td>         <p>ConsecutiveSilencesSpeechEvent</p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">DeclineCall</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">DetectAnsweringMachine</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p>DisconnectCall</p>       </td>        <td>         <p>DisconnectCall</p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">FormFillingDialog</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">GetAndConfirm</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p>GoTo</p>       </td>        <td>         <p>GoTo</p>       </td>     </tr>      <tr>       <td>         <p>HelpCommand</p>       </td>        <td>         <p>SpeechHelpCommand</p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">InvokeWorkflow</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p>MakeCall</p>       </td>        <td>         <p>OutboundCall</p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">Menu</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">NavigableList</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p>QuestionAnswer</p>       </td>        <td>         <p>SpeechQuestionAnswer</p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">RecordAudio</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">RecordMessage</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p>RepeatCommand</p>       </td>        <td>         <p>SpeechRepeatCommand</p>       </td>     </tr>      <tr>       <td>         <p><font color="#d16349">SaltInterpreter</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p><font color="#d16349">SetTaskStatus</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p>SpeechSequence</p>       </td>        <td>         <p>CommunicationsSquence</p>       </td>     </tr>      <tr>       <td>         <p>Statement</p>       </td>        <td>         <p>SpeechStatement</p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">Validator</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p><font color="#c0504d">VoiceXmlInterpreter</font></p>       </td>        <td>         <p align="center"><font color="#c0504d">-</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">CallDisconnectedEvent</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">CallOnHoldEvent</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">CallOnHoldTimeoutEvent</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">CallRetrievedEvent</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">GetPresence</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">InstantMessagingStatement</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">InstantMessagingQuestioNAnswer</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">InstantMessagingCommand</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">InstantMessagingCommand</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">InstantMessagingHelpCommand</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">ConsecutiveNoInputsInstantMessageEvent</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">ConsecutiveSilencesInstantMessagingEvent</font></p>       </td>     </tr>      <tr>       <td>         <p align="center"><font color="#9bbb59">-</font></p>       </td>        <td>         <p><font color="#9bbb59">ConsecutiveNoRecognitionsInstantMessagingEvent</font></p>       </td>     </tr>   </table>  <p>In the coming weeks I'll be covering some workarounds to the missing activities.</p><img src="http://gotspeech.net/aggbug.aspx?PostID=11181" width="1" height="1"/>
+The following is a list of activities from Speech Server 2007 and UCMA 3.0. UCMA brings with it a number of new activities (due mostly to UCMA handling both Speech and Instant Messaging) but it also drops a number of activities we've become used to having in Speech Server.
+  <table cellspacing="0" cellpadding="0">     <tr>       <td>         <strong>Speech Server 2007</strong>
+       </td>        <td>         <strong>UCMA 3.0</strong>
+       </td>     </tr>      <tr>       <td>         AnswerCall
+       </td>        <td>         AcceptCall
+       </td>     </tr>      <tr>       <td>         BlindTransfer
+       </td>        <td>         BlindTransfer
+       </td>     </tr>      <tr>       <td>         Command
+       </td>        <td>         SpeechCommand
+       </td>     </tr>      <tr>       <td>         ConsecutiveNoInputsSpeechEvent
+       </td>        <td>         ConsecutiveNoInputsSpeechEvent
+       </td>     </tr>      <tr>       <td>         ConsecutiveNoRecognitionsSpeechEvent
+       </td>        <td>         ConsecutiveNoRecognitionsSpeechEvent
+       </td>     </tr>      <tr>       <td>         ConsecutiveSilencesSpeechEvent
+       </td>        <td>         ConsecutiveSilencesSpeechEvent
+       </td>     </tr>      <tr>       <td>         DeclineCall
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         DetectAnsweringMachine
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         DisconnectCall
+       </td>        <td>         DisconnectCall
+       </td>     </tr>      <tr>       <td>         FormFillingDialog
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         GetAndConfirm
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         GoTo
+       </td>        <td>         GoTo
+       </td>     </tr>      <tr>       <td>         HelpCommand
+       </td>        <td>         SpeechHelpCommand
+       </td>     </tr>      <tr>       <td>         InvokeWorkflow
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         MakeCall
+       </td>        <td>         OutboundCall
+       </td>     </tr>      <tr>       <td>         Menu
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         NavigableList
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         QuestionAnswer
+       </td>        <td>         SpeechQuestionAnswer
+       </td>     </tr>      <tr>       <td>         RecordAudio
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         RecordMessage
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         RepeatCommand
+       </td>        <td>         SpeechRepeatCommand
+       </td>     </tr>      <tr>       <td>         SaltInterpreter
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         SetTaskStatus
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         SpeechSequence
+       </td>        <td>         CommunicationsSquence
+       </td>     </tr>      <tr>       <td>         Statement
+       </td>        <td>         SpeechStatement
+       </td>     </tr>      <tr>       <td>         Validator
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         VoiceXmlInterpreter
+       </td>        <td>         -
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         CallDisconnectedEvent
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         CallOnHoldEvent
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         CallOnHoldTimeoutEvent
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         CallRetrievedEvent
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         GetPresence
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         InstantMessagingStatement
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         InstantMessagingQuestioNAnswer
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         InstantMessagingCommand
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         InstantMessagingCommand
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         InstantMessagingHelpCommand
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         ConsecutiveNoInputsInstantMessageEvent
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         ConsecutiveSilencesInstantMessagingEvent
+       </td>     </tr>      <tr>       <td>         -
+       </td>        <td>         ConsecutiveNoRecognitionsInstantMessagingEvent
+       </td>     </tr>   </table>  In the coming weeks I'll be covering some workarounds to the missing activities.
+<img src="http://gotspeech.net/aggbug.aspx?PostID=11181" width="1" height="1"/>

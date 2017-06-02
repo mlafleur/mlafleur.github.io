@@ -17,12 +17,12 @@ Having made this pitch dozens of times someone finally called me on it recently.
 
 Today I give you &lt;insert drum roll&gt; <strong>ROUND TITLE STYLE</strong> &lt;insert cheering crowd&gt;.
 
-<img alt="" src="http://massivescale.azurewebsites.net/wp-content/uploads/2013/03/031313_1546_OutsidetheB1.png" />
+<img alt="" src="/assets/wp/2013/03/031313_1546_OutsidetheB1.png" />
 
-<img alt="" src="http://massivescale.azurewebsites.net/wp-content/uploads/2013/03/031313_1546_OutsidetheB2.png" />
+<img alt="" src="/assets/wp/2013/03/031313_1546_OutsidetheB2.png" />
 
 In all seriousness, it was kind of fun to do. And it turned out to be a decent example of how to extend the default Windows Store App styles.
 
 To accomplish the effect I took the default Item templates for GridVIew and ListView from Standard Titles and used ellipses to create the affect. It was actually quite simple. I also made some changes to the Grid View's Item Container template so that interactivity (i.e. mouse over) respects the round format a bit better. Turning it on is a matter of adding the Resource Dictionary to the app.xaml file and apply the style to the control.
 
-If you want to try it yourself, I've <a href="http://massivescale.azurewebsites.net/wp-content/uploads/2013/03/RoundItemStyles.zip" target="_blank">packaged up the Resource Dictionary</a> with the styles. They will work out of the box with the standard XAML/C# Grid and Split templates. I've also <a href="http://massivescale.azurewebsites.net/wp-content/uploads/2013/03/RoundItemsProject.zip" target="_blank">packaged up a sample project </a>that implements the styles.
+If you want to try it yourself, I've <a href="/assets/wp/2013/03/RoundItemStyles.zip" target="_blank">packaged up the Resource Dictionary</a> with the styles. They will work out of the box with the standard XAML/C# Grid and Split templates. I've also <a href="/assets/wp/2013/03/RoundItemsProject.zip" target="_blank">packaged up a sample project </a>that implements the styles.
