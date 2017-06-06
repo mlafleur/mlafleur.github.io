@@ -23,11 +23,11 @@ github_username:  mlafleur
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
 permalink: none
-paginate: 5
+paginate: 6
