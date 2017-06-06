@@ -9,6 +9,7 @@ Tags:
   - OAUTH
   - Office
   - v2 Endpoint
+Image: /assets/azure-office-768x154.png
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend doing so. I will be glossing over several bits of configuration we previously covered (application registration for example)._

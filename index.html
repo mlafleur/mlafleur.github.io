@@ -6,59 +6,33 @@ layout: default
 ---
 
 <div class="row">
-  <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-  <div class="col-md-4">
-    <h2>{{ post.Title | escape }}</h2>      
-    <p>{{ post.Excerpt }}</p>    
-    <a href="{{ post.url | relative_url }}">Read Story...</a>
+<div class="card-deck col-md-6" style="margin-bottom: 10px">
+  <div class="card">
+    {% if post.Image %}
+    <img class="card-img-top" src="{{ post.Image | escape }}" alt="{{ post.Title | escape }}" style="width:100%">
+    {% endif %}
+    <div class="card-block">
+      <a href="{{ post.url | relative_url }}"><h4 class="card-title">{{ post.Title | escape }}</h4></a>
+      <p class="card-text">{{ post.Excerpt }}</p>
+      <p class="card-text"><small class="text-muted">{{ post.Tags }}</small></p>
+    </div>
+    
   </div>
+</div>
   {% endfor %}
 </div>
 
-<!-- Pagination links 
-<div class="pagination" style="margin-top: 15px">
-  {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a> {% else %}
-  <span class="previous">Previous</span> {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
-  <span class="next ">Next</span> {% endif %}-->
-
-<div class="pagination" style="margin-top: 15px">
   <nav aria-label="..." style="margin-top: 15px">
-    <ul class="pager">
+    <ul class="pagination justify-content-center">
       {% if paginator.previous_page %}
-      <li class="Previous"><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}">Previous</a></li>
       {% else %}
-      <li class="Previous disabled"><a href="#">Previous</a></li>
+      <li class="page-item disabled"><a  class="page-link" href="#">Previous</a></li>
       {% endif %} {% if paginator.next_page %}
-      <li class="Next"><a href="{{ paginator.next_page_path }}">Next</a></li>
+      <li class="page-item"><a  class="page-link" href="{{ paginator.next_page_path }}">Next</a></li>
       {% else %}
-      <li class="Next disabled">Next</li>
+      <li class="page-item disabled">Next</li>
       {% endif %}
     </ul>
   </nav>
-</div>
-<!--
-<div class="home">
-    {% for post in site.posts %}
-      <hr/>
-      <p>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.Title | escape }}</a>
-        </h2>
-          {{ post.Excerpt }}
-        <br />
-        <a class="post-link" href="{{ post.url | relative_url }}">[Read More...]</a>
-      </p>
-    {% endfor %}
-
-
-  subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
-
-
-
-
-</div>
--->

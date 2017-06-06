@@ -9,6 +9,7 @@ Tags:
   - OAUTH
   - Office
   - v2 Endpoint
+Image: /assets/azure-office-768x154.png
 ---
 Until recently Microsoft had two very distinct systems for authenticating users; [Microsoft Account](https://en.wikipedia.org/wiki/Microsoft_account) (or MSA) and [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/) (or Azure AD). Both served the same purpose but for very different audiences; MSA for consumer services and Azure AD for enterprise services. For a while this separation worked reasonably well. While application required different integrations, most applications tended to sit squarely in one market or the other.
 
