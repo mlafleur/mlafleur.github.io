@@ -14,15 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The World According to Marc
+header-img: img/home-bg.jpg
 email: marc@massivescale.com
-description: 
+copyright_name: Marc LaFleur
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mlafleur
 github_username:  mlafleur
+email_username:  marc@massivescale.com
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
 #theme: jekyll-theme-slate
 gems:
   - jekyll-feed
@@ -30,4 +35,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: none
-paginate: 6
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
