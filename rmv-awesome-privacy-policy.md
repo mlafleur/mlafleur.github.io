@@ -1,8 +1,5 @@
 ---
----
 layout: page
----
-
 ---
 # Collection of Information
 We do not collect any personally identifiable information.

@@ -1,9 +1,8 @@
 ---
 layout: page
 ---
+# Collection of Information
+We do not collect any personally identifiable information.
 
-<strong>Collection of Information
-</strong>We do not collect any personally identifiable information.
-
-<strong>Distribution of Information
-</strong>We do not share any information with governmental agencies or other companies.
+# Distribution of Information
+We do not share any information with 3rd parties or governmental agencies.
