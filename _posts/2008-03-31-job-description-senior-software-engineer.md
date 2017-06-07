@@ -1,7 +1,7 @@
 ---
-Title: 'Wanted: Senior Software Engineer'
-Excerpt: ""
-Tags: null
+title: 'Wanted: Senior Software Engineer'
+excerpt: ""
+tags: null
 ---
 <b>Parlance Corporation      <br /></b><b>200 Boston Avenue</b><b>, Medford, MA 02155      <br /></b><b><a href="http://www.parlancecorp.com/" target="_blank" mce_href="http://www.parlancecorp.com">www.parlancecorp.com</a> </b>
   <b></b>

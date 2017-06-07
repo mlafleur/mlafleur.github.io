@@ -1,7 +1,7 @@
 ---
-Title: ImageLists
-Excerpt: ""
-Tags: null
+title: ImageLists
+excerpt: ""
+tags: null
 ---
 =Arial size=2>In keeping with my tradition of <a title=http://weblogs.asp.net/mlafleur/posts/4911.aspx href="/mlafleur/posts/4911.aspx">simplifying</a> <a title=http://weblogs.asp.net/mlafleur/posts/8663.aspx href="/mlafleur/posts/8663.aspx">my point</a>, I've trimmed down my 30 page manifesto on ImageLists to the following:
 

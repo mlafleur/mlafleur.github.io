@@ -1,7 +1,7 @@
 ---
-Title: Bloated Fish and Pork Rinds
-Excerpt: ""
-Tags: null
+title: Bloated Fish and Pork Rinds
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> I installed the corporate edition of Symantec AntiVirus for the first time yesterday. And aside from the poor quality of their documentation (my god this thing is confusing) I think I like it. But I found their licensing model quite amusing.
  To license the product you go to a special website (the address for which is in .005 point type at the bottom of a page) and enter your license key. They then check that key and generate a license file, which they then proceed to <i>email to you!</i>

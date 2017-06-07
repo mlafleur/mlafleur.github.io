@@ -1,7 +1,7 @@
 ---
-Title: "We're not gonna take it. No, we ain't gonna take it"
-Excerpt: ""
-Tags: null
+title: "We're not gonna take it. No, we ain't gonna take it"
+excerpt: ""
+tags: null
 ---
 <p><span class="500290114-08082003"><font face="Arial" size="2">So here I am, happily 
 working on my application. Free as a bird and not a care in the world. When 

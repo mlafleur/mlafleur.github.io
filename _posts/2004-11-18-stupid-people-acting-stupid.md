@@ -1,7 +1,7 @@
 ---
-Title: Stupid People Acting Stupid
-Excerpt: ""
-Tags: null
+title: Stupid People Acting Stupid
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> I know there are plenty of &ldquo;code warriors&rdquo; out there who think that making things more difficult that need be is somehow more fulfilling. I under stand that saying things like &ldquo;I don&rsquo;t comment&rdquo; makes you feel special.
   

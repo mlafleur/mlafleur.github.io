@@ -1,7 +1,7 @@
 ---
-Title: Compact Framework
-Excerpt: ""
-Tags:
+title: Compact Framework
+excerpt: ""
+tags:
   - Mobile
 ---
 =Verdana size=2>I've been working with the Compact Framework the last few days and I'm really in love with it. Talk about simplifying PDA development. Wow.

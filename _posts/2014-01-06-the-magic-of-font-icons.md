@@ -1,8 +1,8 @@
 ---
-Title: The Magic of Font Icons
-Excerpt: |
+title: The Magic of Font Icons
+excerpt: |
   Okay, it isn't magic but it is "one of those things" that I've wished I could easily do for years that finally came together. Anyone who has tried to mess around with creating custom paths for glyphs in their apps will truly appreciate how easy things have become.
-Tags:
+tags:
   - FontIcon
   - Windows
   - XAML

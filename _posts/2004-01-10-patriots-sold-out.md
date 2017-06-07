@@ -1,7 +1,7 @@
 ---
-Title: Patriots Sold Out
-Excerpt: ""
-Tags: null
+title: Patriots Sold Out
+excerpt: ""
+tags: null
 ---
 -7 degrees Fahrenheit and the Patriots still sell out? Man, I live around crazy people up here!
 

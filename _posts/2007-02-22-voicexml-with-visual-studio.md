@@ -1,7 +1,7 @@
 ---
-Title: VoiceXML with Visual Studio
-Excerpt: ""
-Tags:
+title: VoiceXML with Visual Studio
+excerpt: ""
+tags:
   - Skype
   - Visual Studio
 ---

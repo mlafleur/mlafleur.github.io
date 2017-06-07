@@ -1,7 +1,7 @@
 ---
-Title: 'Stop! Hammer time&hellip;'
-Excerpt: ""
-Tags:
+title: 'Stop! Hammer time&hellip;'
+excerpt: ""
+tags:
   - Cloud
   - Mobile
   - OneNote

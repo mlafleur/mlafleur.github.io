@@ -1,13 +1,13 @@
 ---
-Title: Web API Routing by Content-Type
-Excerpt: >
+title: Web API Routing by Content-Type
+excerpt: >
   Implementing a custom Route Attribute
   for Web API that considers Content-Type.
   This allows for routing based on the
   data encoding being supplied by the HTTP
   Request, not just the path and
   parameters it was sent to.
-Tags:
+tags:
   - .NET
   - ASP.NET
   - REST

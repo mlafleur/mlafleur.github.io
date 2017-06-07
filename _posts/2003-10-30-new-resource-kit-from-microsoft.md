@@ -1,7 +1,7 @@
 ---
-Title: New Resource Kit from Microsoft
-Excerpt: ""
-Tags: null
+title: New Resource Kit from Microsoft
+excerpt: ""
+tags: null
 ---
 Still not enough <a href="http://weblogs.asp.net/mlafleur/posts/34587.aspx" target=_blank>free</a> <a href="http://weblogs.asp.net/mlafleur/posts/34590.aspx" target=_blank>stuff</a> for you tonight? How about one more?
 

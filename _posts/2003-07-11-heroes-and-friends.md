@@ -1,7 +1,7 @@
 ---
-Title: Heroes and Friends
-Excerpt: ""
-Tags: null
+title: Heroes and Friends
+excerpt: ""
+tags: null
 ---
 <font face="Arial" size="2">I'm about to leave to attend a memorial service for a childhood friend of my wife and I. His name was Seth Michaud and he was a Captain in the US Marines. On June 22 he was killed in Djibouti, Africa in a friendly fire incident. He leaves behind a wife and 18-month old son.</fontMy wife and I grew up with Seth and many of our happiest memories include him (I once stole 31 gas caps with him for a scavenger hunt... bad bad bad). And while we have not seen him in some time, his loss hit like a ton of bricks. It reminded me that every man and woman who has given their life for my country has left behind a legacy. A legacy that I knew nothing about and thought little of, until now. I'm glad part of Seth's legacy includes me. I'm a better person for having known him and anyone who knew him will never forget. an></fontOn the Friday before his death he posted a profile on Classmates. While I try my best to maintain my macho-manliness at all times, I must admit to crying like a baby after reading his profile that Sunday night. an></fontWe all have many heroes and many friends in our lives. I was privileged enough to have someone who was both. an></fontRest in peace my friend and thank you.an></font>
   <a href="http://weblogs.asp.net/blogs/mlafleur/WindowsLiveWriter/HeroesandFriends_CBB8/seath-michaud-photo-01_2.jpg"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="180" alt="seath-michaud-photo-01" src="http://weblogs.asp.net/blogs/mlafleur/WindowsLiveWriter/HeroesandFriends_CBB8/seath-michaud-photo-01_thumb.jpg" width="136" border="0" /></a>Some links: an></font>

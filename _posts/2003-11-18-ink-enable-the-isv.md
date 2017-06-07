@@ -1,7 +1,7 @@
 ---
-Title: Ink Enable The ISV
-Excerpt: ""
-Tags:
+title: Ink Enable The ISV
+excerpt: ""
+tags:
   - Tablet PC
 ---
 <a href="http://weblogs.asp.net/jlerman/posts/32396.aspx" target=_blank>Julia</a> talked about it, so has <a href="http://kstati.com/tabula/posts/775.aspx" target=_blank>Peter</a>, and recently <a href="http://blog.monstuff.com/archives/000105.html" target=_blank>Dumkey</a> chimed in as well. What we're all talking about of course is developing applications that target the Tablet PC platform. More specifically, the surprisingly sparse resources available to those of us who want to do so. While the hardware has made quite a splash, the software community is still struggling to find a footing.

@@ -1,13 +1,13 @@
 ---
-Title: Word as Blog Editor
-Excerpt: >
+title: Word as Blog Editor
+excerpt: >
   Did you know that Microsoft Word also
   makes an excellent blog editor? In fact,
   this post made using Word 2013. So how
   do you set up Word for blog editing? It
   is rather simple, albeit a little round
   about.
-Tags: null
+tags: null
 ---
 Did you know that Microsoft Word also makes an excellent blog editor? In fact, this post made using Word 2013. So how do you set up Word for blog editing? It is rather simple, albeit a little round about.
 

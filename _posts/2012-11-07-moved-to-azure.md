@@ -1,7 +1,7 @@
 ---
-Title: Moved to Azure
-Excerpt: "Well now I've gone and done it, I've moved this site over to Azure. Overall the experience was pretty painless."
-Tags:
+title: Moved to Azure
+excerpt: "Well now I've gone and done it, I've moved this site over to Azure. Overall the experience was pretty painless."
+tags:
   - Azure
   - Blogging
 ---

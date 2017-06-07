@@ -1,6 +1,6 @@
 ---
-Title: 'Live Writer [Mostly] Lives On'
-Excerpt: >
+title: 'Live Writer [Mostly] Lives On'
+excerpt: >
   I include myself in a long list of
   Windows Live Writer lovers. I’ve tried
   switching to other editors on multiple
@@ -11,7 +11,7 @@ Excerpt: >
   seriously considered switching. In the
   end however, they all failed to match
   the ease and simplicity of Live Writer.
-Tags:
+tags:
   - Blogging
   - Windows
 Image: /assets/WLW-768x154.png

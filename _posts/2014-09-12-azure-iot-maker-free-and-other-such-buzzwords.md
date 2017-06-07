@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Azure, IoT, Maker, Free and Other Such
   Buzzwords
-Excerpt: 'Can your average Developer/Maker afford to use Azure? I decided to skip any “back of the napkin” calculations (since most napkins are notoriously unreliable finks when it comes to architecture and finances) and actually build something.  My criteria was simple, stand up an app on Azure that could communicate with 15-20 “things” for less than $12 per month. I determined this amount scientifically; it is what it costs for a 4-Screen Netflix account. I failed, it ended up being free. '
-Tags:
+excerpt: 'Can your average Developer/Maker afford to use Azure? I decided to skip any “back of the napkin” calculations (since most napkins are notoriously unreliable finks when it comes to architecture and finances) and actually build something.  My criteria was simple, stand up an app on Azure that could communicate with 15-20 “things” for less than $12 per month. I determined this amount scientifically; it is what it costs for a 4-Screen Netflix account. I failed, it ended up being free. '
+tags:
   - Arduino
   - ASP.NET
   - Azure

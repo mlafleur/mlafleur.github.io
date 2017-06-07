@@ -1,7 +1,7 @@
 ---
-Title: 'UCMA 2.0 Tip: Communications Sequence Activity'
-Excerpt: ""
-Tags:
+title: 'UCMA 2.0 Tip: Communications Sequence Activity'
+excerpt: ""
+tags:
   - Skype
 ---
 I've been playing around with the UCMA 2.0 SDK for the last few weeks, mainly in preparation for the upcoming v.next release of Communication Server. For those interested in what comes after Speech Server it is a worthy endeavor to dig into the UCMA. Going forward the UCMA will be the tool we use.&#160; 

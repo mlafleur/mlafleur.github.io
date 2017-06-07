@@ -1,7 +1,7 @@
 ---
-Title: 'CVS &amp; .NET Integration'
-Excerpt: ""
-Tags:
+title: 'CVS &amp; .NET Integration'
+excerpt: ""
+tags:
   - Source Control
   - Visual Studio
 ---

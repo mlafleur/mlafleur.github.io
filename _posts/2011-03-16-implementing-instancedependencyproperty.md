@@ -1,7 +1,7 @@
 ---
-Title: Implementing InstanceDependencyProperty
-Excerpt: ""
-Tags:
+title: Implementing InstanceDependencyProperty
+excerpt: ""
+tags:
   - Skype
 ---
 If you were looking to the UCMA 3.0 documentation for information on how to use <a href="http://msdn.microsoft.com/en-us/library/gg449634.aspx" target="_blank">InstanceDependencyProperty</a>, don't. Its incomplete and what is there is incorrect.

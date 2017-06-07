@@ -1,7 +1,7 @@
 ---
-Title: 'Wrongheaded About &#8216;Wronghorn&#8217;'
-Excerpt: ""
-Tags: null
+title: 'Wrongheaded About &#8216;Wronghorn&#8217;'
+excerpt: ""
+tags: null
 ---
 <a href="http://radio.weblogs.com/0001011/2003/11/17.html#a5497" target=_blank>Robert Scoble mentioned</a> an article by Tom McCune today titled "<a href="http://zdnet.com.com/2100-1107-5108026.html" target=_blank>Five Myths About 'Wronghorn'</a>" earlier today. I think Robert was correct in speculating that Mr. McCune was not in attendance at the PDC. His take on what Longhorn means seems about as misguided as any I've heard in recent months.
 

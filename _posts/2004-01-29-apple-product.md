@@ -1,7 +1,7 @@
 ---
-Title: Apple Product
-Excerpt: ""
-Tags: null
+title: Apple Product
+excerpt: ""
+tags: null
 ---
 <div>
 I have to agree with <a href="http://www.kstati.com/tabula/archive/2004/01/28/1106.aspx" target=_blank>Peter Rysavy</a> on the overall quality of <a href="http://www.apple.com/" target=_blank>Apple</a>&#8217;s products. They make <i>very</i> nice equipment that just seems to work.

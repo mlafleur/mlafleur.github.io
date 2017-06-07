@@ -1,7 +1,7 @@
 ---
-Title: 'Tonight On Fox: When Build Scripts Attack!'
-Excerpt: ""
-Tags: null
+title: 'Tonight On Fox: When Build Scripts Attack!'
+excerpt: ""
+tags: null
 ---
 <div>
  I'm going to hate Monday....

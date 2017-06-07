@@ -1,7 +1,7 @@
 ---
-Title: Handling SIP Errors on Outbound Calls
-Excerpt: ""
-Tags:
+title: Handling SIP Errors on Outbound Calls
+excerpt: ""
+tags:
   - Skype
 ---
 &#160;

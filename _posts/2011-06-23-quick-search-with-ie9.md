@@ -1,7 +1,7 @@
 ---
-Title: Quick Search with IE9
-Excerpt: ""
-Tags:
+title: Quick Search with IE9
+excerpt: ""
+tags:
   - Internet Explorer
   - 'Tips &amp; Tricks'
 ---

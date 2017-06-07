@@ -1,7 +1,7 @@
 ---
-Title: Install on Demand
-Excerpt: ""
-Tags: null
+title: Install on Demand
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> Can we please put a stop to this Install on Demand madness? I know it is very cool that it will install some template only when I need it. I understand that this is very slick. I get it. But please stop it!
   

@@ -1,7 +1,7 @@
 ---
-Title: Out From The Dust
-Excerpt: ""
-Tags: null
+title: Out From The Dust
+excerpt: ""
+tags: null
 ---
 =Verdana>I've learned something this month. Ok, I learned a few things:
 

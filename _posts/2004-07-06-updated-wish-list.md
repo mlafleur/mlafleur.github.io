@@ -1,7 +1,7 @@
 ---
-Title: Updated Wish-List
-Excerpt: ""
-Tags: null
+title: Updated Wish-List
+excerpt: ""
+tags: null
 ---
 Now that we are half-way through 2004, I thought I would take a look back at my <a href="http://weblogs.asp.net/mlafleur/archive/2004/01/04/47472.aspx">New Year Wish-List </a>and see how far we have come. 
 

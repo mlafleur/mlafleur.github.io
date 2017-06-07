@@ -1,7 +1,7 @@
 ---
-Title: Getting Started with the Core API
-Excerpt: ""
-Tags:
+title: Getting Started with the Core API
+excerpt: ""
+tags:
   - Skype
 ---
 

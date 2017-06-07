@@ -1,7 +1,7 @@
 ---
-Title: VoiceXML on Speech Server
-Excerpt: ""
-Tags:
+title: VoiceXML on Speech Server
+excerpt: ""
+tags:
   - Skype
 ---
 Yesterday I posted about an issue with Speech Server and Vista. One reader named Bill asked a question in the comments. My response was a bit long for a comment so I decided to turn it into a separate post instead. 

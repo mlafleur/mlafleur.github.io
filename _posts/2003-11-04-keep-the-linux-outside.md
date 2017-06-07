@@ -1,7 +1,7 @@
 ---
-Title: Keep The Linux Outside
-Excerpt: ""
-Tags: null
+title: Keep The Linux Outside
+excerpt: ""
+tags: null
 ---
 Every once and a while I'm reminded why I respect Red Hat. I'm not a Linux fan but these guys are least &#8220;get it&#8221;.
 

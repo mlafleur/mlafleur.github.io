@@ -1,7 +1,7 @@
 ---
-Title: 'Re: the blogging style thing'
-Excerpt: ""
-Tags: null
+title: 'Re: the blogging style thing'
+excerpt: ""
+tags: null
 ---
 <blockquote dir=ltr style="MARGIN-RIGHT: 0px">
 <em>Also, commenting on other peoples blogs is inconvenient because you have to manually go back and check whether you've been flamed :P or not :-) <br />[</em><a href="http://dotnetweblogs.com/DNeimke/posts/4910.aspx"><em>DNeimke</em></a><em>]</em>

@@ -1,7 +1,7 @@
 ---
-Title: SIP Monitoring with Wireshark
-Excerpt: ""
-Tags:
+title: SIP Monitoring with Wireshark
+excerpt: ""
+tags:
   - Skype
 ---
 <em>This topic comes up pretty often and while this article was originally written for Wireshark v1.05 in 2009, it still applies today. All of the instructions are accurate for Wireshark v1.6.1. </em>

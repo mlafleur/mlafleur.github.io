@@ -1,7 +1,7 @@
 ---
-Title: Web Search with Lucene.NET
-Excerpt: ""
-Tags:
+title: Web Search with Lucene.NET
+excerpt: ""
+tags:
   - Lucene
   - Search
   - WebDev

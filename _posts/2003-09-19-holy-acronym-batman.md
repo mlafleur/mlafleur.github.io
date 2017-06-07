@@ -1,7 +1,7 @@
 ---
-Title: Holy Acronym Batman!
-Excerpt: ""
-Tags: null
+title: Holy Acronym Batman!
+excerpt: ""
+tags: null
 ---
 =Verdana size=2>As I mentioned last night, <a href="http://weblogs.asp.net/mlafleur/posts/28223.aspx">we are moving into a new office</a>. Along with this move comes the purchasing of new development machines. Now it has been some time since I actually purchased a myself, so I was in for quite a shock. And after spending 3 hours working on a PO I came to a conclusion; <strong>we must end this acronym madness!</strong>
 

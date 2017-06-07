@@ -1,7 +1,7 @@
 ---
-Title: Office 2010 Helps Me Out
-Excerpt: ""
-Tags: null
+title: Office 2010 Helps Me Out
+excerpt: ""
+tags: null
 ---
 I stink at proof reading. I miss a slew of grammatical and spelling errors. Okay, slew is an understatement.
 

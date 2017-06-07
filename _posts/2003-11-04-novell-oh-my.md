@@ -1,7 +1,7 @@
 ---
-Title: 'Novell, Oh My&#8230;.'
-Excerpt: ""
-Tags: null
+title: 'Novell, Oh My&#8230;.'
+excerpt: ""
+tags: null
 ---
 Novell goes out and purchases SuSE Linux. 
 

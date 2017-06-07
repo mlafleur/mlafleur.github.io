@@ -1,6 +1,6 @@
 ---
-Title: Moving to Windows Phone 8
-Excerpt: >
+title: Moving to Windows Phone 8
+excerpt: >
   Part of a series covering Windows Client
   development, we continue to work on RMV
   Awesome – an ironically named Modern
@@ -8,7 +8,7 @@ Excerpt: >
   Massachusetts Registry of Motor
   Vehicles. In this article we’ll bring
   our awesomeness to Windows Phone 8
-Tags:
+tags:
   - PCL
   - RMV Awesome
   - Windows

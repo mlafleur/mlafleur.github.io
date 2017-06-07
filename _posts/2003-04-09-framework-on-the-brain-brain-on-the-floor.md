@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Framework On The Brain (Brain On The
   Floor)
-Excerpt: ""
-Tags: null
+excerpt: ""
+tags: null
 ---
 <a target="_blank"  href="http://dotnetweblogs.com/JLerman/posts/5069.aspx">Julie </a>has made me feel guilty for focusing on the language more than .NET itself. I admit that I've ignored large swaths of .NET in my desire to get up to speed on the languages (C#, VB.NET). In hindsight, I've probably short-changed myself in the process because so much of what makes up .NET is contained in the Framework rather than the language itself.
 

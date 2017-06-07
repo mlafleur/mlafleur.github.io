@@ -1,7 +1,7 @@
 ---
-Title: Uprooting Trees
-Excerpt: ""
-Tags: null
+title: Uprooting Trees
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> There was an interesting post to a thread over at <a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&amp;ixPost=101496&amp;ixReplies=8" target="_blank">Joel on Software</a> today.
  Software must be one of the few endeavors where the art of creative destruction is neglected.<br /> <br /> Landscapers uproot dead trees; architects remove walls; civil engineers tear down old bridges.  Even acorns have to rot before they can germinate and grow into a trees.  But programmers are loathe to clean up after themselves.  They'll rarely remove an old, obsolete, or wrong feature because, Lord forbid, a customer may complain.  After all, it doesn't hurt to leave it in, does it?<br /> <br /> Well, no, it wreaks havoc on your UI.  New users will reject your clunky old app. "What's with all this cruft?  This app makes no sense!"

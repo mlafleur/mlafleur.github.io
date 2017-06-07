@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Office Communication Servers moves to
   64-bit only
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Skype
 ---
 

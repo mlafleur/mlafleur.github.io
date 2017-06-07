@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Outlook 2003 Add-in with Visual Studio
   2005?
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Office
   - Visual Studio
   - VSTO

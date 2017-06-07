@@ -1,11 +1,11 @@
 ---
-Title: Awesome Azure Mobile Services
-Excerpt: >
+title: Awesome Azure Mobile Services
+excerpt: >
   Part of a series covering Windows Client
   development. In this article we’ll
   integrate Azure Mobile Services into the
   awesome RMV Awesome app.
-Tags:
+tags:
   - Azure
   - Azure Mobile Services
   - RMV Awesome

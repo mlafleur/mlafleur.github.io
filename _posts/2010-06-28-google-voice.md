@@ -1,7 +1,7 @@
 ---
-Title: Google Voice
-Excerpt: ""
-Tags:
+title: Google Voice
+excerpt: ""
+tags:
   - Skype
 ---
 Somewhat quietly Google opened up Google Voice to the public <a href="http://googlemobile.blogspot.com/2010/06/google-voice-for-everyone.html" target="_blank">last week</a>.

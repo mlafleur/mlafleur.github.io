@@ -1,7 +1,7 @@
 ---
-Title: SPAM, SPAM, SPAM, Baked Beans, and SPAM
-Excerpt: ""
-Tags: null
+title: SPAM, SPAM, SPAM, Baked Beans, and SPAM
+excerpt: ""
+tags: null
 ---
 I just bumped into an Anti-Spam tool that actually seems to work. It has caught 100% of the Spam coming into my In-box for the last 48 hours without ANY interaction on my part. 
 

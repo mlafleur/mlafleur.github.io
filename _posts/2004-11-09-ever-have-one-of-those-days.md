@@ -1,7 +1,7 @@
 ---
-Title: 'Ever have one of those days&#8230;'
-Excerpt: ""
-Tags: null
+title: 'Ever have one of those days&#8230;'
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> Ever have one of those days where you can&rsquo;t seem to remember where you put your brain? Well, I&rsquo;ve been having one for the last few months now. Either that or the little green men really do exist and <a href="http://www.abduct.com/irm.htm" target="_blank">I should get an IRM</a> as soon as possible.
  Things have been busy around here as we launch into the final stretch of development on our next big release. As this release is a complete re-write into Microsoft .NET and SQL Server there are, needless to say, a few extra hours required. But after 2 years of development, at least we can see the end of the road. I can&rsquo;t remember the color of my house, the price of milk, or my wife&rsquo;s name but who cares! It&rsquo;s beta time baby.

@@ -1,7 +1,7 @@
 ---
-Title: Basic HTTP Authentication in WinRT
-Excerpt: "I'm working with a REST API that requires Basic HTTP Authentication. This is pretty commonplace and something I've done it many times in the past in web and Silverlight applications. WinRT was very similar but (as with everything in WinRT) has its own nuances."
-Tags:
+title: Basic HTTP Authentication in WinRT
+excerpt: "I'm working with a REST API that requires Basic HTTP Authentication. This is pretty commonplace and something I've done it many times in the past in web and Silverlight applications. WinRT was very similar but (as with everything in WinRT) has its own nuances."
+tags:
   - REST
   - Windows
 ---

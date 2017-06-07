@@ -1,7 +1,7 @@
 ---
-Title: 'Some people&#8230;.'
-Excerpt: ""
-Tags: null
+title: 'Some people&#8230;.'
+excerpt: ""
+tags: null
 ---
 I... yeah... 
   &#160;<a href="http://weblogs.asp.net/blogs/mlafleur/WindowsLiveWriter/Somepeople_C860/Smoked_2.jpg"><img height="240" alt="Smoked" src="http://weblogs.asp.net/blogs/mlafleur/WindowsLiveWriter/Somepeople_C860/Smoked_thumb.jpg" width="202" border="0" /></a>

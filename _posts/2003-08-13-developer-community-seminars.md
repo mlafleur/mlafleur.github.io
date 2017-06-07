@@ -1,7 +1,7 @@
 ---
-Title: Developer Community Seminars
-Excerpt: ""
-Tags: null
+title: Developer Community Seminars
+excerpt: ""
+tags: null
 ---
 ="Arial" size="2">I had the pleasure of attending on of Microsoft's new "<a href="http://www.microsoft.com/seminar/dcc/default.mspx">Developer Community Seminars</a>" today. One of the nice things about being a developer in New England the last few years has been Russ Fustino and his "<a href="http://www.microsoft.com/usa/newengland/russtoolshed/default.asp">Russ' Tool Shed</a>" quarterly seminars.</font>
  When Microsoft moved Russ to Florida a month or so ago, I was afraid I had seen the last of the "tell it like it is" development seminars. Let's face it, most of these seminars are "tell it like marketing says it is".  And while those marketing seminars might present a nice excuse to get away, they are almost always more noise than signal.

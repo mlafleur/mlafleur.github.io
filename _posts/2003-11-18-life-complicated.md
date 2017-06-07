@@ -1,7 +1,7 @@
 ---
-Title: 'Life&#8230; Complicated'
-Excerpt: ""
-Tags: null
+title: 'Life&#8230; Complicated'
+excerpt: ""
+tags: null
 ---
 So there you are reading some documentation, every so lightly tapping you pen against your forehead. You are in the zone when suddenly you realize:
 

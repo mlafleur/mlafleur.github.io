@@ -1,7 +1,7 @@
 ---
-Title: 'UCMA 3 How-To: Inbound Call Throttling'
-Excerpt: "Speech Server included a setting in the Administrator Console for inbound call throttling, simply set it and forget it. Here we'll discus how we can accomplish graceful inbound call throttling with UCMA 3.0."
-Tags:
+title: 'UCMA 3 How-To: Inbound Call Throttling'
+excerpt: "Speech Server included a setting in the Administrator Console for inbound call throttling, simply set it and forget it. Here we'll discus how we can accomplish graceful inbound call throttling with UCMA 3.0."
+tags:
   - Skype
 ---
 Speech Server included a setting in the Administrator Console for inbound call throttling, simply set it and forget it. Here we'll discus how we can accomplish graceful inbound call throttling with UCMA 3.0.

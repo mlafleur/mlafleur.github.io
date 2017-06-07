@@ -1,7 +1,7 @@
 ---
-Title: Sexiest Mug In The Office
-Excerpt: ""
-Tags: null
+title: Sexiest Mug In The Office
+excerpt: ""
+tags: null
 ---
 <img height=150 src="http://www.franklins.net/travelmug.jpg" width=113 align=left border=0/>I'm the proud new owner of this tasteful <a href="http://www.cafeshops.com/dotnetrocks.7728336" target=_blank>.NET Rocks! mug</a>. Very cool. :-)
 

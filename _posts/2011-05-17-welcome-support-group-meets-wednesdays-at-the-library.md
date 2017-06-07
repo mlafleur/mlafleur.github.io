@@ -1,7 +1,7 @@
 ---
-Title: 'Welcome! Support group meets Wednesdays at the Library&#8230;'
-Excerpt: ""
-Tags: null
+title: 'Welcome! Support group meets Wednesdays at the Library&#8230;'
+excerpt: ""
+tags: null
 ---
 <a href="http://www.theglobeandmail.com/news/technology/tech-news/crooks-target-apple-macs-with-malware/article2025158/" target="_blank">Popularity has its downsides.</a>
 

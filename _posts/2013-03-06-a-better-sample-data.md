@@ -1,7 +1,7 @@
 ---
-Title: A Better Sample Data
-Excerpt: "Visual Studio's templates provide a great jump start but there they are tab visually boring out of the box. Here we spice them up a bit with placeholder images. "
-Tags:
+title: A Better Sample Data
+excerpt: "Visual Studio's templates provide a great jump start but there they are tab visually boring out of the box. Here we spice them up a bit with placeholder images. "
+tags:
   - Visual Studio
   - Windows
 ---

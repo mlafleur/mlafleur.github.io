@@ -1,7 +1,7 @@
 ---
-Title: Style In The Round
-Excerpt: "Think about your actual user's actual experience, not some generalized design guidelines. If you wedge your user's experience into a design that doesn't fit, you are serving neither your customer nor the platform. Do something amazing that will wow your customer's and make their experience something they'll talk about. Make something ROUND!"
-Tags:
+title: Style In The Round
+excerpt: "Think about your actual user's actual experience, not some generalized design guidelines. If you wedge your user's experience into a design that doesn't fit, you are serving neither your customer nor the platform. Do something amazing that will wow your customer's and make their experience something they'll talk about. Make something ROUND!"
+tags:
   - Windows
 ---
 As part of my <a href="http://massivescale.azurewebsites.net/about/" target="_blank">job </a>I get to talk with a lot of developers, designers and product managers. When the subject of User Experience comes up (and it always does), I always emphasize the importance of thinking "outside the box".

@@ -1,6 +1,6 @@
 ---
-Title: August M. LaFleur
-Excerpt: >
+title: August M. LaFleur
+excerpt: >
   August Manross LaFleur was born late
   Thursday evening weighing 7lbs. and
   laying 19 inches long. His first words
@@ -10,7 +10,7 @@ Excerpt: >
   that the words were something to the
   effect of “What did I do to deserve
   these guys for a family?”.
-Tags:
+tags:
   - Family
   - Personal
 ---

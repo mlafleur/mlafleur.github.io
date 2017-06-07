@@ -1,7 +1,7 @@
 ---
-Title: MSDE Deployment
-Excerpt: ""
-Tags: null
+title: MSDE Deployment
+excerpt: ""
+tags: null
 ---
 <p><span class=171010720-29052003><font face=Arial size=2>This question was 
 posed to me at a development meeting and I simply could not think of an answer. 

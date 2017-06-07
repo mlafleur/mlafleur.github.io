@@ -1,7 +1,7 @@
 ---
-Title: Tablet PC Development
-Excerpt: ""
-Tags:
+title: Tablet PC Development
+excerpt: ""
+tags:
   - Tablet PC
 ---
 I went to an interesting little event put on by Acer and Microsoft today. The topic was Tablet PC Development. Considering that it is put on in part by Acer, and advertised to IT executives, there was quite a bit of actual code talked about (normally these things are all sales pitches with a "oh yeah, there is an SDK available" shoved in at the end).

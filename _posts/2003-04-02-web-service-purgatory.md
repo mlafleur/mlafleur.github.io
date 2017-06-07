@@ -1,7 +1,7 @@
 ---
-Title: Web Service Purgatory
-Excerpt: ""
-Tags:
+title: Web Service Purgatory
+excerpt: ""
+tags:
   - SOAP
   - Web Services
   - WebDev

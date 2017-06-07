@@ -1,7 +1,7 @@
 ---
-Title: Optimizeit Profiler for .NET
-Excerpt: ""
-Tags:
+title: Optimizeit Profiler for .NET
+excerpt: ""
+tags:
   - Profiling
   - Visual Studio
 ---

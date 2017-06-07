@@ -1,10 +1,11 @@
 ---
-Title: RMV Awesome Privacy Policy
-Excerpt: ""
-Tags: null
 ---
-<strong>Collection of Information
-</strong>We do not collect any personally identifiable information.
+layout: page
+---
 
-<strong>Distribution of Information
-</strong>We do not share any information with 3rd parties or governmental agencies.
+---
+# Collection of Information
+We do not collect any personally identifiable information.
+
+# Distribution of Information
+We do not share any information with 3rd parties or governmental agencies.

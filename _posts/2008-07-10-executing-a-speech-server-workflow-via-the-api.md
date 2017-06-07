@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Executing a Speech Server Workflow via
   the API
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Skype
 ---
 In my <a href="http://weblogs.asp.net/mlafleur/archive/2008/07/09/getting-started-with-the-speech-server-2007-api.aspx" target="_blank">previous post</a> I outlined a basic framework for using the Core API for Speech Server 2007. Today I'll outline how to mix both the API and Workflow models by calling out to a workflow using the API and returning control back when it is complete. 

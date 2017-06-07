@@ -1,7 +1,7 @@
 ---
-Title: Building a New Record Audio Activity
-Excerpt: ""
-Tags:
+title: Building a New Record Audio Activity
+excerpt: ""
+tags:
   - Skype
 ---
 One of the key activities missing from UCMA that we used in Speech Sever 2007 is the Record Audio Activity. This was one of my "go to" tools in the Speech Server arsenal, so I've been hurting without. So to eliminate my pain, and hopefully some other's, I've started building a replacement.  While what I've built so far isn't nearly feature-complete, it will hopefully provide a suitable starting point for those looking to simply record some audio. Trust me, starting from scratch wasn't much fun. It may seem simple (and it really is) but it was extremely unclear when I started. A special thanks to <a href="http://gotspeech.net/blogs/marshallharrison/default.aspx" target="_blank">Marshall Harrison</a> who helped me put this together.

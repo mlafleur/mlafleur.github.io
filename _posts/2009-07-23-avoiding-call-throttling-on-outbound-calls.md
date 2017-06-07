@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Avoiding Call Throttling on Outbound
   Calls
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Skype
 ---
 <a href="http://www.massivescale.com/blog_files/AvoidingCallThrottlingonOutboundCalls_8E27/image.png"><img style="border-right-width:0px;margin:0px 5px 15px 15px;display:inline;border-top-width:0px;border-bottom-width:0px;border-left-width:0px;" title="image" border="0" alt="image" align="right" src="http://www.massivescale.com/blog_files/AvoidingCallThrottlingonOutboundCalls_8E27/image_thumb.png" width="151" height="152" /></a>One of the most common ways of queuing outbound calls with Speech Server is by using the built in MSMQ support. For the most part, using a message queue is extremely straightforward and easy to implement. But there is one gotcha €“ call throttling. 

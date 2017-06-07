@@ -1,7 +1,7 @@
 ---
-Title: Bing Maps SDK
-Excerpt: "I've been playing around with the Bing Maps SDK over the holidays and ran into a gotcha with x64 compatibility. "
-Tags:
+title: Bing Maps SDK
+excerpt: "I've been playing around with the Bing Maps SDK over the holidays and ran into a gotcha with x64 compatibility. "
+tags:
   - Bing Maps
   - Windows
 ---

@@ -1,7 +1,7 @@
 ---
-Title: Kindle Update v4.1
-Excerpt: ""
-Tags: null
+title: Kindle Update v4.1
+excerpt: ""
+tags: null
 ---
 My family has been a "Kindle Family" since I purchased one for my wife a couple of years ago. She considers her Kindle as indispensable as her smart phone; something that is at all times at the ready and fully charged. I love that I can read my books on multiple devices that are constantly kept in sync (as an aside, the Windows 8 Kindle app works beautifully). 
  We dove deeper into the Kindle pool this spring when we purchased another device for my step-daughter's 13th birthday. It was the only gift she wanted this year and we were thrilled that she wanted something dedicated to just reading. 

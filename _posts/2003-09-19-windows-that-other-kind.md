@@ -1,7 +1,7 @@
 ---
-Title: Windows, that other kind
-Excerpt: ""
-Tags: null
+title: Windows, that other kind
+excerpt: ""
+tags: null
 ---
 =Verdana size=2><img height=212 src="http://dev.genesisfour.com/BWIND.jpg" width=98 align=right border=0/> 
 =Verdana size=2>We decided a little while back to <a href="http://weblogs.asp.net/mlafleur/posts/24791.aspx" target=_blank>add a developer</a> to the company. Until now it was just me and some contractors to pick up the slack. But as the customer base has grown and the decision to move to .NET was made, it became clear that I needed real full-time help. 

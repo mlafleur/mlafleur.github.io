@@ -1,7 +1,7 @@
 ---
-Title: Updating My PHP for WordPress
-Excerpt: "A few years ago I moved my blog to an Azure VM and it has been running flawlessly ever since. Thanks to WordPress' update process and automatic Windows Updates, there really wasn't much for me to manage. I have zero complaints."
-Tags:
+title: Updating My PHP for WordPress
+excerpt: "A few years ago I moved my blog to an Azure VM and it has been running flawlessly ever since. Thanks to WordPress' update process and automatic Windows Updates, there really wasn't much for me to manage. I have zero complaints."
+tags:
   - Azure
   - PHP
   - WordPress

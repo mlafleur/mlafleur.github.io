@@ -1,7 +1,7 @@
 ---
-Title: Blogging Blues
-Excerpt: ""
-Tags: null
+title: Blogging Blues
+excerpt: ""
+tags: null
 ---
 I've been looking for a good rich client to post to my blog with (I just don't like editing in a web page). Unfortunately I can't seem to find a workable client out there. 
 

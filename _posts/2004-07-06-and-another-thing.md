@@ -1,7 +1,7 @@
 ---
-Title: 'And Another Thing&#8230;'
-Excerpt: ""
-Tags: null
+title: 'And Another Thing&#8230;'
+excerpt: ""
+tags: null
 ---
 While I'm updating <a href="http://weblogs.asp.net/mlafleur/archive/2004/07/06/174199.aspx">wish-lists</a> I'd like to add something to this list: more control over web reference proxy generation. I understand that this may in fact be solved by VS 2005's new web services tools, but on the off chance that it isn't I'd like to get this out there.
 

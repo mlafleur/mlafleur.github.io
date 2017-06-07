@@ -1,6 +1,6 @@
 ---
-Title: Hello Azure, My Name is Pi
-Excerpt: >
+title: Hello Azure, My Name is Pi
+excerpt: >
   I’ve been working on a little project
   at home recently and I needed to get
   data from some remote sensors in to the
@@ -10,7 +10,7 @@ Excerpt: >
   and Raspberry in hand it was time to
   write the next killer app, Hello World
   with Azure in the middle.
-Tags:
+tags:
   - Azure
   - node.js
   - Raspberry Pi

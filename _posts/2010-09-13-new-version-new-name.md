@@ -1,7 +1,7 @@
 ---
-Title: New Version, New Name
-Excerpt: ""
-Tags:
+title: New Version, New Name
+excerpt: ""
+tags:
   - Skype
 ---
 The press releases went up a few minutes ago so I can finally share this.

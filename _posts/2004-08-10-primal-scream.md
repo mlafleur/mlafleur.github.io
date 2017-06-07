@@ -1,7 +1,7 @@
 ---
-Title: Primal Scream
-Excerpt: ""
-Tags: null
+title: Primal Scream
+excerpt: ""
+tags: null
 ---
 <div>Every have one of those days were it seems like the world is secretly trying to scramble your brains? I'm having one today.</div>
 <div>For some reason this statement compiles just fine:</div><pre>

@@ -1,7 +1,7 @@
 ---
-Title: My First Chrome Experience
-Excerpt: ""
-Tags: null
+title: My First Chrome Experience
+excerpt: ""
+tags: null
 ---
 My inbox has been flooded with emails asking me to blog about my opinion of <a href="http://www.google.com/chrome/" target="_blank">Chrome</a>. That is if you consider "flooded" to be one more than zero. And you include the email I sent to myself from work as a reminder to give it a shot... 
   Ok fine. No one asked. And even less likely care. But guess what, you're getting it anyway. 

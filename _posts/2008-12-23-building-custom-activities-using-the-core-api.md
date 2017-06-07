@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Building Custom Activities Using the
   Core API
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Skype
 ---
 

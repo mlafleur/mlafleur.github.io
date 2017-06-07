@@ -1,7 +1,7 @@
 ---
-Title: Weird Visual Studio Problems
-Excerpt: ""
-Tags: null
+title: Weird Visual Studio Problems
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> I am having some weird problems with Visual Studio lately.
  Here you are working on a window all happy and smiling. You go away from the designer for a second (to build, work on code, whatever) and when you come back things are missing. Big things like that grid you spent and hour on.

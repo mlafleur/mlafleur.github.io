@@ -1,7 +1,7 @@
 ---
-Title: 'But I&#8217;m Not Dead Yet!'
-Excerpt: ""
-Tags:
+title: 'But I&#8217;m Not Dead Yet!'
+excerpt: ""
+tags:
   - Just For Fun
 ---
 Ever have one of those "bad days"? Someone at Bloomberg had one yesterday. Looks like someone mistakenly published an <a href="http://www.bizjournals.com/atlanta/stories/2008/08/25/daily73.html" target="_blank">obituary for Steve Jobs</a>. 

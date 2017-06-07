@@ -1,7 +1,7 @@
 ---
-Title: First Few Weeks of Microsoft
-Excerpt: ""
-Tags: null
+title: First Few Weeks of Microsoft
+excerpt: ""
+tags: null
 ---
 There are thousands of stories out there talking about "drinking from the firehouse" that is Microsoft. This isn't one of them. Why? Because I got lucky, that is why.
  When you join any organization, the first thing you have to do is catch up. There are projects in progress and you need to get things in context quickly so you can jump in and help. That is unless you happen to get very lucky and jump in during the final month of the fiscal year. This is when everyone is heads-down with buttoning up projects, prepping annual reviews, polishing plans for the next fiscal year and other such. Turns out I'm a pretty lucky fellow. 

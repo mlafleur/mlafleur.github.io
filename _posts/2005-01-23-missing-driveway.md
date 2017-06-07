@@ -1,7 +1,7 @@
 ---
-Title: Missing Driveway
-Excerpt: ""
-Tags:
+title: Missing Driveway
+excerpt: ""
+tags:
   - Just For Fun
 ---
 If anyone has seen my driveway, please send it home. 

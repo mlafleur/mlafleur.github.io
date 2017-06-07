@@ -1,7 +1,7 @@
 ---
-Title: .NET Logging Framework
-Excerpt: ""
-Tags: null
+title: .NET Logging Framework
+excerpt: ""
+tags: null
 ---
 <div>
 A few days ago I made mention of a <a title=http://www.theobjectguy.com/dotnetlog/ href="http://www.theobjectguy.com/dotnetlog/" target=_blank>.NET Logging Framework</a> I had been using (and still am, and still loving). 

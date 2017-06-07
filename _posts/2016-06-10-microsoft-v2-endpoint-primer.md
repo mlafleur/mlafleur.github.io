@@ -1,7 +1,8 @@
 ---
-Title: Microsoft v2 Endpoint Primer
-Excerpt: 'For some time now, Microsoft has had two distinct systems for authenticating users; Microsoft Account (or MSA) and Azure Active Directory (or Azure AD); MSA for consumer services and Azure AD for enterprise services. The v2 Endpoint allow applications to authenticate both Microsoft Accounts and Azure AD accounts using a single OAUTH 2 endpoint. This allows developers to build applications that are entirely  account-agnostic. This article covers the basics of using the v2 Endpoint and OAUTH2 to authenticate users. '
-Tags:
+title: Microsoft v2 Endpoint Primer
+subtitle: Understanding the new v2 Endpoint for using both MSA and AD accounts with Microsoft Graph
+excerpt: 'For some time now, Microsoft has had two distinct systems for authenticating users; Microsoft Account (or MSA) and Azure Active Directory (or Azure AD); MSA for consumer services and Azure AD for enterprise services. The v2 Endpoint allow applications to authenticate both Microsoft Accounts and Azure AD accounts using a single OAUTH 2 endpoint. This allows developers to build applications that are entirely  account-agnostic. This article covers the basics of using the v2 Endpoint and OAUTH2 to authenticate users. '
+tags:
   - Azure
   - Azure Active Directory
   - Microsoft Graph

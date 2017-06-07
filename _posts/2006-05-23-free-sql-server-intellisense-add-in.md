@@ -1,7 +1,7 @@
 ---
-Title: Free SQL Server Intellisense Add-In
-Excerpt: ""
-Tags: null
+title: Free SQL Server Intellisense Add-In
+excerpt: ""
+tags: null
 ---
 Red Gate Software has purchased SQL Prompt. It is an add-in that adds SQL Intellisense to SQL 2005, VS 2005, SQL 2000 and VS 2003.
 

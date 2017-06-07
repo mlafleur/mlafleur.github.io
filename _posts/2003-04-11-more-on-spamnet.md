@@ -1,7 +1,7 @@
 ---
-Title: More on SpamNet
-Excerpt: ""
-Tags: null
+title: More on SpamNet
+excerpt: ""
+tags: null
 ---
 This is just an update on my <a href="http://dotnetweblogs.com/MLafleur/posts/5353.aspx">SpamNet </a>experience so far:
 

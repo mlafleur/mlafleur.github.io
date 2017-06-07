@@ -1,7 +1,7 @@
 ---
-Title: Too Clever By Half
-Excerpt: "So I'm a bit of a stickler for fool-proof configuration, sometimes to my own detriment. I'm also clever...too clever by half. "
-Tags:
+title: Too Clever By Half
+excerpt: "So I'm a bit of a stickler for fool-proof configuration, sometimes to my own detriment. I'm also clever...too clever by half. "
+tags:
   - Visual Studio
 ---
 So I'm a bit of a stickler for fool-proof configuration, sometimes to my own detriment.  In response to my earlier <a title="Bing Maps SDK" href="http://massivescale.azurewebsites.net/bing-maps-sdk/" target="_blank">Bing Maps SDK</a> issue with x64 I thought I would be really clever and just remove x64 as a target platform from the solution configuration. I thought it was clever. Heck, It <em>was</em> clever....too clever it seems.

@@ -1,7 +1,7 @@
 ---
-Title: Microsoft OCS 2007 R2 Resource Kit
-Excerpt: ""
-Tags:
+title: Microsoft OCS 2007 R2 Resource Kit
+excerpt: ""
+tags:
   - Skype
 ---
 I've just finished reading the Microsoft Office Communications server 2007 R2 Resource Kit (yes I know, I read a resource kit cover to cover. I'm a geek+ this week).&#160; If you're going to be working with OCS 2007 R2 then do yourself a favor and pick this book up. 

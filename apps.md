@@ -1,7 +1,8 @@
 ---
-Title: My Apps
-Excerpt: ""
-Tags: null
+layout: page
+# title: "Apps"
+description: "Everything you didn't want to know about me."
+header-img: "img/about-bg.jpg"
 ---
 ![Image Importer](/assets/wp/2012/12/imageimporter-e1413386904737-768x432.jpg) 
 

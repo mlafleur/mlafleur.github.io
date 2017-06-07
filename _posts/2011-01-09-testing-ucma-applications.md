@@ -1,7 +1,7 @@
 ---
-Title: Testing UCMA Applications
-Excerpt: ""
-Tags:
+title: Testing UCMA Applications
+excerpt: ""
+tags:
   - Skype
 ---
 One of the first things you notice when you start developing UCMA is the lack of an integrated SIP Phone for testing your applications. Speech Server made it trivial to test out your application, simply press F5 and everything was ready to go. UCMA lacks the integrated environment so you'll need a software phone of some kind to try out your app.

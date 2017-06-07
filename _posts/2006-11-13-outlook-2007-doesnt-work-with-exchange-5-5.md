@@ -1,7 +1,7 @@
 ---
-Title: 'Outlook 2007 Doesn&#8217;t Work with Exchange 5.5'
-Excerpt: ""
-Tags:
+title: 'Outlook 2007 Doesn&#8217;t Work with Exchange 5.5'
+excerpt: ""
+tags:
   - Office
 ---
 Not that I'm really very surprised but Outlook 2007 will not connect to Exchange 5.5. I found a note about this on the <a href="http://forums.microsoft.com/TechNet/ShowPost.aspx?PostID=763464&amp;SiteID=17" target="_blank">TechNet Forums</a>:

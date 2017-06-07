@@ -1,7 +1,7 @@
 ---
-Title: Workflow Differences in UCMA 3.0
-Excerpt: ""
-Tags:
+title: Workflow Differences in UCMA 3.0
+excerpt: ""
+tags:
   - Skype
 ---
 The following is a list of activities from Speech Server 2007 and UCMA 3.0. UCMA brings with it a number of new activities (due mostly to UCMA handling both Speech and Instant Messaging) but it also drops a number of activities we've become used to having in Speech Server.

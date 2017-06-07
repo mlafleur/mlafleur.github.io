@@ -1,7 +1,7 @@
 ---
-Title: Vault 2.0 Beta Released
-Excerpt: ""
-Tags: null
+title: Vault 2.0 Beta Released
+excerpt: ""
+tags: null
 ---
 <div class=Section1>
 I tossed on my &#8220;Reckless Early Adopter&#8221; hat today and put up the beta release of <a href="http://www.sourcegear.com/vault" target=_blank>Vault</a> 2.0 into our live environment.

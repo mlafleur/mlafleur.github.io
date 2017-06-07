@@ -1,7 +1,7 @@
 ---
-Title: The Magical Little Photon
-Excerpt: "I've been playing around with the latest goody from the folks over at Particle and it just became my go-to microcontroller. "
-Tags:
+title: The Magical Little Photon
+excerpt: "I've been playing around with the latest goody from the folks over at Particle and it just became my go-to microcontroller. "
+tags:
   - Core
   - IoT
   - Maker

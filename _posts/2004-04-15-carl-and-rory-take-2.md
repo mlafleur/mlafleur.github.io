@@ -1,7 +1,7 @@
 ---
-Title: Carl and Rory Take 2?
-Excerpt: ""
-Tags: null
+title: Carl and Rory Take 2?
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> Hmm, so <a href="http://weblogs.asp.net/CFranklin/archive/2004/04/14/113178.aspx" target="_blank">Carl and Rory</a> are thinking about a more broad reaching radio show. I like the idea, but this line caught me off guard:
  <i>I don't want it to be Oprah, though. So, we're not going to talk about the things most talk shows are focused on.</i>

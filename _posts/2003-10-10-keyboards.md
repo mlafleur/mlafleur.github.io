@@ -1,7 +1,7 @@
 ---
-Title: Keyboards
-Excerpt: ""
-Tags: null
+title: Keyboards
+excerpt: ""
+tags: null
 ---
 I am on a &#8220;great quest&#8221; to find a keyboard that, to put it bluntly, does not suck. It started out as a tiny &#8220;errand&#8220;, turned into a &#8220;hunt&#8220;, and then escalated all the way up to &#8220;great quest&#8220; in a matter of days. And if I do not find a answer soon, I fear I may have to jump right past &#8220;epic quest&#8221; status and head straight to &#8220;ludicrous obsession&#8221;.
 

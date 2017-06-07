@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Reinstalling Microsoft Speech Server on
   Windows Vista
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Skype
 ---
 If you're thinking of uninstalling/reinstalling Microsoft Speech Server on Windows Vista then this post might prove helpful. 

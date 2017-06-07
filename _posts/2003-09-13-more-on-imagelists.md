@@ -1,7 +1,7 @@
 ---
-Title: More On ImageLists
-Excerpt: ""
-Tags: null
+title: More On ImageLists
+excerpt: ""
+tags: null
 ---
 =Verdana size=2>The other day I blogged about </font><a href="http://weblogs.asp.net/mlafleur/posts/27017.aspx">my frustrations with the ImageList </a><font face=Verdana size=2>control. My knee-jerk reaction was to call for un-sealing the ImageList and many people were quick to point out why it was sealed in the first place (some not so politely I might add). After some more thought on the topic, I think I may have found a way to leave the ImageList sealed, but still allow me to solve my problem.
 

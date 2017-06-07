@@ -1,7 +1,7 @@
 ---
-Title: 'New Blog: Speaking From the Edge'
-Excerpt: ""
-Tags:
+title: 'New Blog: Speaking From the Edge'
+excerpt: ""
+tags:
   - Skype
 ---
 I've started a new blog over on <a href="http://gotspeech.net/" target="_blank">GotSpeech.net</a> called <a href="http://gotspeech.net/blogs/speakingfromtheedge" target="_blank">Speaking From the Edge</a>. It covers topics related to voice-enabled application development including Microsoft Speech Server.&#160; 

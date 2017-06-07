@@ -1,7 +1,7 @@
 ---
-Title: 'SourceGear Vault - Single User Edition'
-Excerpt: ""
-Tags: null
+title: 'SourceGear Vault - Single User Edition'
+excerpt: ""
+tags: null
 ---
 <a href="http://www.sourcegear.com">SourceGear</a> has released a single user version of their <a href="http://www.sourcegear.com/vault">Vault </a>product for $49. This makes Vault an absolutely fantastic solution for solo developers. At a few hundred bucks for Vault, I would have stuck with CVS for my personal projects. But for $49? Hell, even this cheap bastard can swing that.
 

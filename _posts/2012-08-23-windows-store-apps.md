@@ -1,7 +1,7 @@
 ---
-Title: Windows Store Apps
-Excerpt: ""
-Tags:
+title: Windows Store Apps
+excerpt: ""
+tags:
   - Visual Studio
   - Windows
 ---

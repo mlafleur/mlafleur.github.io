@@ -1,7 +1,7 @@
 ---
-Title: w.bloggar Question
-Excerpt: ""
-Tags: null
+title: w.bloggar Question
+excerpt: ""
+tags: null
 ---
 Anyone know how to make w.Bloggar put in paragraph marks? <p>
 

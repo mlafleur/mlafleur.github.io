@@ -1,7 +1,7 @@
 ---
-Title: Blue Badge
-Excerpt: ""
-Tags: null
+title: Blue Badge
+excerpt: ""
+tags: null
 ---
 I've been very lucky in my career so far. I've had the pleasure of working on some amazing software with many brilliant people over the years. And starting in two weeks, I'll be continuing that trend.
 

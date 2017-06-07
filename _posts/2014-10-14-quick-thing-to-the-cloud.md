@@ -1,8 +1,8 @@
 ---
-Title: Quick Thing, To The Cloud!
-Excerpt: |
+title: Quick Thing, To The Cloud!
+excerpt: |
   A recently wrote about a little side-project I've been working on called Iotiva - a lightweight IoT backend using free and low-cost Azure resources. Here I'll cover the basics of getting data from your "Thing" to the cloud. Wait. That sounded dirty....
-Tags:
+tags:
   - Azure
   - IoT
   - Iotiva

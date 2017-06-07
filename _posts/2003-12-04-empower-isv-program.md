@@ -1,7 +1,7 @@
 ---
-Title: Empower ISV Program
-Excerpt: ""
-Tags: null
+title: Empower ISV Program
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> <a href="http://weblogs.asp.net/frankarr/posts/41163.aspx" target="_blank">Frank Arrigo</a> mentioned the <a href="http://members.microsoft.com/partner/isv/empower/default.aspx" target="_blank">Microsoft Empower Program</a> today.  My company just recently applied (and just moments ago was accepted) to the Empower ISV Program.
   

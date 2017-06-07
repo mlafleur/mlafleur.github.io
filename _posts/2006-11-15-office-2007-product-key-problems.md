@@ -1,7 +1,7 @@
 ---
-Title: Office 2007 Product Key Problems
-Excerpt: ""
-Tags:
+title: Office 2007 Product Key Problems
+excerpt: ""
+tags:
   - Office
 ---
 Seems there is a bit of an issue with the MSDN Product Keys for Office 2007. 

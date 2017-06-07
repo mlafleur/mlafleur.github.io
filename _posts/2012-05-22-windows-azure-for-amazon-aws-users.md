@@ -1,7 +1,7 @@
 ---
-Title: Windows Azure for Amazon AWS Users
-Excerpt: ""
-Tags:
+title: Windows Azure for Amazon AWS Users
+excerpt: ""
+tags:
   - Amazon
   - AWS
   - Azure

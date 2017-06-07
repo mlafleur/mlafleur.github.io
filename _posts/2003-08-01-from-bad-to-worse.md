@@ -1,7 +1,7 @@
 ---
-Title: 'From bad to worse&#8230;'
-Excerpt: ""
-Tags: null
+title: 'From bad to worse&#8230;'
+excerpt: ""
+tags: null
 ---
 ="Arial">I've heard some rather specious arguments defending the GPL and it's followers. But </font><a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&amp;ixPost=61231&amp;ixReplies=25">this one over at Joel's message board</a> takes them to an entirely new low. <font face="Arial">The gist of his argument is that the GPL is Marxist and <strong>this is a good thing.</strong> 
 

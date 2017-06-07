@@ -1,7 +1,7 @@
 ---
-Title: One More Wish-List Item
-Excerpt: ""
-Tags: null
+title: One More Wish-List Item
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> As of today I need to add another item to my 2004 Technology Wish-List:
  <b>To get the <i><span style='font-style: italic'>old</i> RichTextBox back</span></b>

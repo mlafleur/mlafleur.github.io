@@ -1,7 +1,7 @@
 ---
-Title: 'Visual Studio 2005 SDK - August 2006'
-Excerpt: ""
-Tags:
+title: 'Visual Studio 2005 SDK - August 2006'
+excerpt: ""
+tags:
   - Visual Studio
 ---
 I while back I notices that there was going to be an August release of the VS2005 SDK. There was a a nice blurb on the Microsoft website about it

@@ -1,7 +1,7 @@
 ---
-Title: New Year, New Resolutions
-Excerpt: ""
-Tags:
+title: New Year, New Resolutions
+excerpt: ""
+tags:
   - Just For Fun
 ---
 Happy New Year!

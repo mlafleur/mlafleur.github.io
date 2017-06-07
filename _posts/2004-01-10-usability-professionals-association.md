@@ -1,7 +1,7 @@
 ---
-Title: 'Usability Professionals&#8217; Association'
-Excerpt: ""
-Tags: null
+title: 'Usability Professionals&#8217; Association'
+excerpt: ""
+tags: null
 ---
 If you are interested in usability then <a href="http://www.upassoc.org/">UPA is worth a look</a>. It is full of valuable information on why usability matters in software design and how to improve it.
 

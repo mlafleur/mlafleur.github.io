@@ -1,7 +1,7 @@
 ---
-Title: Source Selector Utility
-Excerpt: ""
-Tags:
+title: Source Selector Utility
+excerpt: ""
+tags:
   - Source Control
   - Visual Studio
 ---

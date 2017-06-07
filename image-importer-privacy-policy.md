@@ -1,7 +1,5 @@
 ---
-Title: Image Importer Privacy Policy
-Excerpt: ""
-Tags: null
+layout: page
 ---
 # Privacy Policy
 

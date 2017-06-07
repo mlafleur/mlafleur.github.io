@@ -1,7 +1,7 @@
 ---
-Title: Computer Science Education
-Excerpt: ""
-Tags: null
+title: Computer Science Education
+excerpt: ""
+tags: null
 ---
 <p><span class=437114316-29052003><font face=Arial size=2>I had the pleasure of 
 interviewing a recent college graduate the other day. While he was one of the 

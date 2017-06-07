@@ -1,7 +1,7 @@
 ---
-Title: Joel on Linux
-Excerpt: ""
-Tags: null
+title: Joel on Linux
+excerpt: ""
+tags: null
 ---
 <a href="http://www.joelonsoftware.com/">="Arial" size="2">Joel </font></a>made some interesting comments about Linux and the German government migration to the platform. It spawned an even more <a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&amp;ixPost=57675&amp;ixReplies=25">interesting thread </a><font face="Arial" size="2">in his forums.
 

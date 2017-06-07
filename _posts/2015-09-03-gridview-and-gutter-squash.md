@@ -1,9 +1,9 @@
 ---
-Title: GridView and Gutter Squash
-Excerpt: >
+title: GridView and Gutter Squash
+excerpt: >
   There was a gutter in my window and it
   was mocking me and so I squashed it.
-Tags: null
+tags: null
 ---
 
 I was whipping up a quick code sample today and noticed something. It was in no way related to the sample code I was writing. It did however annoying me a little which of course meant spending an hour or so of my day trying to work around it.

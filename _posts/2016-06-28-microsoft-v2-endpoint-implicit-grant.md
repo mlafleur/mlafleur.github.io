@@ -1,7 +1,8 @@
 ---
-Title: Microsoft v2 Endpoint and Implicit Grant
-Excerpt: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
-Tags:
+title: v2 Endpoint and Implicit Grant
+subtitle: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
+excerpt: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
+tags:
   - Azure
   - Azure Active Directory
   - Microsoft Graph

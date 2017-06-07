@@ -1,7 +1,7 @@
 ---
-Title: Web Service Hell
-Excerpt: ""
-Tags:
+title: Web Service Hell
+excerpt: ""
+tags:
   - SOAP
   - Web Services
   - WebDev

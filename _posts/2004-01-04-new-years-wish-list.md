@@ -1,7 +1,7 @@
 ---
-Title: New Years Wish-List
-Excerpt: ""
-Tags: null
+title: New Years Wish-List
+excerpt: ""
+tags: null
 ---
 ="Courier New" size=2>Happy New Year Everyone!  <i>Ok, so I&#8217;m a bit late&#8230; shoot me< ?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></i> 
 ="Courier New"></font><font size=2>While everyone is still trying to keep up with their New Year resolutions I decided to forgo the entire process this year and instead focus on my technology wish list for 2004. I&#8217;ll accept that I&#8217;m as likely to see my wish-list come true as you are to stop eating the chocolate you resolved to give up. But as that didn&#8217;t stop you from making your resolutions, I&#8217;m not about to allow it to stop me from wishing away. :)<o:p></o:p>

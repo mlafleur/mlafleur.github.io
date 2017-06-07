@@ -1,7 +1,7 @@
 ---
-Title: Do Cats Hate Christmas?
-Excerpt: ""
-Tags:
+title: Do Cats Hate Christmas?
+excerpt: ""
+tags:
   - Just For Fun
 ---
 If you haven&#39;t read about Eric Sink&#39;s anti-Christmas kitten then you need to read this - <a href="http://software.ericsink.com/entries/Ransacking.html" title="http://software.ericsink.com/entries/Ransacking.html">http://software.ericsink.com/entries/Ransacking.html</a>

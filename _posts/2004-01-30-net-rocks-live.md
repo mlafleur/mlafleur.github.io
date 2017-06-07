@@ -1,7 +1,7 @@
 ---
-Title: .NET Rocks Live
-Excerpt: ""
-Tags: null
+title: .NET Rocks Live
+excerpt: ""
+tags: null
 ---
 <div>
 <a href="http://neopoleon.com/blog/" target=_blank>Rory Blyth</a> is just too damn funny for a <a href="http://www.franklins.net/dotnetrocks/" target=_blank>show that runs during working hours</a>. It is a little hard to call anything &#8220;work related&#8221; when one spends the entire time bursting into laughter.

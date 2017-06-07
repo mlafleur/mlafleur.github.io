@@ -1,12 +1,13 @@
 ---
-Title: Super Simple Outlook Add-in
-Excerpt: >
+title: Super Simple Outlook Add-in
+subtitle: Building an add-in using nothing more than a static HTML page and a Manifest
+excerpt: >
   Building a very simple add-in using just
   a single HTML page, a couple of images
   assets and an XML manifest file that
   tells Outlook what to do. All stored on
   GitHub and hosted on Azure for free.
-Tags:
+tags:
   - Add-ins
   - JavaScript
   - Office

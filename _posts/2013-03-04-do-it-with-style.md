@@ -1,6 +1,6 @@
 ---
-Title: Do It With Style
-Excerpt: >
+title: Do It With Style
+excerpt: >
   The truth is that equating "design
   guidelines" with "every app looks the
   same" is akin equating "code standards"
@@ -11,7 +11,7 @@ Excerpt: >
   make. To paraphrase an old American
   phrase, they are guidelines not a
   suicide pact.
-Tags:
+tags:
   - UX
   - Windows
 ---

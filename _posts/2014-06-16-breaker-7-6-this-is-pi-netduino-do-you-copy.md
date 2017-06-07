@@ -1,8 +1,8 @@
 ---
-Title: >
+title: >
   Breaker 7-6, This is Pi, Netduino Do You
   Copy?
-Excerpt: >
+excerpt: >
   I recently wrote about getting the a
   Raspberry Pi connected with Azure
   storage. This works well for when you
@@ -13,7 +13,7 @@ Excerpt: >
   using a couple of cheap nRF24L01+ radio
   modules, a Netduino 2 and a Raspberry
   Pi.
-Tags:
+tags:
   - .NET Micro Framework
   - NETMF
   - node.js

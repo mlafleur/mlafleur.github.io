@@ -1,7 +1,7 @@
 ---
-Title: Custom Headers with HttpClient
-Excerpt: 'One of the things HttpClient does for you is to construct the Request Message automatically when you execute GetAsync. To add or change an HTTP header (such as "User-Agent") however, you will need to construct the Request Message yourself.  Luckily this is rather simple to carry out.'
-Tags:
+title: Custom Headers with HttpClient
+excerpt: 'One of the things HttpClient does for you is to construct the Request Message automatically when you execute GetAsync. To add or change an HTTP header (such as "User-Agent") however, you will need to construct the Request Message yourself.  Luckily this is rather simple to carry out.'
+tags:
   - REST
   - Web Services
   - Windows

@@ -1,7 +1,7 @@
 ---
-Title: Mushy Kid Story
-Excerpt: ""
-Tags: null
+title: Mushy Kid Story
+excerpt: ""
+tags: null
 ---
 Yes, I'm sharing a mushy story about my kids. But hey, it has technical content. Think of it as a study in youth UI design...
 

@@ -1,7 +1,7 @@
 ---
-Title: Communicating Between Workflow and VXML
-Excerpt: ""
-Tags:
+title: Communicating Between Workflow and VXML
+excerpt: ""
+tags:
   - Skype
 ---
 When working with the VoiceXML Interpreter Activity the simple act of passing data between your Workflow and your VXML applications can be tricky to figure out. Hopefully this post will save someone the time I spent scratching my head the first time around.

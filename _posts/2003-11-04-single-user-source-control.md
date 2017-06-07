@@ -1,7 +1,7 @@
 ---
-Title: Single User Source Control
-Excerpt: ""
-Tags: null
+title: Single User Source Control
+excerpt: ""
+tags: null
 ---
 <a href="http://software.ericsink.com/20031103.html#10134">Eric Sink</a> has written up a few reasons for using source code control in a &#8220;team of one&#8221;. But something he wrote bothered me. He stated more than once that &#8220;for a solo developer, source control actually isn't all that compelling&#8221;. But I think it is just as compelling as for a team of 1 as it is for 100. It is just easier to implement.
 

@@ -1,7 +1,7 @@
 ---
-Title: Blogeting?
-Excerpt: ""
-Tags: null
+title: Blogeting?
+excerpt: ""
+tags: null
 ---
 <p><span class="281540118-11072003"><font face="Arial" size="2">As a customer of <a href="http://www.sourcegear.com">Sourcegear </a>(<a href="http://www.sourcegear.com/vault">Vault</a>) and <a href="http://www.fogcreek.com">Fog Creek </a>(<a href="http://www.fogcreek.com/FogBUGZ">FogBugz</a>), I was thinking today about 
 how much blogs are influencing my purchasing decisions. I don't think we 

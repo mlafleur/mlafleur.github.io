@@ -1,8 +1,7 @@
 ---
-Title: Massachusetts RMV Info Privacy Policy
-Excerpt: ""
-Tags: null
+layout: page
 ---
+
 <strong>Collection of Information
 </strong>We do not collect any personally identifiable information.
 

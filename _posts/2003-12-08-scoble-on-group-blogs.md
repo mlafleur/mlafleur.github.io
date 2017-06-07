@@ -1,7 +1,7 @@
 ---
-Title: 'Scoble on "Group Blogs"'
-Excerpt: ""
-Tags: null
+title: 'Scoble on "Group Blogs"'
+excerpt: ""
+tags: null
 ---
 <div class="Section1"> <a href="http://radio.weblogs.com/0001011/2003/12/07.html#a5700" target="_blank">Scoble</a> seems to have a negative view of group blogs (&#8220;sucks&#8221; was the adjective he used). I understand some of his points, but I disagree with him on the bigger picture.
  I&#8217;m a developer in a small company in the tiny Boston suburb of Hudson. For the last 8 years I&#8217;ve developed commercial shrink-wrap products in a miniscule vertical (independent automotive repair shops). I&#8217;ve never written a book, I have nothing from MIT on my office wall, and I could count the number of close friends in the software industry on my hands. And yet my blog is read by thousands each month (maybe more).

@@ -1,6 +1,6 @@
 ---
-Title: Monetizing Apps
-Excerpt: >
+title: Monetizing Apps
+excerpt: >
   Monetization is one of the most
   important and confounding choices a
   developer has to make. I spend most of
@@ -9,7 +9,7 @@ Excerpt: >
   software. App monetization is one of
   those topics that seems to come up
   fairly regularly.
-Tags:
+tags:
   - Monetization
   - Software Business
   - 'Tips &amp; Tricks'

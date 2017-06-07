@@ -1,9 +1,9 @@
 ---
-Title: >
+title: >
   Getting Started with the Speech Server
   2007 API
-Excerpt: ""
-Tags:
+excerpt: ""
+tags:
   - Skype
 ---
 Speech Server 2007 has a really cool Windows Workflow based programming model that lets you quickly build interactive voice response applications. For many applications it is all you will ever need.

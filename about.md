@@ -1,7 +1,8 @@
 ---
-Title: About Marc LaFleur
-Excerpt: ""
-Tags: null
+layout: page
+title: "About"
+description: "Everything you didn't want to know about me."
+header-img: "img/about-bg.jpg"
 ---
 
 Marc LaFleur began writing code on an Apple ][e in 1984 and has never looked back, mostly because looking back on Applesoft BASIC is rather painful. The only useful thing he ever accomplished with this language was making amusing statements fill the screens of the machines in his local Sears (much to the chagrin of the poor staff of Sears).

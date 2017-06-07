@@ -1,7 +1,7 @@
 ---
-Title: Windows Live Writer 2009
-Excerpt: ""
-Tags:
+title: Windows Live Writer 2009
+excerpt: ""
+tags:
   - Blogging
 ---
 I updated my Windows Live Writer to the 2009 release candidate today. I've been a fan of WLW for a long time and this update seems like a nice incremental step forward. <a href="http://scobleizer.com/2008/12/21/testing-out-the-latest-windows-live-writer/" target="_blank">Scoble seems to like it too</a>. 

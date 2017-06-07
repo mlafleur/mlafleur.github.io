@@ -1,7 +1,7 @@
 ---
-Title: Porting to MySpace using Silverlight
-Excerpt: ""
-Tags:
+title: Porting to MySpace using Silverlight
+excerpt: ""
+tags:
   - WebDev
 ---
 I was looking for a simple way to bring an existing web application to MySpace. I wanted to be able to place this app on a Profile page so that visitors could interact with it (similar to the Music and Video players provided by MySpace).  My initial thought was to simply use an IFRAME that displayed my application. Unfortunately this turned out to be impossible as MySpace doesn't allow IFRAMEs  to be placed on Profile or Home surfaces.

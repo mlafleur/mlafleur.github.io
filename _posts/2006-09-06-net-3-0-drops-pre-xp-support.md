@@ -1,7 +1,7 @@
 ---
-Title: .NET 3.0 Drops pre-XP Support
-Excerpt: ""
-Tags:
+title: .NET 3.0 Drops pre-XP Support
+excerpt: ""
+tags:
   - .NET
 ---
 I was looking at the .NET 3.0 site today and noticed something I had previously missed. Under <a href="http://msdn.microsoft.com/windowsvista/support/relnotes/netfxRc1/default.aspx#topic1" target="_blank">Supported Operating Systems</a> it lists the following:

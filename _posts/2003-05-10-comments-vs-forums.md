@@ -1,7 +1,7 @@
 ---
-Title: Comments vs Forums
-Excerpt: ""
-Tags: null
+title: Comments vs Forums
+excerpt: ""
+tags: null
 ---
 <a href="http://dotnetweblogs.com/datagridgirl/posts/6824.aspx" target="_blank">DataGirl</a> got me thinking....
 

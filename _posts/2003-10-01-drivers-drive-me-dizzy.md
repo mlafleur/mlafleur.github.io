@@ -1,7 +1,7 @@
 ---
-Title: Drivers Drive Me Dizzy
-Excerpt: ""
-Tags: null
+title: Drivers Drive Me Dizzy
+excerpt: ""
+tags: null
 ---
 =Verdana size=2>Why is it that every piece of hardware I buy these days comes with drivers that simply do not work? It seems that no matter how new the product is, the drivers it ships with will be useless and I'll be forced to go hunt down updated versions. As a developer I know that bugs happen, but this is getting ridiculous. 
 

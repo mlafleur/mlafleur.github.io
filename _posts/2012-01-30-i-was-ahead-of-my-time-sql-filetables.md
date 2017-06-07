@@ -1,7 +1,7 @@
 ---
-Title: I was ahead of my time? (SQL FileTables)
-Excerpt: ""
-Tags:
+title: I was ahead of my time? (SQL FileTables)
+excerpt: ""
+tags:
   - Access
   - FileStreams
   - FileTables

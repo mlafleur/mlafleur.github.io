@@ -1,7 +1,7 @@
 ---
-Title: Visual Studio .NET 2003
-Excerpt: ""
-Tags:
+title: Visual Studio .NET 2003
+excerpt: ""
+tags:
   - Visual Studio
 ---
 <p><span class="625382715-17062003"><font face="Arial" size="2">So, I'm installing 

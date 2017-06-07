@@ -1,7 +1,7 @@
 ---
-Title: Settings Charm
-Excerpt: ""
-Tags:
+title: Settings Charm
+excerpt: ""
+tags:
   - Charms
   - Settings
   - Windows

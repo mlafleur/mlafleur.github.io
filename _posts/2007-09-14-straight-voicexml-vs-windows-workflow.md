@@ -1,7 +1,7 @@
 ---
-Title: Straight VoiceXML vs. Windows Workflow
-Excerpt: ""
-Tags:
+title: Straight VoiceXML vs. Windows Workflow
+excerpt: ""
+tags:
   - Skype
 ---
 There is an interesting post over on GotSpeech.NET (<a href="http://gotspeech.net/blogs/ksteponaitis/archive/2007/09/12/vxml-vs-workflow-for-speech-server-2007.aspx">VXML vs. Workflow for Speech Server 2007</a>) that compares speech devolvement using VoiceXML vs. the Windows Workflow model available in Speech Server 2007.&#160; 

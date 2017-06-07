@@ -1,7 +1,7 @@
 ---
-Title: ISVs Head Explodes, film at 11
-Excerpt: ""
-Tags: null
+title: ISVs Head Explodes, film at 11
+excerpt: ""
+tags: null
 ---
 No, I'm not kidding. If I even <em>think</em> about thinking about Microsoft's license options for another second, my head will explode. Figuring out what license you need is about the most painful thing I've ever been though (and am still going though for that matter). 
 

@@ -1,8 +1,8 @@
 ---
-Title: >
+title: >
   Solving an Outlook.com and Outlook
   Authentication Problem
-Excerpt: >
+excerpt: >
   I’ve been trying off and on for some
   time now to add my Outlook.com account
   to Outlook 2013. I’ve used this setup
@@ -11,7 +11,7 @@ Excerpt: >
   Outlook would return an error. In one of
   those face-palm moments I realized what
   changed.
-Tags:
+tags:
   - Office
   - Outlook
   - Outlook.com

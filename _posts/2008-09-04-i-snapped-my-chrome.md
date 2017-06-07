@@ -1,7 +1,7 @@
 ---
-Title: I Snapped My Chrome!
-Excerpt: ""
-Tags:
+title: I Snapped My Chrome!
+excerpt: ""
+tags:
   - Just For Fun
 ---
 One of the more interesting features in Google&#8217;s new Chrome browser is &#8220;Application Shortcuts&#8221;. These are web site links that Chrome places on your Start menu, Desktop and/or Quick Launch bar. When launched they open with a trimmed down UI, giving the web application a decidedly &#8220;desktop&#8221; feel. I&#8217;ve created shortcuts for a number of applications, including my GMail account. 

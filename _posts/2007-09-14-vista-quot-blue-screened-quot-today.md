@@ -1,7 +1,7 @@
 ---
-Title: 'Vista "Blue Screened" Today'
-Excerpt: ""
-Tags:
+title: 'Vista "Blue Screened" Today'
+excerpt: ""
+tags:
   - Just For Fun
 ---
 <p>Last week I got a new laptop from. It is a Dell Latitude D830 with a 15.4" wide-screen display, a Core2Duo, and 4GB of RAM running Vista Ultimate. I really liked this model because I can run it with two monitors (using the optional docking system). 

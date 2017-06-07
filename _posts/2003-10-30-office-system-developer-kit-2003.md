@@ -1,7 +1,7 @@
 ---
-Title: Office System Developer Kit 2003
-Excerpt: ""
-Tags: null
+title: Office System Developer Kit 2003
+excerpt: ""
+tags: null
 ---
 For those of you interested in developing solutions for/with Office 2003, Microsoft is offering a free Developer Kit (shipping charges still apply). 
 
