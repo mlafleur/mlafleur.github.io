@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <a href="{{ " /feed.xml " | prepend: site.baseurl }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -21,8 +21,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
+                    {% endif %} {% if site.facebook_username %}
                     <li>
                         <a href="https://www.facebook.com/{{ site.facebook_username }}">
                             <span class="fa-stack fa-lg">
@@ -31,8 +30,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    {% if site.github_username %}
+                    {% endif %} {% if site.github_username %}
                     <li>
                         <a href="https://github.com/{{ site.github_username }}">
                             <span class="fa-stack fa-lg">
@@ -41,8 +39,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    {% if site.email_username %}
+                    {% endif %} {% if site.email_username %}
                     <li>
                         <a href="mailto:{{ site.email_username }}">
                             <span class="fa-stack fa-lg">
@@ -56,16 +53,13 @@
                 <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
             </div>
         </div>
-        <div>
+        <div>            
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Footer1 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-4319688212721912"
-     data-ad-slot="4194821623"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+            <!-- Footer1 -->
+            <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4319688212721912" data-ad-slot="4194821623"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
     </div>
 
@@ -74,11 +68,13 @@
 
 
 
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<!-- jQuery 
+<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script> -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<!-- Bootstrap Core JavaScript 
+<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/clean-blog.min.js " | prepend: site.baseurl }}"></script>

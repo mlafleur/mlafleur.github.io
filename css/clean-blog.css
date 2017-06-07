@@ -134,14 +134,14 @@ hr.small {
   }
 }
 .intro-header {
+  margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #808080;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  background-color: #808080;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -153,7 +153,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    /*padding: 150px 0;*/
   }
 }
 .intro-header .site-heading,
