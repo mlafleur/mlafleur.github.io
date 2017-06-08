@@ -19,7 +19,7 @@ email: marc@massivescale.com
 copyright_name: Marc LaFleur
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://massivescale.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mlafleur
 github_username:  mlafleur
 #email_username:  marc@massivescale.com
