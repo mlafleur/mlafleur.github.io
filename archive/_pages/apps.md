@@ -17,7 +17,7 @@ Image Importer provides an enhanced photo importation over the default Photos ap
 
 # RMV Awesome!
 
-Created in conjunction with a seriese of talks 2013, RMV Awesome! allows you to see the wait times at each Massachusetts Registry of Motor Vehicle locations.  You can read the entire seriease [here](http://massivescale.azurewebsites.net/tag/rmv-awesome/).
+Created in conjunction with a seriese of talks 2013, RMV Awesome! allows you to see the wait times at each Massachusetts Registry of Motor Vehicle locations.  You can read the entire seriease [here](//massivescale.com/tag/rmv-awesome/).
 
 > The Most Awesome App for the Massachusetts Registry of Motor Vehicles ~ said no one
 

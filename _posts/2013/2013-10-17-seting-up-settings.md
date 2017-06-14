@@ -5,7 +5,7 @@ tags:
   - Controls
   - Windows
 ---
-Last fall I wrote about the <a title="Settings Charm" href="http://massivescale.azurewebsites.net/settings-charm/" target="_blank">Settings Charm</a> and how to leverage it for Privacy Policy. That post is still completely relevant today but I want to update the examples to leverage the new Settings Flyout control in Windows 8.1.
+Last fall I wrote about the <a title="Settings Charm" href="//massivescale.com/settings-charm/" target="_blank">Settings Charm</a> and how to leverage it for Privacy Policy. That post is still completely relevant today but I want to update the examples to leverage the new Settings Flyout control in Windows 8.1.
 
 <strong>SettingsFlyout</strong>
 
@@ -29,7 +29,7 @@ Because this is a standard user control, you can layer in as much functionality 
 
 <strong></strong><strong>Connecting the Dots</strong>
 
-Once we have our controls build, we need to wire them up to the SettingsPane. This is done within App.xaml.cs during the OnLaunched event by declaring a handler for CommandsRequested. Within that handler I'll wire up each of the Commands I want to display on the SettingsPane as well as the code to handle it being selected. In my <a title="Settings Charm" href="http://massivescale.azurewebsites.net/settings-charm/" target="_blank">previous post</a> I used multiple handlers to achieve this, but I find the inline handling of the events makes for a cleaner implementation.
+Once we have our controls build, we need to wire them up to the SettingsPane. This is done within App.xaml.cs during the OnLaunched event by declaring a handler for CommandsRequested. Within that handler I'll wire up each of the Commands I want to display on the SettingsPane as well as the code to handle it being selected. In my <a title="Settings Charm" href="//massivescale.com/settings-charm/" target="_blank">previous post</a> I used multiple handlers to achieve this, but I find the inline handling of the events makes for a cleaner implementation.
 
 In my example I'm adding both our new UserControl as well as a URI to a website (a very common way to handle the privacy policy requirement).
 

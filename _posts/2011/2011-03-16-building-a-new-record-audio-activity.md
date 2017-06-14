@@ -22,7 +22,7 @@ One of the key activities missing from UCMA that we used in Speech Sever 2007 is
 *   TerminationDigits  - The only method used for stopping recording at this point is silence from the caller
 *   CanBargeIn €“ Given the lack of prompts, there was nothing to "barge in" on
 
-I've included the full project (and the compiled Debug and Release versions) here:  <a rel="attachment wp-att-358" href="http://massivescale.azurewebsites.net/?attachment_id=358">AudioRecordingActivity1.2</a>
+I've included the full project (and the compiled Debug and Release versions) here:  <a rel="attachment wp-att-358" href="//massivescale.com/?attachment_id=358">AudioRecordingActivity1.2</a>
 
 <del><strong>UPDATE: </strong>I've fixed a few issues and updated the download to v1.1.</del>
 

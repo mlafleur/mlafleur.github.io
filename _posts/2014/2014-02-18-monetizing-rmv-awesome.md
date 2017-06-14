@@ -11,7 +11,7 @@ tags:
 
 Now that we have our Awesome app on both Windows 8.1 and Windows Phone 8 we should consider monetization. Monetization is the marketer's term for "make money with this thing". Money? Money sounds good, let's do that.
 
-Disclaimer: Monetization is a really complex topic and there is no one-size-fits all approach. I've given <a href="http://massivescale.azurewebsites.net/monetizing-apps/">some advice regarding monetization</a> on this blog. Consider how and when you monetize carefully. Now we shall carry on and ignore any advice I've given in the aforementioned post.
+Disclaimer: Monetization is a really complex topic and there is no one-size-fits all approach. I've given <a href="//massivescale.com/monetizing-apps/">some advice regarding monetization</a> on this blog. Consider how and when you monetize carefully. Now we shall carry on and ignore any advice I've given in the aforementioned post.
 
 When looking at monetizing RMV Awesome it is pretty clear that the value it delivers to a user - while universally accepted as "awesome" – is not likely to justify charging users for the app. That leaves us with Free (which is where we stared) or Ad-supported. Since leaving it at free negates the need for this post, we'll go with ad-supported. Solid logic don't you think?
 

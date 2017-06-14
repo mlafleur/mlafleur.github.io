@@ -7,7 +7,7 @@ tags:
   - Windows
   - Xamarin
 ---
-I’ve been publicly developing an application I call RMV Awesome on this blog over the last few months. Since the <a href="http://massivescale.azurewebsites.net/rmv-awesome/" target="_blank">initial release</a> of the Windows 8.1 app we’ve <a href="http://massivescale.azurewebsites.net/leveraging-portable-class-libraries/" target="_blank">migrated code to a Portable Class Library</a>, <a href="http://massivescale.azurewebsites.net/moving-to-windows-phone-8/" target="_blank">ported to Windows Phone 8</a>, <a href="http://massivescale.azurewebsites.net/monetizing-rmv-awesome/" target="_blank">added monetization</a>, <a title="Awesome Azure Mobile Services" href="http://massivescale.azurewebsites.net/awesome-azure-mobile-services/" target="_blank">integrated Azure Mobile Services</a> and <a href="http://massivescale.azurewebsites.net/?p=1711" target="_blank">tackled geo-location</a>. Today we’ll take a look at bringing this awesomeness over Android using <a href="http://xamarin.com/" target="_blank">Xamarin</a>.
+I’ve been publicly developing an application I call RMV Awesome on this blog over the last few months. Since the <a href="//massivescale.com/rmv-awesome/" target="_blank">initial release</a> of the Windows 8.1 app we’ve <a href="//massivescale.com/leveraging-portable-class-libraries/" target="_blank">migrated code to a Portable Class Library</a>, <a href="//massivescale.com/moving-to-windows-phone-8/" target="_blank">ported to Windows Phone 8</a>, <a href="//massivescale.com/monetizing-rmv-awesome/" target="_blank">added monetization</a>, <a title="Awesome Azure Mobile Services" href="//massivescale.com/awesome-azure-mobile-services/" target="_blank">integrated Azure Mobile Services</a> and <a href="//massivescale.com/?p=1711" target="_blank">tackled geo-location</a>. Today we’ll take a look at bringing this awesomeness over Android using <a href="http://xamarin.com/" target="_blank">Xamarin</a>.
 
 <strong>The Worlds Most Simplistic Xamarin Overview</strong>
 
@@ -31,7 +31,7 @@ As you can see, we now have an Android application in Visual Studio living right
 
 <strong>Building Our App </strong>
 
-Thanks to our previous work <a href="http://massivescale.azurewebsites.net/leveraging-portable-class-libraries/" target="_blank">migrating the meat of our app to a PCL</a>, all of the heavy lifting of our data is already done.  Even the work we did leveraging <a href="http://massivescale.azurewebsites.net/?p=1687" target="_blank">Azure Mobile Services</a> comes along for the ride. This leaves us with adding only some references and the user interface.
+Thanks to our previous work <a href="//massivescale.com/leveraging-portable-class-libraries/" target="_blank">migrating the meat of our app to a PCL</a>, all of the heavy lifting of our data is already done.  Even the work we did leveraging <a href="//massivescale.com/?p=1687" target="_blank">Azure Mobile Services</a> comes along for the ride. This leaves us with adding only some references and the user interface.
 
 The first thing we need to do is add a Project Reference to our existing PCL. This gives us our view models, object models and utility functions.
 

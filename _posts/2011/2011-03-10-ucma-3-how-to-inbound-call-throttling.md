@@ -6,7 +6,7 @@ tags:
 ---
 Speech Server included a setting in the Administrator Console for inbound call throttling, simply set it and forget it. Here we'll discus how we can accomplish graceful inbound call throttling with UCMA 3.0.
 
-The basis for what we're discussing here is covered in the prior article <a href="http://massivescale.azurewebsites.net/?p=58" target="_blank">"Decline A Call"</a>. We'll extend this code such that it checks for the number of calls currently connected to the application and gracefully declines calls with a busy signal we've reached capacity.
+The basis for what we're discussing here is covered in the prior article <a href="//massivescale.com/?p=58" target="_blank">"Decline A Call"</a>. We'll extend this code such that it checks for the number of calls currently connected to the application and gracefully declines calls with a busy signal we've reached capacity.
 
 One thing to understand about UCMA applications is that there are two objects in play here. The first is the Conversation object, the second is the Call object. Each Conversation instance can have one or more Calls associated with it. This is because (unlike Speech Server) UCMA supports conferencing. A conference is a single Conversation involving multiple Calls. For most IVR style applications however you'll have only a single Call per Conversation. For this reason (and because frankly its easier to understand) our sample here will be counting the number of "Conversations" rather than the number of "Calls".
 

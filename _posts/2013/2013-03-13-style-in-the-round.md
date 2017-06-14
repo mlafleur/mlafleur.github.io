@@ -4,7 +4,7 @@ excerpt: "Think about your actual user's actual experience, not some generalized
 tags:
   - Windows
 ---
-As part of my <a href="http://massivescale.azurewebsites.net/about/" target="_blank">job </a>I get to talk with a lot of developers, designers and product managers. When the subject of User Experience comes up (and it always does), I always emphasize the importance of thinking "outside the box".
+As part of my <a href="//massivescale.com/about/" target="_blank">job </a>I get to talk with a lot of developers, designers and product managers. When the subject of User Experience comes up (and it always does), I always emphasize the importance of thinking "outside the box".
 
 <em>Yes, I know. It is a horrible cliché, a vestigial remnant of bad management consulting that should have gone the way of <a href="http://siliconangle.com/files/2011/03/pets-dot-com1-300x300.jpg" target="_blank">sock puppets</a>. But stick with me for a second, it isn't what you assume it is.
 </em>

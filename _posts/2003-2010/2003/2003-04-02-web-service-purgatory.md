@@ -6,7 +6,7 @@ tags:
   - Web Services
   - WebDev
 ---
-Well, I'm out of <a href="http://massivescale.azurewebsites.net/?p=383">Web Service Hell</a>.<a href="http://dotnetweblogs.com/cweyer/">Christian Weyer</a> pointed me in the right direction and I had my first Web Service working pretty quickly.
+Well, I'm out of <a href="//massivescale.com/?p=383">Web Service Hell</a>.<a href="http://dotnetweblogs.com/cweyer/">Christian Weyer</a> pointed me in the right direction and I had my first Web Service working pretty quickly.
 
 
 

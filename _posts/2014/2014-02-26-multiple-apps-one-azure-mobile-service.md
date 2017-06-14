@@ -61,6 +61,6 @@ You then create a <em>separate</em> Azure Mobile Service but you add nothing to 
 
 <a href="/assets/wp/2014/02/pushconfig.jpg"><img style="float: none;margin-left: auto;margin-right: auto;border: 0px" title="push-config" src="/assets/wp/2014/02/pushconfig_thumb.jpg" alt="push-config" width="640" height="449" border="0" /></a>
 
-In a future post I’ll cover implementing this architecture with <a href="http://massivescale.azurewebsites.net/tag/rmv-awesome/" target="_blank">RMV Awesome</a> for those who would like to see it in action.
+In a future post I’ll cover implementing this architecture with <a href="//massivescale.com/tag/rmv-awesome/" target="_blank">RMV Awesome</a> for those who would like to see it in action.
 
 Special thanks to <a href="http://social.msdn.microsoft.com/profile/jeff%20%20sanders/" target="_blank">Jeff Sanders</a> who let me interrupt his morning and bounce my architecture off him.

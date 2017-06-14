@@ -7,4 +7,4 @@ Image Importer provides an enhanced photo importation over the default Photos ap
 <ul>
 	<li>Do to API limitations, Image Importer does not support MTP at this time. Most cameras support both MTP and PTP (also called Storage mode). Using the later will enable Image Importer to see your media.</li>
 </ul>
-<img class="ngg_displayed_gallery mceItem aligncenter" src="http://massivescale.azurewebsites.net/nextgen-attach_to_post/preview/id--1436" alt="" />
+<img class="ngg_displayed_gallery mceItem aligncenter" src="//massivescale.com/nextgen-attach_to_post/preview/id--1436" alt="" />
