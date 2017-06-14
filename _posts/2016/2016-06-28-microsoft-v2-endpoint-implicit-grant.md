@@ -48,8 +48,8 @@ The prototype for this call looks like this:
 
 ```
 https://login.microsoftonline.com/common/oauth2/v2.0/authorize?
-client_id=[APPLICATION ID]&amp;response_type=token&amp;
-redirect_uri=[REDIRECT URI]&amp;scope=[SCOPE]
+client_id=[APPLICATION ID]&response_type=token&
+redirect_uri=[REDIRECT URI]&scope=[SCOPE]
 ```
 
 >  **Scopes**:  Because the Implicit Flow does not do a token exchange, scopes that depend on them such as offline_access and openid will simply be ignored by the Endpoint.
@@ -59,8 +59,8 @@ Once the user has completed signing in, the Provider will redirect back to your
 The prototype of the Implicit Grant's fragment ID is as follows:
 
 ```
-[REDIRECT URI]#access_token=[ACCESS TOKEN]&amp;token_type=Bearer
-&amp;expires_in=[EXPIRES]&amp;scope=[SCOPE]
+[REDIRECT URI]#access_token=[ACCESS TOKEN]&token_type=Bearer
+&expires_in=[EXPIRES]&scope=[SCOPE]
 ```
 
 * access_token - This is the actual token.

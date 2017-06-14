@@ -14,14 +14,14 @@ Image: /assets/azure-office-768x154.png
 ---
 Until recently Microsoft had two very distinct systems for authenticating users; [Microsoft Account](https://en.wikipedia.org/wiki/Microsoft_account) (or MSA) and [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/) (or Azure AD). Both served the same purpose but for very different audiences; MSA for consumer services and Azure AD for enterprise services. For a while this separation worked reasonably well. While application required different integrations, most applications tended to sit squarely in one market or the other.
 
-Over time however, the distinction between "Enterprise" and "Consumer" applications has eroded. Today we it is extremely common to find publishers targeting both markets with the same solution and users with multiple accounts for work and personal use. Having to support distinct authentication integrations quickly became a pain point. The solution to this pain is the [Microsoft v2 Endpoint](https://azure.microsoft.com/en-us/documentation/articles/?product=active-directory&amp;term=app+model+v2.0) (previously known as "Converged Authentication").
+Over time however, the distinction between "Enterprise" and "Consumer" applications has eroded. Today we it is extremely common to find publishers targeting both markets with the same solution and users with multiple accounts for work and personal use. Having to support distinct authentication integrations quickly became a pain point. The solution to this pain is the [Microsoft v2 Endpoint](https://azure.microsoft.com/en-us/documentation/articles/?product=active-directory&term=app+model+v2.0) (previously known as "Converged Authentication").
 
 ## What is v2 Endpoint
 The v2 Endpoint allows applications to authenticate both Microsoft Accounts and Azure AD accounts using a single [OAUTH2](https://en.wikipedia.org/wiki/OAuth) endpoint. This allows developers to build applications that are entirely  account-agnostic. You no longer need to know which type of account the user owns. More importantly, you no longer need to ask to user to tell you what type of account they have (which to be honest, 90% of users likely have no idea how to answer).
 
 Obviously there are some APIs may have different data sets depending on the account type. [Microsoft Graph](https://graph.microsoft.io/en-us/docs/overview/overview) for example provides access to a number of APIs common to MSA and Azure AD accounts (Outlook, OneDrive, etc.) but some APIs only apply to enterprise accounts (Delve, SharePoint, etc.). To support these scenarios your application can determine the account type at run-time. The key difference here being that your application can pragmatically find the account type than relying on the user to tell your code.
 
-## OAUTH &amp; Grant Types
+## OAUTH & Grant Types
 
 The v2 Endpoint uses OAUTH2 for authorization and supports the two most common Grant Types, Authorization Code and Implicit. If you're not familiar with OAUTH (and OAUTH2 specifically), a Grant Types defines the workflow used for a particular OAUTH transaction. They all provide the same output, a token representing the authenticated user. Where they differ is how that token is obtained. In an effort to avoid going down a rabbit hole, I won't go into the details of OAUTH and the various grant flows. I will instead point you to an [excellent article on the topic](https://aaronparecki.com/2012/07/29/2/oauth2-simplified).
 
@@ -88,8 +88,8 @@ The prototype for this call looks like this:
 
 ```
 https://login.microsoftonline.com/common/oauth2/v2.0/authorize?
-client_id=[APPLICATION ID]&amp;response_type=code&amp;
-redirect_uri=[REDIRECT URI]&amp;scope=[SCOPE]
+client_id=[APPLICATION ID]&response_type=code&
+redirect_uri=[REDIRECT URI]&scope=[SCOPE]
 ```
 
 > **Scopes**  
@@ -111,9 +111,9 @@ This body will be POSTed up to https://login.microsoftonline.com/common/oauth2
 ```
 POST URL: https://login.microsoftonline.com/common/oauth2/v2.0/token
 POST HEADER: Content-Type: application/x-www-form-urlencoded
-POST BODY: grant_type=authorization_code&amp;code=[AUTHORIZATION CODE]&amp;
-           client_id=[APPLICATION ID]&amp;client_secret=[PASSWORD]
-           &amp;scope=[SCOPE]&amp;redirect_uri=[REDIRECT URI]
+POST BODY: grant_type=authorization_code&code=[AUTHORIZATION CODE]&
+           client_id=[APPLICATION ID]&client_secret=[PASSWORD]
+           &scope=[SCOPE]&redirect_uri=[REDIRECT URI]
 ```
 
 Once the Provider has processed this request, it will return a JSON object containing the following properties:
@@ -132,7 +132,7 @@ By default, Access/Bearer tokens have a lifetime of 1 hour. After this time they
 
 Refresh Tokens are only returned when you include offline_access in your first scopes list. This is a special scope that does not need a full URI. Adding this scope will result in an additional property called refresh_token being returned by the provider. This refresh_token can be used to repeat the previous POST process to retrieve a newly minted bearer token.
 
-&gt; Refresh Tokens are also only available in the Authorization Code workflow. If you are using the Implicit workflow you are limited to the initial lifetime of the token. Refresh Tokens operation similarly to the initial Authorization Code, they are exchanged with the Provider for an updated bearer token. Given that the Implicit Grant was designed to skip the Authorization Code exchange, they also cannot participate in the Refresh Token exchange. 
+> Refresh Tokens are also only available in the Authorization Code workflow. If you are using the Implicit workflow you are limited to the initial lifetime of the token. Refresh Tokens operation similarly to the initial Authorization Code, they are exchanged with the Provider for an updated bearer token. Given that the Implicit Grant was designed to skip the Authorization Code exchange, they also cannot participate in the Refresh Token exchange. 
 
 To exorcise your Refresh Token, we need to make another HTTP POST back to the provider. The POST's body must be encoded as [application/x-www-form-urlencoded](https://en.wikipedia.org/wiki/Percent-encoding#The_application.2Fx-www-form-urlencoded_type)" and contain the following parameters:
 
@@ -148,9 +148,9 @@ This body will be POSTed up to [https://login.microsoftonline.com/common/oauth
 ```
 POST URL: https://login.microsoftonline.com/common/oauth2/v2.0/token
 POST HEADER: Content-Type: application/x-www-form-urlencoded
-POST BODY: grant_type=refresh_token&amp;refresh_token=[REFRESH TOKEN]
-           &amp;client_id=[APPLICATION ID]&amp;client_secret=[PASSWORD]
-           &amp;scope=[SCOPE]&amp;redirect_uri=[REDIRECT URI]
+POST BODY: grant_type=refresh_token&refresh_token=[REFRESH TOKEN]
+           &client_id=[APPLICATION ID]&client_secret=[PASSWORD]
+           &scope=[SCOPE]&redirect_uri=[REDIRECT URI]
 ```
 
 Once the Provider has processed this request, it will return a JSON object containing the following properties:
