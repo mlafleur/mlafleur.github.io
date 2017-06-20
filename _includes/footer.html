@@ -62,7 +62,7 @@
                 <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
             </div>
         </div>
-        <div class="text-center" style="margin-bottom: 15px;">
+        <div class="text-center">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Automatic -->
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4319688212721912" data-ad-slot="9699737629" data-ad-format="auto"></ins>
@@ -72,8 +72,8 @@
         </div>
         <div class="text-center">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Automatic 2 -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4319688212721912" data-ad-slot="3064448024" data-ad-format="auto"></ins>
+            <!-- Automatic -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4319688212721912" data-ad-slot="9699737629" data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
@@ -84,38 +84,37 @@
 </footer>
 
 
-<noscript id="deferred-styles">
-    <!-- Bootstrap Core CSS 
+    <noscript id="deferred-styles">
+        <!-- Bootstrap Core CSS 
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}"> -->
+        
 
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{ " /css/clean-blog.css " | prepend: site.baseurl }}">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ " /css/clean-blog.css " | prepend: site.baseurl }}">
+        <!-- Pygments Github CSS -->
+        <link rel="stylesheet" href="{{ " /css/syntax.css " | prepend: site.baseurl }}">
 
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="{{ " /css/syntax.css " | prepend: site.baseurl }}">
+        <!-- Custom Fonts -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+            rel='stylesheet' type='text/css'>
+    </noscript>
 
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-</noscript>
-
-<script>
-    var loadDeferredStyles = function () {    
-        var addStylesNode = document.getElementById("deferred-styles");    
-        var replacement = document.createElement("div");    
-        replacement.innerHTML = addStylesNode.textContent;    
-        document.body.appendChild(replacement)     addStylesNode.parentElement.removeChild(addStylesNode);   
-    };   
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||      webkitRequestAnimationFrame ||
-        msRequestAnimationFrame;   
-    if (raf) raf(function () {
-        window.setTimeout(loadDeferredStyles, 0);
-    });   
-    else window.addEventListener('load', loadDeferredStyles);
-</script>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
 
 <!-- jQuery 
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script> -->
@@ -127,3 +126,5 @@
 
 <!-- Custom Theme JavaScript -->
 <script async src="{{ " /js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+
+
