@@ -18,13 +18,8 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% for page in site.pages %}{% if page.title.size > 0 %}
-				{% if page.url != '/404.html' %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-				{% endif %}
-                {% endif %}{% endfor %}
+                <li> 
+                    <a href="{{ site.baseurl }}/about/">About</a>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
