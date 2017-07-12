@@ -1,4 +1,3 @@
-
 ---
 title: Ruby & Ubuntu on Windows 10
 subtitle: Installing Ruby 2.1.1 into Ubuntu running on Windows 10 and Windows Subsystem for Linux
