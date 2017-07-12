@@ -65,6 +65,7 @@ rvm install 2.4.1
 rvm use 2.4.1 --default
 ruby -v
 ```
+One this was done, I was able to get Jekyll installed using `gem install jekyll bundler`
 
 Below is the complete command list as a Gist
 
