@@ -37,5 +37,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: /:categories/:title/
-paginate: 5
+paginate: 15
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","archive"]
