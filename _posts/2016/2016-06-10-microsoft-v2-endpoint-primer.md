@@ -178,7 +178,7 @@ Each of the tokens described above (auth_code, access_token, refresh_token) have
 
 *   Authorization Codes - 10 minutes
 *   Access Tokens - 1 hour
-*   Refresh Tokens - up to 14 days
+*   Refresh Tokens - ~~up to 14 days~~ changed in 2017 to [`until-revoked`](https://blogs.technet.microsoft.com/enterprisemobility/2017/08/31/changes-to-the-token-lifetime-defaults-in-azure-ad/)
 
 ## Example Application
 
