@@ -16,19 +16,19 @@ One of the things [HttpClient][] does for you is to construct the Request Mess
 
 The first thing you need to do is instantiate a new [HttpRequestMessage][] object. You'll need to supply the [HttpMethod][] (PUT, GET, etc.) and the URI of the site you'll be sending it to.
 
-{% gist 5dc184b0b0ba91a06035  %}
+{% gist ea9f434db959c29be2f3  %}
 
 Next we need to populate the headers with our data. For [User-Agent][] we add it to the HTTP headers. For Content-Type we need to add it to the Content Headers.
 
-{% gist 5dc184b0b0ba91a06035  %}
+{% gist ddc5346314d845b82c63  %}
 
 Now we have a [HttpRequestMessage][] with our custom [User-Agent][] and Content-Type ready to roll. The only thing left to do is send it off to the server and await the response. This is a slightly different call than [GetAsync][] since we are not using the default [HttpRequestMessage][]. Instead we'll use [SendAsyn][] to tell [HttpClient][] to send our custom [HttpRequestMessage][] to the server.
 
-{% gist 5dc184b0b0ba91a06035  %}
+{% gist 4af34080327d87ae2cbf  %}
 
 Here is the complete sample:
 
-{% gist 5dc184b0b0ba91a06035  %}
+{% gist 2fb459b91fe7cd08e1b7  %}
 
 [basic-http-authentication-in-winrt]: //massivescale.com/basic-http-authentication-in-winrt
 [User-Agent]:         http://en.wikipedia.org/wiki/User_agent
