@@ -52,17 +52,14 @@ Now what we have all of the prerequisites installed, we can install the actual R
 ```bash
 rvm install 2.2.5
 rvm use 2.2.5 --default
-ruby -v
 ```
 > Note that this _does_ take a while to download, configure, and compile. It isn't as simple as installing some small binaries. 
 
-
-This bit I like about this is that how easily I can switch versions. If I decide I would rather use the most current Ruby 2.5.0 I can simply install it and switch to that as my default:
+One aspect about this that I like is  how easily I can switch versions. If I decide I would rather use Ruby 2.5.0 then I can simply install it and switch to that as my default:
 
 ```bash
 rvm install 2.5.0
 rvm use 2.5.0 --default
-ruby -v
 ```
 One this was done, I was able to get Jekyll installed using `gem install jekyll bundler`
 
