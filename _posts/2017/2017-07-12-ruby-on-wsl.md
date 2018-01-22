@@ -1,6 +1,6 @@
 ---
 title: Ruby & Ubuntu on Windows 10
-subtitle: Installing Ruby 2.1.1 into Ubuntu running on Windows 10 and Windows Subsystem for Linux
+subtitle: Installing Ruby 2.2.5 into Ubuntu running on Windows 10 and Windows Subsystem for Linux
 tags:
   - Windows Subsystem for Linux
   - WSL
@@ -12,7 +12,7 @@ tags:
 
 _We recently published Ubuntu to the [Windows Store](https://www.microsoft.com/store/apps/9NBLGGH4MSV6). With the switch from beta to GA, I found myself with a beautifully pristine Ubuntu environment to rebuild. I decided to take advantage of this oportunity and document some of the configuration challenges I faced. I worked around these issues in the beta as well but it happened in drips and drabs making it hard to coherently document._
 
-This post covers getting [Ruby] 2.1.1 installed and running. I don't do much with Ruby but my blog is built on top of a Ruby package called Jekyll. While most of the heavy lifting is done behind the scenes on GitHub using GitHub pages, I find it extremely helpful to have a local copy. And since [Jekyll] is notoriously tricky to get up and running on Windows, the Windows Subsystem for Linux is a really elegant solution. 
+This post covers getting [Ruby] 2.2.5 installed and running. I don't do much with Ruby but my blog is built on top of a Ruby package called Jekyll. While most of the heavy lifting is done behind the scenes on GitHub using GitHub pages, I find it extremely helpful to have a local copy. And since [Jekyll] is notoriously tricky to get up and running on Windows, the Windows Subsystem for Linux is a really elegant solution. 
 
 > If you're not already using Ubuntu from the Store, I highly recommend reading Scott Hanselman's [Ubuntu now in the Windows Store: Updates to Linux on Windows 10 and Important Tips](https://www.hanselman.com/blog/UbuntuNow%C4%B0nTheWindowsStoreUpdatesToLinuxOnWindows10AndImportantTips.aspx). 
 
@@ -28,7 +28,7 @@ We're going to be installing several packages here using `apt`. Before doing tha
 sudo apt-get update
 ```
 
-Before we can install Ruby 2.1.1, we need to first install some dependencies. Executing the following command line will get that ball rolling:
+Before we can install Ruby 2.2.5, we need to first install some dependencies. Executing the following command line will get that ball rolling:
 
 ```bash
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
@@ -45,23 +45,23 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 curl -sSL https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 ```
-## Installing Ruby 2.1.1
+## Installing Ruby 2.2.5
 
 Now what we have all of the prerequisites installed, we can install the actual Ruby package. While some of the previous commands were a bit opaque to me, it is this last bit that I found attractive about `rvm`. This portion is extremely straight forward:
 
 ```bash
-rvm install 2.1.1
-rvm use 2.1.1 --default
+rvm install 2.2.5
+rvm use 2.2.5 --default
 ruby -v
 ```
 > Note that this _does_ take a while to download, configure, and compile. It isn't as simple as installing some small binaries. 
 
 
-This bit I like about this is that how easily I can switch versions. If I decide I would rather use the most current Ruby 2.4.1 I can simply install it and switch to that as my default:
+This bit I like about this is that how easily I can switch versions. If I decide I would rather use the most current Ruby 2.5.0 I can simply install it and switch to that as my default:
 
 ```bash
-rvm install 2.4.1
-rvm use 2.4.1 --default
+rvm install 2.5.0
+rvm use 2.5.0 --default
 ruby -v
 ```
 One this was done, I was able to get Jekyll installed using `gem install jekyll bundler`
