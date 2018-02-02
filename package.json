@@ -1,0 +1,23 @@
+{
+    "title": "The World According to Marc",
+    "name": "the-world-according-to-marc",
+    "version": "6.0.0",
+    "description": "The World According to Marc",
+    "author": "Marc LaFleur",
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "font-awesome": "4.7.0",
+        "jquery": "3.3.1",
+        "popper.js": "1.12.9",
+        "startbootstrap-clean-blog": "4.0.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
+}
