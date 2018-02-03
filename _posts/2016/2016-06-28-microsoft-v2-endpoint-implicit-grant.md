@@ -1,5 +1,5 @@
 ---
-title: v2 Endpoint and Implicit Grant
+title: v2 Endpoint & Implicit Grant
 subtitle: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
 excerpt: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
 tags:

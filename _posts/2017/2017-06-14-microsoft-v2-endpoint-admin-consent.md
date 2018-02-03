@@ -1,5 +1,5 @@
 ---
-title: v2 Endpoint and Admin Consent
+title: v2 Endpoint & Admin Consent
 subtitle: Mother may I? Obtaining Administrative Consent for your application
 tags:
   - Azure
