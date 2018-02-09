@@ -3,14 +3,12 @@ title: v2 Endpoint & Implicit Grant
 subtitle: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
 excerpt: Building on my previous v2 Endpoint Primer, here we discuss using the Implicit Grant.
 tags:
-  - Azure
   - Azure Active Directory
   - Microsoft Graph
-  - node.js
-  - OAUTH
-  - Office
+  - OAuth
   - v2 Endpoint
-Image: /assets/azure-office-768x154.png
+background: '/img/train.jpg'
+category: aadv2
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend doing so. I will be glossing over several bits of configuration we previously covered (application registration for example)._
