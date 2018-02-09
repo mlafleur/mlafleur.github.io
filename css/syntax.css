@@ -34,15 +34,15 @@ header.masthead{
 /* to make lines scroll instead of wrap */
 /* from http://stackoverflow.com/a/23393920 */
 .highlight code * {
-  white-space: nowrap;    // this sets all children inside to nowrap
+  white-space: nowrap;    /*  this sets all children inside to nowrap */
 }
 
 .highlight {
-  overflow-x: auto;       // this sets the scrolling in x
+  overflow-x: auto;       /* this sets the scrolling in x */
 }
 
 .highlight code {
-  white-space: pre;       // forces <code> to respect <pre> formatting
+  white-space: pre;       /* forces <code> to respect <pre> formatting */
 }
 
 
