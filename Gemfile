@@ -1,3 +1,2 @@
-source "https://rubygems.org"
-gem 'rake'
-gem 'github-pages', group: :jekyll_plugins
+source 'https://rubygems.org'
+gem 'github-pages', '>=175', group: :jekyll_plugins

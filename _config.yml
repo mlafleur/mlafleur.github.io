@@ -30,13 +30,14 @@ facebook_username: mlafleurMSFT
 # Build settings
 markdown: kramdown
 highlighter: rouge
-#theme: jekyll-theme-slate
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
-permalink: /:categories/:title/
-paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+permalink: /:title/
+paginate_path: "/posts/page:num/"
 paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","archive"]
