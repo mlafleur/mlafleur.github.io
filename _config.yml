@@ -37,6 +37,10 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-sitemap
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
 permalink: /:title/
 paginate_path: "/posts/page:num/"
 paginate: 6
