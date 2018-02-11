@@ -8,7 +8,6 @@ tags:
   - OAuth
   - v2 Endpoint
 background: '/img/train.jpg'
-category: aadv2
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend doing so. I will be glossing over several bits of configuration we previously covered (application registration for example)._
@@ -76,7 +75,7 @@ In you're using JavaScript in a browser, you can grab this data from the URI usi
 * [Access Token Security with Implicit Grants][section-10.3]
 * [Misuse of Access Token to Impersonate Resource Owner in Implicit Flow][section-10.16]
 
-[primer]: //massivescale.com/category/aadv2/
+[primer]: //massivescale.com/microsoft-v2-endpoint-primer
 [fragment-id]: https://en.wikipedia.org/wiki/Fragment_identifier
 [implicit-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.2
 [authcode-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.1

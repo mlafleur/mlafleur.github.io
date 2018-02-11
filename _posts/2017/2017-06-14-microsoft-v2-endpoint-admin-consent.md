@@ -7,7 +7,6 @@ tags:
   - OAuth
   - v2 Endpoint
 background: '/img/train.jpg'
-category: aadv2
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._
@@ -87,7 +86,7 @@ During redirection, you will receive some additional data in for form of query p
 
 Once the tenant has consented to your permissions, you can begin authenticating users using the traditional OAUTH workflow. Features such as dynamic scopes and refresh tokens continue to operate in the same way as well.
 
-[primer]: //massivescale.com/category/aadv2/
+[primer]: //massivescale.com/microsoft-v2-endpoint-primer
 [implicit]: //massivescale.com/microsoft-v2-endpoint-implicit-grant.md
 [graph]: //graph.microsoft.io
 [admin_consent]: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-assign-admin-roles
