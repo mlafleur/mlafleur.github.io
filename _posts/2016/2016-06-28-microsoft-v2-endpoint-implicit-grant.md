@@ -76,7 +76,7 @@ In you're using JavaScript in a browser, you can grab this data from the URI usi
 * [Access Token Security with Implicit Grants][section-10.3]
 * [Misuse of Access Token to Impersonate Resource Owner in Implicit Flow][section-10.16]
 
-[primer]: [primer]: //massivescale.com/category/aadv2/
+[primer]: //massivescale.com/category/aadv2/
 [fragment-id]: https://en.wikipedia.org/wiki/Fragment_identifier
 [implicit-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.2
 [authcode-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.1
