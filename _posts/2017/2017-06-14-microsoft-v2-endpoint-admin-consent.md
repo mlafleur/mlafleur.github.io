@@ -78,7 +78,9 @@ When the admin logs in they will be presented with the list of permission you se
 
 During redirection, you will receive some additional data in for form of query parameters:
 
-`GET http://localhost:3000/consentReturn/?tenant=[tenant id]&admin_consent=[True/False]`
+```none
+http://localhost:3000/consentReturn/?tenant=[tenant id]&admin_consent=[True/False]
+```
 
 * `tenant` - This is the GUID for the tenant that was authorized. This allows you to capture which tenant consent was granted for.
 * `admin_consent` - This returns true if they consented and false if they declined
