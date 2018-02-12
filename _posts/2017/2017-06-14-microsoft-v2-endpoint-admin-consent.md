@@ -7,7 +7,7 @@ tags:
   - OAuth
   - v2 Endpoint
 background: '/img/train.jpg'
-redirect_from: '/aadv2/microsoft-v2-endpoint-admin-consent'
+redirect_from: /aadv2/microsoft-v2-endpoint-admin-consent
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._

@@ -22,26 +22,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://massivescale.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mlafleur
 github_username:  mlafleur
-#email_username:  marc@massivescale.com
 google_tracking_id: UA-3085958-5
 linkedin_username: marclafleur
 facebook_username: mlafleurMSFT
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-exclude:
-  - Gemfile
-  - Gemfile.lock
+permalink: /:title/
+paginate_path: "/posts/page:num/"
+paginate: 6
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-sitemap
-gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-sitemap
-permalink: /:title/
-paginate_path: "/posts/page:num/"
-paginate: 6
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","archive"]

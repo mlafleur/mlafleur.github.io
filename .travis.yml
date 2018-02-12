@@ -1,9 +1,0 @@
-rvm: 2.1.1
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: myfolder/  # or remove this line to upload from root of repo
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  fqdn: massivescale.com
-  on:
-    branch: master
