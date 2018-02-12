@@ -10,6 +10,7 @@ tags:
 background: '/img/train.jpg'
 redirect_from: /aadv2/microsoft-v2-endpoint-primer/
 ---
+
 Until recently Microsoft had two very distinct systems for authenticating users; [Microsoft Account](https://en.wikipedia.org/wiki/Microsoft_account) (or MSA) and [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) (or Azure AD). Both served the same purpose but for very different audiences; MSA for consumer services and Azure AD for enterprise services. For a while this separation worked reasonably well. While application required different integrations, most applications tended to sit squarely in one market or the other.
 
 Over time however, the distinction between "Enterprise" and "Consumer" applications has eroded. Today we it is extremely common to find publishers targeting both markets with the same solution and users with multiple accounts for work and personal use. Having to support distinct authentication integrations quickly became a pain point. The solution to this pain is the [Microsoft v2 Endpoint](https://azure.microsoft.com/documentation/articles/?product=active-directory&term=app+model+v2.0) (previously known as "Converged Authentication").

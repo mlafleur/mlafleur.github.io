@@ -13,13 +13,13 @@ I recently ran into a odd problem where the Edge browser's default zoom level go
 
 Before I explain how I resolved the problem there are a couple of vital caveats:
 
-  * I'm running an [Insider Build](https://insider.windows.com/) so issues like this, while admittedly frustrating, are not expected. I signed up to eat the dog food, I can't really complain when it tastes like.... well, dog food.
+* I'm running an [Insider Build](https://insider.windows.com/) so issues like this, while admittedly frustrating, are not expected. I signed up to eat the dog food, I can't really complain when it tastes like.... well, dog food.
 
-  * Fixing this requires editing the registry. **If you are not sure you should do this then you shouldn't**. Period. End of story. Got that? Going to ignore my warning anyway? No worries. I've got kids, I'm used to having my warnings ignored.
+* Fixing this requires editing the registry. **If you are not sure you should do this then you shouldn't**. Period. End of story. Got that? Going to ignore my warning anyway? No worries. I've got kids, I'm used to having my warnings ignored.
 
 At the moment I'm unclear exactly how I got into a broken zoom state, but the fix seems to have held. I've been trying for a while to reproduce the problem but at the moment it seems to be holding steady.
 
-Edge is a UWP application. As such, it's registry settings are a bit buried; they live under HKEY_CLASSES_ROOT rather than CURRENT_USER or LOCAL_MACHINE. In particular they can be found at `HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge`. 
+Edge is a UWP application. As such, it's registry settings are a bit buried; they live under HKEY_CLASSES_ROOT rather than CURRENT_USER or LOCAL_MACHINE. In particular they can be found at `HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge`.
 
 ![registry-edge-1](/assets/images/registry-edge-1.png)
 
