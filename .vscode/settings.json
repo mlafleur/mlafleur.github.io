@@ -1,1 +1,13 @@
-{}
+{
+  "workbench.colorTheme": "Default Light+",
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.quickSuggestions": false,
+    "editor.wordWrapColumn": 120
+  },
+  "markdownlint.config": {
+    "MD013": false,
+    "MD041": false,
+    "MD002": false
+  }
+}

@@ -208,3 +208,14 @@ Each of the tokens described above (auth_code, access_token, refresh_token) have
 I've created a very simple Node.js application using Express and Request that walks you through the entire workflow (including refreshing the token). The entire application is available on GitHub at [https://github.com/mlafleur/node-v2endpoint-example](https://github.com/mlafleur/node-v2endpoint-example).
 
 In order to use this sample you will need to complete the Application Registration process outlined above. Once completed, you will need to add you Application ID and Password to the variables defined at the top of [index.js](https://github.com/mlafleur/node-v2endpoint-example/blob/master/index.js). Running the sample will spin up a local web server at `http://localhost:3000`. Browsing to this page will present a page with a single link. This link represents the first stage (redirection to the Provider) of the process. Once the token is obtained it is rendered in the browser (along with a link to trigger a token refresh).
+
+## Microsoft v2 Endpoint Series
+
+* [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
+* [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+* [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+
+[scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions
+[graph]: https://graph.microsoft.io
+[admin_consent]: https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles
+[app-reg]: https://apps.dev.microsoft.com

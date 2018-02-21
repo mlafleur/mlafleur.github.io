@@ -1,6 +1,6 @@
 ---
-title: v2 Endpoint - User vs Admin Consent
-subtitle: Digging into the differences between User and Admin Consent 
+title: v2 Endpoint & Consent
+subtitle: Understanding the difference between User and Admin Consent 
 tags:
   - Azure Active Directory
   - Microsoft Graph
@@ -32,3 +32,21 @@ Admin Consent is quite different than User Consent. Namely in that it is authori
 > One way to think about Admin Consent is in terms of "Parental Consent". So, if my son wants to invite someone over to the house they first need _my_ permission. Only after I give the thumbs up can they go ahead and invite their friend to come over.
 >
 > In this example, my "son" is the "Application". The permission I granted was "Admin Consent". The invitation is my son's invitation is a request for "User Consent".
+
+You can determine if you need to receive Admin Consent by checking the "Admin Consent Required" column in the [documentation for Scopes][scopes].
+
+> If you're using the Client Credentials (`client_credentials`) Grant then you will need Admin Consent regardless of the scopes you've selected. This is due to Client Credentials not authenticating a user and therefore not having a User Consent component whatsoever. For this grant, Admin Consent is the only consent you will receive.
+
+## Changing Scopes
+
+One common issue that folks run into, particularly early on in development and testing, are errors being raised after changing the application's scopes. It is important to remember that Consent is granted for a fixed set of scopes. If those scopes should change, _additional consent is required_.
+
+For User Consent this typically isn't an issue since the user is simply presented with an updated Consent page the next time they authenticate. For Admin Consent however, you will need to repeat the Admin Consent process in order to cover those new scopes.
+
+[primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
+[implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}
+
+[scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions
+[graph]: https://graph.microsoft.io
+[admin_consent]: https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles
+[app-reg]: https://apps.dev.microsoft.com

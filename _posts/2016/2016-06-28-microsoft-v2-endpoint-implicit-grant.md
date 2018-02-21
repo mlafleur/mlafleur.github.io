@@ -70,13 +70,21 @@ The prototype of the Implicit Grant's fragment ID is as follows:
 
 In you're using JavaScript in a browser, you can grab this data from the URI using window.location.hash. If you're using [jQuery](http://jquery.org) then I would hightly recommend looking into [jQuery BBQ](http://benalman.com/projects/jquery-bbq-plugin/).
 
+## Microsoft v2 Endpoint Series
+
+* [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
+* [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+* [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+
 ## Further Reading
 
 * [The OAuth 2.0 Authorization Framework (RFC-6749)](http://tools.ietf.org/html/rfc6749)
 * [Access Token Security with Implicit Grants][section-10.3]
 * [Misuse of Access Token to Impersonate Resource Owner in Implicit Flow][section-10.16]
 
-[primer]: //massivescale.com/microsoft-v2-endpoint-primer
+[primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
+[implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}
+
 [fragment-id]: https://en.wikipedia.org/wiki/Fragment_identifier
 [implicit-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.2
 [authcode-flow]: http://tools.ietf.org/html/rfc6749#section-1.3.1
