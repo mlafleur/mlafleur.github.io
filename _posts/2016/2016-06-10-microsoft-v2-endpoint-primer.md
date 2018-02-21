@@ -213,6 +213,7 @@ In order to use this sample you will need to complete the Application Registrati
 
 * [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
 * [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+* [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 * [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 
 [scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions

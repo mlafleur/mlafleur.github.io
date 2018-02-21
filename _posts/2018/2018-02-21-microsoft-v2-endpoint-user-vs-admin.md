@@ -9,7 +9,7 @@ tags:
 background: '/img/train.jpg'
 ---
 
-_This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._
+_This is a continuation of my [Microsoft v2 Endpoint Series](#microsoft-v2-endpoint-series). If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._
 
 When it comes to selecting the scopes your application will be requesting from an API such as Microsoft Graph, it is worth considering how those scopes will impact your initial deployment and user experiences.
 
@@ -29,19 +29,20 @@ Of course, not all permission scopes are created equal. While some scopes such a
 
 Admin Consent is quite different than User Consent. Namely in that it is authorizing the application itself rather than the end user. It doesn't replace User Consent, it is simply an additional layer on top of it. One type of consent does not remove the need for the other.
 
-> One way to think about Admin Consent is in terms of "Parental Consent". So, if my son wants to invite someone over to the house they first need _my_ permission. Only after I give the thumbs up can they go ahead and invite their friend to come over.
->
-> In this example, my "son" is the "Application". The permission I granted was "Admin Consent". The invitation is my son's invitation is a request for "User Consent".
+One way to think about Admin Consent is in terms of "Parental Consent". So, if my son wants to invite someone over to the house they first need _my_ permission. Only after I give the thumbs up can they go ahead and invite their friend to come over.
+
+In this example, my "son" is the "Application". The permission I granted was "Admin Consent". The invitation is my son's invitation is a request for "User Consent".
 
 You can determine if you need to receive Admin Consent by checking the "Admin Consent Required" column in the [documentation for Scopes][scopes].
 
-> If you're using the Client Credentials (`client_credentials`) Grant then you will need Admin Consent regardless of the scopes you've selected. This is due to Client Credentials not authenticating a user and therefore not having a User Consent component whatsoever. For this grant, Admin Consent is the only consent you will receive.
+> **Note:** If you're using the Client Credentials (`client_credentials`) Grant then you will need Admin Consent regardless of the scopes you've selected. This is due to Client Credentials not authenticating a user and therefore not having a User Consent component whatsoever. For this grant, Admin Consent is the only consent you will receive.
 
-## Changing Scopes
+## Microsoft v2 Endpoint Series
 
-One common issue that folks run into, particularly early on in development and testing, are errors being raised after changing the application's scopes. It is important to remember that Consent is granted for a fixed set of scopes. If those scopes should change, _additional consent is required_.
-
-For User Consent this typically isn't an issue since the user is simply presented with an updated Consent page the next time they authenticate. For Admin Consent however, you will need to repeat the Admin Consent process in order to cover those new scopes.
+* [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
+* [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+* [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+* [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 
 [primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
 [implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}

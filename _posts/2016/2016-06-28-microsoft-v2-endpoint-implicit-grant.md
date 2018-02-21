@@ -11,7 +11,7 @@ background: '/img/train.jpg'
 redirect_from: /aadv2/microsoft-v2-endpoint-implicit-grant/
 ---
 
-_This is a continuation of my [Microsoft v2 Endpoint Primer][primer]. If you haven't read this article yet, I highly recommend doing so. I will be glossing over several bits of configuration we previously covered (application registration for example)._
+_This is a continuation of my [Microsoft v2 Endpoint Series](#microsoft-v2-endpoint-series). If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._
 
 First, a disclaimer. I am not a fan of the [Implicit Grant][implicit-flow]. It has some severe limitations and is [less][section-10.3] [secure][section-10.16] than the [Authentication Code Grant][authcode-flow]. There are absolutely cases where an Implicit Grant is required but in most cases it should be avoided whenever possible.
 
@@ -68,12 +68,13 @@ The prototype of the Implicit Grant's fragment ID is as follows:
 * `token_type` - This tells you what type of token you have. It should always be "bearer".
 * `scope` - This is the list of scopes you have been granted access too.
 
-In you're using JavaScript in a browser, you can grab this data from the URI using window.location.hash. If you're using [jQuery](http://jquery.org) then I would hightly recommend looking into [jQuery BBQ](http://benalman.com/projects/jquery-bbq-plugin/).
+In you're using JavaScript in a browser, you can grab this data from the URI using window.location.hash. If you're using [jQuery](http://jquery.org) then I would highly recommend looking into [jQuery BBQ](http://benalman.com/projects/jquery-bbq-plugin/).
 
 ## Microsoft v2 Endpoint Series
 
 * [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
 * [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+* [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 * [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 
 ## Further Reading
