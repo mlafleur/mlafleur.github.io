@@ -1,19 +1,69 @@
 <!DOCTYPE html>
+<html class="">
 
-<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="Private" />
+    <meta http-equiv="Expires" content="600" />
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  {% include head.html %}
+    <title>
+        {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }} {% else %}{{ site.title | escape }}{% endif %}
+    </title>
 
-  <body>
+    <!-- Not sure? -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-    {% include nav.html %}
+    <!-- RSS Feed Link -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}">
 
-    {{ content }}
+    <!-- Fav Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
 
+    <!-- Style Sheets -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">      
+    
+    <link rel="stylesheet" href="{{"/css/site.css " | relative_url }}">
+    <link rel="stylesheet" href="{{"/css/content.css " | relative_url }}">
+    <link rel="stylesheet" href="{{"/css/mooncake.css " | relative_url }}">
+    <link rel="stylesheet" href="{{"/css/syntax.css " | relative_url }}">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+
+
+    {% include google.html %}
+</head>
+
+<body>
+    <!-- Page Header -->
+    {% include header.html %}
+    
+    <!-- Page Content -->
+    <div class="container mainContainer">
+        <div class="primary-holder">
+            <main class="content">
+                {{ content }}
+            </main>
+        </div>
+
+        {% include actions.html %}
+        {% include sidebar.html %}
+    </div>
+
+    <!-- Page Footer -->
     {% include footer.html %}
 
     {% include scripts.html %}
+    
 
-  </body>
+
+</body>
 
 </html>
