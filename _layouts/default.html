@@ -43,8 +43,16 @@
 
 <body>
     <!-- Page Header -->
+    <div>
     {% include header.html %}
-    
+    </div>
+
+    {% if page.background %}
+    <div style="height:300px; width: 100%; overflow: hidden;  display: flex; align-items: flex-end;">
+        <img src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" >
+    </div>
+    {% endif %}
+
     <!-- Page Content -->
     <div class="container mainContainer">
         <div class="primary-holder">
