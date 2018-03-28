@@ -54,8 +54,10 @@ Before any normal (non-admin) users can an application that requires higher-priv
 
 Admin Consent is kicked off with a simple GET request (typically just a link the admin clicks) to `https://login.microsoftonline.com/common/adminconsent` along with the following query parameters:
 
-* `client_id` - This is your Application ID (see [Microsoft v2 Endpoint Primer][primer] for more information)
-* `redirect_uri` - This is the URI you want to redirect them too after consent (more in a moment)
+| Property       | Description                                                                                   |
+| :------------- | :-------------------------------------------------------------------------------------------- |
+| `client_id`    | This is your Application ID (see [Microsoft v2 Endpoint Primer][primer] for more information) |
+| `redirect_uri` | This is the URI you want to redirect them too after consent (more in a moment)                |
 
 The prototype for this call looks like this:
 

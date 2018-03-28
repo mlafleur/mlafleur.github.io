@@ -39,10 +39,12 @@ The Implicit workflow has only two stages. The first is a redirect to the Provid
 
 The first call into the v2 Endpoint is a simple GET request (typically just a link the user clicks) to `https://login.microsoftonline.com/common/oauth2/v2.0/authorize` along with several query parameters:
 
-* `client_id` - This is your Application ID from above
-* `response_type` - For this example it should always be "**token**"
-* `redirect_uri` - This must be the same URI you entered earlier in the Platform configuration.
-* `scope` - This tells the Provider what permissions you need for the APIs (more on this in a moment)
+| Property        | Description                                                                               |
+| :-------------- | :---------------------------------------------------------------------------------------- |
+| `client_id`     | This is your Application ID from above                                                    |
+| `response_type` |  For this example it should always be "**token**"                                         |
+| `redirect_uri`  | This must be the same URI you entered earlier in the Platform configuration.              |
+| `scope`         | This tells the Provider what permissions you need for the APIs (more on this in a moment) |
 
 The prototype for this call looks like this:
 
@@ -63,10 +65,12 @@ The prototype of the Implicit Grant's fragment ID is as follows:
 &expires_in=[EXPIRES]&scope=[SCOPE]
 ```
 
-* `access_token` - This is the actual token.
-* `expires_in` - Number of seconds until this token expires and can no longer be used.
-* `token_type` - This tells you what type of token you have. It should always be "bearer".
-* `scope` - This is the list of scopes you have been granted access too.
+| Property       | Description                                                               |
+| :------------- | :------------------------------------------------------------------------ |
+| `access_token` | This is the actual token.                                                 |
+| `expires_in`   | Number of seconds until this token expires and can no longer be used.     |
+| `token_type`   | This tells you what type of token you have. It should always be "bearer". |
+| `scope`        | This is the list of scopes you have been granted access too.              |
 
 In you're using JavaScript in a browser, you can grab this data from the URI using window.location.hash. If you're using [jQuery](http://jquery.org) then I would highly recommend looking into [jQuery BBQ](http://benalman.com/projects/jquery-bbq-plugin/).
 

@@ -23,7 +23,7 @@ Obviously there are some APIs may have different data sets depending on the acc
 
 ## OAUTH & Grant Types
 
-The v2 Endpoint uses OAUTH2 for authorization and supports the two most common Grant Types, Authorization Code and Implicit. If you're not familiar with OAUTH (and OAUTH2 specifically), a Grant Types defines the workflow used for a particular OAUTH transaction. They all provide the same output, a token representing the authenticated user. Where they differ is how that token is obtained. In an effort to avoid going down a rabbit hole, I won't go into the details of OAUTH and the various grant flows. I will instead point you to an [excellent article on the topic](https://aaronparecki.com/2012/07/29/2/oauth2-simplified).
+The v2 Endpoint uses OAUTH2 for authorization and supports most OAuth Grant types ([Authorization Code][auth-code], [Implicit][implicit] and [Client Credentials][client-creds]). If you're not familiar with OAUTH (and OAUTH2 specifically), a Grant Types defines the workflow used for a particular OAUTH transaction. They all provide the same output, a token representing the authenticated user. Where they differ is how that token is obtained. In an effort to avoid going down a rabbit hole, I won't go into the details of OAUTH and the various grant flows. I will instead point you to an [excellent article on the topic](https://aaronparecki.com/2012/07/29/2/oauth2-simplified).
 
 OAUTH is based on verifiable trusts. The User trusts the OAUTH Provider (they opened an account there), the Service trusts the OAUTH Provider (they redirect the user there to authenticate) and the Provider trusts both the User and the Service. This is where Application Registration comes into play. Just as the Provider trusts the User because the User has an account on their system, the Service must do the same. Think of Application Registration as an account record for your application and just as the user has a "User ID", your application will receive an "Application ID".
 
@@ -85,10 +85,12 @@ The Authorization workflow has four components. The first is a redirect to the P
 
 The first call into the v2 Endpoint is a simple GET request (typically just a link the user clicks) to `https://login.microsoftonline.com/common/oauth2/v2.0/authorize` along with several query parameters:
 
-* `client_id` - This is your Application ID from above
-* `response_type` - For this example it should always be "code"
-* `redirect_uri` - This must be the same URI you entered earlier in the Platform configuration.
-* `scope` - This tells the Provider what permissions you need for the APIs (more on this in a moment)
+| Property        | Description                                                                               |
+| :-------------- | :---------------------------------------------------------------------------------------- |
+| `client_id`     | This is your Application ID from above                                                    |
+| `response_type` |  For this example it should always be "code"                                              |
+| `redirect_uri`  | This must be the same URI you entered earlier in the Platform configuration.              |
+| `scope`         | This tells the Provider what permissions you need for the APIs (more on this in a moment) |
 
 The prototype for this call looks like this:
 
@@ -116,12 +118,14 @@ Once the user has completed signing in, the Provider will redirect back to your
 
 Once you have the Authorization Code you will need to make an HTTP POST back to the provider. The POST's body must be encoded as "application/x-www-form-urlencoded" and contain the following parameters:
 
-* `grant_type` - Should be authorization_code
-* `code` - The auth code you received from the Provider
-* `client_id` - This is your Application ID from above
-* `client_secret` - This is the Password we generated previously
-* `scope` - This should match the same set of scopes you initial requested
-* `redirect_uri` - This is the redirect URI defined in your application registration
+| Property        | Description                                                       |
+| :-------------- | :---------------------------------------------------------------- |
+| `grant_type`    | Should be authorization_code                                      |
+| `code`          | The auth code you received from the Provider                      |
+| `client_id`     | This is your Application ID from above                            |
+| `client_secret` | This is the Password we generated previously                      |
+| `scope`         | This should match the same set of scopes you initial requested    |
+| `redirect_uri`  | This is the redirect URI defined in your application registration |
 
 This body will be POSTed up to `https://login.microsoftonline.com/common/oauth2/v2.0/token`. The prototype for this call should look like:
 
@@ -139,12 +143,23 @@ redirect_uri=[REDIRECT URI]
 
 Once the Provider has processed this request, it will return a JSON object containing the following properties:
 
-* `access_token` - This is the actual token.
-* `expires_in` - Number of seconds until this token expires and can no longer be used.
-* `token_type` - This tells you what type of token you have. It should always be "bearer".
-* `scope` - This is the list of scopes you have been granted access too.
+| Property       | Description                                                               |
+| :------------- | :------------------------------------------------------------------------ |
+| `access_token` | This is the actual token.                                                 |
+| `expires_in`   | Number of seconds until this token expires and can no longer be used.     |
+| `token_type`   | This tells you what type of token you have. It should always be "bearer". |
+| `scope`        | This is the list of scopes you have been granted access too.              |
 
-{% gist b4914cf06dbffd5a67524e36210de686 %}
+**Example JSON**
+
+```js
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJ...",
+  "expires_in": 3599,
+  "token_type": "Bearer",
+  "scope": "https://graph.microsoft.com/mail.read https://graph.microsoft.com/user.read",
+}
+```
 
 ## Refreshing a Token
 
@@ -156,16 +171,18 @@ Refresh Tokens are only returned when you include offline_access in your first s
 
 To exorcise your Refresh Token, we need to make another HTTP POST back to the provider. The POST's body must be encoded as [application/x-www-form-urlencoded](https://en.wikipedia.org/wiki/Percent-encoding#The_application.2Fx-www-form-urlencoded_type)" and contain the following parameters:
 
-* `grant_type` - Must be refresh_token
-* `refresh_token`- The refresh token value you received from the Provider
-* `client_id` - This is your Application ID from above
-* `client_secret` - This is the Password we generated before
-* `scope` - This should match the same set of scopes you first requested
-* `redirect_uri` - This is the redirect URI defined in your application registration
+| Property        | Description                                                       |
+| :-------------- | :---------------------------------------------------------------- |
+| `grant_type`    | Must be refresh_token                                             |
+| `refresh_token` | The refresh token value you received from the Provider            |
+| `client_id`     | This is your Application ID from above                            |
+| `client_secret` | This is the Password we generated before                          |
+| `scope`         | This should match the same set of scopes you first requested      |
+| `redirect_uri`  | This is the redirect URI defined in your application registration |
 
 This body will be POSTed up to [https://login.microsoftonline.com/common/oauth2/v2.0/token](https://login.microsoftonline.com/common/oauth2/v2.0/token). The prototype for this call should look like:
 
-```none
+```
 https://login.microsoftonline.com/common/oauth2/v2.0/token
 Content-Type: application/x-www-form-urlencoded
 
@@ -179,13 +196,25 @@ redirect_uri=[REDIRECT URI]
 
 Once the Provider has processed this request, it will return a JSON object containing the following properties:
 
-* `access_token` - This is the actual token.
-* `expires_in` - Number of seconds until this token expires and can no longer be used.
-* `token_type` - This tells you what type of token you have. It should always be "bearer".
-* `scope` - This is the list of scopes you have been granted access too.
-* `refresh_token` - A new refresh token to be used for the next round
+| Property        | Description                                                               |
+| :-------------- | :------------------------------------------------------------------------ |
+| `access_token`  | This is the actual token.                                                 |
+| `expires_in`    | Number of seconds until this token expires and can no longer be used.     |
+| `token_type`    | This tells you what type of token you have. It should always be "bearer". |
+| `scope`         | This is the list of scopes you have been granted access too.              |
+| `refresh_token` | A new refresh token to be used for the next round                         |
 
-{% gist cb955f376cd4528546a998e881ba2f84 %}
+**Example JSON**
+
+```js
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJ...",
+  "expires_in": 3599,
+  "token_type": "Bearer",
+  "scope": "https://graph.microsoft.com/mail.read https://graph.microsoft.com/user.read",
+  "refresh_token": "OAAABAAAAiL9Kn2Z27...",
+}
+```
 
 ## Token Lifetime
 
@@ -193,15 +222,19 @@ Each of the tokens described above (auth_code, access_token, refresh_token) have
 
 **Microsoft Account (MSA) Tokens:**
 
-* Authorization Codes - 5 minutes
-* Access Tokens - 1 hour
-* Refresh Tokens - up to 1 year
+| Token               | Lifespan     |
+| :------------------ | :----------- |
+| Authorization Codes | 5 minutes    |
+| Access Tokens       | 1 hour       |
+| Refresh Tokens      | up to 1 year |
 
 **Azure Active Directory (AAD) Tokens:**
 
-* Authorization Codes - 10 minutes
-* Access Tokens - 1 hour
-* Refresh Tokens - Until Revoked
+| Token               | Lifespan      |
+| :------------------ | :------------ |
+| Authorization Codes | 10 minutes    |
+| Access Tokens       | 1 hour        |
+| Refresh Tokens      | Until Revoked |
 
 ## Example Application
 
@@ -220,3 +253,6 @@ In order to use this sample you will need to complete the Application Registrati
 [graph]: https://graph.microsoft.io
 [admin_consent]: https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles
 [app-reg]: https://apps.dev.microsoft.com
+[auth-code]: https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code
+[implicit]: https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-implicit
+[client-creds]: https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds
