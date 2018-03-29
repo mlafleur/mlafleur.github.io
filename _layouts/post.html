@@ -3,8 +3,20 @@ layout: default
 background: '/img/home-bg.jpg' 
 ---
 <h1>{{ page.title }}</h1>
+
 {% if page.subtitle %}
-<h2 class="subtle">{{ page.subtitle }}</h2>{% endif %} {{ content }}
+<h2 class="subtle" style="margin-top: 10px">{{ page.subtitle }}</h2>
+{% endif %} 
+
+{% if page.updated %}
+<div class="small mutted">Updated: {{ page.updated | date: '%B %d, %Y' }}</div>
+{% else %}
+<div class="small mutted">Published: {{ page.date | date: '%B %d, %Y' }}</div>
+{% endif %} 
+  
+<hr>
+
+{{ content }}
 
 <hr>
 

@@ -1,0 +1,251 @@
+//colors
+$color_shark_approx: #24292e;
+$white: #fff;
+$color_alto_approx: #ddd;
+$color_cream_approx: #ffc;
+$red: #f00;
+$black: #000;
+$color_bright_red_approx: #a00;
+$color_mine_shaft_approx: #333;
+$color_suva_gray_approx: #888;
+$color_fuscous_gray_approx: #555;
+$color_storm_dust_approx: #666;
+$color_pink_swan_approx: #bbb;
+$color_japanese_laurel_approx: #008000;
+$blue: #00f;
+$color_eastern_blue_approx: #2b91af;
+$color_dark_blue_approx: #00d;
+$color_tamarillo_approx: #a31515;
+
+//fonts
+$font_0: SFMono-Regular;
+$font_1: Consolas;
+$font_2: Liberation Mono;
+$font_3: Menlo;
+$font_4: Courier;
+$font_5: monospace;
+
+code {
+  margin: 1px 1px !important;
+  font-family: $font_0, $font_1, $font_2, $font_3, $font_4, $font_5;
+  color: $color_shark_approx;
+  white-space: pre;
+}
+.highlight {
+  overflow-x: auto;
+  background: $white;
+  code {
+    white-space: pre;
+    * {
+      white-space: nowrap;
+    }
+  }
+  .hll {
+    background-color: $color_cream_approx;
+  }
+  .err {
+    color: $red;
+  }
+  .gd {
+    color: $black;
+  }
+  .gr {
+    color: $color_bright_red_approx;
+  }
+  .gh {
+    color: $color_mine_shaft_approx;
+  }
+  .gi {
+    color: $black;
+  }
+  .go {
+    color: $color_suva_gray_approx;
+  }
+  .gp {
+    color: $color_fuscous_gray_approx;
+  }
+  .gu {
+    color: $color_storm_dust_approx;
+  }
+  .gt {
+    color: $color_bright_red_approx;
+  }
+  .gs {
+    font-weight: bold;
+  }
+  .ge {
+    font-style: italic;
+  }
+  .w {
+    color: $color_pink_swan_approx;
+  }
+  .c {
+    color: $color_japanese_laurel_approx;
+  }
+  .ch {
+    color: $color_japanese_laurel_approx;
+  }
+  .cm {
+    color: $color_japanese_laurel_approx;
+  }
+  .cp {
+    color: $color_japanese_laurel_approx;
+  }
+  .cpf {
+    color: $color_japanese_laurel_approx;
+  }
+  .c1 {
+    color: $color_japanese_laurel_approx;
+  }
+  .cs {
+    color: $color_japanese_laurel_approx;
+  }
+  .ow {
+    color: $blue;
+  }
+  .k {
+    color: $blue;
+  }
+  .kc {
+    color: $color_eastern_blue_approx;
+  }
+  .kd {
+    color: $blue;
+  }
+  .kn {
+    color: $color_eastern_blue_approx;
+  }
+  .kp {
+    color: $blue;
+  }
+  .kr {
+    color: $blue;
+  }
+  .kt {
+    color: $color_eastern_blue_approx;
+  }
+  .m {
+    color: $color_dark_blue_approx;
+  }
+  .mb {
+    color: $color_dark_blue_approx;
+  }
+  .mf {
+    color: $color_dark_blue_approx;
+  }
+  .mh {
+    color: $color_dark_blue_approx;
+  }
+  .mi {
+    color: $color_dark_blue_approx;
+  }
+  .mo {
+    color: $color_dark_blue_approx;
+  }
+  .il {
+    color: $color_dark_blue_approx;
+  }
+  .s {
+    color: $color_tamarillo_approx;
+  }
+  .sa {
+    color: $color_tamarillo_approx;
+  }
+  .sb {
+    color: $color_tamarillo_approx;
+  }
+  .sc {
+    color: $color_tamarillo_approx;
+  }
+  .dl {
+    color: $color_tamarillo_approx;
+  }
+  .sd {
+    color: $color_tamarillo_approx;
+  }
+  .s2 {
+    color: $color_tamarillo_approx;
+  }
+  .se {
+    color: $color_tamarillo_approx;
+  }
+  .sh {
+    color: $color_tamarillo_approx;
+  }
+  .si {
+    color: $color_tamarillo_approx;
+  }
+  .sx {
+    color: $color_tamarillo_approx;
+  }
+  .sr {
+    color: $color_tamarillo_approx;
+  }
+  .s1 {
+    color: $color_tamarillo_approx;
+  }
+  .ss {
+    color: $color_tamarillo_approx;
+  }
+  .bp {
+    color: $black;
+  }
+  .fm {
+    color: $black;
+  }
+  .na {
+    color: $black;
+  }
+  .nb {
+    color: $black;
+  }
+  .nc {
+    color: $color_eastern_blue_approx;
+  }
+  .no {
+    color: $black;
+  }
+  .nd {
+    color: $black;
+  }
+  .ne {
+    color: $black;
+  }
+  .nf {
+    color: $black;
+  }
+  .nl {
+    color: $black;
+  }
+  .nn {
+    color: $black;
+  }
+  .py {
+    color: $black;
+  }
+  .nt {
+    color: $black;
+  }
+  .nv {
+    color: $black;
+  }
+  .vc {
+    color: $black;
+  }
+  .vg {
+    color: $black;
+  }
+  .vi {
+    color: $black;
+  }
+  .vm {
+    color: $black;
+  }
+}
+pre {
+  background: $white;
+  border: 1px solid $color_alto_approx;
+  padding: 7px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 3px;
+}
