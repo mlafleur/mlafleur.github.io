@@ -17,29 +17,16 @@ $color_eastern_blue_approx: #2b91af;
 $color_dark_blue_approx: #00d;
 $color_tamarillo_approx: #a31515;
 
-//fonts
-$font_0: SFMono-Regular;
-$font_1: Consolas;
-$font_2: Liberation Mono;
-$font_3: Menlo;
-$font_4: Courier;
-$font_5: monospace;
-
-code {
-  margin: 1px 1px !important;
-  font-family: $font_0, $font_1, $font_2, $font_3, $font_4, $font_5;
-  color: $color_shark_approx;
-  white-space: pre;
-}
 .highlight {
   overflow-x: auto;
-  background: $white;
+  
   code {
     white-space: pre;
     * {
       white-space: nowrap;
     }
   }
+
   .hll {
     background-color: $color_cream_approx;
   }
@@ -241,11 +228,4 @@ code {
   .vm {
     color: $black;
   }
-}
-pre {
-  background: $white;
-  border: 1px solid $color_alto_approx;
-  padding: 7px;
-  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-  border-radius: 3px;
 }

@@ -5,13 +5,13 @@ background: '/img/home-bg.jpg'
 <h1>{{ page.title }}</h1>
 
 {% if page.subtitle %}
-<h2 class="subtle" style="padding-top: 10px">{{ page.subtitle }}</h2>
+<h2 class="subtitle" style="padding-top: 10px">{{ page.subtitle }}</h2>
 {% endif %} 
 
 {% if page.updated %}
-<div class="small mutted">Updated: {{ page.updated | date: '%B %d, %Y' }}</div>
+<div class="small muted">Updated: {{ page.updated | date: '%B %d, %Y' }}</div>
 {% else %}
-<div class="small mutted">Published: {{ page.date | date: '%B %d, %Y' }}</div>
+<div class="small muted">Published: {{ page.date | date: '%B %d, %Y' }}</div>
 {% endif %} 
   
 <hr>
