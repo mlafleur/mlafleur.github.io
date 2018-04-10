@@ -85,8 +85,10 @@ In you're using JavaScript in a browser, you can grab this data from the URI usi
 ## Further Reading
 
 * [The OAuth 2.0 Authorization Framework (RFC-6749)](http://tools.ietf.org/html/rfc6749)
+* [Azure AD v2 and MSAL from a developer's point of view](https://joonasw.net/view/azure-ad-v2-and-msal-from-dev-pov) by Joonas Westlin
 * [Access Token Security with Implicit Grants][section-10.3]
 * [Misuse of Access Token to Impersonate Resource Owner in Implicit Flow][section-10.16]
+
 
 [primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
 [implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}

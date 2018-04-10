@@ -89,7 +89,7 @@ The first call into the v2 Endpoint is a simple GET request (typically just a 
 | Property        | Description                                                                               |
 | :-------------- | :---------------------------------------------------------------------------------------- |
 | `client_id`     | This is your Application ID from above                                                    |
-| `response_type` |  For this example it should always be "code"                                              |
+| `response_type` | For this example it should always be "code"                                               |
 | `redirect_uri`  | This must be the same URI you entered earlier in the Platform configuration.              |
 | `scope`         | This tells the Provider what permissions you need for the APIs (more on this in a moment) |
 
@@ -249,6 +249,10 @@ In order to use this sample you will need to complete the Application Registrati
 * [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
 * [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 * [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+
+## Further Reading
+
+* [Azure AD v2 and MSAL from a developer's point of view](https://joonasw.net/view/azure-ad-v2-and-msal-from-dev-pov) by Joonas Westlin
 
 [scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions
 [graph]: https://graph.microsoft.io

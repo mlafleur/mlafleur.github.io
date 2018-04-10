@@ -45,6 +45,10 @@ You can determine if you need to receive Admin Consent by checking the "Admin Co
 * [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 * [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 
+## Further Reading
+
+* [Azure AD v2 and MSAL from a developer's point of view](https://joonasw.net/view/azure-ad-v2-and-msal-from-dev-pov) by Joonas Westlin
+
 [primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
 [implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}
 
