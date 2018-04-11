@@ -23,7 +23,7 @@
     <!-- Style Sheets -->    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">      
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">        
-    <link rel="stylesheet" href="{{"/css/main.css " | relative_url }}">
+    <link rel="stylesheet" href="{{"/css/site.css " | relative_url }}">
 
 <!-- Google Analytics -->
 {% include _google_analytics.jekyll %}    
