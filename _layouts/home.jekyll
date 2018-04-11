@@ -1,0 +1,19 @@
+--- 
+layout: default 
+---
+<section class="container">
+    <main class="content">  
+      <div class="row">
+        {% for post in site.posts limit: 6 %}
+        {% include _blogpostcard.jekyll %}
+        {% endfor %}
+      </div>
+  
+      <hr />
+  
+      <!-- Pager -->
+      <div class="clearfix">        
+        <a class="btn btn-secondary float-right text-light" href="{{"/posts/page2" | relative_url }}">View All Posts &rarr;</a>
+      </div>
+    </main>
+</section>

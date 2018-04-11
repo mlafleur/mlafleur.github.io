@@ -1,0 +1,5 @@
+<footer class="footer text-light bg-dark">
+    <div class="container">
+        Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}
+    </div>
+</footer>

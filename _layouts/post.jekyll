@@ -1,0 +1,50 @@
+--- 
+layout: default 
+background: '/img/home-bg.jpg' 
+---
+
+<section class="container">
+
+    <div class="title">           
+      <h1>{{ page.title }}</h1>
+
+      {% if page.subtitle %}
+      <h2>{{ page.subtitle }}</h2>
+      {% endif %} 
+
+      {% if page.updated %}
+      <div class="small muted">Updated: {{ page.updated | date: '%B %d, %Y' }}</div>
+      {% else %}
+      <div class="small muted">Published: {{ page.date | date: '%B %d, %Y' }}</div>
+      {% endif %} 
+    </div>
+      
+    <hr>
+
+    <main class="content">     
+
+
+
+      {{ content }}
+
+      <hr>
+
+      <!-- Disqus -->
+      <div id="disqus_thread"></div>
+      
+      <hr>
+
+      <div class="clearfix">
+
+        {% if page.previous.url %}
+        <a class="btn btn-secondary float-left text-light" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+          data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous Post</a>
+        {% endif %} {% if page.next.url %}
+        <a class="btn btn-secondary float-right text-light" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+          data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next Post &rarr;</a>
+        {% endif %}
+      </div>
+
+      {% include _disqus.jekyll %}
+  </main>
+</section>

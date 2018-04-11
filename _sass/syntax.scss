@@ -16,16 +16,8 @@ $blue: #00f;
 $color_eastern_blue_approx: #2b91af;
 $color_dark_blue_approx: #00d;
 $color_tamarillo_approx: #a31515;
-
 .highlight {
   overflow-x: auto;
-  
-  code {
-    white-space: pre;
-    * {
-      white-space: nowrap;
-    }
-  }
 
   .hll {
     background-color: $color_cream_approx;

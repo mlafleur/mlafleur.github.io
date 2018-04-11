@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="Private" />
+    <meta http-equiv="Expires" content="600" />
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+    <title>
+        {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }} {% else %}{{ site.title | escape }}{% endif %}
+    </title>
+    
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <!-- RSS Feed Link -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}">
+   
+<!-- Fav Icons -->
+{% include _favicon.jekyll %}
+
+    <!-- Style Sheets -->    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">      
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">        
+    <link rel="stylesheet" href="{{"/css/main.css " | relative_url }}">
+
+<!-- Google Analytics -->
+{% include _google_analytics.jekyll %}    
+
+<!-- Google Adsense -->
+{% include _google_adsense.jekyll %}    
+</head>
+
+<body>
+
+<!-- Page Header / Navigation -->
+{% include _page_header.jekyll %}
+
+<!-- Page Content -->
+{{ content }}
+
+<!-- Page Footer -->
+{% include _page_footer.jekyll %}
+
+<!-- Scripts -->
+{% include _scripts.jekyll %}    
+
+</body>
+</html>
+
