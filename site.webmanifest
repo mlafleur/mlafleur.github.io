@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "short_name": "Blog by Marc",
+    "name": "The World According to Marc",
     "icons": [
         {
             "src": "/assets/favicons/android-chrome-192x192.png",
