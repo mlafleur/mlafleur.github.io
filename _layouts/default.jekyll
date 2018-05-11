@@ -21,8 +21,9 @@
 {% include _favicon.jekyll %}
 
     <!-- Style Sheets -->    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">      
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cosmo/bootstrap.min.css">      
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">        
+    {% comment %} <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.css"> {% endcomment %}
     <link rel="stylesheet" href="{{"/css/site.css " | relative_url }}">
 
 <!-- Google Analytics -->

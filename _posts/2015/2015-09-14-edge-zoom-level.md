@@ -6,7 +6,7 @@ tags:
   - Dog Food
   - Edge
   - Windows
-Image: /assets/Edge-768x154.png
+image: /assets/Edge-768x154.png
 ---
 
 I recently ran into a odd problem where the Edge browser's default zoom level got stuck at 80%. The frustrating bit was that changing it only effected the current page, clicking any link to a new page resulted that page displaying at 80%.  In my search for a fix I found a [few others](http://answers.microsoft.com/en-us/windows/forum/apps_windows_10-msedge/microsoft-edge-keep-changing-page-zoom/a6ea0236-cfd6-471e-b050-4f8776d257da) with the [same issue](http://forums.windowscentral.com/windows-10/381291-edge-default-page-zoom-windows-10-a.html) (although everyone seems to have a different percentage, and most seemed to be > 100%).

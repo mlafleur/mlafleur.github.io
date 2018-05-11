@@ -13,7 +13,7 @@ tags:
   - Office
   - Outlook
   - Outlook.com
-Image: /assets/Office-768x154.png
+image: /assets/Office-768x154.png
 ---
 
 I spend the bulk of my life working on [Office Extensibility](http://dev.office.com) projects, otherwise known as [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/). Add-Ins allow developers to extend the functionality of Office clients (Word, PowerPoint, Excel, Outlook, etc.).

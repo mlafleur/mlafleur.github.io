@@ -8,6 +8,7 @@ tags:
   - v2 Endpoint
 background: '/img/train.jpg'
 updated: 2018-3-28
+image: /assets/aad-768x154.png
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Series](#microsoft-v2-endpoint-series). If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._
