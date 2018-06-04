@@ -61,7 +61,7 @@
         </div>
     </nav>
     {% if page.background %}
-    <div style="height:300px; width: 100%; overflow: hidden;  display: flex; align-items: flex-end;">
+    <div class="headerImage">
         <img src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" style="min-width: 100%;" >
     </div>
     {% endif %}      

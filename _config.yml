@@ -30,7 +30,7 @@ facebook_username: mlafleurMSFT
 markdown: kramdown
 permalink: /:title/
 paginate_path: "/posts/page:num/"
-paginate: 6
+paginate: 12
 plugins:
   - jekyll-feed
   - jekyll-redirect-from

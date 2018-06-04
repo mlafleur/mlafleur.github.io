@@ -3,7 +3,7 @@ layout: default
 background: '/img/home-bg.jpg' 
 ---
 
-<section class="container">
+<section class="container sitePost">
 
     <div class="title">           
       <h1>{{ page.title }}</h1>
@@ -27,24 +27,12 @@ background: '/img/home-bg.jpg'
 
       {{ content }}
 
-      <hr>
 
+  </main>
+</section>
+
+<section class="container sitePost">
       <!-- Disqus -->
       <div id="disqus_thread"></div>
-      
-      <hr>
-
-      <div class="clearfix">
-
-        {% if page.previous.url %}
-        <a class="btn btn-secondary float-left text-light" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
-          data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous Post</a>
-        {% endif %} {% if page.next.url %}
-        <a class="btn btn-secondary float-right text-light" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
-          data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next Post &rarr;</a>
-        {% endif %}
-      </div>
-
       {% include _disqus.jekyll %}
-  </main>
 </section>
