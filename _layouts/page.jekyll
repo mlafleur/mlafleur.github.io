@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+    
 <section class="container sitePage">
     <div class="title">           
       <h1>{{ page.title }}</h1>

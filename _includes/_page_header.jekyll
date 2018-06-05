@@ -1,5 +1,6 @@
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="mainNav">
+    <div class="headerBlock">
+    <nav class="navbar navbar-expand-md navbar-dark bg-mblue" id="mainNav">
         <a class="navbar-brand" href="{{ site.baseurl }}/">The World According to Marc</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -60,9 +61,11 @@
             </ul>
         </div>
     </nav>
-    {% if page.background %}
-    <div class="headerImage">
-        <img src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" style="min-width: 100%;" >
+
+{% comment %}         {% if page.background %}
+        <div class="headerImage">
+            <img src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" style="min-width: 100%;" >
+        </div>
+        {% endif %}    {% endcomment %}   
     </div>
-    {% endif %}      
 </header>

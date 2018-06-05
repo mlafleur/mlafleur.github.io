@@ -74,6 +74,20 @@ hr {
 
 header {
     margin-bottom: 10px;
+
+    .headerImage{
+        max-height:260px; 
+        width: 100%; 
+        overflow: hidden;  
+        display: flex; 
+        align-items: flex-end;
+    }
+
+    .headerBlock{
+        background: linear-gradient(to bottom,#0078d7 0%,#09a2ce);
+        box-shadow: 0 12px 45px -8px rgba(0,120,215,.35);
+        margin-bottom: 20px;
+    }
 }
 
 footer {
@@ -125,6 +139,10 @@ pre {
     &.wrap {
         white-space: pre-wrap;
     }
+}
+
+.bg-mblue{
+    background: #0067b8;
 }
 
 .shadowCard{
@@ -180,14 +198,6 @@ pre {
     line-height: 1.4em;
 }
 
-.headerImage{
-    max-height:260px; 
-    width: 100%; 
-    overflow: hidden;  
-    display: flex; 
-    align-items: flex-end;
-    box-shadow: 0 2px 8px rgba(0,0,0,.05);
-}
 
 .sitePage{
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
@@ -199,6 +209,8 @@ pre {
 .sitePost{
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
     background: #FFF;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 code {
