@@ -17,6 +17,10 @@
     <!-- RSS Feed Link -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{"/feed.xml" | relative_url }}">
    
+<!-- Google Adsense -->
+{% include _google_adsense.jekyll %}    
+
+
 <!-- Fav Icons -->
 {% include _favicon.jekyll %}
 
@@ -29,8 +33,6 @@
 <!-- Google Analytics -->
 {% include _google_analytics.jekyll %}    
 
-<!-- Google Adsense -->
-{% include _google_adsense.jekyll %}    
 </head>
 
 <body>
