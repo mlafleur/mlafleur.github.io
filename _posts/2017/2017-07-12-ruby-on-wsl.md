@@ -8,6 +8,10 @@ tags:
   - Ubuntu
   - Windows 10
   - Bash
+categories:
+  - WSL
+  - Ruby
+  - Linux
 ---
 
 _We recently published Ubuntu to the [Windows Store](https://www.microsoft.com/store/apps/9NBLGGH4MSV6). With the switch from beta to GA, I found myself with a beautifully pristine Ubuntu environment to rebuild. I decided to take advantage of this oportunity and document some of the configuration challenges I faced. I worked around these issues in the beta as well but it happened in drips and drabs making it hard to coherently document._

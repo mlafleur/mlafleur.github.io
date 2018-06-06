@@ -4,7 +4,13 @@
         <div class="shadowCard-Title">{{ post.title }}</div>
         <p class="shadowCard-Text">
           {% if post.subtitle %} {{ post.subtitle }} {% else %} {{ post.excerpt | strip_html | truncatewords: 25 }} {% endif %}
-        </p>
+        </p>        
+
+        <div>
+        {% for category in post.categories %}
+        <span class="badge badge-pill badge-secondary cat-{{category|replace:' ','-'|replace:'.','-'|downcase }}">{{ category }}</span>    
+        {% endfor %}
+        </div>
       </div>
   </div>
 </div>

@@ -5,6 +5,9 @@ excerpt: >
 subtitle: Some resources to help you sort out which Office builds are current
 tags:
   - Office
+categories: 
+  - Office
+  - Office 365
 ---
 
 I had an issue come up recently with a developer reporting that their Office Add-in wasn't working properly in Outlook 2013. They had defined a number of Add-in Commands but one user was reporting that they weren't showing up in their ribbon. After a little bit of digging, we uncovered the root cause was an unpatched version of Outlook. This feature was introduced in the December 2015 patch but the customer was still running the original GA build from 2012. The fix was simply to update Office 2013 to the most recent build.

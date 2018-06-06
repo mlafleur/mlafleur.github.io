@@ -8,6 +8,10 @@ tags:
   - Particle
   - Photon
   - Spark
+categories: 
+  - IoT
+  - Particle
+  - Makers
 ---
 I've been playing around with the latest goody from the folks over at [Particle](http://www.particle.io) (formally Spark.io). It's called [Photon](http://www.particle.io/prototype#photon) and it represents a nice evolutionary step forward from the original [Spark Core](http://www.particle.io/prototype#spark-core).
 

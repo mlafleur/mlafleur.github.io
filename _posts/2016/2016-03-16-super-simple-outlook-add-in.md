@@ -14,6 +14,10 @@ tags:
   - Outlook
   - Outlook.com
 image: /assets/Office-768x154.png
+categories: 
+  - Outlook Web Add-ins
+  - JavaScript
+  - Office.js
 ---
 
 I spend the bulk of my life working on [Office Extensibility](http://dev.office.com) projects, otherwise known as [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/). Add-Ins allow developers to extend the functionality of Office clients (Word, PowerPoint, Excel, Outlook, etc.).

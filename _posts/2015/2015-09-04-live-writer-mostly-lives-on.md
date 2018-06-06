@@ -15,6 +15,8 @@ tags:
   - Blogging
   - Windows
 image: /assets/WLW-768x154.png
+categories: 
+  - Blogging
 ---
 
 I include myself in a long list of [Windows](http://blogs.technet.com/b/stefan_stranger) [Live](http://weblogs.asp.net/ricardoperes) [Writer](http://www.hanselman.com/) [lovers](http://panicdatabase.blogspot.com/2015/05/using-windows-live-writer-for-blogger.html). I’ve tried switching to [other](/hello-world-its-onenote/) [editors](/word-as-blog-editor/) on multiple occasions but always end up returning. To be perfectly clear, all of alternatives I’ve tied worked as advertised. And in many cases I seriously considered switching. In the end however, they all failed to match the ease and simplicity of Live Writer.

@@ -7,6 +7,9 @@ tags:
   - Visual Studio 2013
   - Visual Studio 2015
   - Visual Studio Tools for Apache Cordova
+
+categories: 
+  - Visual Studio
 ---
 
 I've been doing a lot more work with Apache Cordova projects, specifically  I've been working on projects using the Visual Studio Tools for Apache Cordova `<insert your favorite joke about Microsoft product naming>`. I've been a Cordova/Phonegap fan since the beginning but marrying it to the Visual Studio debugging experience has taken the awesomeness to a new level.

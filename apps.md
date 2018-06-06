@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Applications
+subtitle: Things I wrote (that I'm willing to take credit for)
 # title: "Apps"
 description: "Everything you didn't want to know about me."
 background: '/img/home-bg.jpg'

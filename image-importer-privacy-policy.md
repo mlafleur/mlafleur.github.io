@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Privacy Policy
 ---
 # Collection of Information
 We do not collect any personally identifiable information.

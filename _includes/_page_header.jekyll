@@ -12,9 +12,20 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                 </li>
-                <li class="nav-item">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Topics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/topic/v2endpoint/">Microsoft v2 Endpoint</a>
+{% comment %}                     <a class="dropdown-item" href="{{ site.baseurl }}/topic/graph/">Microsoft Graph</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/topic/officejs/">Office Web Add-ins</a> {% endcomment %}
+                    </div>
+                </li>         
+                                <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/about/">About</a>
-                </li>
+                </li>              
             </ul>
             <!-- Social Links -->
             <ul class="navbar-nav ml-auto">

@@ -10,6 +10,11 @@ background: '/img/train.jpg'
 redirect_from: /aadv2/microsoft-v2-endpoint-admin-consent/
 updated: 2018-3-28
 image: /assets/aad-768x154.png
+categories: 
+  - Azure AD
+  - OAuth 2.0
+  - v2 Endpoint
+  - Microsoft Graph
 ---
 
 _This is a continuation of my [Microsoft v2 Endpoint Series](#microsoft-v2-endpoint-series). If you haven't read this article yet, I highly recommend starting there. I will be glossing over several bits of configuration we previously covered._

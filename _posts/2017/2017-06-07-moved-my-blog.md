@@ -3,6 +3,8 @@ title: Moved My Blog (again)
 subtitle: Trying out GitHub Pages 
 tags:
   - Thoughts
+categories: 
+  - Blogging
 ---
 
 I've switched blogging platforms quite a few times over the years. I've tried everything from [LiveJournal](http://www.livejournal.com/) to [Orchard](http://www.orchardproject.net/) and, for the last several years, [WordPress](https://wordpress.org/). And for the most part, WordPress has severed me extremely well. It has a huge community with more [plugins](https://wordpress.org/plugins/) than you can through a stick at. It does however have it's drawbacks; particularly it's rather sizable footprint and [bloat](https://premium.wpmudev.org/blog/wordpress-bloat/).
