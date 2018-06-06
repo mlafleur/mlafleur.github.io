@@ -1,4 +1,4 @@
-<footer class="footer text-light bg-dark">
+<footer class="footer text-light bg-mblue">
     <div class="container">
         Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}
     </div>

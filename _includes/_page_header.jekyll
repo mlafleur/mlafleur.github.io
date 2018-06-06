@@ -62,6 +62,37 @@
         </div>
     </nav>
 
+{% if page.avatar %}
+<div class="headerBlock">
+    <table style="margin-left: auto;margin-right: auto;">
+        <tr>
+            <td>
+            <img src="{{page.avatar}}" class="headerAvatar rounded-circle">
+            </td>
+            <td class="text-light">
+                <h3>{{page.avatar-title}}</h3>
+                <div>{{page.avatar-subtitle}}</div>
+            </td>
+        </tr>
+    </table>
+</div>
+{% endif %}
+{% if page.title %}
+<div class="headerBlock">
+    <div class="container text-light title">           
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <h2>{{ page.subtitle }}</h2>
+      {% endif %} 
+      {% if page.updated %}
+      <div class="small muted">Updated: {{ page.updated | date: '%B %d, %Y' }}</div>
+      {% else if page.date %}
+      <div class="small muted">{{ page.date | date: '%B %d, %Y' }}</div>
+      
+      {% endif %} 
+    </div>
+</div>
+{% endif %}
 {% comment %}         {% if page.background %}
         <div class="headerImage">
             <img src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" class="img-fluid" style="min-width: 100%;" >
