@@ -42,7 +42,7 @@ Which scopes are applied to your application is determined by the OAuth Grant yo
 | [Implicit Grant](https://oauth.net/2/grant-types/implicit/)                     | Delegated       |
 | [Client Credentials](https://oauth.net/2/grant-types/client-credentials/)       | Application     |
 
-> A single Access Token can only contain a single scope type.  So if your particular scenario requires both Application _and_ Delegated scopes, your application will need to obtain two separate tokens. The first will represent the User and be obtained using an Authorization Cord or Implicit grant, the second will represent the application itself and be obtained using a Client Credentials grant.
+> A single Access Token can only contain one type of scopes (Application or Delegated).  So if your particular scenario requires both Application _and_ Delegated scopes, your application will need to obtain two separate tokens. The first will represent the User and be obtained using an Authorization Cord or Implicit grant, the second will represent the application itself and be obtained using a Client Credentials grant.
 {:.tip}
 
 ## Best Practices
