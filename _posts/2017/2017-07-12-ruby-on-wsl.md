@@ -19,6 +19,7 @@ _We recently published Ubuntu to the [Windows Store](https://www.microsoft.com/s
 This post covers getting [Ruby][] 2.2.5 installed and running. I don't do much with Ruby but my blog is built on top of a Ruby package called Jekyll. While most of the heavy lifting is done behind the scenes on GitHub using GitHub pages, I find it extremely helpful to have a local copy. And since [Jekyll][] is notoriously tricky to get up and running on Windows, the Windows Subsystem for Linux is a really elegant solution.
 
 > If you're not already using Ubuntu from the Store, I highly recommend reading Scott Hanselman's [Ubuntu now in the Windows Store: Updates to Linux on Windows 10 and Important Tips](https://www.hanselman.com/blog/UbuntuNow%C4%B0nTheWindowsStoreUpdatesToLinuxOnWindows10AndImportantTips.aspx).
+{:.tip}
 
 ## Default Package Repo
 

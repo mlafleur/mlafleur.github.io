@@ -49,6 +49,7 @@ That third leg of trust is represented by an authorization token passed between
 Microsoft provides a portal for registering your application at [https://apps.dev.microsoft.com](https://apps.dev.microsoft.com). After opening this page and logging in with your Microsoft Account, you are presented with a list of registered application and a button labeled "Add an app".
 
 > If you've used an Work/School Account (AAD) to login to `apps.dev.microsoft.com` then you will see two groups of applications: **Converged applications** and **Azure AD only applications**. The v2 Endpoint is a "Converged" endpoint, meaning that it supports both AAD and MSA accounts. For our purposes here, we will only be using **Converged applications**.
+{:.tip}
 
 ![App Registration - Initial Page](/assets/images/apps-dev-landing-page.png)
 
@@ -78,9 +79,8 @@ This will add a new Web platform card to your registration page. This card has t
 
 ![ App Registration - Web Platform Properties](/assets/images/apps-dev-web-platform.png)
 
-> **Implicit Grant Workflow**
->
 > If you want to play around with the [Implicit Grant](http://massivescale.com/microsoft-v2-endpoint-implicit-grant/) workflow, you can leave `Allow Implicit Flow` checked. It doesn't impact the Authorization Code Grant workflow and I've only disabled it for the sake of completeness. Leaving it enabled won't cause problem here. In production it should only be enabled if you truly need it since it does allow for a less secure workflow.
+{:.tip}
 
 ## Requesting a Token
 
@@ -175,6 +175,7 @@ By default, Access/Bearer tokens have a lifetime of 1 hour. After this time they
 Refresh Tokens are only returned when you include offline_access in your first scopes list. This is a special scope that does not need a full URI. Adding this scope will result in an additional property called refresh_token being returned by the provider. This refresh_token can be used to repeat the previous POST process to retrieve a newly minted bearer token.
 
 > Refresh Tokens are also only available in the Authorization Code workflow. If you are using the Implicit workflow you are limited to the initial lifetime of the token. Refresh Tokens operation similarly to the initial Authorization Code, they are exchanged with the Provider for an updated bearer token. Given that the Implicit Grant was designed to skip the Authorization Code exchange, they also cannot participate in the Refresh Token exchange.
+{:.info}
 
 To exorcise your Refresh Token, we need to make another HTTP POST back to the provider. The POST's body must be encoded as [application/x-www-form-urlencoded](https://en.wikipedia.org/wiki/Percent-encoding#The_application.2Fx-www-form-urlencoded_type)" and contain the following parameters:
 

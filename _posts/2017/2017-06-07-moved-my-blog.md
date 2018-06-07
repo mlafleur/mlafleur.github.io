@@ -17,6 +17,7 @@ Behind the scenes GitHub is using [Jekyll](http://jekyllrb.com/) which is a very
 
 > As an aside, Jekyll was actually what held me back for so long. It is [notoriously tricky](http://jekyllrb.com/docs/windows/#installation) to get running on Windows and I wanted the ability to stage my site locally. So what changed? [Bash baby, Bash!](https://msdn.microsoft.com/en-us/commandline/wsl/about) Jekyll is running happily on Windows 10 thanks to Windows Subsystem for Linux.
 
+
 GitHub provides a number of [built-in themes](https://github.com/pages-themes/) but none of them caught my eye. Jekyll has a number of themes available as gem packages but these are unfortunately not supported by GitHub.
 
 Thankfully I found Start Bootstrap's [Clean Blog template](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) that provided exactly what I needed; a minimalist foundation using Bootstrap that I could easily extend. After a few tweaks I was up and running in now time.

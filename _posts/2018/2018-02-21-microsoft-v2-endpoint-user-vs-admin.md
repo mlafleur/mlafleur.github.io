@@ -42,7 +42,8 @@ In this example, my "son" is the "Application". The permission I granted was "Ad
 
 You can determine if you need to receive Admin Consent by checking the "Admin Consent Required" column in the [documentation for Scopes][scopes].
 
-> **Note:** If you're using the Client Credentials (`client_credentials`) Grant then you will need Admin Consent regardless of the scopes you've selected. This is due to Client Credentials not authenticating a user and therefore not having a User Consent component whatsoever. For this grant, Admin Consent is the only consent you will receive.
+> If you're using the Client Credentials (`client_credentials`) Grant then you will need Admin Consent regardless of the scopes you've selected. This is due to Client Credentials not authenticating a user and therefore not having a User Consent component whatsoever. For this grant, Admin Consent is the only consent you will receive.
+{:.tip}
 
 ## Microsoft v2 Endpoint Series
 

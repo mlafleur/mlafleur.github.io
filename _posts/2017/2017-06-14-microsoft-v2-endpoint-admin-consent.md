@@ -88,10 +88,10 @@ http://localhost:3000/consentReturn/?tenant=[tenant id]&admin_consent=[True/Fals
 
 Once the tenant has consented to your permissions, you can begin authenticating users using the traditional OAUTH workflow. Features such as dynamic scopes and refresh tokens continue to operate in the same way as well.
 
-> **Important:**
 > One common issue that folks run into, particularly early on in development and testing, are errors being raised after changing the application's scopes. It is important to remember that Consent is granted for a fixed set of scopes. If those scopes should change, _additional consent is required_.
 >
 > For User Consent this typically isn't an issue since the user is simply presented with an updated Consent page the next time they authenticate. For Admin Consent however, you will need to repeat the Admin Consent process in order to cover those new scopes.
+{:.warning}
 
 ## Microsoft v2 Endpoint Series
 
