@@ -8,7 +8,7 @@ tags:
   - v2 Endpoint
 background: '/img/train.jpg'
 updated: 2018-3-28
-image: /assets/aad-768x154.png
+image: https://pbs.twimg.com/media/B-DS4_aCIAAUoF0.jpg
 categories: 
   - Azure AD
   - OAuth 2.0

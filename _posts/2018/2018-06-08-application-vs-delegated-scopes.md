@@ -1,6 +1,7 @@
 ---
 title: Application vs Delegated Scopes
 subtitle: Microsoft Graph has two parallel sets of permission scopes; Delegated & Application. Here I will attempt to shed some light on the when, where and how to use each.
+image: https://get.pxhere.com/photo/black-and-white-board-number-line-blackboard-monochrome-material-font-sketch-illustration-text-handwriting-arrows-calligraphy-hire-distribute-transfer-applying-empower-monochrome-photography-delegate-professions-pass-it-on-entitle-dealing-with-be-stallen-entrust-1283493.jpg
 categories:
   - Microsoft Graph
   - v2 Endpoint

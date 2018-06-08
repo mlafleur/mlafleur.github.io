@@ -1,6 +1,7 @@
 ---
 title: Ruby & Ubuntu on Windows 10
 subtitle: Installing Ruby 2.2.5 into Ubuntu running on Windows 10 and Windows Subsystem for Linux
+image: https://openclipart.org/image/2400px/svg_to_png/240834/Ruby-Thumbs-Up-Hand.png
 tags:
   - Windows Subsystem for Linux
   - WSL
