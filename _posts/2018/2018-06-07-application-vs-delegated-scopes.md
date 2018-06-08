@@ -10,13 +10,13 @@ categories:
 
 ## Delegated Permissions
 
-To understand Delegated Permissions, its helpful to start with the dictionary definition for the word "Delegate":
+To understand Delegated Permissions, its helpful to start with the dictionary definition of the word "Delegate":
 
 > **del·e·gate** (verb) - To entrust a task or responsibility to another
 
-This is precisely what Microsoft Graph means by "Delegated", a user has delegated a given task to your application. When you application subsequently makes a call to the API, it is executing that function _on behalf_ of the authenticated user.
+This is precisely what Microsoft Graph means by "Delegated", a user has delegated a given task to your application. When your application subsequently makes a call to the API, it is executing that function _on behalf_ of the authenticated user.
 
-The simplest illustration of Delegated Permissions in action is `/me`. Behind the scenes the Graph is automatically mapping `/me` to the user that delegated permission to your application. Because all activities executed within a delegated scope are made on behalf of a single user, Graph is able to determine who "me" is referring to.
+The simplest illustration of Delegated Permissions in action is `/me`. Behind the scenes, the Graph is automatically mapping `/me` to the user that delegated permission to your application. Because all activities executed within a delegated scope are made on behalf of a single user, Graph is able to determine who "me" is referring to.
 
 >**Activities executed using Delegated scopes are *always* executed on behalf of an authenticated User.**
 {:.key}
@@ -47,15 +47,15 @@ Which scopes are applied to your application is determined by the OAuth Grant yo
 
 ## Best Practices
 
-- **Principal of Least Privileged Permissions** - An application should only request permissions that are absolutely necessary to complete the required task(s). For example: If your needs to read a user's mailbox, you should select `Mail.Read` rather than `Mail.ReadWrite`. 
-- **Avoid Application scopes in interactive applications** - Using application permissions for interactive scenarios represents a significant compliance and security risk. They can inadvertently elevate a user's privileges and circumvent policies configured by the tenants administrators. A good rule of thumb is that Application scopes should only be used for headless/daemon scenarios.
+- **Principal of Least Privileged Permissions** - An application should only request permissions that are absolutely necessary to complete the required task(s). For example: If your needs to read a user's mailbox, you should select `Mail.Read` rather than `Mail.ReadWrite`.
+- **Avoid Application scopes in interactive applications** - Using application permissions for interactive scenarios represents a significant compliance and security risk. They can inadvertently elevate a user's privileges and circumvent policies configured by the tenants' administrators. A good rule of thumb is that Application scopes should only be used for headless/daemon scenarios.
 
 ## Further Reading
 
-* [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
-* [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
-* [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
-* [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+*[Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
+*[v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+*[v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+*[v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 
 [scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference
 [graph]: https://graph.microsoft.io

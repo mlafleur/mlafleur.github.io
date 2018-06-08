@@ -31,17 +31,17 @@ For a more detailed explanation, see [v2 Endpoint & Consent]({{ 'microsoft-v2-en
 
 Graph has two categories of permission scopes; Application & Delegated. These serve two distinct purposes:
 
-* **Delegated:** If your application acts on "behalf" of a single user, you're looking for delegated permissions. Many Delegated permissions can be consented to by normal users. Other higher-privileged permissions require administrator consent however.
+* **Delegated:** If your application acts on "behalf" of a single user, you're looking for delegated permissions. Many Delegated permissions can be consented to by normal users. Other higher-privileged permissions require administrator consent, however.
 
 * **Application:** If your application runs without a user context such as a background service or daemon, you're looking for Application permissions. Unlike Delegated permission, Application permissions _always require_ administrator consent.
 
 > Which scopes get applied to your token depends on which type of OAuth Grant you used to request that token. When you're using [`Authorization Code`][primer] or [`Implicit`][implicit] grants then you'll be using Delegated scopes. If you're using `Client Credentials` then you're using Application scopes.
 
-For the moment, I'm going to assume the application in question here is a traditional web app that happens to require access to higher-privileged scopes. This scenario is also used for daemon apps but there are a enough nuances around daemons to deserve it's own article.
+For the moment, I'm going to assume the application in question here is a traditional web app that happens to require access to higher-privileged scopes. This scenario is also used for daemon apps but there are enough nuances around daemons to deserve its own article.
 
 ## Scope Differences
 
-When using the v2 Endpoint, you can dynamic request scopes during authorization. This allows you to only request the minimum access required for a given user. For example, if you're application supports syncing both Calendars and Contacts but your user only wants to leverage the Calendar integration, you can forgo requesting access to Contacts. This provides some additional assurance to the user that your application is behaving as expected.
+When using the v2 Endpoint, you can dynamically request scopes during authorization. This allows you to only request the minimum access required for a given user. For example, if you're application supports syncing both Calendars and Contacts but your user only wants to leverage the Calendar integration, you can forgo requesting access to Contacts. This provides some additional assurance to the user that your application is behaving as expected.
 
 Things operate a bit differently when Admin Consent is required. These scopes must be defined with your [application registration][app-reg]. This ensures administrators that there is some stability around the permissions you're requesting. It is important to note that this doesn't change how dynamic scopes operate; _you can still dynamically choose to not request these admin scopes_.
 
@@ -53,13 +53,13 @@ Clicking add will display a list of available permissions:
 
 ![permissions](/assets/images/app-reg-graph-permissions-dialog.png)
 
-At a minimum you need to declare any scopes that require administrative consent. While you're certainly able to define other scopes, this isn't a requirement.
+At a minimum, you need to declare any scopes that require administrative consent. While you're certainly able to define other scopes, this isn't a requirement.
 
 ## Obtaining Consent
 
-Before any normal (non-admin) users can an application that requires higher-privileged scopes, an admin must first provide consent. This is a one time event. Once an admin provides the "thumbs up", every user within that organization will be able to authorize your application.
+Before any normal (non-admin) users can an application that requires higher-privileged scopes, an admin must first provide consent. This is a one-time event. Once an admin provides the "thumbs up", every user within that organization will be able to authorize your application.
 
-Admin Consent is kicked off with a simple GET request (typically just a link the admin clicks) to `https://login.microsoftonline.com/common/adminconsent` along with the following query parameters:
+Admin Consent is kicked off with a simple GET request (typically just a link that an Admin follows) to `https://login.microsoftonline.com/common/adminconsent` along with the following query parameters:
 
 | Property       | Description                                                                                   |
 | :------------- | :-------------------------------------------------------------------------------------------- |
@@ -86,19 +86,19 @@ http://localhost:3000/consentReturn/?tenant=[tenant id]&admin_consent=[True/Fals
 
 ## Post Consent
 
-Once the tenant has consented to your permissions, you can begin authenticating users using the traditional OAUTH workflow. Features such as dynamic scopes and refresh tokens continue to operate in the same way as well.
+Once the tenant has consented to your permissions, you can begin authenticating users using the traditional OAuth workflow. Features such as dynamic scopes and refresh tokens continue to operate in the same way as well.
 
 > One common issue that folks run into, particularly early on in development and testing, are errors being raised after changing the application's scopes. It is important to remember that Consent is granted for a fixed set of scopes. If those scopes should change, _additional consent is required_.
 >
-> For User Consent this typically isn't an issue since the user is simply presented with an updated Consent page the next time they authenticate. For Admin Consent however, you will need to repeat the Admin Consent process in order to cover those new scopes.
+> For User Consent this typically isn't an issue since the user is simply presented with an updated Consent page the next time they authenticate. For Admin Consent, however, you will need to repeat the Admin Consent process in order to cover those new scopes.
 {:.warning}
 
 ## Microsoft v2 Endpoint Series
 
-* [Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
-* [v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
-* [v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
-* [v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+*[Microsoft v2 Endpoint Primer]({{ 'microsoft-v2-endpoint-primer' | relative_url }})
+*[v2 Endpoint & Implicit Grant]({{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }})
+*[v2 Endpoint & Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
+*[v2 Endpoint & Admin Consent]({{ 'microsoft-v2-endpoint-admin-consent' | relative_url }})
 
 ## Further Reading
 

@@ -14,7 +14,7 @@ categories:
   - Linux
 ---
 
-_We recently published Ubuntu to the [Windows Store](https://www.microsoft.com/store/apps/9NBLGGH4MSV6). With the switch from beta to GA, I found myself with a beautifully pristine Ubuntu environment to rebuild. I decided to take advantage of this oportunity and document some of the configuration challenges I faced. I worked around these issues in the beta as well but it happened in drips and drabs making it hard to coherently document._
+_We recently published Ubuntu to the [Windows Store](https://www.microsoft.com/store/apps/9NBLGGH4MSV6). With the switch from beta to GA, I found myself with a beautifully pristine Ubuntu environment to rebuild. I decided to take advantage of this opportunity and document some of the configuration challenges I faced. I worked around these issues in the beta as well but it happened in dribs and drabs making it hard to coherently document._
 
 This post covers getting [Ruby][] 2.2.5 installed and running. I don't do much with Ruby but my blog is built on top of a Ruby package called Jekyll. While most of the heavy lifting is done behind the scenes on GitHub using GitHub pages, I find it extremely helpful to have a local copy. And since [Jekyll][] is notoriously tricky to get up and running on Windows, the Windows Subsystem for Linux is a really elegant solution.
 
@@ -23,7 +23,7 @@ This post covers getting [Ruby][] 2.2.5 installed and running. I don't do much w
 
 ## Default Package Repo
 
-Ruby is included in Ubuntu's default package list but it will install Ruby v1.9.3 which is an outdated version and not supported by GitHub Pages and Jekyll. This isn't an uncommon issue with a distro package repositories so you often find yourself pulling packages direction from the vendor. Ruby however turned out to be a bit trickier to sort out for a lowly Windows Dev like myself. ;)
+Ruby is included in Ubuntu's default package list but it will install Ruby v1.9.3 which is an outdated version and not supported by GitHub Pages and Jekyll. This isn't an uncommon issue with a distro package repositories so you often find yourself pulling packages direction from the vendor. Ruby, however, turned out to be a bit trickier to sort out for a lowly Windows Dev like myself. ;)
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ source ~/.rvm/scripts/rvm
 
 ## Installing Ruby 2.2.5
 
-Now what we have all of the prerequisites installed, we can install the actual Ruby package. While some of the previous commands were a bit opaque to me, it is this last bit that I found attractive about `rvm`. This portion is extremely straight forward:
+Now what we have all of the prerequisites installed, we can install the actual Ruby package. While some of the previous commands were a bit opaque to me, it is this last bit that I found attractive about `rvm`. This portion is extremely straightforward:
 
 ```bash
 rvm install 2.2.5
