@@ -17,9 +17,10 @@ title: The World According to Marc
 header-img: img/home-bg.jpg
 email: marc@massivescale.com
 copyright_name: Marc LaFleur
+author: Marc LaFleur
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://massivescale.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://massivescale.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mlafleur
 github_username:  mlafleur
 google_tracking_id: UA-3085958-5
