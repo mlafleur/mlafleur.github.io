@@ -9,7 +9,7 @@ Marc LaFleur began writing code on an Apple ][e in 1984 and has never looked ba
 
 After a short-lived dream of becoming a major force in the recording industry, he came to two important realizations. The first is that "recording engineer" and "lives with mom and eats ramen three times a day" are basically synonymous. The second was that his super-secret supper-uncool hobby of writing software had more of a future than rock stardom. A third but less relevant realization was that he looked rather horrible in leather pants.
 
-Today Marc is a Senior Technologist with Microsoft where he works with ISVs and Developers, helping them better understand and leverage the Microsoft stack. He also works with the developer community at large through writing, forums and speaking at events whenever possible.
+Today Marc is a Principal Software Development Engineer at Microsoft building APIs and tools for the Education product team. He also works with the developer community at large through writing, forums and speaking at events whenever possible.
 
 Prior to joining Microsoft, Marc worked as a Technologist and Architect at multiple ISV's and Startups.  Marc was also Microsoft MVP for Lync and Speech Server from 2008 until joining Microsoft in 2011.
 
