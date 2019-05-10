@@ -4,6 +4,16 @@ title: HTTP Status Code Cheat Sheet
 ---
 # HTTP Status Code Cheat Sheet
 
+1. [Informational](#1-informational)
+
+2. [Success](#2-success)
+
+3. [Redirection](#3-redirection)
+
+4. [Client Error](#4-client-error)
+
+5. [Server Error](#5-server-error)
+
 ## 1×× Informational
 
 |      |                     |
