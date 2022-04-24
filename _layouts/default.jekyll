@@ -40,6 +40,15 @@
 <!-- Google Adsense -->
 {% include _google_adsense.jekyll %}    
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3085958-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3085958-5');
+</script>
 
 <!-- Fav Icons -->
 {% include _favicon.jekyll %}
