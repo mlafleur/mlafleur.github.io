@@ -67,7 +67,7 @@ The first item to take note of is the Application ID. This is one of the element
 
 ![App Registration - Application ID](/assets/images/apps-dev-appid.png)
 
-For this example I'm going to focus on the traditional web scenario. We will need two components for this workflow, a Password (aka Client Secret) and a Platform record. To get started we will need to click "Generate New Password".  This will open a dialog with your new Password. Save this in a safe place because once you close this dialog you _will never see this password again_.
+For this example I'm going to focus on the traditional web scenario. We will need two components for this workflow, a Password (aka Client Secret) and a Platform record. To get started we will need to click "Generate New Password".  This will open a dialog with your new Password. Save this in a safe place because once you close this dialog you *will never see this password again*.
 
 ![App Registration - New Password](/assets/images/apps-dev-new-password.png)
 
@@ -261,10 +261,6 @@ In order to use this sample you will need to complete the Application Registrati
 
 * [Azure AD v2 and MSAL from a developer's point of view](https://joonasw.net/view/azure-ad-v2-and-msal-from-dev-pov) by Joonas Westlin
 
-[scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions
-[graph]: https://graph.microsoft.io
-[admin_consent]: https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles
-[app-reg]: https://apps.dev.microsoft.com
 [auth-code]: https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code
 [implicit]: https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-implicit
 [client-creds]: https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds

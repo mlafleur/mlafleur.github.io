@@ -19,7 +19,7 @@ The Photon shares a lot with its sibling Core. They use the same development lan
 
 ### Size
 
-Okay, so no one ever saw the Core and thought "gee that thing is big". The Core was surprisingly small considering what it was. This time they went smaller. Honestly, when you unbox the Photon you will almost assuredly think they forgot to send you everything. It is that small. We're talking guitar pick small here. ![](/assets/images/onenote-556b689479d059.58650877.jpg)
+Okay, so no one ever saw the Core and thought "gee that thing is big". The Core was surprisingly small considering what it was. This time they went smaller. Honestly, when you unbox the Photon you will almost assuredly think they forgot to send you everything. It is that small. We're talking guitar pick small here. ![alt](/assets/images/onenote-556b689479d059.58650877.jpg)
 
 ### WiFi
 
@@ -31,8 +31,8 @@ Particle has made several design choices geared toward making it easier to get f
 
 ### Still Some Issues
 
-There are still a few issues with the Core that carry over to the Photon. It still has a finicky sleep state for example (it wakes like a teenager, somewhat unreliably). The documentation is excellent but the format and organization make it challenging to find what you are looking for. And while onboarding is easier, it could be improved by embedding a webserver to handle configuration (something I understand they are working on). Overall however, the Photon will be my go-to microcontroller for the time being. It's small, effective and inexpensive enough to get pretty excited about.   
+There are still a few issues with the Core that carry over to the Photon. It still has a finicky sleep state for example (it wakes like a teenager, somewhat unreliably). The documentation is excellent but the format and organization make it challenging to find what you are looking for. And while onboarding is easier, it could be improved by embedding a webserver to handle configuration (something I understand they are working on). Overall however, the Photon will be my go-to microcontroller for the time being. It's small, effective and inexpensive enough to get pretty excited about.
 
-* Particle Core Hardware Specs - [http://docs.particle.io/core/hardware/](http://docs.particle.io/core/hardware/) 
-* Particle Photon Hardware Specs - [http://docs.particle.io/photon/hardware/](http://docs.particle.io/photon/hardware/) 
+* Particle Core Hardware Specs - [http://docs.particle.io/core/hardware/](http://docs.particle.io/core/hardware/)
+* Particle Photon Hardware Specs - [http://docs.particle.io/photon/hardware/](http://docs.particle.io/photon/hardware/)
 * Particle Store - [https://store.particle.io/](https://store.particle.io/)

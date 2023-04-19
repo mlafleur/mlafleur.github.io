@@ -106,7 +106,6 @@ Once the tenant has consented to your permissions, you can begin authenticating 
 
 [primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
 [implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}
-[scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions
 [graph]: https://graph.microsoft.io
 [admin_consent]: https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles
 [app-reg]: https://apps.dev.microsoft.com

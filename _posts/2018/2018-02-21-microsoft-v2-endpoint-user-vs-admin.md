@@ -56,10 +56,4 @@ You can determine if you need to receive Admin Consent by checking the "Admin Co
 
 * [Azure AD v2 and MSAL from a developer's point of view](https://joonasw.net/view/azure-ad-v2-and-msal-from-dev-pov) by Joonas Westlin
 
-[primer]: {{ 'microsoft-v2-endpoint-primer' | relative_url }}
-[implicit]: {{ 'microsoft-v2-endpoint-implicit-grant' | relative_url }}
-
 [scopes]: https://developer.microsoft.com/graph/docs/concepts/permissions_reference#calendars-permissions
-[graph]: https://graph.microsoft.io
-[admin_consent]: https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles
-[app-reg]: https://apps.dev.microsoft.com

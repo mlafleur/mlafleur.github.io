@@ -15,8 +15,7 @@ Switching also allows me to dramatically reduce my costs. By leveraging [GitHub 
 
 Behind the scenes, GitHub is using [Jekyll](http://jekyllrb.com/) which is a very popular static site generator. Jekyll handles most of the heavy lifting for me. I pass in my templates, my posts, and some settings and it spits out an entire site almost instantly. It is remarkably robust.
 
-> As an aside, Jekyll was actually what held me back for so long. It is [notoriously tricky](http://jekyllrb.com/docs/windows/#installation) to get running on Windows and I wanted the ability to stage my site locally. So what changed? [Bash baby, Bash!](https://msdn.microsoft.com/en-us/commandline/wsl/about) Jekyll is running happily on Windows 10 thanks to Windows Subsystem for Linux.
-
+> As an aside, Jekyll was actually what held me back for so long. It is [notoriously tricky](http://jekyllrb.com/docs/windows/#installation) to get running on Windows and I wanted the ability to stage my site locally. So what changed? [Bash baby, Bash!](https://msdn.microsoft.com/commandline/wsl/about) Jekyll is running happily on Windows 10 thanks to Windows Subsystem for Linux.
 
 GitHub provides a number of [built-in themes](https://github.com/pages-themes/) but none of them caught my eye. Jekyll has a number of themes available as gem packages but these are unfortunately not supported by GitHub.
 

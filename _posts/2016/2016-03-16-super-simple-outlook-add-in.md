@@ -117,7 +117,7 @@ We also need to add a template for rendering each persona card. This is where we
 
 Finally, we will execute some javascript during initialization that will parse the recipients. This is done by making calls to the Office.js API asking for specific metadata from the current mail item.
 
-> **Note**: We need determine if the `itemType` is a `Office.MailboxEnums.ItemType.Message` or `Office.MailboxEnums.ItemType.Appointment` since they have uniquire property sets. Where Messages contain  `from`, `to` and `cc` properties, Appointments contain  `organizer`, `requiredAttendees` and `optionalAttendees`. In the ene, we render them using the same template, we simply populate the template fields with the approtiate property set. 
+> **Note**: We need determine if the `itemType` is a `Office.MailboxEnums.ItemType.Message` or `Office.MailboxEnums.ItemType.Appointment` since they have uniquire property sets. Where Messages contain  `from`, `to` and `cc` properties, Appointments contain  `organizer`, `requiredAttendees` and `optionalAttendees`. In the ene, we render them using the same template, we simply populate the template fields with the approtiate property set.
 
 After building up an array of recipients, we use mustache to render our template and append this to the ms-Grid row we defined earlier.
 
@@ -174,6 +174,6 @@ After building up an array of recipients, we use mustache to render our template
 
 We then define a manifest file that tells Outlook the who, what, where and when of rendering this add-in. This is pretty self-explanatory and mostly boilerplate so I won't go into detail here. For reference however, you can see the finished manifest on [GitHub](https://github.com/mlafleur/super-simple-outlook-add-in/blob/master/manifest.xml).
 
-This entire project lives is available at [https://github.com/mlafleur/super-simple-outlook-add-in.](https://github.com/mlafleur/super-simple-outlook-add-in.) 
+This entire project lives is available at [https://github.com/mlafleur/super-simple-outlook-add-in.](https://github.com/mlafleur/super-simple-outlook-add-in.)
 
 If your interested in trying this out for yourself, you can see it in action. You can [manage add-ins from your O365 mailbox settings](https://outlook.office.com/owa/?path=/options/manageapps). From here, select "Add from URL" and paste in [`https://officekiss.azurewebsites.net/manifest.xml`](https://officekiss.azurewebsites.net/manifest.xml). You will then see Persona Cards show up in all of your Outlook clients.
